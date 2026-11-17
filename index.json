@@ -33,11 +33,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/agentmail/1.0.0/dfa64503993806e50f4a658e1c139d9cf64c0f789dbc6c3d9de39e3359f79de2.apxext"
+            "url": "https://marketplace.apxagent.app/packages/agentmail/1.0.0/dfa64503993806e50f4a658e1c139d9cf64c0f789dbc6c3d9de39e3359f79de2.apxext"
           },
           "integrity": "sha256-dfa64503993806e50f4a658e1c139d9cf64c0f789dbc6c3d9de39e3359f79de2",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/agentmail/1.0.0/dfa64503993806e50f4a658e1c139d9cf64c0f789dbc6c3d9de39e3359f79de2.apxext",
+            "url": "https://marketplace.apxagent.app/packages/agentmail/1.0.0/dfa64503993806e50f4a658e1c139d9cf64c0f789dbc6c3d9de39e3359f79de2.apxext",
             "sha256": "dfa64503993806e50f4a658e1c139d9cf64c0f789dbc6c3d9de39e3359f79de2"
           },
           "content_hash": "d6f332e0dc0e2325",
@@ -112,11 +112,11 @@
           "version": "0.2.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/android_tv/0.2.0/490b23a6a844e9668a0a47037bbbddb112acdfd7c4e26e31189ec5f5705d4bc0.apxext"
+            "url": "https://marketplace.apxagent.app/packages/android_tv/0.2.0/490b23a6a844e9668a0a47037bbbddb112acdfd7c4e26e31189ec5f5705d4bc0.apxext"
           },
           "integrity": "sha256-490b23a6a844e9668a0a47037bbbddb112acdfd7c4e26e31189ec5f5705d4bc0",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/android_tv/0.2.0/490b23a6a844e9668a0a47037bbbddb112acdfd7c4e26e31189ec5f5705d4bc0.apxext",
+            "url": "https://marketplace.apxagent.app/packages/android_tv/0.2.0/490b23a6a844e9668a0a47037bbbddb112acdfd7c4e26e31189ec5f5705d4bc0.apxext",
             "sha256": "490b23a6a844e9668a0a47037bbbddb112acdfd7c4e26e31189ec5f5705d4bc0"
           },
           "content_hash": "0bb508db61c9f8ce",
@@ -144,11 +144,11 @@
           "version": "1.0.1",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/apple-calendar/1.0.1/09d2beac4be06559844feec54632c188017710f191c569c4e333277b0c05c515.apxext"
+            "url": "https://marketplace.apxagent.app/packages/apple-calendar/1.0.1/09d2beac4be06559844feec54632c188017710f191c569c4e333277b0c05c515.apxext"
           },
           "integrity": "sha256-09d2beac4be06559844feec54632c188017710f191c569c4e333277b0c05c515",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/apple-calendar/1.0.1/09d2beac4be06559844feec54632c188017710f191c569c4e333277b0c05c515.apxext",
+            "url": "https://marketplace.apxagent.app/packages/apple-calendar/1.0.1/09d2beac4be06559844feec54632c188017710f191c569c4e333277b0c05c515.apxext",
             "sha256": "09d2beac4be06559844feec54632c188017710f191c569c4e333277b0c05c515"
           },
           "content_hash": "98c26d11ac030e23",
@@ -221,11 +221,11 @@
           "version": "1.0.1",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/apple-contacts/1.0.1/a0522e7c451635231ec18d6f65c9d73cfbaf9ab453954d0518e5e319e2bece20.apxext"
+            "url": "https://marketplace.apxagent.app/packages/apple-contacts/1.0.1/a0522e7c451635231ec18d6f65c9d73cfbaf9ab453954d0518e5e319e2bece20.apxext"
           },
           "integrity": "sha256-a0522e7c451635231ec18d6f65c9d73cfbaf9ab453954d0518e5e319e2bece20",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/apple-contacts/1.0.1/a0522e7c451635231ec18d6f65c9d73cfbaf9ab453954d0518e5e319e2bece20.apxext",
+            "url": "https://marketplace.apxagent.app/packages/apple-contacts/1.0.1/a0522e7c451635231ec18d6f65c9d73cfbaf9ab453954d0518e5e319e2bece20.apxext",
             "sha256": "a0522e7c451635231ec18d6f65c9d73cfbaf9ab453954d0518e5e319e2bece20"
           },
           "content_hash": "1759e34f7af09897",
@@ -298,11 +298,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/apple-mail/1.0.0/ea796e0b23529fcca902feb6126b5e28b4a5fb3cb753ada3f4ea6846f616a23b.apxext"
+            "url": "https://marketplace.apxagent.app/packages/apple-mail/1.0.0/ea796e0b23529fcca902feb6126b5e28b4a5fb3cb753ada3f4ea6846f616a23b.apxext"
           },
           "integrity": "sha256-ea796e0b23529fcca902feb6126b5e28b4a5fb3cb753ada3f4ea6846f616a23b",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/apple-mail/1.0.0/ea796e0b23529fcca902feb6126b5e28b4a5fb3cb753ada3f4ea6846f616a23b.apxext",
+            "url": "https://marketplace.apxagent.app/packages/apple-mail/1.0.0/ea796e0b23529fcca902feb6126b5e28b4a5fb3cb753ada3f4ea6846f616a23b.apxext",
             "sha256": "ea796e0b23529fcca902feb6126b5e28b4a5fb3cb753ada3f4ea6846f616a23b"
           },
           "content_hash": "ddfbec65bc1ae87f",
@@ -375,11 +375,11 @@
           "version": "1.0.1",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/apple-notes/1.0.1/2975dac31e4ca9bff44a22f2dcbb617290f7136f1ba0b134fe9342204098fb2e.apxext"
+            "url": "https://marketplace.apxagent.app/packages/apple-notes/1.0.1/2975dac31e4ca9bff44a22f2dcbb617290f7136f1ba0b134fe9342204098fb2e.apxext"
           },
           "integrity": "sha256-2975dac31e4ca9bff44a22f2dcbb617290f7136f1ba0b134fe9342204098fb2e",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/apple-notes/1.0.1/2975dac31e4ca9bff44a22f2dcbb617290f7136f1ba0b134fe9342204098fb2e.apxext",
+            "url": "https://marketplace.apxagent.app/packages/apple-notes/1.0.1/2975dac31e4ca9bff44a22f2dcbb617290f7136f1ba0b134fe9342204098fb2e.apxext",
             "sha256": "2975dac31e4ca9bff44a22f2dcbb617290f7136f1ba0b134fe9342204098fb2e"
           },
           "content_hash": "eca5bd75792e9ea0",
@@ -452,11 +452,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/apple-reminders/1.0.0/48d06dac662d9fc76b370f4be760ef2462099896fcbecd04f6d511fe0cf08b8f.apxext"
+            "url": "https://marketplace.apxagent.app/packages/apple-reminders/1.0.0/48d06dac662d9fc76b370f4be760ef2462099896fcbecd04f6d511fe0cf08b8f.apxext"
           },
           "integrity": "sha256-48d06dac662d9fc76b370f4be760ef2462099896fcbecd04f6d511fe0cf08b8f",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/apple-reminders/1.0.0/48d06dac662d9fc76b370f4be760ef2462099896fcbecd04f6d511fe0cf08b8f.apxext",
+            "url": "https://marketplace.apxagent.app/packages/apple-reminders/1.0.0/48d06dac662d9fc76b370f4be760ef2462099896fcbecd04f6d511fe0cf08b8f.apxext",
             "sha256": "48d06dac662d9fc76b370f4be760ef2462099896fcbecd04f6d511fe0cf08b8f"
           },
           "content_hash": "f60a70a9292e3a35",
@@ -529,11 +529,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/arxiv/1.0.0/b540f49ac28903bad61466624054ed31ca7a3bf4561aed12fd50722c9fb93c7e.apxext"
+            "url": "https://marketplace.apxagent.app/packages/arxiv/1.0.0/b540f49ac28903bad61466624054ed31ca7a3bf4561aed12fd50722c9fb93c7e.apxext"
           },
           "integrity": "sha256-b540f49ac28903bad61466624054ed31ca7a3bf4561aed12fd50722c9fb93c7e",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/arxiv/1.0.0/b540f49ac28903bad61466624054ed31ca7a3bf4561aed12fd50722c9fb93c7e.apxext",
+            "url": "https://marketplace.apxagent.app/packages/arxiv/1.0.0/b540f49ac28903bad61466624054ed31ca7a3bf4561aed12fd50722c9fb93c7e.apxext",
             "sha256": "b540f49ac28903bad61466624054ed31ca7a3bf4561aed12fd50722c9fb93c7e"
           },
           "content_hash": "50d0d2c69eacc277",
@@ -604,11 +604,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/box/1.0.0/ee3163ea80a77ed05f4c43d4ce26d2cd0685ecca7bea4809ac9fe2e104502aec.apxext"
+            "url": "https://marketplace.apxagent.app/packages/box/1.0.0/ee3163ea80a77ed05f4c43d4ce26d2cd0685ecca7bea4809ac9fe2e104502aec.apxext"
           },
           "integrity": "sha256-ee3163ea80a77ed05f4c43d4ce26d2cd0685ecca7bea4809ac9fe2e104502aec",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/box/1.0.0/ee3163ea80a77ed05f4c43d4ce26d2cd0685ecca7bea4809ac9fe2e104502aec.apxext",
+            "url": "https://marketplace.apxagent.app/packages/box/1.0.0/ee3163ea80a77ed05f4c43d4ce26d2cd0685ecca7bea4809ac9fe2e104502aec.apxext",
             "sha256": "ee3163ea80a77ed05f4c43d4ce26d2cd0685ecca7bea4809ac9fe2e104502aec"
           },
           "content_hash": "6e8e6e4b692d3e4e",
@@ -681,11 +681,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/browser-use/1.0.0/e4110adf7d14e98c29345151b26dc20b4f1df2b83368771e9cc37cdd0053136d.apxext"
+            "url": "https://marketplace.apxagent.app/packages/browser-use/1.0.0/e4110adf7d14e98c29345151b26dc20b4f1df2b83368771e9cc37cdd0053136d.apxext"
           },
           "integrity": "sha256-e4110adf7d14e98c29345151b26dc20b4f1df2b83368771e9cc37cdd0053136d",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/browser-use/1.0.0/e4110adf7d14e98c29345151b26dc20b4f1df2b83368771e9cc37cdd0053136d.apxext",
+            "url": "https://marketplace.apxagent.app/packages/browser-use/1.0.0/e4110adf7d14e98c29345151b26dc20b4f1df2b83368771e9cc37cdd0053136d.apxext",
             "sha256": "e4110adf7d14e98c29345151b26dc20b4f1df2b83368771e9cc37cdd0053136d"
           },
           "content_hash": "1c9f43f22135da4b",
@@ -758,11 +758,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/browserbase/1.0.0/78d72827a86527d82cc369dd6a066a9b90e642d0d4fed868c93beaaf8f2fcf67.apxext"
+            "url": "https://marketplace.apxagent.app/packages/browserbase/1.0.0/78d72827a86527d82cc369dd6a066a9b90e642d0d4fed868c93beaaf8f2fcf67.apxext"
           },
           "integrity": "sha256-78d72827a86527d82cc369dd6a066a9b90e642d0d4fed868c93beaaf8f2fcf67",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/browserbase/1.0.0/78d72827a86527d82cc369dd6a066a9b90e642d0d4fed868c93beaaf8f2fcf67.apxext",
+            "url": "https://marketplace.apxagent.app/packages/browserbase/1.0.0/78d72827a86527d82cc369dd6a066a9b90e642d0d4fed868c93beaaf8f2fcf67.apxext",
             "sha256": "78d72827a86527d82cc369dd6a066a9b90e642d0d4fed868c93beaaf8f2fcf67"
           },
           "content_hash": "d1e5c43361e3c915",
@@ -835,11 +835,11 @@
           "version": "1.0.1",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/canvas-lms/1.0.1/6a492c8734a8e2eabc8294cb6a0556b1ec2eddc6a45882abd9e8851fe312fa72.apxext"
+            "url": "https://marketplace.apxagent.app/packages/canvas-lms/1.0.1/6a492c8734a8e2eabc8294cb6a0556b1ec2eddc6a45882abd9e8851fe312fa72.apxext"
           },
           "integrity": "sha256-6a492c8734a8e2eabc8294cb6a0556b1ec2eddc6a45882abd9e8851fe312fa72",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/canvas-lms/1.0.1/6a492c8734a8e2eabc8294cb6a0556b1ec2eddc6a45882abd9e8851fe312fa72.apxext",
+            "url": "https://marketplace.apxagent.app/packages/canvas-lms/1.0.1/6a492c8734a8e2eabc8294cb6a0556b1ec2eddc6a45882abd9e8851fe312fa72.apxext",
             "sha256": "6a492c8734a8e2eabc8294cb6a0556b1ec2eddc6a45882abd9e8851fe312fa72"
           },
           "content_hash": "4dedb83dce516a52",
@@ -912,11 +912,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/docker/1.0.0/b8918dccb475eef1b21bdf7cd27cfa07e1c4d857f00ae38cc76a9ee030deb1c9.apxext"
+            "url": "https://marketplace.apxagent.app/packages/docker/1.0.0/b8918dccb475eef1b21bdf7cd27cfa07e1c4d857f00ae38cc76a9ee030deb1c9.apxext"
           },
           "integrity": "sha256-b8918dccb475eef1b21bdf7cd27cfa07e1c4d857f00ae38cc76a9ee030deb1c9",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/docker/1.0.0/b8918dccb475eef1b21bdf7cd27cfa07e1c4d857f00ae38cc76a9ee030deb1c9.apxext",
+            "url": "https://marketplace.apxagent.app/packages/docker/1.0.0/b8918dccb475eef1b21bdf7cd27cfa07e1c4d857f00ae38cc76a9ee030deb1c9.apxext",
             "sha256": "b8918dccb475eef1b21bdf7cd27cfa07e1c4d857f00ae38cc76a9ee030deb1c9"
           },
           "content_hash": "ffc4a49c8361f853",
@@ -987,11 +987,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/evm/1.0.0/0fecf7b3c719f1196e647dd673d3a8f7d34a2f9d9d7cbe64ceabe6f700fd5b26.apxext"
+            "url": "https://marketplace.apxagent.app/packages/evm/1.0.0/0fecf7b3c719f1196e647dd673d3a8f7d34a2f9d9d7cbe64ceabe6f700fd5b26.apxext"
           },
           "integrity": "sha256-0fecf7b3c719f1196e647dd673d3a8f7d34a2f9d9d7cbe64ceabe6f700fd5b26",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/evm/1.0.0/0fecf7b3c719f1196e647dd673d3a8f7d34a2f9d9d7cbe64ceabe6f700fd5b26.apxext",
+            "url": "https://marketplace.apxagent.app/packages/evm/1.0.0/0fecf7b3c719f1196e647dd673d3a8f7d34a2f9d9d7cbe64ceabe6f700fd5b26.apxext",
             "sha256": "0fecf7b3c719f1196e647dd673d3a8f7d34a2f9d9d7cbe64ceabe6f700fd5b26"
           },
           "content_hash": "5c6cafababc32b29",
@@ -1064,11 +1064,11 @@
           "version": "1.0.1",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/exa/1.0.1/cde701ea3a2b9baef1f77f3fbfc27499d70b00f90476b07f412376d2bb5445d6.apxext"
+            "url": "https://marketplace.apxagent.app/packages/exa/1.0.1/cde701ea3a2b9baef1f77f3fbfc27499d70b00f90476b07f412376d2bb5445d6.apxext"
           },
           "integrity": "sha256-cde701ea3a2b9baef1f77f3fbfc27499d70b00f90476b07f412376d2bb5445d6",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/exa/1.0.1/cde701ea3a2b9baef1f77f3fbfc27499d70b00f90476b07f412376d2bb5445d6.apxext",
+            "url": "https://marketplace.apxagent.app/packages/exa/1.0.1/cde701ea3a2b9baef1f77f3fbfc27499d70b00f90476b07f412376d2bb5445d6.apxext",
             "sha256": "cde701ea3a2b9baef1f77f3fbfc27499d70b00f90476b07f412376d2bb5445d6"
           },
           "content_hash": "e6524fd5b690b90d",
@@ -1139,11 +1139,11 @@
           "version": "1.0.1",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/firecrawl/1.0.1/c253c95b1a7abfda444d488e23a9829141a49d1de6c511fdd91998b5d2fb7411.apxext"
+            "url": "https://marketplace.apxagent.app/packages/firecrawl/1.0.1/c253c95b1a7abfda444d488e23a9829141a49d1de6c511fdd91998b5d2fb7411.apxext"
           },
           "integrity": "sha256-c253c95b1a7abfda444d488e23a9829141a49d1de6c511fdd91998b5d2fb7411",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/firecrawl/1.0.1/c253c95b1a7abfda444d488e23a9829141a49d1de6c511fdd91998b5d2fb7411.apxext",
+            "url": "https://marketplace.apxagent.app/packages/firecrawl/1.0.1/c253c95b1a7abfda444d488e23a9829141a49d1de6c511fdd91998b5d2fb7411.apxext",
             "sha256": "c253c95b1a7abfda444d488e23a9829141a49d1de6c511fdd91998b5d2fb7411"
           },
           "content_hash": "9ac919c3408c359b",
@@ -1214,11 +1214,11 @@
           "version": "1.0.1",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/hubspot/1.0.1/6eeaae1947f2087d407ee9e49fb5aa7bbd11384bdc376c0d3a47200659e7aa02.apxext"
+            "url": "https://marketplace.apxagent.app/packages/hubspot/1.0.1/6eeaae1947f2087d407ee9e49fb5aa7bbd11384bdc376c0d3a47200659e7aa02.apxext"
           },
           "integrity": "sha256-6eeaae1947f2087d407ee9e49fb5aa7bbd11384bdc376c0d3a47200659e7aa02",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/hubspot/1.0.1/6eeaae1947f2087d407ee9e49fb5aa7bbd11384bdc376c0d3a47200659e7aa02.apxext",
+            "url": "https://marketplace.apxagent.app/packages/hubspot/1.0.1/6eeaae1947f2087d407ee9e49fb5aa7bbd11384bdc376c0d3a47200659e7aa02.apxext",
             "sha256": "6eeaae1947f2087d407ee9e49fb5aa7bbd11384bdc376c0d3a47200659e7aa02"
           },
           "content_hash": "a92033ce81de562b",
@@ -1291,11 +1291,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/paper/1.0.0/27ce62af58d37506eb59d5d82a95384db46d0eb6ebb4e87013c78aaac94f77a7.apxext"
+            "url": "https://marketplace.apxagent.app/packages/paper/1.0.0/27ce62af58d37506eb59d5d82a95384db46d0eb6ebb4e87013c78aaac94f77a7.apxext"
           },
           "integrity": "sha256-27ce62af58d37506eb59d5d82a95384db46d0eb6ebb4e87013c78aaac94f77a7",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/paper/1.0.0/27ce62af58d37506eb59d5d82a95384db46d0eb6ebb4e87013c78aaac94f77a7.apxext",
+            "url": "https://marketplace.apxagent.app/packages/paper/1.0.0/27ce62af58d37506eb59d5d82a95384db46d0eb6ebb4e87013c78aaac94f77a7.apxext",
             "sha256": "27ce62af58d37506eb59d5d82a95384db46d0eb6ebb4e87013c78aaac94f77a7"
           },
           "content_hash": "68f3dc0f687d6c60",
@@ -1368,11 +1368,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/parallel/1.0.0/ef6a1ec00bb06eca363eb5c72abc059ed30cba4af20d9229f5df628c75bcf6f5.apxext"
+            "url": "https://marketplace.apxagent.app/packages/parallel/1.0.0/ef6a1ec00bb06eca363eb5c72abc059ed30cba4af20d9229f5df628c75bcf6f5.apxext"
           },
           "integrity": "sha256-ef6a1ec00bb06eca363eb5c72abc059ed30cba4af20d9229f5df628c75bcf6f5",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/parallel/1.0.0/ef6a1ec00bb06eca363eb5c72abc059ed30cba4af20d9229f5df628c75bcf6f5.apxext",
+            "url": "https://marketplace.apxagent.app/packages/parallel/1.0.0/ef6a1ec00bb06eca363eb5c72abc059ed30cba4af20d9229f5df628c75bcf6f5.apxext",
             "sha256": "ef6a1ec00bb06eca363eb5c72abc059ed30cba4af20d9229f5df628c75bcf6f5"
           },
           "content_hash": "c22769d343f0a2ac",
@@ -1443,11 +1443,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/perplexity-search/1.0.0/785d43abd0e51cdd7d0fa2e48998c10ecc34808f13795bb8b88141b4d636e84c.apxext"
+            "url": "https://marketplace.apxagent.app/packages/perplexity-search/1.0.0/785d43abd0e51cdd7d0fa2e48998c10ecc34808f13795bb8b88141b4d636e84c.apxext"
           },
           "integrity": "sha256-785d43abd0e51cdd7d0fa2e48998c10ecc34808f13795bb8b88141b4d636e84c",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/perplexity-search/1.0.0/785d43abd0e51cdd7d0fa2e48998c10ecc34808f13795bb8b88141b4d636e84c.apxext",
+            "url": "https://marketplace.apxagent.app/packages/perplexity-search/1.0.0/785d43abd0e51cdd7d0fa2e48998c10ecc34808f13795bb8b88141b4d636e84c.apxext",
             "sha256": "785d43abd0e51cdd7d0fa2e48998c10ecc34808f13795bb8b88141b4d636e84c"
           },
           "content_hash": "64f1249b87a61593",
@@ -1518,11 +1518,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/posthog/1.0.0/a53033475a006e5e31ccfd647c5ea4b949012bcc90d91b97ba7aab205ef03953.apxext"
+            "url": "https://marketplace.apxagent.app/packages/posthog/1.0.0/a53033475a006e5e31ccfd647c5ea4b949012bcc90d91b97ba7aab205ef03953.apxext"
           },
           "integrity": "sha256-a53033475a006e5e31ccfd647c5ea4b949012bcc90d91b97ba7aab205ef03953",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/posthog/1.0.0/a53033475a006e5e31ccfd647c5ea4b949012bcc90d91b97ba7aab205ef03953.apxext",
+            "url": "https://marketplace.apxagent.app/packages/posthog/1.0.0/a53033475a006e5e31ccfd647c5ea4b949012bcc90d91b97ba7aab205ef03953.apxext",
             "sha256": "a53033475a006e5e31ccfd647c5ea4b949012bcc90d91b97ba7aab205ef03953"
           },
           "content_hash": "413b04f61bd30180",
@@ -1595,11 +1595,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/render/1.0.0/fd4007b44fdf62d9f22b23135734c1b64ca5b28a92f95b94cea7a3b3b3084ab4.apxext"
+            "url": "https://marketplace.apxagent.app/packages/render/1.0.0/fd4007b44fdf62d9f22b23135734c1b64ca5b28a92f95b94cea7a3b3b3084ab4.apxext"
           },
           "integrity": "sha256-fd4007b44fdf62d9f22b23135734c1b64ca5b28a92f95b94cea7a3b3b3084ab4",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/render/1.0.0/fd4007b44fdf62d9f22b23135734c1b64ca5b28a92f95b94cea7a3b3b3084ab4.apxext",
+            "url": "https://marketplace.apxagent.app/packages/render/1.0.0/fd4007b44fdf62d9f22b23135734c1b64ca5b28a92f95b94cea7a3b3b3084ab4.apxext",
             "sha256": "fd4007b44fdf62d9f22b23135734c1b64ca5b28a92f95b94cea7a3b3b3084ab4"
           },
           "content_hash": "e052e827ec1d5097",
@@ -1672,11 +1672,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/resend/1.0.0/9ead781097203979a0dc637c9f81e70903c1de51c9b1effac9892ec3d5359d3a.apxext"
+            "url": "https://marketplace.apxagent.app/packages/resend/1.0.0/9ead781097203979a0dc637c9f81e70903c1de51c9b1effac9892ec3d5359d3a.apxext"
           },
           "integrity": "sha256-9ead781097203979a0dc637c9f81e70903c1de51c9b1effac9892ec3d5359d3a",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/resend/1.0.0/9ead781097203979a0dc637c9f81e70903c1de51c9b1effac9892ec3d5359d3a.apxext",
+            "url": "https://marketplace.apxagent.app/packages/resend/1.0.0/9ead781097203979a0dc637c9f81e70903c1de51c9b1effac9892ec3d5359d3a.apxext",
             "sha256": "9ead781097203979a0dc637c9f81e70903c1de51c9b1effac9892ec3d5359d3a"
           },
           "content_hash": "667c33b46b3aebe0",
@@ -1749,11 +1749,11 @@
           "version": "1.0.1",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/salesforce/1.0.1/e7408513a77799c5c0960ff3a3d8e2f1964c3d97c32323321b87e4dc0ceca5bd.apxext"
+            "url": "https://marketplace.apxagent.app/packages/salesforce/1.0.1/e7408513a77799c5c0960ff3a3d8e2f1964c3d97c32323321b87e4dc0ceca5bd.apxext"
           },
           "integrity": "sha256-e7408513a77799c5c0960ff3a3d8e2f1964c3d97c32323321b87e4dc0ceca5bd",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/salesforce/1.0.1/e7408513a77799c5c0960ff3a3d8e2f1964c3d97c32323321b87e4dc0ceca5bd.apxext",
+            "url": "https://marketplace.apxagent.app/packages/salesforce/1.0.1/e7408513a77799c5c0960ff3a3d8e2f1964c3d97c32323321b87e4dc0ceca5bd.apxext",
             "sha256": "e7408513a77799c5c0960ff3a3d8e2f1964c3d97c32323321b87e4dc0ceca5bd"
           },
           "content_hash": "309454be1aac909b",
@@ -1826,11 +1826,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/siyuan/1.0.0/6ec492c0af74d633f7632355e8c8c8aadcdaa6a3022e6a16c3e98035d6a9b767.apxext"
+            "url": "https://marketplace.apxagent.app/packages/siyuan/1.0.0/6ec492c0af74d633f7632355e8c8c8aadcdaa6a3022e6a16c3e98035d6a9b767.apxext"
           },
           "integrity": "sha256-6ec492c0af74d633f7632355e8c8c8aadcdaa6a3022e6a16c3e98035d6a9b767",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/siyuan/1.0.0/6ec492c0af74d633f7632355e8c8c8aadcdaa6a3022e6a16c3e98035d6a9b767.apxext",
+            "url": "https://marketplace.apxagent.app/packages/siyuan/1.0.0/6ec492c0af74d633f7632355e8c8c8aadcdaa6a3022e6a16c3e98035d6a9b767.apxext",
             "sha256": "6ec492c0af74d633f7632355e8c8c8aadcdaa6a3022e6a16c3e98035d6a9b767"
           },
           "content_hash": "4a43108175913875",
@@ -1903,11 +1903,11 @@
           "version": "1.0.1",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/solana/1.0.1/4a6b8f8d85e4ed718cbacf94321afa7fba3f3fc47ffc18fcecdadfb69a3ba889.apxext"
+            "url": "https://marketplace.apxagent.app/packages/solana/1.0.1/4a6b8f8d85e4ed718cbacf94321afa7fba3f3fc47ffc18fcecdadfb69a3ba889.apxext"
           },
           "integrity": "sha256-4a6b8f8d85e4ed718cbacf94321afa7fba3f3fc47ffc18fcecdadfb69a3ba889",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/solana/1.0.1/4a6b8f8d85e4ed718cbacf94321afa7fba3f3fc47ffc18fcecdadfb69a3ba889.apxext",
+            "url": "https://marketplace.apxagent.app/packages/solana/1.0.1/4a6b8f8d85e4ed718cbacf94321afa7fba3f3fc47ffc18fcecdadfb69a3ba889.apxext",
             "sha256": "4a6b8f8d85e4ed718cbacf94321afa7fba3f3fc47ffc18fcecdadfb69a3ba889"
           },
           "content_hash": "ff21deb33d240cfb",
@@ -1980,11 +1980,11 @@
           "version": "1.0.1",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/tavily/1.0.1/1b03782df07111820fcc877201ef25d46ae40420eb314551d4db4847e1c538f9.apxext"
+            "url": "https://marketplace.apxagent.app/packages/tavily/1.0.1/1b03782df07111820fcc877201ef25d46ae40420eb314551d4db4847e1c538f9.apxext"
           },
           "integrity": "sha256-1b03782df07111820fcc877201ef25d46ae40420eb314551d4db4847e1c538f9",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/tavily/1.0.1/1b03782df07111820fcc877201ef25d46ae40420eb314551d4db4847e1c538f9.apxext",
+            "url": "https://marketplace.apxagent.app/packages/tavily/1.0.1/1b03782df07111820fcc877201ef25d46ae40420eb314551d4db4847e1c538f9.apxext",
             "sha256": "1b03782df07111820fcc877201ef25d46ae40420eb314551d4db4847e1c538f9"
           },
           "content_hash": "8896e89b9175d720",
@@ -2055,11 +2055,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/things/1.0.0/1e5f8e8a4eb82e91f3735c575007d989afaabe06d7e241a228ff3542e3b0beab.apxext"
+            "url": "https://marketplace.apxagent.app/packages/things/1.0.0/1e5f8e8a4eb82e91f3735c575007d989afaabe06d7e241a228ff3542e3b0beab.apxext"
           },
           "integrity": "sha256-1e5f8e8a4eb82e91f3735c575007d989afaabe06d7e241a228ff3542e3b0beab",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/things/1.0.0/1e5f8e8a4eb82e91f3735c575007d989afaabe06d7e241a228ff3542e3b0beab.apxext",
+            "url": "https://marketplace.apxagent.app/packages/things/1.0.0/1e5f8e8a4eb82e91f3735c575007d989afaabe06d7e241a228ff3542e3b0beab.apxext",
             "sha256": "1e5f8e8a4eb82e91f3735c575007d989afaabe06d7e241a228ff3542e3b0beab"
           },
           "content_hash": "d67cefd944a64034",
@@ -2132,11 +2132,11 @@
           "version": "1.0.1",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/trello/1.0.1/9cec2979ca7ca309d7508fe2ee999de59779c9e7808bc3e69cf5a390e037f3f9.apxext"
+            "url": "https://marketplace.apxagent.app/packages/trello/1.0.1/9cec2979ca7ca309d7508fe2ee999de59779c9e7808bc3e69cf5a390e037f3f9.apxext"
           },
           "integrity": "sha256-9cec2979ca7ca309d7508fe2ee999de59779c9e7808bc3e69cf5a390e037f3f9",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/trello/1.0.1/9cec2979ca7ca309d7508fe2ee999de59779c9e7808bc3e69cf5a390e037f3f9.apxext",
+            "url": "https://marketplace.apxagent.app/packages/trello/1.0.1/9cec2979ca7ca309d7508fe2ee999de59779c9e7808bc3e69cf5a390e037f3f9.apxext",
             "sha256": "9cec2979ca7ca309d7508fe2ee999de59779c9e7808bc3e69cf5a390e037f3f9"
           },
           "content_hash": "ca0ed621660c22ae",
@@ -2209,11 +2209,11 @@
           "version": "1.0.0",
           "source": {
             "type": "archive",
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/weather/1.0.0/7a9936c35a19d080d0cf0b80f4a799979453747d720642ef357d240fb2b28a71.apxext"
+            "url": "https://marketplace.apxagent.app/packages/weather/1.0.0/7a9936c35a19d080d0cf0b80f4a799979453747d720642ef357d240fb2b28a71.apxext"
           },
           "integrity": "sha256-7a9936c35a19d080d0cf0b80f4a799979453747d720642ef357d240fb2b28a71",
           "archive": {
-            "url": "https://agentprojectcontext.github.io/apx-marketplace/packages/weather/1.0.0/7a9936c35a19d080d0cf0b80f4a799979453747d720642ef357d240fb2b28a71.apxext",
+            "url": "https://marketplace.apxagent.app/packages/weather/1.0.0/7a9936c35a19d080d0cf0b80f4a799979453747d720642ef357d240fb2b28a71.apxext",
             "sha256": "7a9936c35a19d080d0cf0b80f4a799979453747d720642ef357d240fb2b28a71"
           },
           "content_hash": "e7902d85a4f6a8a1",

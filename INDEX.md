@@ -1,6 +1,6 @@
 # Official index contract
 
-Endpoint: `https://agentprojectcontext.github.io/apx-marketplace/index.json`.
+Endpoint: `https://marketplace.apxagent.app/index.json`.
 
 `index.json` uses **schema 1**, is served over HTTPS and is intentionally **unsigned**. Only APX-approved entries are listed; third-party publishing is not supported. Unlisted archives are not part of the official catalog. Trust is anchored in this official HTTPS endpoint, not a signature or a checksum downloaded from an arbitrary mirror.
 
