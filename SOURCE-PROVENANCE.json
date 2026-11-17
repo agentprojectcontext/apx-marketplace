@@ -234,6 +234,19 @@
     "content_hash": "68f3dc0f687d6c60"
   },
   {
+    "id": "parallel",
+    "version": "1.0.0",
+    "source": {
+      "type": "git",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "commit": "eff0030923cd51bb849a422036b7e40491f681ce",
+      "path": "integrations/parallel"
+    },
+    "archive": "packages/parallel/1.0.0/ef6a1ec00bb06eca363eb5c72abc059ed30cba4af20d9229f5df628c75bcf6f5.apxext",
+    "integrity": "sha256-ef6a1ec00bb06eca363eb5c72abc059ed30cba4af20d9229f5df628c75bcf6f5",
+    "content_hash": "c22769d343f0a2ac"
+  },
+  {
     "id": "perplexity-search",
     "version": "1.0.0",
     "source": {
