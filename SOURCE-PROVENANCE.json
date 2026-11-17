@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/agentmail"
     },
@@ -17,7 +17,7 @@
     "version": "0.2.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "9391db6832a2762ebbcc629bb3cbc5af4221f9f6",
       "path": "examples/android-tv"
     },
@@ -30,7 +30,7 @@
     "version": "1.0.1",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/apple-calendar"
     },
@@ -43,7 +43,7 @@
     "version": "1.0.1",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/apple-contacts"
     },
@@ -56,7 +56,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/apple-mail"
     },
@@ -69,7 +69,7 @@
     "version": "1.0.1",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/apple-notes"
     },
@@ -82,7 +82,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/apple-reminders"
     },
@@ -95,7 +95,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/arxiv"
     },
@@ -108,7 +108,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/box"
     },
@@ -121,7 +121,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "aefaf4657087c6ff7b770554cfd997910fa29796",
       "path": "integrations/browser-use"
     },
@@ -134,7 +134,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/browserbase"
     },
@@ -147,7 +147,7 @@
     "version": "1.0.1",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/canvas-lms"
     },
@@ -160,7 +160,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/docker"
     },
@@ -173,7 +173,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/evm"
     },
@@ -186,7 +186,7 @@
     "version": "1.0.1",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/exa"
     },
@@ -199,7 +199,7 @@
     "version": "1.0.1",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/firecrawl"
     },
@@ -212,7 +212,7 @@
     "version": "1.0.1",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/hubspot"
     },
@@ -225,7 +225,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/paper"
     },
@@ -238,7 +238,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "eff0030923cd51bb849a422036b7e40491f681ce",
       "path": "integrations/parallel"
     },
@@ -251,7 +251,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "b58922ce606f290d629bb6094aaca68adb62de69",
       "path": "integrations/perplexity-search"
     },
@@ -264,7 +264,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/posthog"
     },
@@ -277,7 +277,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/render"
     },
@@ -290,7 +290,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/resend"
     },
@@ -303,7 +303,7 @@
     "version": "1.0.1",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/salesforce"
     },
@@ -316,7 +316,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/siyuan"
     },
@@ -329,7 +329,7 @@
     "version": "1.0.1",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/solana"
     },
@@ -342,7 +342,7 @@
     "version": "1.0.1",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/tavily"
     },
@@ -355,7 +355,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/things"
     },
@@ -368,7 +368,7 @@
     "version": "1.0.1",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "0b7bc7ad2389464109e02ea7f367f6f8b4e08a6a",
       "path": "integrations/trello"
     },
@@ -381,7 +381,7 @@
     "version": "1.0.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "ca77cb7b98c77299571006c2ac298b5267337108",
       "path": "integrations/weather"
     },
@@ -394,7 +394,7 @@
     "version": "0.1.0",
     "source": {
       "type": "git",
-      "repo": "https://github.com/agentprojectcontext/apx-marketplace",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
       "commit": "23be9bba902ab069bc9cf969b52ce436f1ed108b",
       "path": "examples/webcam"
     },
