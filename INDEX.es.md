@@ -1,6 +1,6 @@
 # Contrato del índice oficial
 
-Endpoint (después de publicar): `https://agentprojectcontext.github.io/apx-marketplace/index.json`.
+Endpoint: `https://agentprojectcontext.github.io/apx-marketplace/index.json`.
 
 `index.json` usa **schema 1**, se sirve por HTTPS y deliberadamente **no tiene firma**. Sólo lista entradas aprobadas por APX; no admite publicación de terceros. Los archivos no listados no integran el catálogo oficial. La confianza depende de este endpoint HTTPS oficial, no de una firma ni de un checksum bajado de cualquier espejo.
 
