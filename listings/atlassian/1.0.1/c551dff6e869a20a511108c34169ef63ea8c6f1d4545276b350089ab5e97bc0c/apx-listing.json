@@ -1,0 +1,68 @@
+{
+  "summary": "Jira issues and Confluence pages.",
+  "features": [
+    "Jira issues and Confluence pages."
+  ],
+  "requirements": [
+    "A Jira and Confluence account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "atlassian",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Connect Jira issues with Confluence context",
+  "description": "Bring Jira issues and Confluence pages into APX through your Atlassian account connection. Choose the issue or page relevant to a task, read its available information and use the two sources together to understand requirements and supporting documentation.\n\nAn issue and a documentation page can describe different stages of a decision. Keep their references distinct when summarizing agreements or open work, and identify the target before asking for a change. Atlassian's tools, your product access and account permissions determine what is available. The extension does not include Jira or Confluence subscriptions.",
+  "prompts": [
+    "Review the Jira issue I select and summarize its available requirements.",
+    "Read the Confluence page I choose and outline its main points.",
+    "Compare the selected issue with the selected page and flag differences without editing either."
+  ],
+  "category": "business-systems",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.atlassian.com/",
+    "privacy": "https://www.atlassian.com/legal/privacy-policy",
+    "terms": "https://www.atlassian.com/legal/cloud-terms-of-service",
+    "docs": "https://confluence.atlassian.com/display/ALLDOC/Atlassian+Documentation"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Issues de Jira y páginas de Confluence.",
+      "features": [
+        "Issues de Jira y páginas de Confluence."
+      ],
+      "requirements": [
+        "Una cuenta de Jira and Confluence con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Conectá issues de Jira con contexto de Confluence",
+      "description": "Traé issues de Jira y páginas de Confluence a APX mediante tu cuenta de Atlassian. Elegí el issue o la página relevante para una tarea, leé su información disponible y usá ambas fuentes para entender requisitos y documentación de apoyo.\n\nUn issue y una página pueden describir momentos distintos de una decisión. Conservá sus referencias separadas al resumir acuerdos o trabajo pendiente e identificá el destino antes de pedir un cambio. Las herramientas de Atlassian, el acceso a productos y los permisos de tu cuenta determinan la disponibilidad. La extensión no incluye suscripciones de Jira o Confluence.",
+      "prompts": [
+        "Revisá el issue de Jira que elija y resumí sus requisitos disponibles.",
+        "Leé la página de Confluence que seleccione y describí sus puntos principales.",
+        "Compará el issue y la página elegidos y señalá diferencias sin editar ninguno."
+      ],
+      "screenshots": []
+    }
+  }
+}

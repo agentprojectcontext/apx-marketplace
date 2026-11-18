@@ -1,0 +1,68 @@
+{
+  "summary": "Models, datasets and Spaces.",
+  "features": [
+    "Models, datasets and Spaces."
+  ],
+  "requirements": [
+    "A Hugging Face account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "hugging-face",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Explore Hugging Face models, datasets and Spaces",
+  "description": "Connect Hugging Face to work with the models, datasets and Spaces available through its service. Select a resource and use its available information to understand its purpose, compare candidates or plan what to inspect before using it in a project.\n\nA resource description is not an independent evaluation of quality, licensing or safety. Review the selected resource's terms and requirements before relying on it. Available tools and access depend on Hugging Face and your account permissions; the connection does not include compute credits, hosting or a promise that every resource can run locally.",
+  "prompts": [
+    "Review the available information for the Hugging Face dataset I select.",
+    "Compare the descriptions and stated requirements of the two resources I choose.",
+    "Explain the available information about the selected Space without launching paid work."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://huggingface.co",
+    "privacy": "https://huggingface.co/privacy",
+    "terms": "https://huggingface.co/terms-of-service",
+    "docs": "https://huggingface.co/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Modelos, conjuntos de datos y Spaces.",
+      "features": [
+        "Modelos, conjuntos de datos y Spaces."
+      ],
+      "requirements": [
+        "Una cuenta de Hugging Face con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Explorá modelos, datasets y Spaces de Hugging Face",
+      "description": "Conectá Hugging Face para trabajar con modelos, datasets y Spaces disponibles mediante su servicio. Elegí un recurso y usá su información para entender su propósito, comparar opciones o planificar qué revisar antes de usarlo en un proyecto.\n\nLa descripción de un recurso no es una evaluación independiente de calidad, licencia o seguridad. Revisá sus condiciones y requisitos antes de depender de él. Las herramientas y el acceso dependen de Hugging Face y tus permisos; la conexión no incluye créditos de cómputo, alojamiento ni una promesa de ejecución local para todos los recursos.",
+      "prompts": [
+        "Revisá la información disponible del dataset de Hugging Face que elija.",
+        "Compará las descripciones y los requisitos declarados de los dos recursos que seleccione.",
+        "Explicame la información disponible del Space elegido sin iniciar trabajo pago."
+      ],
+      "screenshots": []
+    }
+  }
+}

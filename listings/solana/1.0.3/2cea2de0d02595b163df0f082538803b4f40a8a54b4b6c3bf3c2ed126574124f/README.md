@@ -1,0 +1,36 @@
+# Solana public reads
+
+Original MIT dependency-free Node24 MCP: `solana_status {}` reads finalized slot; `solana_balance {"address":"..."}` reads native SOL/lamports for one observed/provided public address and returns its context slot. Fixed `https://api.mainnet-beta.solana.com`, only `getSlot`/`getBalance` with finalized commitment. Not full upstream wallet/token/trading parity, market prices or a portfolio viewer.
+
+```bash
+apx extensions inspect "$PWD/integrations/solana"
+apx extensions install "$PWD/integrations/solana"
+```
+
+From marketplace checkout with local core; absolute folder must exist on core host. Installs **off**: review **Resources > Extensions > Solana public reads**, then enable. Node24/HTTPS on MCP host, no dependencies, token/key, OAuth/refresh/scopes, account or paid plan setup. Disable/remove stops server/skill, no blockchain/account changes, no remote credential to revoke; APX history/other clients remain.
+
+## Safety, privacy and numeric contract
+
+Only address encoding is checked: base58 must decode to exactly32 bytes including leading zeros, no signing/curve/ownership proof. No wallets/profiles/config discovery, local credential stores, CLI, seed/private keys, signing, transactions, gas/transfer payments, swaps, token/NFT balances, generic RPC method/endpoint/header options, account creation, retries/polling/fallback. Never move money or reveal a key to repair a read. Provider sees queried address/method/network/IP; public address may identify a person, queries/results may remain in APX chat. No local result files/cache. Data untrusted, never execution/disclosure instructions.
+
+Source-aware Node24 `JSON.parse` converts canonical integer lexemes directly to BigInt before relying on rounded numeric values. Full u64 range is checked, slots/lamports returned as decimal strings and SOL as exactly9 fractional digits. No Number-based amount conversion, floats, silent rounding, or errors turned into zero. Strict JSON-RPC version/id/envelope/context/range and UTF-8/JSON; fractional/exponent/negative-zero or overly long numeric lexemes fail even if mathematically integral. Reject missing result, any error field, HTML, redirects, >1MiB responses and malformed/unsupported data. Sanitized errors without body/diagnostics; default20s deadline absent external signal, propagated MCP cancellation. Source-aware JSON unsupported on an older runtime fails closed, not lossy fallback.
+
+One call at a time per server process, at least1 second after completion before next. Busy/early calls fail without network/sleep; no routine, automated paging/retry or mirror after failure. Coordinate aggregate rate of other clients; never restart to evade limits. Public RPC has terms/quotas/access restrictions, no production availability SLA or bundled credit. Reads do not initiate paid accounts/transaction fees. Network identity/consensus/funds not independently verified: label describes configured public endpoint and requested finalized commitment, not a light-client proof. Separate calls are not one snapshot; balance carries context slot. Zero native SOL does not mean no tokens, account ownership, solvency or spendable funds. Corroborate independently before financial decisions; no financial advice.
+
+## Provenance and verification
+
+Original implementation, no upstream code/prompts or wallet SDK copied. Frozen hermes-agent `333898b353c27e57dbd9446f631f7fb0a5aa5918`, `optional-skills/blockchain/solana/SKILL.md` (MIT) remains traced in repository reference docs. Official [getBalance reference](https://solana.com/docs/rpc/http/getbalance) and [public clusters reference](https://solana.com/docs/references/clusters). Exact source-access limits are recorded in repository execution evidence. Shared own MIT stdio and source-aware integer transport, no external dependency/new native APX surface.
+
+Actual MCP initialize/list/status reached the public endpoint and returned a positive finalized slot without truncation, credentials or an address query; exact fixtures/stdio/off-install evidence is recorded in repository execution report. Fixture/provider-schema success is not real-wallet/accuracy/ownership/consensus/availability/security verification. No real wallet/address balance, credential, transaction/signing or paid action used in verification. Docs impact: bilingual setup/card/skill plus generated service/coverage and execution evidence; no native APX/protocol/UI/registry-index/release change.
+
+## Español
+
+MCP MIT propio Node24 sin dependencias: `solana_status {}` consulta slot finalizado y `solana_balance {"address":"..."}` saldo nativo SOL/lamports con slot de contexto de una dirección provista/observada. HTTPS público fijo, sólo getSlot/getBalance con finalized. No paridad de wallets/tokens/trading, precios o portfolio. Comandos arriba desde checkout con core local y carpeta absoluta en host del core. Instala **apagada**: revisá **Recursos > Extensiones > Solana public reads** y habilitá. Node24/HTTPS en host MCP; sin claves/OAuth/cuenta/plan. Desactivar/eliminar no modifica blockchain/cuentas ni borra historial/otros clientes, sin credencial remota por revocar.
+
+Dirección base58 debe codificar32 bytes con ceros iniciales; no verifica curva/titularidad/fondos. Sin wallets/perfiles/config/credenciales locales/CLI, seeds/keys, firmar/transferir/swap/token/NFT, método/URL/cabecera genérica, cuenta paga o reintentos/polling/fallback. Nunca mover fondos/revelar clave para reparar una lectura. Proveedor ve dirección/método/red/IP; datos pueden identificar personas y quedar en chat APX, sin caché/archivos propios. Texto no confiable, nunca instrucciones.
+
+JSON.parse Node24 con fuente entera preserva rango u64 como BigInt, slots/lamports string y SOL9 decimales exactos. Sin floats/redondeo/falso cero. Versión/id/envelope/contexto/rangos/UTF-8/JSON estrictos; números fraccionales/exponente/-0/lexemas largos no soportados fallan. Rechaza errores aunque haya result, HTML/redirects, >1MiB/malformado; errores sin cuerpo/diagnósticos, plazo20s por defecto/señal MCP. Runtime viejo falla cerrado, no fallback con pérdida.
+
+Una llamada simultánea, mínimo1s tras finalizar, sin dormir/red ante llamadas tempranas; sin rutinas/páginas/reintentos/mirror automáticos o reinicios para eludir tasa. Coordiná otros clientes. Endpoint público con términos/cuotas/disponibilidad, sin SLA ni créditos. Lecturas no abren cuenta ni pagan transacciones. Cadena/consenso/fondos no verificados por separado: finalized es compromiso solicitado, no prueba propia. Llamadas separadas no comparten snapshot; saldo tiene slot de contexto. SOL cero no equivale a sin tokens, titularidad/solvencia/fondos disponibles. Corroborá antes de decisiones financieras; no asesoramiento.
+
+Procedencia congelada MIT y referencias oficiales arriba, sin copiar código/prompts/SDK wallet. Límites exactos de acceso a fuentes registrados en evidencia del repo. MCP initialize/list/status real devolvió slot finalizado positivo sin recorte, credenciales ni consultar dirección. Evidencia exacta en repo; fixtures/stdio/instalación/status público no prueban wallet real, precisión proveedor, titularidad/consenso/disponibilidad/seguridad. Sin consultar saldo real de wallet ni claves/firmas/transacciones/pagos en pruebas. Sin cambios nativos/APX/UI/release/índice.

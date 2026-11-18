@@ -1,0 +1,68 @@
+{
+  "summary": "Payments, orders and catalog.",
+  "features": [
+    "Payments, orders and catalog."
+  ],
+  "requirements": [
+    "A Square account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "square",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Connect Square payments, orders and catalog context",
+  "description": "Use your Square account connection to work with accessible payments, orders and catalog information. Choose the record or catalog item you mean and bring its available details into APX for a focused review of your business activity.\n\nCatalog information describes what you offer; an order or payment describes a different part of a sale. Keep those distinctions clear when summarizing returned records. Square's tools and account permissions determine the possible actions. The extension does not include processing fees or a Square subscription, and a review is not a request to move money or alter an order.",
+  "prompts": [
+    "Review the Square order I select without changing it.",
+    "Explain the available status information for the selected payment.",
+    "Read the available details of the catalog item I choose."
+  ],
+  "category": "finance",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://squareup.com/us/en",
+    "privacy": "https://squareup.com/us/en/legal/general/privacy",
+    "terms": "https://squareup.com/us/en/legal/general/ua",
+    "docs": "https://developer.squareup.com/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Pagos, órdenes y catálogo.",
+      "features": [
+        "Pagos, órdenes y catálogo."
+      ],
+      "requirements": [
+        "Una cuenta de Square con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Conectá pagos, órdenes y catálogo de Square",
+      "description": "Usá tu conexión de Square para trabajar con pagos, órdenes e información de catálogo disponibles. Elegí el registro o producto y traé sus detalles a APX para revisar un aspecto concreto de la actividad de tu negocio.\n\nEl catálogo describe lo que ofrecés; una orden o un pago describe otra parte de la venta. Conservá esas diferencias al resumir registros. Las herramientas de Square y tus permisos determinan las acciones posibles. La extensión no incluye comisiones de procesamiento ni una suscripción, y revisar no equivale a pedir que se mueva dinero o se cambie una orden.",
+      "prompts": [
+        "Revisá la orden de Square que elija sin modificarla.",
+        "Explicame la información de estado disponible del pago elegido.",
+        "Leé los detalles disponibles del producto de catálogo que seleccione."
+      ],
+      "screenshots": []
+    }
+  }
+}

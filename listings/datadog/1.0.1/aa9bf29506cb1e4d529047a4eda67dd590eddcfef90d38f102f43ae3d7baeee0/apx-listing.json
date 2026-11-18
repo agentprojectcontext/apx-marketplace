@@ -1,0 +1,68 @@
+{
+  "summary": "Logs, metrics and monitors.",
+  "features": [
+    "Logs, metrics and monitors."
+  ],
+  "requirements": [
+    "A Datadog account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "datadog",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Bring Datadog logs, metrics and monitors together",
+  "description": "Connect Datadog to work with logs, metrics and monitors accessible to your account. Focus on the service or monitor you want to understand and use the returned information to build a clearer description of the operational issue.\n\nMetrics aggregate behavior, logs describe events and monitors apply configured conditions. Keep their time ranges and scope visible rather than assuming they tell the same story. Datadog's current tools and account permissions determine access and possible changes. The extension does not include monitoring capacity or a Datadog subscription, and a correlation is not proof of causation.",
+  "prompts": [
+    "Review the available information for the Datadog monitor I select.",
+    "Explain the returned metric information for the operational question I provide.",
+    "Compare the selected logs and metrics while keeping their time ranges distinct."
+  ],
+  "category": "development",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.datadoghq.com/",
+    "privacy": "https://www.datadoghq.com/legal/privacy/",
+    "terms": "https://www.datadoghq.com/legal/terms/",
+    "docs": "https://docs.datadoghq.com/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Registros, métricas y monitores.",
+      "features": [
+        "Registros, métricas y monitores."
+      ],
+      "requirements": [
+        "Una cuenta de Datadog con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Reuní logs, métricas y monitores de Datadog",
+      "description": "Conectá Datadog para trabajar con logs, métricas y monitores accesibles para tu cuenta. Enfocate en el servicio o monitor que querés entender y usá la información devuelta para describir mejor el problema operativo.\n\nLas métricas agregan comportamiento, los logs describen eventos y los monitores aplican condiciones configuradas. Conservá períodos y alcance, sin asumir que cuentan lo mismo. Las herramientas actuales de Datadog y tus permisos determinan acceso y cambios posibles. La extensión no incluye capacidad de monitoreo ni una suscripción, y una correlación no prueba causalidad.",
+      "prompts": [
+        "Revisá la información disponible del monitor de Datadog que elija.",
+        "Explicame las métricas devueltas para la pregunta operativa que te pase.",
+        "Compará los logs y métricas elegidos manteniendo separados sus períodos."
+      ],
+      "screenshots": []
+    }
+  }
+}

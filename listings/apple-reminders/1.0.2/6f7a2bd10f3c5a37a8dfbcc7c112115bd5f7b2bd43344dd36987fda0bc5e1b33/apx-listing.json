@@ -1,0 +1,74 @@
+{
+  "summary": "Work with Apple Reminders through an existing local CLI, without a new background server.",
+  "features": [
+    "Read selected lists, dates and searches with stable item ids",
+    "Prepare authorized task changes and check them afterward through the CLI"
+  ],
+  "requirements": [
+    "A macOS 14+ host where APX's shell actually runs",
+    "Owner-installed remindctl 0.3.9 on PATH",
+    "Owner-granted Reminders access and permission for APX's shell tool"
+  ],
+  "limits": [
+    "A skill, not a new MCP or mechanical per-list sandbox",
+    "No native tags, smart lists, sections, attachments or private Urgent toggle",
+    "Authorized reads, writes, sync, alarms and revocation remain unverified"
+  ],
+  "pricing": "No connector charge; a compatible Mac is required and normal Apple account/service terms apply.",
+  "privacy": "The CLI has the host's Reminders permission, which can cover all lists. Only requested list data should enter agent context; changes require explicit owner authorization.",
+  "id": "apple-reminders",
+  "authentication": "local-permission",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review and organize reminders on your Mac",
+  "description": "## Work with your existing reminder lists\n\nUse Apple Reminders on your Mac through the supported local reminder utility. Ask APX to read a list, review dates or search for items. When you request an authorized change, it can prepare the operation and check the item afterward instead of treating a successful command as proof of the final state.\n\n## Keep the selected scope clear\n\nThis extension supplies operating guidance rather than a separate reminder server or an isolated per-list permission boundary. It does not add native tags, smart lists, sections, attachments or the private Urgent toggle. Your Mac, Reminders, the local utility and its operating-system permissions are required.",
+  "prompts": [
+    "Show the reminders in the list I select, without changing them.",
+    "Find reminders matching the phrase I give you in my selected list.",
+    "Prepare the change I request for the selected reminder, then read it back to verify the result."
+  ],
+  "category": "productivity",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "local",
+  "links": {
+    "website": "https://www.apple.com/macos/",
+    "privacy": "https://www.apple.com/legal/privacy/",
+    "terms": "https://www.apple.com/legal/",
+    "docs": "https://support.apple.com/mac"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Usá Recordatorios de Apple mediante una CLI local existente, sin otro servidor en segundo plano.",
+      "features": [
+        "Consultar listas elegidas, fechas y búsquedas con ids estables",
+        "Preparar cambios autorizados y comprobarlos después mediante la CLI"
+      ],
+      "requirements": [
+        "Un host macOS 14+ donde realmente se ejecuta el shell de APX",
+        "remindctl 0.3.9 instalado por el dueño en el PATH",
+        "Permiso de Recordatorios otorgado por el dueño y acceso al shell de APX"
+      ],
+      "limits": [
+        "Es un skill, no un MCP nuevo ni un aislamiento mecánico por lista",
+        "Sin etiquetas nativas, listas inteligentes, secciones, adjuntos ni el modo Urgente privado",
+        "Lecturas y cambios autorizados, sincronización, alarmas y revocación sin verificar"
+      ],
+      "pricing": "El conector no tiene cargo; requiere una Mac compatible y se aplican los términos de Apple.",
+      "privacy": "La CLI usa el permiso de Recordatorios del host, que puede abarcar todas las listas. Sólo los datos pedidos deberían entrar al contexto; los cambios requieren autorización explícita del dueño.",
+      "tagline": "Revisá y organizá recordatorios en tu Mac",
+      "description": "## Trabajá con tus listas de siempre\n\nUsá Apple Reminders en tu Mac mediante la utilidad local compatible. Pedile a APX que lea una lista, revise fechas o busque elementos. Cuando pidas un cambio autorizado, puede preparar la operación y revisar el elemento después, sin confundir un comando exitoso con la confirmación del resultado final.\n\n## Tené claro el alcance elegido\n\nLa extensión aporta una guía de uso: no agrega un servidor de recordatorios ni una barrera de permisos aislada por lista. No suma etiquetas nativas, listas inteligentes, secciones, adjuntos ni el interruptor privado de urgencia. Necesitás tu Mac, Reminders, la utilidad local y sus permisos del sistema.",
+      "prompts": [
+        "Mostrame los recordatorios de la lista que elija, sin modificarlos.",
+        "Buscá recordatorios que coincidan con la frase que te pase en mi lista elegida.",
+        "Prepará el cambio que pida para el recordatorio elegido y volvé a leerlo para verificar el resultado."
+      ],
+      "screenshots": []
+    }
+  }
+}

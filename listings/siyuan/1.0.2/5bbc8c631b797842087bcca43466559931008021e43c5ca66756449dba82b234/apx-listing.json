@@ -1,0 +1,74 @@
+{
+  "summary": "Read selected SiYuan blocks from a local kernel without SQL, discovery or edits.",
+  "features": [
+    "List the exact block IDs configured by the owner",
+    "Read bounded Kramdown for those IDs only, without following links or embeds"
+  ],
+  "requirements": [
+    "SiYuan kernel deliberately available at 127.0.0.1:6806 on the MCP execution host",
+    "API token and 1–20 selected block IDs entered in the extension's secret form",
+    "Node 24 on the execution host"
+  ],
+  "limits": [
+    "Initial read-only subset, not full notebook search or upstream parity",
+    "No remote kernel, custom port, SQL, files, exports, writes or automatic notebook unlocking",
+    "No real SiYuan workspace or live token journey has been tested"
+  ],
+  "pricing": "Local reads do not invoke paid cloud, sync or AI services. SiYuan installation, optional subscriptions and hosting are separate.",
+  "privacy": "Only selected IDs are accepted by these tools, but the kernel token may have broad workspace permissions. Kramdown can contain child content and private references. Loopback HTTP does not attest kernel identity. Requested content enters agent context as untrusted data.",
+  "id": "siyuan",
+  "authentication": "secret",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Read only the SiYuan blocks you select",
+  "description": "Choose between one and twenty SiYuan block identifiers and read their bounded Kramdown text through your local SiYuan kernel. You can inspect the configured selection first, then request a particular block without searching the rest of the notebook or expanding its links and embeds.\n\nThis package does not edit, export, run SQL, discover blocks or unlock notebooks. The kernel must run on the same computer at the supported local address and port, with its API token configured. A selected document can include child content and private references, so choose blocks with the content you intend to share in mind. No cloud, sync or paid AI operation is invoked by these reads.",
+  "prompts": [
+    "List the SiYuan block identifiers configured for this extension.",
+    "Read the Kramdown of the selected block without expanding links or embeds.",
+    "Summarize the text of the other configured block I choose, without searching the notebook."
+  ],
+  "category": "docs-notes",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://b3log.org/siyuan/",
+    "privacy": "https://b3log.org/siyuan/privacy.html",
+    "terms": "https://github.com/siyuan-note/siyuan/blob/master/LICENSE",
+    "docs": "https://github.com/siyuan-note/siyuan/blob/master/docs/API.md"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Leé bloques elegidos de SiYuan desde un kernel local, sin SQL, descubrimiento ni cambios.",
+      "features": [
+        "Listar los IDs exactos configurados por el dueño",
+        "Leer Kramdown acotado sólo de esos IDs, sin seguir enlaces ni contenido incrustado"
+      ],
+      "requirements": [
+        "Kernel de SiYuan habilitado deliberadamente en 127.0.0.1:6806 donde se ejecuta el MCP",
+        "Token de API y entre 1 y 20 IDs elegidos ingresados en el formulario de secretos de la extensión",
+        "Node 24 en el equipo de ejecución"
+      ],
+      "limits": [
+        "Subconjunto inicial de lectura, sin búsqueda general ni paridad completa",
+        "Sin kernel remoto, puerto propio, SQL, archivos, exportación, cambios ni desbloqueo automático",
+        "Sin verificar un espacio real de SiYuan ni el recorrido con token real"
+      ],
+      "pricing": "Las lecturas locales no invocan nube, sincronización ni AI pagas. La instalación, suscripciones opcionales y alojamiento de SiYuan son aparte.",
+      "privacy": "Estas herramientas sólo aceptan IDs elegidos, pero el token puede tener permisos amplios sobre el espacio. Kramdown puede incluir contenido hijo y referencias privadas. HTTP local no certifica la identidad del kernel. Los datos pedidos entran al contexto como contenido no confiable.",
+      "tagline": "Leé sólo los bloques de SiYuan que elijas",
+      "description": "Elegí entre uno y veinte identificadores de bloques de SiYuan y leé su texto Kramdown acotado mediante el kernel local. Podés revisar primero la selección configurada y después pedir un bloque específico sin buscar en el resto del cuaderno ni expandir enlaces o contenido incrustado.\n\nEl paquete no edita, exporta, ejecuta SQL, descubre bloques ni desbloquea cuadernos. El kernel debe correr en la misma computadora, en la dirección y el puerto locales admitidos, con su token API configurado. Un documento elegido puede incluir contenido hijo y referencias privadas: seleccioná pensando qué querés compartir. Estas lecturas no invocan nube, sincronización ni operaciones pagas de IA.",
+      "prompts": [
+        "Listá los identificadores de bloques de SiYuan configurados para esta extensión.",
+        "Leé el Kramdown del bloque elegido sin expandir enlaces ni contenido incrustado.",
+        "Resumí el texto del otro bloque configurado que elija, sin buscar en el cuaderno."
+      ],
+      "screenshots": []
+    }
+  }
+}

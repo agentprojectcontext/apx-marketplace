@@ -1,0 +1,72 @@
+{
+  "summary": "Inspect fixed state and health metadata for one selected Docker container.",
+  "features": [
+    "Read selected container state, timestamps, exit code and configured health status"
+  ],
+  "requirements": [
+    "Node 24 and owner-installed trusted Docker CLI on the macOS/Linux MCP host",
+    "Existing owner-reviewed Docker context and exact full 64-character container id",
+    "Permission to access that context's daemon; no runtime or credentials bundled"
+  ],
+  "limits": [
+    "No discovery, logs, environment, commands, builds, lifecycle changes or raw socket proxy",
+    "Daemon/context authority is broader than this adapter's one-container read",
+    "Real Docker CLI/daemon/context permissions, metadata and revocation unverified; Windows unsupported"
+  ],
+  "pricing": "Docker Desktop licensing, chosen daemon/cloud account and hosting terms apply. No subscription, image pull, build or paid infrastructure operation included.",
+  "privacy": "Only fixed state/health metadata enters context, never raw inspect output, environment, mounts, labels, health logs or registry data. Docker CLI/context may hold broader local or remote credentials outside APX's vault.",
+  "id": "docker",
+  "authentication": "local-permission",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Inspect the state of one selected Docker container",
+  "description": "Read selected state and health metadata for one Docker container identified by its exact full identifier. Use timestamps, exit code and configured health status to understand the container's reported state without retrieving raw inspection data.\n\nThe package requires a trusted Docker CLI and an existing permitted context on macOS or Linux. It does not discover containers, read logs or environment variables, run commands, build images or change container lifecycle. The selected context can have broader authority than this reading workflow. A healthy state is not proof that the application works correctly, and Windows is unsupported.",
+  "prompts": [
+    "Read the state of my configured Docker container without logs or environment variables.",
+    "Explain the returned timestamps and exit code for that container.",
+    "Review its configured health status and distinguish it from a verified application check."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "local",
+  "links": {
+    "website": "https://www.docker.com/",
+    "privacy": "https://www.docker.com/legal/privacy",
+    "terms": "https://www.docker.com/legal/docker-terms-use",
+    "docs": "https://docs.docker.com/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Revisá estado y salud de un contenedor elegido de Docker.",
+      "features": [
+        "Leer estado, fechas, código de salida y estado del chequeo de salud elegido"
+      ],
+      "requirements": [
+        "Node 24 y CLI Docker confiable instalado por el dueño en el host MCP macOS/Linux",
+        "Contexto Docker existente revisado e ID completo exacto de 64 caracteres",
+        "Permiso al daemon de ese contexto; no incluye runtime ni credenciales"
+      ],
+      "limits": [
+        "Sin descubrir, logs, entorno, comandos, builds, cambios de ciclo ni proxy de socket",
+        "Autoridad del daemon/contexto mayor que esta lectura de un contenedor",
+        "Sin verificar CLI/daemon/permisos/datos/revocación reales; Windows no soportado"
+      ],
+      "pricing": "Rigen licencias Desktop y cuenta/alojamiento del daemon elegido. Sin suscripción, pull, build u operación paga de infraestructura incluida.",
+      "privacy": "Sólo metadatos fijos de estado/salud entran al contexto; nunca inspect crudo, entorno, mounts, labels, logs de salud o registro. CLI/contexto puede guardar credenciales locales/remotas amplias fuera del vault APX.",
+      "tagline": "Revisá el estado de un contenedor elegido de Docker",
+      "description": "Leé metadatos seleccionados de estado y salud de un contenedor de Docker identificado por su ID completo exacto. Usá fechas, código de salida y estado de salud configurado para entender lo informado sin obtener la inspección completa.\n\nEl paquete requiere una CLI confiable de Docker y un contexto existente autorizado en macOS o Linux. No descubre contenedores, lee logs o variables de entorno, ejecuta comandos, construye imágenes ni cambia el ciclo de vida. El contexto puede tener permisos más amplios que este flujo de lectura. Un estado saludable no prueba que la aplicación funcione correctamente y Windows no está admitido.",
+      "prompts": [
+        "Leé el estado de mi contenedor configurado de Docker sin logs ni variables de entorno.",
+        "Explicame las fechas y el código de salida devueltos de ese contenedor.",
+        "Revisá su estado de salud configurado y distinguilo de una comprobación real de la aplicación."
+      ],
+      "screenshots": []
+    }
+  }
+}

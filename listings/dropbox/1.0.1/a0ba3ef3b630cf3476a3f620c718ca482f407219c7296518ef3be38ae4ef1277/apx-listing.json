@@ -1,0 +1,68 @@
+{
+  "summary": "Find and read your files.",
+  "features": [
+    "Find and read your files."
+  ],
+  "requirements": [
+    "A Dropbox account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "dropbox",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Find and read the Dropbox files you need",
+  "description": "Connect Dropbox to find files and read material available to your account. Start with a file or topic you can identify, review the matches returned by the service and select the file whose content you want APX to use.\n\nFinding a file and reading its available content are separate steps, which helps keep unrelated material out of a summary. Dropbox sharing, account permissions and the service's current tools determine what is returned. The extension does not include storage or a Dropbox plan, and a result list should not be treated as a complete export of your files.",
+  "prompts": [
+    "Find Dropbox files matching the project title I provide.",
+    "Read the file I choose from those results and summarize its contents.",
+    "Compare the available text of the two Dropbox files I select without modifying them."
+  ],
+  "category": "files",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.dropbox.com/",
+    "privacy": "https://www.dropbox.com/privacy",
+    "terms": "https://www.dropbox.com/terms",
+    "docs": "https://www.dropbox.com/developers"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Búsqueda y lectura de tus archivos.",
+      "features": [
+        "Búsqueda y lectura de tus archivos."
+      ],
+      "requirements": [
+        "Una cuenta de Dropbox con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Encontrá y leé los archivos de Dropbox que necesitás",
+      "description": "Conectá Dropbox para encontrar archivos y leer material disponible para tu cuenta. Empezá por un archivo o tema que puedas identificar, revisá las coincidencias del servicio y elegí el archivo cuyo contenido querés que use APX.\n\nEncontrar un archivo y leer su contenido disponible son pasos separados, lo que ayuda a dejar material ajeno fuera de un resumen. Los archivos compartidos, los permisos de la cuenta y las herramientas actuales de Dropbox determinan qué se devuelve. La extensión no incluye almacenamiento ni un plan de Dropbox, y una lista de resultados no equivale a una exportación completa de tus archivos.",
+      "prompts": [
+        "Buscá archivos de Dropbox que coincidan con el título del proyecto que te pase.",
+        "Leé el archivo que elija de esos resultados y resumí su contenido.",
+        "Compará el texto disponible de los dos archivos de Dropbox que seleccione sin modificarlos."
+      ],
+      "screenshots": []
+    }
+  }
+}

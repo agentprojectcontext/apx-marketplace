@@ -1,0 +1,74 @@
+{
+  "summary": "Read selected status metadata for one existing Browserbase session in your configured project.",
+  "features": [
+    "Check session status, timestamps, region, keep-alive flag and safe-integer proxy-byte observations",
+    "Reject different session/project and exclude connection secrets, labels and arbitrary metadata"
+  ],
+  "requirements": [
+    "Node24 and HTTPS access to api.browserbase.com on MCP host",
+    "Browserbase account/plan, API key with least available authority, exact project id and observed/provided session id"
+  ],
+  "limits": [
+    "No session list/create/update/release, browser/CDP control, page checks, cookies, recordings or context access",
+    "Project filter checks the response, not the authority of an account-wide API key",
+    "Status metadata is not page availability, a billing statement or full upstream browser parity",
+    "No automatic retry/paging/polling; disabling does not end sessions or their ongoing charges"
+  ],
+  "pricing": "Browserbase plan/session/proxy usage charges and quotas apply. No session or paid plan is created by this read. Existing sessions may keep accruing costs after disabling/removing this extension; manage them in Browserbase.",
+  "privacy": "API connection secrets enter MCP transiently; URLs/signingKey/contextId/userMetadata/labels excluded before output. Key/project stay private; selected status/id may remain in APX chat. No raw logs/cache. See README for scope and billing.",
+  "id": "browserbase",
+  "authentication": "secret",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Read status metadata for one Browserbase session",
+  "description": "Check one existing Browserbase session by its identifier in your configured project. Read selected status, timestamps, region, keep-alive information and valid proxy-byte observations without exposing browser connection details or arbitrary session metadata.\n\nThis is not browser control. It cannot list, create, release or update sessions, inspect pages, access cookies or retrieve recordings. Status metadata does not prove page availability or establish a bill. There is no automatic polling, and removing the extension does not end sessions or ongoing charges. Your Browserbase key, project and existing session identifier are required.",
+  "prompts": [
+    "Read the status metadata of the Browserbase session identifier I provide.",
+    "Show the timestamps and region returned for that session without connection details.",
+    "Explain the returned keep-alive and proxy-byte observations without presenting them as a billing statement."
+  ],
+  "category": "development",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://www.browserbase.com/",
+    "privacy": "https://www.browserbase.com/privacy-policy",
+    "terms": "https://www.browserbase.com/terms-of-service",
+    "docs": "https://docs.browserbase.com/welcome/introduction"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Consultá metadatos de estado de una sesión Browserbase existente en tu proyecto configurado.",
+      "features": [
+        "Leer estado, fechas, región, keep-alive y observaciones de bytes proxy como enteros seguros",
+        "Rechazar sesión/proyecto distintos y excluir secretos de conexión, etiquetas y metadatos libres"
+      ],
+      "requirements": [
+        "Node24 y HTTPS a api.browserbase.com en host MCP",
+        "Cuenta/plan Browserbase, API key de mínima autoridad disponible, project id exacto y session id observado/provisto"
+      ],
+      "limits": [
+        "Sin listar/crear/cambiar/liberar sesiones, control browser/CDP, páginas, cookies, grabaciones o contextos",
+        "Filtro de proyecto comprueba respuesta, no reduce autoridad de una API key de cuenta",
+        "Estado no prueba disponibilidad de página, facturación ni paridad browser upstream",
+        "Sin reintento/páginas/polling automáticos; desactivar no termina sesiones ni sus cargos"
+      ],
+      "pricing": "Rigen plan/uso de sesiones/proxy/cuotas Browserbase. Lectura no crea sesión ni plan pago. Sesiones existentes pueden seguir facturando al desactivar/eliminar; administralas en Browserbase.",
+      "privacy": "Respuesta API puede traer URLs/keys de conexión transitoriamente al proceso MCP. Proyección positiva descarta esas claves, contextId/userMetadata/labels antes de salida. API key/proyecto en secretos privados; estado e id consultado pueden quedar en chat APX. Sin logs crudos ni caché local.",
+      "tagline": "Leé el estado de una sesión de Browserbase",
+      "description": "Consultá una sesión existente de Browserbase por su identificador dentro del proyecto configurado. Leé estado, fechas, región, información de keep-alive y observaciones válidas de bytes de proxy, sin exponer datos de conexión del navegador ni metadatos arbitrarios.\n\nNo es control del navegador. No lista, crea, libera ni actualiza sesiones, inspecciona páginas, accede a cookies ni obtiene grabaciones. Los metadatos no prueban disponibilidad de páginas ni establecen una factura. No hay consultas automáticas y quitar la extensión no termina sesiones ni cargos en curso. Necesitás tu clave, proyecto e identificador de sesión existente de Browserbase.",
+      "prompts": [
+        "Leé los metadatos de estado de la sesión de Browserbase cuyo identificador te pase.",
+        "Mostrame las fechas y la región devueltas de esa sesión sin datos de conexión.",
+        "Explicame las observaciones de keep-alive y bytes de proxy sin presentarlas como una factura."
+      ],
+      "screenshots": []
+    }
+  }
+}

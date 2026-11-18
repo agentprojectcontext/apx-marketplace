@@ -1,0 +1,68 @@
+{
+  "summary": "Postgres databases and branches.",
+  "features": [
+    "Postgres databases and branches."
+  ],
+  "requirements": [
+    "A Neon account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "neon",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Work with your Neon Postgres databases and branches",
+  "description": "Connect Neon to bring your accessible Postgres databases and branches into APX. Choose the project and branch relevant to your task before discussing the database, so a development branch is not confused with another environment.\n\nBranches are separate targets even when their names or data are similar. Review the chosen target before requesting an action through the service's available tools. Neon account permissions, plan and usage limits determine access and costs; the extension does not include database hosting or make changes to every branch at once.",
+  "prompts": [
+    "Review the Neon database and branch information available for my selected project.",
+    "Explain the available details of the branch I choose without changing it.",
+    "Compare the returned information for the two Neon branches I identify."
+  ],
+  "category": "data",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://neon.com",
+    "privacy": "https://www.databricks.com/legal/privacynotice",
+    "terms": "https://www.databricks.com/legal/terms-of-use",
+    "docs": "https://neon.com/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Bases de datos Postgres y sus ramas.",
+      "features": [
+        "Bases de datos Postgres y sus ramas."
+      ],
+      "requirements": [
+        "Una cuenta de Neon con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Trabajá con tus bases Postgres y ramas de Neon",
+      "description": "Conectá Neon para traer a APX las bases Postgres y ramas a las que accedés. Elegí el proyecto y la rama relevantes antes de conversar sobre la base, así no confundís una rama de desarrollo con otro entorno.\n\nLas ramas son destinos distintos aunque sus nombres o datos se parezcan. Revisá el destino elegido antes de pedir una acción con las herramientas disponibles del servicio. Los permisos, el plan y los límites de uso de Neon determinan acceso y costos; la extensión no incluye alojamiento de bases ni aplica cambios a todas las ramas a la vez.",
+      "prompts": [
+        "Revisá la información disponible de bases y ramas de Neon para mi proyecto elegido.",
+        "Explicame los detalles disponibles de la rama que seleccione sin modificarla.",
+        "Compará la información devuelta de las dos ramas de Neon que indique."
+      ],
+      "screenshots": []
+    }
+  }
+}

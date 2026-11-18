@@ -1,0 +1,74 @@
+{
+  "summary": "Read one existing Browser Use V4 run status in your explicitly selected US/EU workload region.",
+  "features": [
+    "One on-demand status read for an observed existing run UUID",
+    "Explicit regional host/key, no fallback, positive status-only projection"
+  ],
+  "requirements": [
+    "Node24 and HTTPS from MCP host",
+    "Existing Browser Use regional project API key and observed V4 run UUID; privately set workload_region to us or eu"
+  ],
+  "limits": [
+    "No run creation/cancellation, auto polling, results/events/files/shares/profiles/browser/CDP or billing operations",
+    "Completed is not task success, page availability, outcome verification or full upstream parity",
+    "Existing V4 runs only in the selected region; resources in another region are not discovered or migrated",
+    "Disabling/removing or cancelling a local read does not stop remote work or ongoing charges"
+  ],
+  "pricing": "Vendor plan/usage/quotas apply. Read starts no run/browser. Existing remote work and idle browsers may continue to incur charges after local cancellation/disabling/removal. Manage them in the selected vendor region.",
+  "privacy": "The selected run id, region and status can remain in chat. Provide the regional API key privately. No page content, task results, files or cookies are requested. Shared account, billing and some audit records can reach the US even for EU runs; see regional policies.",
+  "id": "browser-use",
+  "authentication": "secret",
+  "billing": "usage",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Check the status of one existing Browser Use run",
+  "description": "Read the status of one existing Browser Use V4 run using its observed identifier and the US or EU workload region you configure. The response is limited to status information, making it useful for an on-demand check of work started elsewhere.\n\nThis package does not start or cancel runs, poll automatically, read results or files, control a browser or inspect pages. A completed status does not prove the task succeeded. Runs in another region are not discovered or migrated, and disabling the extension does not stop remote work or its charges. Your regional project key and Browser Use plan are required.",
+  "prompts": [
+    "Read the status of the existing Browser Use V4 run whose identifier I provide.",
+    "Explain the returned run status without treating completion as verified task success.",
+    "Check that same run again only when I explicitly ask, without starting or cancelling work."
+  ],
+  "category": "development",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://browser-use.com",
+    "privacy": "https://browser-use.com/privacy",
+    "terms": "https://browser-use.com/legal/terms-of-service",
+    "docs": "https://docs.browser-use.com/cloud/quickstart"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Consultá el estado de una ejecución Browser Use V4 existente en tu región de trabajo US/EU elegida explícitamente.",
+      "features": [
+        "Una lectura a pedido para el UUID observado de una ejecución existente",
+        "Host/clave regional explícitos, sin fallback y con proyección sólo de estado"
+      ],
+      "requirements": [
+        "Node24 y HTTPS desde host MCP",
+        "API key de proyecto regional Browser Use existente y UUID V4 observado; configurar workload_region como us o eu en privado"
+      ],
+      "limits": [
+        "Sin crear/cancelar ejecuciones, polling automático, resultados/eventos/archivos/enlaces/perfiles/browser/CDP ni facturación",
+        "Completed no prueba éxito, página disponible, resultado verificado ni paridad upstream completa",
+        "Sólo ejecuciones V4 existentes en la región elegida; no descubre ni migra recursos de otra región",
+        "Desactivar/eliminar o cancelar lectura local no detiene trabajo remoto ni cargos en curso"
+      ],
+      "pricing": "Aplican plan/uso/cuotas del proveedor. Leer no inicia ejecución/browser. Trabajo remoto y browsers inactivos pueden seguir facturando al cancelar/desactivar/eliminar localmente. Administralos en región del proveedor elegida.",
+      "privacy": "Id de ejecución, región y estado pueden quedar en chat. Cargá la API key regional en privado. No pide contenido de páginas, resultados, archivos ni cookies. Cuenta, facturación y parte de auditoría pueden llegar a US incluso en ejecuciones EU; revisá políticas regionales.",
+      "tagline": "Consultá el estado de un run existente de Browser Use",
+      "description": "Leé el estado de un run existente de Browser Use V4 con su identificador observado y la región de ejecución US o EU que configures. La respuesta se limita al estado y sirve para consultar a pedido un trabajo iniciado por otra vía.\n\nEl paquete no inicia ni cancela runs, consulta automáticamente, lee resultados o archivos, controla navegadores ni inspecciona páginas. Un estado completado no prueba éxito. No descubre ni migra runs de otra región, y desactivar la extensión no detiene trabajo remoto ni sus cargos. Necesitás una clave regional de proyecto y tu plan de Browser Use.",
+      "prompts": [
+        "Leé el estado del run existente de Browser Use V4 cuyo identificador te pase.",
+        "Explicame el estado devuelto sin tratar la finalización como éxito verificado.",
+        "Volvé a consultar ese run sólo cuando lo pida expresamente, sin iniciar ni cancelar trabajo."
+      ],
+      "screenshots": []
+    }
+  }
+}

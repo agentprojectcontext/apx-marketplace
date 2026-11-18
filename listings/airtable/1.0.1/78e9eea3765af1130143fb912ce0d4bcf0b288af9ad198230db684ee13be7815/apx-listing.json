@@ -1,0 +1,68 @@
+{
+  "summary": "Bases, tables and records.",
+  "features": [
+    "Bases, tables and records."
+  ],
+  "requirements": [
+    "A Airtable account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "airtable",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Explore bases, tables and records in Airtable",
+  "description": "Connect Airtable to work with bases, tables and records available to your account. Choose a base and table before reviewing records so that your questions stay tied to the right collection rather than a similarly named table elsewhere.\n\nUse the returned records as the basis for a summary or comparison, keeping field names and missing values visible. Available reads and changes depend on Airtable's current tools and your permissions. The extension does not include an Airtable subscription, and a returned group of records is not necessarily a complete copy of a table.",
+  "prompts": [
+    "Review the tables available in the Airtable base I choose.",
+    "Read the available records from the selected table without changing them.",
+    "Summarize the returned records using their actual field names and flag missing values."
+  ],
+  "category": "data",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.airtable.com/",
+    "privacy": "https://www.airtable.com/company/privacy",
+    "terms": "https://www.airtable.com/company/terms-and-policies",
+    "docs": "https://airtable.com/developers"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Bases, tablas y registros.",
+      "features": [
+        "Bases, tablas y registros."
+      ],
+      "requirements": [
+        "Una cuenta de Airtable con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Explorá bases, tablas y registros de Airtable",
+      "description": "Conectá Airtable para trabajar con las bases, tablas y registros disponibles para tu cuenta. Elegí una base y una tabla antes de revisar registros, así las preguntas quedan vinculadas a la colección correcta y no a otra tabla con nombre parecido.\n\nUsá los registros devueltos para resumir o comparar, manteniendo visibles los nombres de campos y los valores faltantes. Las lecturas y los cambios disponibles dependen de las herramientas actuales de Airtable y tus permisos. La extensión no incluye una suscripción y un grupo de registros devuelto no necesariamente es una copia completa de la tabla.",
+      "prompts": [
+        "Revisá las tablas disponibles en la base de Airtable que elija.",
+        "Leé los registros disponibles de la tabla elegida sin modificarlos.",
+        "Resumí los registros devueltos con sus nombres reales de campos y señalá los valores faltantes."
+      ],
+      "screenshots": []
+    }
+  }
+}

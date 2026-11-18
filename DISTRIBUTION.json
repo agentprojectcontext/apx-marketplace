@@ -5,6 +5,16 @@
   "versions": [
     {
       "id": "agentmail",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/agentmail/1.0.2/0df861040e0bf9d71a36f3cdca0fe6a3ab7ff84a0cb558ecc5bcd0472e4e881d.apxext",
+        "sha256": "0df861040e0bf9d71a36f3cdca0fe6a3ab7ff84a0cb558ecc5bcd0472e4e881d"
+      },
+      "content_hash": "b2d93266b195fda9"
+    },
+    {
+      "id": "agentmail",
       "version": "1.0.1",
       "apx": "2.16.0",
       "archive": {
@@ -25,6 +35,16 @@
     },
     {
       "id": "airtable",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/airtable/1.0.1/78e9eea3765af1130143fb912ce0d4bcf0b288af9ad198230db684ee13be7815.apxext",
+        "sha256": "78e9eea3765af1130143fb912ce0d4bcf0b288af9ad198230db684ee13be7815"
+      },
+      "content_hash": "5413597b076aa66b"
+    },
+    {
+      "id": "airtable",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -35,6 +55,16 @@
     },
     {
       "id": "amplitude",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/amplitude/1.0.1/e4b18ed760f4f9adba54f987174dacd407622c60b21966a5335d241b679a31e4.apxext",
+        "sha256": "e4b18ed760f4f9adba54f987174dacd407622c60b21966a5335d241b679a31e4"
+      },
+      "content_hash": "89f04006f8daa39a"
+    },
+    {
+      "id": "amplitude",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -42,6 +72,16 @@
         "sha256": "fbb86fa9ae1efbeea4969fb12fbc5a36ec08e2a906d73e0ee2250587b45f8479"
       },
       "content_hash": "81526f9db95770fd"
+    },
+    {
+      "id": "android_tv",
+      "version": "0.2.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/android_tv/0.2.2/728e78fdd5539b1de5f9159111adda0cc2e19de5b9160284fa8891bfbfd03f89.apxext",
+        "sha256": "728e78fdd5539b1de5f9159111adda0cc2e19de5b9160284fa8891bfbfd03f89"
+      },
+      "content_hash": "43a18aae09a1b08d"
     },
     {
       "id": "android_tv",
@@ -65,6 +105,16 @@
     },
     {
       "id": "apple-calendar",
+      "version": "1.0.3",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-calendar/1.0.3/3c62b42f560cb698b86a614a75933a4ef03894ccdd92e3b7bde5dc247b94bddf.apxext",
+        "sha256": "3c62b42f560cb698b86a614a75933a4ef03894ccdd92e3b7bde5dc247b94bddf"
+      },
+      "content_hash": "28d9063afb03afd2"
+    },
+    {
+      "id": "apple-calendar",
       "version": "1.0.2",
       "apx": "2.16.0",
       "archive": {
@@ -82,6 +132,16 @@
         "sha256": "09d2beac4be06559844feec54632c188017710f191c569c4e333277b0c05c515"
       },
       "content_hash": "98c26d11ac030e23"
+    },
+    {
+      "id": "apple-contacts",
+      "version": "1.0.3",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-contacts/1.0.3/ebd1c4d91fae51e75a131db31642464edecd93f9672c5229077b3e46f2a20606.apxext",
+        "sha256": "ebd1c4d91fae51e75a131db31642464edecd93f9672c5229077b3e46f2a20606"
+      },
+      "content_hash": "76f35c27ba4b2a24"
     },
     {
       "id": "apple-contacts",
@@ -105,6 +165,16 @@
     },
     {
       "id": "apple-mail",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-mail/1.0.2/b4c20ce0c1fbab96d80baff45bffc525e207734c6abd3a8e845e7c4e5e47fe03.apxext",
+        "sha256": "b4c20ce0c1fbab96d80baff45bffc525e207734c6abd3a8e845e7c4e5e47fe03"
+      },
+      "content_hash": "b7f3750ad5d733dd"
+    },
+    {
+      "id": "apple-mail",
       "version": "1.0.1",
       "apx": "2.16.0",
       "archive": {
@@ -122,6 +192,16 @@
         "sha256": "ea796e0b23529fcca902feb6126b5e28b4a5fb3cb753ada3f4ea6846f616a23b"
       },
       "content_hash": "ddfbec65bc1ae87f"
+    },
+    {
+      "id": "apple-notes",
+      "version": "1.0.3",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-notes/1.0.3/b547f97d832cd7f3b9247ac22470229d556ce11fbd3ff0aadb77d30579c980f1.apxext",
+        "sha256": "b547f97d832cd7f3b9247ac22470229d556ce11fbd3ff0aadb77d30579c980f1"
+      },
+      "content_hash": "7275cdbb02ceed5a"
     },
     {
       "id": "apple-notes",
@@ -145,6 +225,16 @@
     },
     {
       "id": "apple-reminders",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-reminders/1.0.2/6f7a2bd10f3c5a37a8dfbcc7c112115bd5f7b2bd43344dd36987fda0bc5e1b33.apxext",
+        "sha256": "6f7a2bd10f3c5a37a8dfbcc7c112115bd5f7b2bd43344dd36987fda0bc5e1b33"
+      },
+      "content_hash": "657b352633bc95fa"
+    },
+    {
+      "id": "apple-reminders",
       "version": "1.0.1",
       "apx": "2.16.0",
       "archive": {
@@ -162,6 +252,16 @@
         "sha256": "48d06dac662d9fc76b370f4be760ef2462099896fcbecd04f6d511fe0cf08b8f"
       },
       "content_hash": "f60a70a9292e3a35"
+    },
+    {
+      "id": "arxiv",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/arxiv/1.0.2/db9c859c91c46f9e2501fb8d7dded67ee204f6a17162fa90311acb732e94af5a.apxext",
+        "sha256": "db9c859c91c46f9e2501fb8d7dded67ee204f6a17162fa90311acb732e94af5a"
+      },
+      "content_hash": "3b32494bd389690c"
     },
     {
       "id": "arxiv",
@@ -185,6 +285,16 @@
     },
     {
       "id": "atlassian",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/atlassian/1.0.1/c551dff6e869a20a511108c34169ef63ea8c6f1d4545276b350089ab5e97bc0c.apxext",
+        "sha256": "c551dff6e869a20a511108c34169ef63ea8c6f1d4545276b350089ab5e97bc0c"
+      },
+      "content_hash": "2320420ae8827f23"
+    },
+    {
+      "id": "atlassian",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -192,6 +302,16 @@
         "sha256": "e1450aeed3361e4c2ac9c6cbedae25e726e01c972473f7cff50cb69263ec09b1"
       },
       "content_hash": "4d88965caaa3e721"
+    },
+    {
+      "id": "attio",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/attio/1.0.1/851431303425a1875c9c470d70d0d5939f72348c5cad5d5d6a609b121cd2c165.apxext",
+        "sha256": "851431303425a1875c9c470d70d0d5939f72348c5cad5d5d6a609b121cd2c165"
+      },
+      "content_hash": "f29f9ef46c5ac712"
     },
     {
       "id": "attio",
@@ -205,6 +325,16 @@
     },
     {
       "id": "aws-knowledge",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/aws-knowledge/1.0.1/1b9f26c181eb0fc15e015a78ce0626a0ce6ce5c04f0b0c29f98eef93c73448a4.apxext",
+        "sha256": "1b9f26c181eb0fc15e015a78ce0626a0ce6ce5c04f0b0c29f98eef93c73448a4"
+      },
+      "content_hash": "189ff50f46e3df40"
+    },
+    {
+      "id": "aws-knowledge",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -215,6 +345,16 @@
     },
     {
       "id": "better-stack",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/better-stack/1.0.1/36ada78a70eb845ee7eb356888a062cd032375757a5fb603b98119ad5c0721a1.apxext",
+        "sha256": "36ada78a70eb845ee7eb356888a062cd032375757a5fb603b98119ad5c0721a1"
+      },
+      "content_hash": "3d92195d1e9e75d1"
+    },
+    {
+      "id": "better-stack",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -222,6 +362,16 @@
         "sha256": "371a08c0283f3a504c039e0a9fe6f5f59688396204aa303473683c3672292d8e"
       },
       "content_hash": "1234c22429a4901d"
+    },
+    {
+      "id": "box",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/box/1.0.2/c1613d8f778d219cf7ed6a7717e45e76972b8d477f144a690db2776697290eca.apxext",
+        "sha256": "c1613d8f778d219cf7ed6a7717e45e76972b8d477f144a690db2776697290eca"
+      },
+      "content_hash": "16162c18efd2f144"
     },
     {
       "id": "box",
@@ -245,6 +395,16 @@
     },
     {
       "id": "brave-search",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/brave-search/1.0.1/1b173ffd3a3d10be3de6ed531faecb7c7a0ff2daae8eace5795f07bab4c7a68d.apxext",
+        "sha256": "1b173ffd3a3d10be3de6ed531faecb7c7a0ff2daae8eace5795f07bab4c7a68d"
+      },
+      "content_hash": "fa60bb621105a52c"
+    },
+    {
+      "id": "brave-search",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -252,6 +412,16 @@
         "sha256": "69e68d2ba5eaca235ef31b8b8b8731e1da6045036f63569eb97d2c24ef55eb93"
       },
       "content_hash": "a00087eb737ed708"
+    },
+    {
+      "id": "browser-use",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/browser-use/1.0.2/b6a4c81d30ce446d23caf3c41b3ba6f445738b249d62bcfc960def2c7dfe994d.apxext",
+        "sha256": "b6a4c81d30ce446d23caf3c41b3ba6f445738b249d62bcfc960def2c7dfe994d"
+      },
+      "content_hash": "5da579fd330a78aa"
     },
     {
       "id": "browser-use",
@@ -275,6 +445,16 @@
     },
     {
       "id": "browserbase",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/browserbase/1.0.2/5d256952d8b82110e8e1f99eecde786ebf1b81b20d6fe4e1edfb1e0d07e61a2c.apxext",
+        "sha256": "5d256952d8b82110e8e1f99eecde786ebf1b81b20d6fe4e1edfb1e0d07e61a2c"
+      },
+      "content_hash": "70eafea7532fd38c"
+    },
+    {
+      "id": "browserbase",
       "version": "1.0.1",
       "apx": "2.16.0",
       "archive": {
@@ -295,6 +475,16 @@
     },
     {
       "id": "calendly",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/calendly/1.0.1/486b0306eed83fe2569dadd857c72429c042debf9b0dee0d20f28d51c8359fe3.apxext",
+        "sha256": "486b0306eed83fe2569dadd857c72429c042debf9b0dee0d20f28d51c8359fe3"
+      },
+      "content_hash": "ca714c774ce26235"
+    },
+    {
+      "id": "calendly",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -305,6 +495,16 @@
     },
     {
       "id": "canva",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/canva/1.0.1/729d56e694ab1eca0ebc5dac2b04cbeab5dc9da68097bc1e1b467367cf323bf9.apxext",
+        "sha256": "729d56e694ab1eca0ebc5dac2b04cbeab5dc9da68097bc1e1b467367cf323bf9"
+      },
+      "content_hash": "f4871947509de932"
+    },
+    {
+      "id": "canva",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -312,6 +512,16 @@
         "sha256": "86f6fcb952046a9f2866cdfead0257c9da7b71abc5378cb7b94ac8e068904d12"
       },
       "content_hash": "cd34d395deabfdf8"
+    },
+    {
+      "id": "canvas-lms",
+      "version": "1.0.3",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/canvas-lms/1.0.3/25a0e8c83b46368a2ed187d13f821174a680fb676607f59fb57fd9679e3e9ec9.apxext",
+        "sha256": "25a0e8c83b46368a2ed187d13f821174a680fb676607f59fb57fd9679e3e9ec9"
+      },
+      "content_hash": "570519264c126026"
     },
     {
       "id": "canvas-lms",
@@ -335,6 +545,16 @@
     },
     {
       "id": "circleci",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/circleci/1.0.1/f45bb2411cb6100c8116aaf6af2b32678ca3edc4f063f62877b6d0a744e183f5.apxext",
+        "sha256": "f45bb2411cb6100c8116aaf6af2b32678ca3edc4f063f62877b6d0a744e183f5"
+      },
+      "content_hash": "2e56f720016ff49b"
+    },
+    {
+      "id": "circleci",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -342,6 +562,16 @@
         "sha256": "f77390c15c39897e1cf41262f2bdb36cb7f2226f5145bfe9f53eead18cf28f7b"
       },
       "content_hash": "485227473976ddf8"
+    },
+    {
+      "id": "clickup",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/clickup/1.0.1/6591dd6d16701279b3e255494e8ed3215ee925a6c0f20a26158ab7b21d2fe222.apxext",
+        "sha256": "6591dd6d16701279b3e255494e8ed3215ee925a6c0f20a26158ab7b21d2fe222"
+      },
+      "content_hash": "dcf7fdf3d0e32674"
     },
     {
       "id": "clickup",
@@ -355,6 +585,16 @@
     },
     {
       "id": "close",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/close/1.0.1/a88b0dbb776162eefd060a7aea7d6d3b0e93f421f4c4c453f5df29000bdd98b9.apxext",
+        "sha256": "a88b0dbb776162eefd060a7aea7d6d3b0e93f421f4c4c453f5df29000bdd98b9"
+      },
+      "content_hash": "38b0d4592bfc9e00"
+    },
+    {
+      "id": "close",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -362,6 +602,16 @@
         "sha256": "f28a6b8d6a3076635d9cf3959458690b10a45c42bc838ae9b3ec85f815d358de"
       },
       "content_hash": "ea49e6241f0a7c00"
+    },
+    {
+      "id": "cloudflare",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/cloudflare/1.0.1/dbeed63b6dd611b693adf395527f63f0a70b1e5f97be3151e367eebc3179465c.apxext",
+        "sha256": "dbeed63b6dd611b693adf395527f63f0a70b1e5f97be3151e367eebc3179465c"
+      },
+      "content_hash": "550f3072eeabe6d9"
     },
     {
       "id": "cloudflare",
@@ -375,6 +625,16 @@
     },
     {
       "id": "cloudinary",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/cloudinary/1.0.1/51b271ac724033b51d529a0ce26ddab95f00febd1a612b45e2eed259250bcdfb.apxext",
+        "sha256": "51b271ac724033b51d529a0ce26ddab95f00febd1a612b45e2eed259250bcdfb"
+      },
+      "content_hash": "be78a1580d5fa782"
+    },
+    {
+      "id": "cloudinary",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -382,6 +642,16 @@
         "sha256": "23afab180d4482cd0ae333c4835ccaeb8ac2cf78d36d5413b99abbebff3f69e9"
       },
       "content_hash": "09223fb56782f180"
+    },
+    {
+      "id": "context7",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/context7/1.0.1/7bd8db1287d1b27d6f896aa1971bba057b8641a4b55faf1037d2365d66ba6894.apxext",
+        "sha256": "7bd8db1287d1b27d6f896aa1971bba057b8641a4b55faf1037d2365d66ba6894"
+      },
+      "content_hash": "f8945ebdb6f0f87f"
     },
     {
       "id": "context7",
@@ -395,6 +665,16 @@
     },
     {
       "id": "craft",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/craft/1.0.1/e3aac89a9eb3630ead8f3ac0c2f0c54cba7db08f86cc0b89fd8b74f86721f585.apxext",
+        "sha256": "e3aac89a9eb3630ead8f3ac0c2f0c54cba7db08f86cc0b89fd8b74f86721f585"
+      },
+      "content_hash": "315dbca5090afd0c"
+    },
+    {
+      "id": "craft",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -402,6 +682,16 @@
         "sha256": "66cbd8ded0d06e8a94603ed2567b75360d981ab742389b8c26e427d24d52c695"
       },
       "content_hash": "8ac20eafea59d09e"
+    },
+    {
+      "id": "datadog",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/datadog/1.0.1/aa9bf29506cb1e4d529047a4eda67dd590eddcfef90d38f102f43ae3d7baeee0.apxext",
+        "sha256": "aa9bf29506cb1e4d529047a4eda67dd590eddcfef90d38f102f43ae3d7baeee0"
+      },
+      "content_hash": "8d7981a782857489"
     },
     {
       "id": "datadog",
@@ -415,6 +705,16 @@
     },
     {
       "id": "deepwiki",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/deepwiki/1.0.1/0bdbdce94c9ebde61f456bcd41680891991119fdb571e83536be210eba13f193.apxext",
+        "sha256": "0bdbdce94c9ebde61f456bcd41680891991119fdb571e83536be210eba13f193"
+      },
+      "content_hash": "e96f30ea423b643a"
+    },
+    {
+      "id": "deepwiki",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -422,6 +722,16 @@
         "sha256": "ee30fc232490ac7cdea0c0d5b4ea754813ce2bc5292f85cd4d1a7c4bc7cc83d5"
       },
       "content_hash": "31bc9955123ac8db"
+    },
+    {
+      "id": "docker",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/docker/1.0.2/076681c9dd1c2c39de2dd496d8f1e1cc568c0d9957372f1c04439eeffcb12498.apxext",
+        "sha256": "076681c9dd1c2c39de2dd496d8f1e1cc568c0d9957372f1c04439eeffcb12498"
+      },
+      "content_hash": "f2e1bb669f37c9d5"
     },
     {
       "id": "docker",
@@ -445,6 +755,16 @@
     },
     {
       "id": "dropbox",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/dropbox/1.0.1/a0ba3ef3b630cf3476a3f620c718ca482f407219c7296518ef3be38ae4ef1277.apxext",
+        "sha256": "a0ba3ef3b630cf3476a3f620c718ca482f407219c7296518ef3be38ae4ef1277"
+      },
+      "content_hash": "fbf0327dfd947e27"
+    },
+    {
+      "id": "dropbox",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -452,6 +772,16 @@
         "sha256": "ae50349ec88e36dfaddee60743d1f2b35b6b420e6e619c0cb7b7fc6fc9069469"
       },
       "content_hash": "4feaa1366b7e9e58"
+    },
+    {
+      "id": "evm",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/evm/1.0.2/a2082c87cb48cfd7263d357a0caa7340275e78a0d5605de78e42b5ab9fd41ee3.apxext",
+        "sha256": "a2082c87cb48cfd7263d357a0caa7340275e78a0d5605de78e42b5ab9fd41ee3"
+      },
+      "content_hash": "3cfe6b107bddb17e"
     },
     {
       "id": "evm",
@@ -475,6 +805,16 @@
     },
     {
       "id": "exa",
+      "version": "1.0.3",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/exa/1.0.3/4449e6f548e76af6085402cbd172f2e08718d0060306cb71c13968cd03844e6c.apxext",
+        "sha256": "4449e6f548e76af6085402cbd172f2e08718d0060306cb71c13968cd03844e6c"
+      },
+      "content_hash": "d10aeeba4b4e8df8"
+    },
+    {
+      "id": "exa",
       "version": "1.0.2",
       "apx": "2.16.0",
       "archive": {
@@ -495,6 +835,16 @@
     },
     {
       "id": "figma",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/figma/1.0.1/6ac32563854c57845b4a7ee4bd6d22ef424397a8a79ac9c784b00260be891161.apxext",
+        "sha256": "6ac32563854c57845b4a7ee4bd6d22ef424397a8a79ac9c784b00260be891161"
+      },
+      "content_hash": "fe9afbc71848db4e"
+    },
+    {
+      "id": "figma",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -502,6 +852,16 @@
         "sha256": "3bdd2b05abee6d274f9bbf7d7f131b8c115d260a720638d46598692bf1a59bc2"
       },
       "content_hash": "fb808c5ff6190dfa"
+    },
+    {
+      "id": "firecrawl",
+      "version": "1.0.3",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/firecrawl/1.0.3/4a3c8c58ef439b2cdf61dd379ff5fc65ae6bbe85e70fa6789d9e31c834724844.apxext",
+        "sha256": "4a3c8c58ef439b2cdf61dd379ff5fc65ae6bbe85e70fa6789d9e31c834724844"
+      },
+      "content_hash": "359707b400d38714"
     },
     {
       "id": "firecrawl",
@@ -525,6 +885,16 @@
     },
     {
       "id": "fireflies",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/fireflies/1.0.1/3fd31acdc4e2a8f14721c4bbe5aacc3d30f97d12bfb22b14e25a6c20d6216943.apxext",
+        "sha256": "3fd31acdc4e2a8f14721c4bbe5aacc3d30f97d12bfb22b14e25a6c20d6216943"
+      },
+      "content_hash": "aec4fa33b42cd6bd"
+    },
+    {
+      "id": "fireflies",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -532,6 +902,16 @@
         "sha256": "4e71403f3e6b7f1b476b57f01a3b79f30805399c77e2a74f007830025728f121"
       },
       "content_hash": "f65d5a285d646daa"
+    },
+    {
+      "id": "gamma",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/gamma/1.0.1/1f6be6bb42e2524b3a05daefd125e9e079d9eddfef8f5105b8e06a9f69cf282b.apxext",
+        "sha256": "1f6be6bb42e2524b3a05daefd125e9e079d9eddfef8f5105b8e06a9f69cf282b"
+      },
+      "content_hash": "b80a73b9341a2461"
     },
     {
       "id": "gamma",
@@ -545,6 +925,16 @@
     },
     {
       "id": "gitlab",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/gitlab/1.0.1/3fb202ff4712aec85ff6575c81fc3766967d5182b57607104eb1475260f15470.apxext",
+        "sha256": "3fb202ff4712aec85ff6575c81fc3766967d5182b57607104eb1475260f15470"
+      },
+      "content_hash": "488d64f401396ebd"
+    },
+    {
+      "id": "gitlab",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -552,6 +942,16 @@
         "sha256": "eff838316ee72037964cd082c7d803ab150a10f009824464fec2a7cd947c92d7"
       },
       "content_hash": "b29b6d25ce5b6b19"
+    },
+    {
+      "id": "grafana",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/grafana/1.0.1/40fab371b95bc720f2c728d9ffee9b5ced2ca594b133a3fd612648d40a79d8ef.apxext",
+        "sha256": "40fab371b95bc720f2c728d9ffee9b5ced2ca594b133a3fd612648d40a79d8ef"
+      },
+      "content_hash": "776b01c882da7227"
     },
     {
       "id": "grafana",
@@ -565,6 +965,16 @@
     },
     {
       "id": "home-assistant",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/home-assistant/1.0.1/b47f1b2bd16353b9493bc8f6c6c6b385f583873a8130f230e607edd08315594d.apxext",
+        "sha256": "b47f1b2bd16353b9493bc8f6c6c6b385f583873a8130f230e607edd08315594d"
+      },
+      "content_hash": "d59fae58de1cdb2a"
+    },
+    {
+      "id": "home-assistant",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -572,6 +982,16 @@
         "sha256": "12ce1297895c7688b8237ad3f7bdd032645c4a945e59b74ab65197e10a7d5e1e"
       },
       "content_hash": "9a0e8f1718dad4d0"
+    },
+    {
+      "id": "hubspot",
+      "version": "1.0.3",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hubspot/1.0.3/4d2bffa6a5d7d793398595a6f738a9a55b8cd452034ae15ef6f0b9108193377c.apxext",
+        "sha256": "4d2bffa6a5d7d793398595a6f738a9a55b8cd452034ae15ef6f0b9108193377c"
+      },
+      "content_hash": "b77b2d8c61953eb2"
     },
     {
       "id": "hubspot",
@@ -595,6 +1015,16 @@
     },
     {
       "id": "hugging-face",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hugging-face/1.0.1/349857d970fb652f72b4c3c7beaaf9e343a2bbd44fb652ef0adff95e1410f9d6.apxext",
+        "sha256": "349857d970fb652f72b4c3c7beaaf9e343a2bbd44fb652ef0adff95e1410f9d6"
+      },
+      "content_hash": "95a70e4c5b9aee7d"
+    },
+    {
+      "id": "hugging-face",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -602,6 +1032,16 @@
         "sha256": "77d8f84c11133accb2e76dce8ef4953694e2150b8a820a3dc888fb3f6369112e"
       },
       "content_hash": "019997d8ae82d799"
+    },
+    {
+      "id": "intercom",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/intercom/1.0.1/c09d892f85fd0c4215c6b4181fa31c42988bfee5ddfa4f75ab9961df36a96ee7.apxext",
+        "sha256": "c09d892f85fd0c4215c6b4181fa31c42988bfee5ddfa4f75ab9961df36a96ee7"
+      },
+      "content_hash": "fd01e847d2b4a20d"
     },
     {
       "id": "intercom",
@@ -615,6 +1055,16 @@
     },
     {
       "id": "klaviyo",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/klaviyo/1.0.1/d6a92ee14a5c52abc6f7923462957b06445244c0ac636bd31aaa5fa3b5697562.apxext",
+        "sha256": "d6a92ee14a5c52abc6f7923462957b06445244c0ac636bd31aaa5fa3b5697562"
+      },
+      "content_hash": "e8ac64c25d3f0437"
+    },
+    {
+      "id": "klaviyo",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -622,6 +1072,16 @@
         "sha256": "e7758fbfee58a8e67b014b4ce1031762d9875b332a4b70fcbadad0e7bf91e33e"
       },
       "content_hash": "0559d8de88fa5f21"
+    },
+    {
+      "id": "linear",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/linear/1.0.1/68a69d638f00272ca10c7e8d599a9281717b6ee2d43c31225814bccd4197ab8d.apxext",
+        "sha256": "68a69d638f00272ca10c7e8d599a9281717b6ee2d43c31225814bccd4197ab8d"
+      },
+      "content_hash": "3e38642bf15b8ed5"
     },
     {
       "id": "linear",
@@ -635,6 +1095,16 @@
     },
     {
       "id": "microsoft-learn",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/microsoft-learn/1.0.1/1795489588ee23d93c2c2cc13695e4d2bb5cdb0f7653057c1e131dd1d1b24509.apxext",
+        "sha256": "1795489588ee23d93c2c2cc13695e4d2bb5cdb0f7653057c1e131dd1d1b24509"
+      },
+      "content_hash": "8e3bc759ca37a82f"
+    },
+    {
+      "id": "microsoft-learn",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -642,6 +1112,16 @@
         "sha256": "0bd5d5691a48d488d02944321ddc09baca23d01268793a175f3d867a60fe3ce9"
       },
       "content_hash": "d5b04f59877ae91a"
+    },
+    {
+      "id": "miro",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/miro/1.0.1/e71eb75cf8adac903effd7ec4f85e3112e6e6457659e6b8dbe53a954f6c04031.apxext",
+        "sha256": "e71eb75cf8adac903effd7ec4f85e3112e6e6457659e6b8dbe53a954f6c04031"
+      },
+      "content_hash": "87330d083873fe65"
     },
     {
       "id": "miro",
@@ -655,6 +1135,16 @@
     },
     {
       "id": "mixpanel",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/mixpanel/1.0.1/a105f0342395055ca8d8ed5e125345f72e3037504e5edb66748c337632890658.apxext",
+        "sha256": "a105f0342395055ca8d8ed5e125345f72e3037504e5edb66748c337632890658"
+      },
+      "content_hash": "6fdbab7b6f417c88"
+    },
+    {
+      "id": "mixpanel",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -662,6 +1152,16 @@
         "sha256": "668071f9963dd25ade97c1699d68dcfd96a329740569c817a8dac3886d68c04d"
       },
       "content_hash": "995d77161a82ac58"
+    },
+    {
+      "id": "monday",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/monday/1.0.1/c1f541a4113f25cf2084d7138c98848b81aff97aa4798546bd35fed919417214.apxext",
+        "sha256": "c1f541a4113f25cf2084d7138c98848b81aff97aa4798546bd35fed919417214"
+      },
+      "content_hash": "94e5219391e9b1c6"
     },
     {
       "id": "monday",
@@ -675,6 +1175,16 @@
     },
     {
       "id": "n8n",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/n8n/1.0.1/c121d8c7c06668fd8fedeaf838c0b8525409eaa39098448963bdb866ed5c527a.apxext",
+        "sha256": "c121d8c7c06668fd8fedeaf838c0b8525409eaa39098448963bdb866ed5c527a"
+      },
+      "content_hash": "75086d0b87ebbd34"
+    },
+    {
+      "id": "n8n",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -682,6 +1192,16 @@
         "sha256": "5aca7ce0cfebea2272d02eabfedd07e3780b285e5dc0797fdea1c591540bef67"
       },
       "content_hash": "e54911f3c03eb670"
+    },
+    {
+      "id": "neon",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/neon/1.0.1/cc691b4d3a8aab096f4ec4c160e1745169df21a61420c8dfc00fbfac6aeefcaa.apxext",
+        "sha256": "cc691b4d3a8aab096f4ec4c160e1745169df21a61420c8dfc00fbfac6aeefcaa"
+      },
+      "content_hash": "c7e6457149fc73d8"
     },
     {
       "id": "neon",
@@ -695,6 +1215,16 @@
     },
     {
       "id": "netlify",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/netlify/1.0.1/b430e4196df3fde3610b3c9820ee60b8035d200b58c67253f11421bb5ae5950a.apxext",
+        "sha256": "b430e4196df3fde3610b3c9820ee60b8035d200b58c67253f11421bb5ae5950a"
+      },
+      "content_hash": "4cc23f16b980d2ab"
+    },
+    {
+      "id": "netlify",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -702,6 +1232,16 @@
         "sha256": "f488a607773d8a20fa11438c97304af89bc3572f3d5b643761f6424555aa2724"
       },
       "content_hash": "7e7df58878eabc2e"
+    },
+    {
+      "id": "notion",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/notion/1.0.1/578c601cc8be98dd96227cad504ee31ae93a6fe82154fb253b3f4c8948c7f58b.apxext",
+        "sha256": "578c601cc8be98dd96227cad504ee31ae93a6fe82154fb253b3f4c8948c7f58b"
+      },
+      "content_hash": "7ff0c75ef1ac8022"
     },
     {
       "id": "notion",
@@ -715,6 +1255,16 @@
     },
     {
       "id": "obsidian",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/obsidian/1.0.1/b782cc3248c81eee3db07dfd2733f9990d0777a01249a6375f7a0ded5703d825.apxext",
+        "sha256": "b782cc3248c81eee3db07dfd2733f9990d0777a01249a6375f7a0ded5703d825"
+      },
+      "content_hash": "940d668060889aa7"
+    },
+    {
+      "id": "obsidian",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -722,6 +1272,16 @@
         "sha256": "9725bcf215c46052c17e697b580cc747f6e7881e3584aa4c727dcafc624023e9"
       },
       "content_hash": "6d4e4a6a0083e058"
+    },
+    {
+      "id": "paper",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/paper/1.0.2/7a7ea3e3a75230a611bb113aa1c4a99030ce0e7a88435c75adb3623deb192c05.apxext",
+        "sha256": "7a7ea3e3a75230a611bb113aa1c4a99030ce0e7a88435c75adb3623deb192c05"
+      },
+      "content_hash": "1e10b84e450263e1"
     },
     {
       "id": "paper",
@@ -745,6 +1305,16 @@
     },
     {
       "id": "parallel",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/parallel/1.0.2/2bf7e6b852489008621718957f185c9de2823646a85373b678af43307a51129f.apxext",
+        "sha256": "2bf7e6b852489008621718957f185c9de2823646a85373b678af43307a51129f"
+      },
+      "content_hash": "6844030ac6b7a4b9"
+    },
+    {
+      "id": "parallel",
       "version": "1.0.1",
       "apx": "2.16.0",
       "archive": {
@@ -765,6 +1335,16 @@
     },
     {
       "id": "paypal",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/paypal/1.0.1/f654aa5b22a5747a25680ce5c2d2d8e4f9221bccf53f5411f55539537e16f8cc.apxext",
+        "sha256": "f654aa5b22a5747a25680ce5c2d2d8e4f9221bccf53f5411f55539537e16f8cc"
+      },
+      "content_hash": "f7615493a126003f"
+    },
+    {
+      "id": "paypal",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -772,6 +1352,16 @@
         "sha256": "aa984740687427a63ee4ca867048b50115188df7ad7741b5412c799993257a16"
       },
       "content_hash": "d9f0219190ff93b4"
+    },
+    {
+      "id": "perplexity-search",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/perplexity-search/1.0.2/822a2a6f508780ec4fc94424025b21f8e9c3f4e9ead73aedca4710d53664f54a.apxext",
+        "sha256": "822a2a6f508780ec4fc94424025b21f8e9c3f4e9ead73aedca4710d53664f54a"
+      },
+      "content_hash": "7f3d8bf283bfea8b"
     },
     {
       "id": "perplexity-search",
@@ -795,6 +1385,16 @@
     },
     {
       "id": "posthog",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/posthog/1.0.2/6d3bb65abf040e595571aff2ecfaf67c5d1f1b385c040302545b870425677a09.apxext",
+        "sha256": "6d3bb65abf040e595571aff2ecfaf67c5d1f1b385c040302545b870425677a09"
+      },
+      "content_hash": "ba64b92b20f06006"
+    },
+    {
+      "id": "posthog",
       "version": "1.0.1",
       "apx": "2.16.0",
       "archive": {
@@ -815,6 +1415,16 @@
     },
     {
       "id": "postman",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/postman/1.0.1/b709da6f2d6fa24e8bf5bc436fd4bb9dc67d2bcf4f08501b6d7c7c23e6fade10.apxext",
+        "sha256": "b709da6f2d6fa24e8bf5bc436fd4bb9dc67d2bcf4f08501b6d7c7c23e6fade10"
+      },
+      "content_hash": "79168f4257d37467"
+    },
+    {
+      "id": "postman",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -822,6 +1432,16 @@
         "sha256": "6df5cf84501ffb300f1a8a5b427cce18e554bf79498441d66b4d34e043740938"
       },
       "content_hash": "25a006fb9b73dec6"
+    },
+    {
+      "id": "prisma",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/prisma/1.0.1/94bc6d4e4ba81ed99cca1d9dbaa8ce46992f7e51e1f071c4827c1cd6c7a92642.apxext",
+        "sha256": "94bc6d4e4ba81ed99cca1d9dbaa8ce46992f7e51e1f071c4827c1cd6c7a92642"
+      },
+      "content_hash": "76d18f4354d9c1f0"
     },
     {
       "id": "prisma",
@@ -835,6 +1455,16 @@
     },
     {
       "id": "railway",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/railway/1.0.1/b04f90835ac49e195cc0e3613131ce0894c4e910b715152cc95e7192b7bcc062.apxext",
+        "sha256": "b04f90835ac49e195cc0e3613131ce0894c4e910b715152cc95e7192b7bcc062"
+      },
+      "content_hash": "12c55dc93b863a92"
+    },
+    {
+      "id": "railway",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -842,6 +1472,16 @@
         "sha256": "ba7d3b98f2e8f7a1d328f1fcf98d78d39ae0af629369c7e6d294d9125c84bdd9"
       },
       "content_hash": "0d8ed2c207e4e2c0"
+    },
+    {
+      "id": "render",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/render/1.0.2/eeeb939915e99d15cbabfc5bb12dd617ff7c6f3c59e2aa71b3e9e876856e263a.apxext",
+        "sha256": "eeeb939915e99d15cbabfc5bb12dd617ff7c6f3c59e2aa71b3e9e876856e263a"
+      },
+      "content_hash": "b89acbba1a717650"
     },
     {
       "id": "render",
@@ -865,6 +1505,16 @@
     },
     {
       "id": "resend",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/resend/1.0.2/deb02c9aea9ebae6ad81a9e1466265a007b4e3865064323d4237250b02b3ccb6.apxext",
+        "sha256": "deb02c9aea9ebae6ad81a9e1466265a007b4e3865064323d4237250b02b3ccb6"
+      },
+      "content_hash": "c27e3ba980e2944d"
+    },
+    {
+      "id": "resend",
       "version": "1.0.1",
       "apx": "2.16.0",
       "archive": {
@@ -882,6 +1532,16 @@
         "sha256": "9ead781097203979a0dc637c9f81e70903c1de51c9b1effac9892ec3d5359d3a"
       },
       "content_hash": "667c33b46b3aebe0"
+    },
+    {
+      "id": "salesforce",
+      "version": "1.0.3",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/salesforce/1.0.3/38472594314c6b799e51d94d8a988fb2629f50e8762e4bf2f5d23afe9e14e0f0.apxext",
+        "sha256": "38472594314c6b799e51d94d8a988fb2629f50e8762e4bf2f5d23afe9e14e0f0"
+      },
+      "content_hash": "d5c38b33269faa12"
     },
     {
       "id": "salesforce",
@@ -905,6 +1565,16 @@
     },
     {
       "id": "semgrep",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/semgrep/1.0.1/0c054c9924f2d2e88390dae103f21d683ff07377be9d2279d4e232447f44f1b2.apxext",
+        "sha256": "0c054c9924f2d2e88390dae103f21d683ff07377be9d2279d4e232447f44f1b2"
+      },
+      "content_hash": "c2628e8ce10290a7"
+    },
+    {
+      "id": "semgrep",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -915,6 +1585,16 @@
     },
     {
       "id": "sentry",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/sentry/1.0.1/829dac51b6fef0665e1068cb3548217091c568157d4cc1bb730a585b837e46e6.apxext",
+        "sha256": "829dac51b6fef0665e1068cb3548217091c568157d4cc1bb730a585b837e46e6"
+      },
+      "content_hash": "291fe856f8b2b541"
+    },
+    {
+      "id": "sentry",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -922,6 +1602,16 @@
         "sha256": "bf002e282d426bb8e4de9a94bb7e70caf5097b7d42102fe35cb9eff791135234"
       },
       "content_hash": "12f413fc86ff2894"
+    },
+    {
+      "id": "siyuan",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/siyuan/1.0.2/5bbc8c631b797842087bcca43466559931008021e43c5ca66756449dba82b234.apxext",
+        "sha256": "5bbc8c631b797842087bcca43466559931008021e43c5ca66756449dba82b234"
+      },
+      "content_hash": "471655dd9f90547a"
     },
     {
       "id": "siyuan",
@@ -945,6 +1635,16 @@
     },
     {
       "id": "slack",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/slack/1.0.1/3b1914438f3fc44a7ebbd8ef8957d2d7530a6d7d1c4507db0ce9ad9799d9f1d8.apxext",
+        "sha256": "3b1914438f3fc44a7ebbd8ef8957d2d7530a6d7d1c4507db0ce9ad9799d9f1d8"
+      },
+      "content_hash": "87c89a8301794e74"
+    },
+    {
+      "id": "slack",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -952,6 +1652,16 @@
         "sha256": "94e8e3972a59173a5af3efd2d1ed96a75e75f860f7ac005dd29ede5aea4bfe32"
       },
       "content_hash": "6a70f2fe4fd26cc1"
+    },
+    {
+      "id": "solana",
+      "version": "1.0.3",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/solana/1.0.3/2cea2de0d02595b163df0f082538803b4f40a8a54b4b6c3bf3c2ed126574124f.apxext",
+        "sha256": "2cea2de0d02595b163df0f082538803b4f40a8a54b4b6c3bf3c2ed126574124f"
+      },
+      "content_hash": "ccd4dd7f09f690e4"
     },
     {
       "id": "solana",
@@ -975,6 +1685,16 @@
     },
     {
       "id": "square",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/square/1.0.1/5641f2e8aa4cb1b0b7db1e45ac7c49604e3922117475bafa15ec4d160f7e28c9.apxext",
+        "sha256": "5641f2e8aa4cb1b0b7db1e45ac7c49604e3922117475bafa15ec4d160f7e28c9"
+      },
+      "content_hash": "c236654406d2bca5"
+    },
+    {
+      "id": "square",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -982,6 +1702,16 @@
         "sha256": "6e80e8675ca05ea8fb9b45aeb89c2feb2f6d70377e7a253fffdd32521e0429ef"
       },
       "content_hash": "5fde8892697133b9"
+    },
+    {
+      "id": "strava",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/strava/1.0.1/8fe16dddc1accf9c1992556a96c252c73f3b24e2307acf3074b1cf028febd5c8.apxext",
+        "sha256": "8fe16dddc1accf9c1992556a96c252c73f3b24e2307acf3074b1cf028febd5c8"
+      },
+      "content_hash": "b1f53067bd932b33"
     },
     {
       "id": "strava",
@@ -995,6 +1725,16 @@
     },
     {
       "id": "stripe",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/stripe/1.0.1/a641103f326b77926535757f905cb13d6481bcd2a48ef3f0b17a594d910b29c9.apxext",
+        "sha256": "a641103f326b77926535757f905cb13d6481bcd2a48ef3f0b17a594d910b29c9"
+      },
+      "content_hash": "13b3aae62034632e"
+    },
+    {
+      "id": "stripe",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -1005,6 +1745,16 @@
     },
     {
       "id": "supabase",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/supabase/1.0.1/d93268c0ef64c52cd6a2edeb5832d439b5c09cd2d46fa0f3ba0dc08eb9edd7d8.apxext",
+        "sha256": "d93268c0ef64c52cd6a2edeb5832d439b5c09cd2d46fa0f3ba0dc08eb9edd7d8"
+      },
+      "content_hash": "515e3d1d224dafa5"
+    },
+    {
+      "id": "supabase",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -1012,6 +1762,16 @@
         "sha256": "9ab9190066234f1f39c2b8a6967fefbe42ec4254e59a12e0a6345d4cb160bbd7"
       },
       "content_hash": "8a78799495015106"
+    },
+    {
+      "id": "tavily",
+      "version": "1.0.3",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/tavily/1.0.3/de8708f427ca20c32d7e6dfc17d5760927961bb904dfe9448df6ef7fba0785cc.apxext",
+        "sha256": "de8708f427ca20c32d7e6dfc17d5760927961bb904dfe9448df6ef7fba0785cc"
+      },
+      "content_hash": "7222c4d1f782ff3f"
     },
     {
       "id": "tavily",
@@ -1035,6 +1795,16 @@
     },
     {
       "id": "things",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/things/1.0.2/f38596ecf311b760214a76e545de315c3b40334fb1aee20070688edde87a268a.apxext",
+        "sha256": "f38596ecf311b760214a76e545de315c3b40334fb1aee20070688edde87a268a"
+      },
+      "content_hash": "55691a1da1622956"
+    },
+    {
+      "id": "things",
       "version": "1.0.1",
       "apx": "2.16.0",
       "archive": {
@@ -1055,6 +1825,16 @@
     },
     {
       "id": "todoist",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/todoist/1.0.1/368cae45ca8564e2788812576fc6f4baf5cfeab61539edfd8a7b8c5f34dc9296.apxext",
+        "sha256": "368cae45ca8564e2788812576fc6f4baf5cfeab61539edfd8a7b8c5f34dc9296"
+      },
+      "content_hash": "0f8512ba0d23d2db"
+    },
+    {
+      "id": "todoist",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -1062,6 +1842,16 @@
         "sha256": "caf7ad316230e9fd3e15a3df41bc8651e47b213ec7a8ff1efe9ce4aa9d4a327c"
       },
       "content_hash": "d1dd9ccf69216fd7"
+    },
+    {
+      "id": "trello",
+      "version": "1.0.3",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/trello/1.0.3/dbf1203d79a093e3d558305115007045e9ef52e5245a1a5c8d78a98e96943f50.apxext",
+        "sha256": "dbf1203d79a093e3d558305115007045e9ef52e5245a1a5c8d78a98e96943f50"
+      },
+      "content_hash": "6a1bd1a0a211e70b"
     },
     {
       "id": "trello",
@@ -1085,6 +1875,16 @@
     },
     {
       "id": "vercel",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/vercel/1.0.1/8ffacab0ed3bddfcb5c7b6cda35a3739f4b16ab881c18d3697ec04ae397716a3.apxext",
+        "sha256": "8ffacab0ed3bddfcb5c7b6cda35a3739f4b16ab881c18d3697ec04ae397716a3"
+      },
+      "content_hash": "8474eb5a4bade69c"
+    },
+    {
+      "id": "vercel",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -1092,6 +1892,16 @@
         "sha256": "c2fb93f51c6228dc975699982a127452f196ae138db6119ef63c152d1505a484"
       },
       "content_hash": "0b357637e4c03444"
+    },
+    {
+      "id": "weather",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/weather/1.0.2/97cf68d1667b5e8b08f73c025c214d52bd516d012291e87c39c24e3642f3cf80.apxext",
+        "sha256": "97cf68d1667b5e8b08f73c025c214d52bd516d012291e87c39c24e3642f3cf80"
+      },
+      "content_hash": "e3bc7c56ae1aca7d"
     },
     {
       "id": "weather",
@@ -1115,6 +1925,16 @@
     },
     {
       "id": "webflow",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/webflow/1.0.1/657a7d948dc0eefaf98c5e5229cd739fe1a9ebe6ea24dd14a6cdc3cbac09d896.apxext",
+        "sha256": "657a7d948dc0eefaf98c5e5229cd739fe1a9ebe6ea24dd14a6cdc3cbac09d896"
+      },
+      "content_hash": "6e6d8ea46e3b941c"
+    },
+    {
+      "id": "webflow",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -1125,6 +1945,16 @@
     },
     {
       "id": "wolfram",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/wolfram/1.0.1/8295745d746c0e9f04d68d60076944da7a6c8999178acb9b4beeb1df7e123028.apxext",
+        "sha256": "8295745d746c0e9f04d68d60076944da7a6c8999178acb9b4beeb1df7e123028"
+      },
+      "content_hash": "e49e8c4cf695175b"
+    },
+    {
+      "id": "wolfram",
       "version": "1.0.0",
       "apx": "2.16.0",
       "archive": {
@@ -1132,6 +1962,16 @@
         "sha256": "13376d93708d5f4ae204f3e04612ff8426560da26fe7fee5c691174887ecb8f1"
       },
       "content_hash": "b48c914f42da257e"
+    },
+    {
+      "id": "wordpress",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/wordpress/1.0.1/6e5c59a10e2249d7cef9aae1a05e911baa136c0d491e5926c541c41bb4002111.apxext",
+        "sha256": "6e5c59a10e2249d7cef9aae1a05e911baa136c0d491e5926c541c41bb4002111"
+      },
+      "content_hash": "8283e97ebf2870bd"
     },
     {
       "id": "wordpress",

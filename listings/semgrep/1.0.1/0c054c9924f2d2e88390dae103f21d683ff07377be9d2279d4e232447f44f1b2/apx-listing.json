@@ -1,0 +1,68 @@
+{
+  "summary": "Scan code for security issues.",
+  "features": [
+    "Scan code for security issues."
+  ],
+  "requirements": [
+    "A Semgrep account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "semgrep",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review code security findings with Semgrep",
+  "description": "Use the Semgrep connection to scan code for security issues through the tools available to your account. Select the code relevant to your task and bring returned findings into APX to understand the reported pattern and plan a focused investigation.\n\nA finding needs context: it may require validation, and an absence of findings does not prove that code is secure. Review the relevant code and behavior before deciding on a fix. Available scans depend on Semgrep's service and your permissions; your account plan and usage limits apply, and the extension does not replace a broader security review.",
+  "prompts": [
+    "Scan the code I select with the Semgrep tools available to my account.",
+    "Explain the returned finding and identify the code context needed to validate it.",
+    "Prepare a remediation checklist for the selected finding without claiming the issue is fixed."
+  ],
+  "category": "development",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://semgrep.dev",
+    "privacy": "https://semgrep.dev/legal/privacy/",
+    "terms": "https://semgrep.dev/legal/terms",
+    "docs": "https://docs.semgrep.dev"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Análisis de código para detectar problemas de seguridad.",
+      "features": [
+        "Análisis de código para detectar problemas de seguridad."
+      ],
+      "requirements": [
+        "Una cuenta de Semgrep con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Revisá hallazgos de seguridad con Semgrep",
+      "description": "Usá la conexión de Semgrep para analizar código en busca de problemas de seguridad con las herramientas disponibles para tu cuenta. Elegí el código relevante y traé los hallazgos a APX para entender el patrón informado y planificar una investigación concreta.\n\nUn hallazgo necesita contexto y validación; que no haya hallazgos no prueba que el código sea seguro. Revisá código y comportamiento antes de decidir una solución. Los análisis dependen del servicio y tus permisos; rigen tu plan y tus límites de consumo, y la extensión no reemplaza una revisión de seguridad más amplia.",
+      "prompts": [
+        "Analizá el código que elija con las herramientas de Semgrep disponibles para mi cuenta.",
+        "Explicame el hallazgo devuelto e identificá el contexto de código necesario para validarlo.",
+        "Prepará una lista de corrección del hallazgo elegido sin afirmar que ya está resuelto."
+      ],
+      "screenshots": []
+    }
+  }
+}

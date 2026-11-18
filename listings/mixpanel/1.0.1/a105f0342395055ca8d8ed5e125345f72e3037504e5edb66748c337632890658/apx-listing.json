@@ -1,0 +1,68 @@
+{
+  "summary": "Product analytics: events and reports.",
+  "features": [
+    "Product analytics: events and reports."
+  ],
+  "requirements": [
+    "A Mixpanel account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "mixpanel",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Put Mixpanel events and reports into context",
+  "description": "Connect Mixpanel to work with the product events and reports available to your account. Select a report or event topic and ask APX to explain the returned information in the context of the product question you are investigating.\n\nEvent naming, reporting periods and filters affect the meaning of an analysis. Keep those details explicit rather than treating a report as a complete account of user behavior. Mixpanel's current tools and your permissions determine access; the extension does not install tracking, include a Mixpanel plan or establish why a metric changed.",
+  "prompts": [
+    "Review the Mixpanel report I choose and summarize its available results.",
+    "Explain the event information returned for the product question I provide.",
+    "Compare the two selected report results and note differences in their available filters or periods."
+  ],
+  "category": "data",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://mixpanel.com/home/",
+    "privacy": "https://mixpanel.com/legal/privacy-policy/",
+    "terms": "https://mixpanel.com/legal/terms-of-use",
+    "docs": "https://docs.mixpanel.com/docs/what-is-mixpanel"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Analítica de producto: eventos e informes.",
+      "features": [
+        "Analítica de producto: eventos e informes."
+      ],
+      "requirements": [
+        "Una cuenta de Mixpanel con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Poné eventos e informes de Mixpanel en contexto",
+      "description": "Conectá Mixpanel para trabajar con los eventos y los informes de producto disponibles para tu cuenta. Elegí un informe o tema de eventos y pedile a APX que explique la información devuelta según la pregunta de producto que estés investigando.\n\nLos nombres de eventos, períodos y filtros afectan el significado del análisis. Mantené esos detalles explícitos, sin tratar un informe como una descripción completa del comportamiento de usuarios. Las herramientas actuales de Mixpanel y tus permisos determinan el acceso; la extensión no instala seguimiento, incluye un plan ni establece por qué cambió una métrica.",
+      "prompts": [
+        "Revisá el informe de Mixpanel que elija y resumí sus resultados disponibles.",
+        "Explicame la información de eventos devuelta para la pregunta de producto que te pase.",
+        "Compará los dos resultados elegidos y señalá diferencias en los filtros o períodos disponibles."
+      ],
+      "screenshots": []
+    }
+  }
+}

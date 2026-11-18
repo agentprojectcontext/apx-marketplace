@@ -1,0 +1,74 @@
+{
+  "summary": "Read to-do names, status and selected notes in one local Things project.",
+  "features": [
+    "Page to-do metadata without reading notes",
+    "Read an observed to-do's notes while checking selected-project membership"
+  ],
+  "requirements": [
+    "Licensed Things for Mac and Node 24 on the MCP execution host",
+    "Owner-reviewed macOS Automation/privacy grant for Things",
+    "Exact unique project name entered in the extension form"
+  ],
+  "limits": [
+    "No creation, completion, edits, scheduling, recurrence, checklists, headings or all-library search",
+    "At most 256 project references, 2000 selected to-dos and 20 results per page",
+    "Authorized Things reads, actual OS permission/revocation and macOS/app version compatibility unverified"
+  ],
+  "pricing": "A separate Things for Mac license is required under the vendor's terms. No license is bundled; no paid API or AI operation is invoked.",
+  "privacy": "Project names/references resolve scope; other projects' to-do fields are not read. Selected metadata and requested notes can enter agent context. The OS grant may exceed this project filter; Things Cloud behavior remains the app's.",
+  "id": "things",
+  "authentication": "local-permission",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Read tasks and selected notes from one project",
+  "description": "## Review a project without editing it\n\nSelect one project in Things on your Mac. APX can page through its to-do names and status without reading every note, then read the notes of a particular observed item after checking that it still belongs to the selected project.\n\n## A focused read-only view\n\nThe package does not create, complete, edit or schedule tasks. It does not expose recurrence, checklists, headings or a search across your whole library. It supports bounded projects and pages, so a large project may require explicit follow-up requests. Things and the required macOS automation permission must be available on the computer running the extension.",
+  "prompts": [
+    "Show the to-do names and status in the Things project I select, without reading their notes.",
+    "Read the notes of the selected to-do and check that it still belongs to that project.",
+    "Show the next page of tasks from the same project without changing anything."
+  ],
+  "category": "productivity",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "local",
+  "links": {
+    "website": "https://culturedcode.com/things/",
+    "privacy": "https://culturedcode.com/privacy/",
+    "terms": "https://culturedcode.com/terms/",
+    "docs": "https://culturedcode.com/things/support/articles/2803572/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Leé nombres, estado y notas elegidas de tareas de un proyecto local de Things.",
+      "features": [
+        "Recorrer metadatos de tareas sin leer notas",
+        "Leer notas de una tarea observada comprobando su pertenencia al proyecto elegido"
+      ],
+      "requirements": [
+        "Things para Mac con licencia y Node 24 donde se ejecuta el MCP",
+        "Permiso de automatización/privacidad para Things revisado por el dueño",
+        "Nombre exacto y único del proyecto ingresado en la extensión"
+      ],
+      "limits": [
+        "Sin crear, completar, editar, programar, recurrencias, checklists, encabezados ni búsqueda global",
+        "Hasta 256 referencias de proyectos, 2000 tareas elegidas y 20 resultados por página",
+        "Sin verificar lectura autorizada, permisos/revocación ni compatibilidad de versiones de macOS/app"
+      ],
+      "pricing": "Requiere licencia aparte de Things para Mac según condiciones del proveedor. No incluye licencia ni invoca API paga o AI.",
+      "privacy": "Revisa nombres/referencias para elegir alcance; no lee tareas de otros proyectos. Metadatos y notas pedidos pueden entrar al contexto. El permiso del sistema puede ser más amplio; Things Cloud sigue dependiendo de la app.",
+      "tagline": "Leé tareas y notas elegidas de un proyecto",
+      "description": "## Revisá un proyecto sin editarlo\n\nElegí un proyecto de Things en tu Mac. APX puede mostrar páginas con los nombres y estados de sus tareas sin leer todas las notas. Después puede leer las notas de una tarea observada, comprobando antes que siga perteneciendo al proyecto elegido.\n\n## Una vista de lectura enfocada\n\nEl paquete no crea, completa, edita ni programa tareas. No expone repeticiones, checklists, encabezados ni una búsqueda en toda tu biblioteca. Usa proyectos y páginas acotados: un proyecto grande puede requerir pedidos explícitos adicionales. Necesitás Things y el permiso de automatización de macOS en la computadora que ejecuta la extensión.",
+      "prompts": [
+        "Mostrame los nombres y estados de las tareas del proyecto de Things que elija, sin leer sus notas.",
+        "Leé las notas de la tarea elegida y comprobá que siga perteneciendo a ese proyecto.",
+        "Mostrame la próxima página de tareas del mismo proyecto sin cambiar nada."
+      ],
+      "screenshots": []
+    }
+  }
+}

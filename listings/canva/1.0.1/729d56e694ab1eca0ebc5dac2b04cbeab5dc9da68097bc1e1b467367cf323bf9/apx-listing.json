@@ -1,0 +1,68 @@
+{
+  "summary": "Designs: find, create and export them.",
+  "features": [
+    "Designs: find, create and export them."
+  ],
+  "requirements": [
+    "A Canva account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "canva",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Find, create and export designs with Canva",
+  "description": "Connect Canva to find designs, create new work and export through the tools available to your account. Start from an existing design or a clear brief, then choose the intended design and output before asking APX to take the next step.\n\nA design preview and an exported file serve different purposes: review the selected work before requesting an export. Available creation and export options depend on Canva's service, your permissions and your plan. The extension does not include a Canva subscription or grant rights to assets that your account is not licensed to use.",
+  "prompts": [
+    "Find the Canva design matching the title I provide.",
+    "Create a design from my brief using the options available to my Canva account.",
+    "Help me export the Canva design I select in an available format."
+  ],
+  "category": "design-media",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://canva.com",
+    "privacy": "https://www.canva.com/policies/privacy-policy/",
+    "terms": "https://www.canva.com/policies/",
+    "docs": "https://www.canva.dev/docs/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Búsqueda, creación y exportación de diseños.",
+      "features": [
+        "Búsqueda, creación y exportación de diseños."
+      ],
+      "requirements": [
+        "Una cuenta de Canva con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Buscá, creá y exportá diseños con Canva",
+      "description": "Conectá Canva para encontrar diseños, crear piezas nuevas y exportar con las herramientas disponibles para tu cuenta. Partí de un diseño existente o de un pedido claro y elegí el trabajo y la salida antes de pedirle a APX el próximo paso.\n\nUna vista previa y un archivo exportado cumplen funciones distintas: revisá el trabajo elegido antes de exportarlo. Las opciones de creación y exportación dependen de Canva, tus permisos y tu plan. La extensión no incluye una suscripción ni otorga derechos sobre recursos que tu cuenta no tenga habilitados.",
+      "prompts": [
+        "Buscá el diseño de Canva que coincida con el título que te pase.",
+        "Creá un diseño a partir de mi pedido con las opciones disponibles en mi cuenta de Canva.",
+        "Ayudame a exportar el diseño de Canva que elija en un formato disponible."
+      ],
+      "screenshots": []
+    }
+  }
+}

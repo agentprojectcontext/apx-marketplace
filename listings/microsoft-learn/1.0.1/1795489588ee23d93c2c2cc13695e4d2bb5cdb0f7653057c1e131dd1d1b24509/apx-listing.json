@@ -1,0 +1,66 @@
+{
+  "summary": "Microsoft documentation.",
+  "features": [
+    "Microsoft documentation."
+  ],
+  "requirements": [
+    "Network access to the service"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "No credential is requested by this connection; the service provider's availability and usage terms apply.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "microsoft-learn",
+  "authentication": "none",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Use Microsoft documentation to guide your next step",
+  "description": "Consult Microsoft documentation from APX through the Microsoft Learn connection. Bring a product question or configuration topic and use the available documentation to understand terminology, compare documented behavior or prepare instructions grounded in the source.\n\nDocumentation access is different from access to your Microsoft account or deployed systems. The connection does not establish your tenant's configuration or make changes to it. Specify the product and relevant version when asking a question, and keep source guidance distinct from assumptions about your environment. Network access and the service's availability are required.",
+  "prompts": [
+    "Find Microsoft documentation explaining Azure resource groups.",
+    "Compare the documented behavior of the two Microsoft features I name.",
+    "Prepare a source-based checklist for the configuration topic I provide without accessing my account."
+  ],
+  "category": "search-research",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "none",
+  "links": {
+    "website": "https://learn.microsoft.com/en-us/",
+    "privacy": "https://www.microsoft.com/en-us/privacy/privacystatement",
+    "terms": "https://learn.microsoft.com/en-us/legal/termsofuse",
+    "docs": "https://learn.microsoft.com/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Documentación de Microsoft.",
+      "features": [
+        "Documentación de Microsoft."
+      ],
+      "requirements": [
+        "Acceso de red al servicio"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Esta conexión no pide credenciales; se aplican la disponibilidad y las condiciones de uso del proveedor.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Usá documentación de Microsoft para avanzar",
+      "description": "Consultá documentación de Microsoft desde APX mediante Microsoft Learn. Traé una pregunta de producto o un tema de configuración y usá la documentación disponible para entender términos, comparar comportamientos documentados o preparar instrucciones respaldadas por la fuente.\n\nAcceder a documentación no equivale a acceder a tu cuenta de Microsoft o tus sistemas. La conexión no determina la configuración de tu organización ni la cambia. Indicá producto y versión relevante al preguntar, y separá las guías de la fuente de los supuestos sobre tu entorno. Necesitás acceso a la red y disponibilidad del servicio.",
+      "prompts": [
+        "Buscá documentación de Microsoft que explique los grupos de recursos de Azure.",
+        "Compará el comportamiento documentado de las dos funciones de Microsoft que te indique.",
+        "Prepará una lista basada en fuentes para el tema de configuración que te pase sin acceder a mi cuenta."
+      ],
+      "screenshots": []
+    }
+  }
+}

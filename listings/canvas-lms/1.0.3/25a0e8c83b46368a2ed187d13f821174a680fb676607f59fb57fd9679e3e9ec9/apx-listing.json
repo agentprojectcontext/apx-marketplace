@@ -1,0 +1,74 @@
+{
+  "summary": "See your Canvas courses, assignments and due dates without changing school data.",
+  "features": [
+    "List active courses, one page at a time",
+    "Read assignment names, due dates and points"
+  ],
+  "requirements": [
+    "A school account on a subdomain of instructure.com",
+    "A personal Canvas access token",
+    "Node.js 24 or newer"
+  ],
+  "limits": [
+    "Read-only: no submissions, grading or course edits",
+    "Custom domains and self-hosted schools are unsupported",
+    "Live institutional access has not been verified"
+  ],
+  "pricing": "Requires your existing school account; school access policies apply.",
+  "privacy": "Your school receives authenticated course queries. Returned text may enter agent context. The access token is never intended for model context.",
+  "id": "canvas-lms",
+  "authentication": "secret",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review courses, assignments and due dates in Canvas",
+  "description": "Read your active Canvas courses one page at a time, then review assignment names, due dates and points for a selected course. Bring those details into APX to organize the work shown by your school without changing its records.\n\nThe package is read-only: it does not submit work, grade or edit courses. It supports school accounts on instructure.com subdomains, not custom domains or self-hosted schools. A personal access token and your institution's permission to use it are required. A returned page is not a complete course list; request further pages explicitly when available.",
+  "prompts": [
+    "Show the first page of my active Canvas courses.",
+    "Read assignment names, due dates and points for the course I select.",
+    "Continue to the next available page of courses without changing school data."
+  ],
+  "category": "productivity",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://www.instructure.com/",
+    "privacy": "https://www.instructure.com/privacy-security",
+    "terms": "https://www.instructure.com/trust-center/legal",
+    "docs": "https://developerdocs.instructure.com/services/canvas/resources/courses"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Consultá tus cursos, tareas y fechas de entrega de Canvas sin modificar datos de la institución.",
+      "features": [
+        "Listar cursos activos, de a una página",
+        "Ver nombres, fechas de entrega y puntajes de las tareas"
+      ],
+      "requirements": [
+        "Una cuenta institucional en un subdominio de instructure.com",
+        "Un token personal de Canvas",
+        "Node.js 24 o posterior"
+      ],
+      "limits": [
+        "Solo lectura: sin entregas, calificaciones ni cambios de cursos",
+        "Sin soporte para dominios personalizados ni instalaciones propias",
+        "Todavía no se verificó acceso a una institución real"
+      ],
+      "pricing": "Necesitás tu cuenta institucional; se aplican las políticas de acceso de la institución.",
+      "privacy": "Tu institución recibe las consultas autenticadas. El texto devuelto puede entrar al contexto del agente. El token no está destinado al contexto del modelo.",
+      "tagline": "Revisá cursos, tareas y entregas de Canvas",
+      "description": "Leé tus cursos activos de Canvas de a una página y revisá nombres, fechas de entrega y puntos de las tareas de un curso elegido. Traé esos detalles a APX para organizar el trabajo informado por tu institución sin cambiar sus registros.\n\nEl paquete es de sólo lectura: no entrega trabajos, califica ni edita cursos. Admite cuentas educativas en subdominios de instructure.com, no dominios propios ni escuelas autohospedadas. Necesitás un token personal y permiso de tu institución para usarlo. Una página no es la lista completa de cursos; pedí las siguientes expresamente cuando estén disponibles.",
+      "prompts": [
+        "Mostrame la primera página de mis cursos activos de Canvas.",
+        "Leé nombres, fechas de entrega y puntos de las tareas del curso que elija.",
+        "Pasá a la próxima página disponible de cursos sin cambiar datos de la institución."
+      ],
+      "screenshots": []
+    }
+  }
+}

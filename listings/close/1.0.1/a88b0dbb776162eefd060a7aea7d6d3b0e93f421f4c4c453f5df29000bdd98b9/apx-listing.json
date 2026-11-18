@@ -1,0 +1,68 @@
+{
+  "summary": "Leads, contacts and opportunities.",
+  "features": [
+    "Leads, contacts and opportunities."
+  ],
+  "requirements": [
+    "A Close account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "close",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review leads, contacts and opportunities in Close",
+  "description": "Bring your Close leads, contacts and opportunities into a conversation with APX. Start from the lead or opportunity you want to review and use the available record details to understand its current sales context.\n\nA contact and an opportunity describe different parts of the relationship, so keep the chosen record clear as you ask follow-up questions. Available information and actions depend on Close's tools and your account permissions. The extension does not include a Close plan, and a record review should remain separate from any requested sales update.",
+  "prompts": [
+    "Read the Close lead I select and summarize its available business details.",
+    "Review the selected opportunity without changing its status.",
+    "Show the available information for the Close contact I choose."
+  ],
+  "category": "sales-customers",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://close.com",
+    "privacy": "https://close.com/privacy",
+    "terms": "https://close.com/tos",
+    "docs": "https://developer.close.com/mcp"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Clientes potenciales, contactos y oportunidades.",
+      "features": [
+        "Clientes potenciales, contactos y oportunidades."
+      ],
+      "requirements": [
+        "Una cuenta de Close con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Revisá leads, contactos y oportunidades en Close",
+      "description": "Traé tus leads, contactos y oportunidades de Close a una conversación con APX. Empezá por el lead o la oportunidad que querés revisar y usá sus datos disponibles para entender el contexto comercial actual.\n\nUn contacto y una oportunidad describen partes distintas de la relación: mantené claro el registro elegido al hacer preguntas siguientes. La información y las acciones dependen de las herramientas de Close y de los permisos de tu cuenta. La extensión no incluye un plan de Close, y revisar un registro es distinto de pedir una actualización comercial.",
+      "prompts": [
+        "Leé el lead de Close que elija y resumí sus datos comerciales disponibles.",
+        "Revisá la oportunidad elegida sin cambiar su estado.",
+        "Mostrame la información disponible del contacto de Close que seleccione."
+      ],
+      "screenshots": []
+    }
+  }
+}

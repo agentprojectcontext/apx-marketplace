@@ -1,0 +1,72 @@
+{
+  "schema": 2,
+  "id": "obsidian",
+  "summary": "Read and write the notes of your vault.",
+  "tagline": "Work with the notes in your local vault",
+  "description": "## Start from the notes you keep locally\n\nChoose the folder of your Obsidian vault and ask APX to work with its notes. Read a selected note, find material related to a project or prepare a requested note change while keeping the target file clear. The connection uses your local folder rather than an Obsidian cloud account.\n\n## Keep edits intentional\n\nThe upstream note tools can read and write. Review the note and the proposed change before requesting an edit, and read it back afterward. The server runs locally with your computer's normal file permissions; selecting a vault is not an extra operating-system sandbox.\n\n## No cloud subscription to connect\n\nYou need Node.js, npm and an existing vault folder accessible to the computer running APX. The folder is stored as a plain extension setting, not a password. Obsidian Sync and Publish are separate optional services and are not part of this connection. Selected note text can enter your conversation and its model provider, so choose what to share deliberately.",
+  "category": "docs-notes",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "prompts": [
+    "Read the Acme project note I select from my vault.",
+    "Help me find notes related to the Northwind project in the selected vault.",
+    "Prepare a change to the note I select, show it to me first and verify the saved text after I request the edit."
+  ],
+  "connection": "local",
+  "links": {
+    "website": "https://obsidian.md/",
+    "privacy": "https://obsidian.md/privacy",
+    "terms": "https://obsidian.md/terms",
+    "docs": "https://obsidian.md/help/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "features": [
+    "Read and write the notes of your vault.",
+    "Use one explicitly selected local vault folder"
+  ],
+  "requirements": [
+    "Node.js and npm on the computer running the extension",
+    "An existing local vault folder and permission to read or edit its files"
+  ],
+  "limits": [
+    "Upstream tools determine the available note operations",
+    "Local file permissions still apply; no separate vault sandbox",
+    "No Obsidian Sync or Publish account connection"
+  ],
+  "authentication": "local-permission",
+  "billing": "free",
+  "pricing": "This folder connection includes no cloud subscription or model credits. Obsidian Sync, Publish and other optional services have their own terms and costs.",
+  "privacy": "The vault folder is a plain local setting. Selected note text may enter chat and its model provider. The local server runs with normal file permissions; this package does not add a filesystem sandbox. Do not put credentials in the folder setting.",
+  "docs": "README.md",
+  "locales": {
+    "es": {
+      "summary": "Leé y escribí las notas de tu vault.",
+      "tagline": "Trabajá con las notas de tu vault local",
+      "description": "## Partí de las notas que guardás localmente\n\nElegí la carpeta de tu vault de Obsidian y pedile a APX que trabaje con sus notas. Leé una nota elegida, buscá material de un proyecto o prepará un cambio manteniendo claro el archivo al que te referís. La conexión usa tu carpeta local, no una cuenta en la nube de Obsidian.\n\n## Hacé cambios deliberados\n\nLas herramientas de notas pueden leer y escribir. Revisá la nota y el cambio propuesto antes de pedir una edición y volvé a leerla después. El servidor corre localmente con los permisos normales de tu computadora: elegir un vault no agrega un aislamiento extra del sistema operativo.\n\n## Sin suscripción en la nube para conectar\n\nNecesitás Node.js, npm y una carpeta de vault existente a la que pueda acceder la computadora donde corre APX. La carpeta se guarda como un ajuste común de la extensión, no como contraseña. Obsidian Sync y Publish son servicios opcionales separados y no forman parte de esta conexión. El texto elegido puede entrar al chat y su proveedor de modelos: decidí qué compartir.",
+      "screenshots": [],
+      "prompts": [
+        "Leé la nota del proyecto Acme que elija de mi vault.",
+        "Ayudame a buscar notas relacionadas con el proyecto Northwind en el vault elegido.",
+        "Prepará un cambio para la nota que elija, mostralo primero y verificá el texto guardado después de que pida la edición."
+      ],
+      "features": [
+        "Leé y escribí las notas de tu vault.",
+        "Usar una carpeta local de vault elegida explícitamente"
+      ],
+      "requirements": [
+        "Node.js y npm en la computadora que ejecuta la extensión",
+        "Una carpeta de vault local existente y permiso para leer o editar sus archivos"
+      ],
+      "limits": [
+        "Las herramientas del servidor determinan las operaciones disponibles",
+        "Rigen los permisos de archivos locales; sin aislamiento adicional del vault",
+        "No conecta cuentas de Obsidian Sync ni Publish"
+      ],
+      "pricing": "La conexión por carpeta no incluye una suscripción en la nube ni créditos de modelos. Obsidian Sync, Publish y otros servicios opcionales tienen sus propios términos y costos.",
+      "privacy": "La carpeta del vault es un ajuste local común. El texto elegido puede entrar al chat y su proveedor de modelos. El servidor usa permisos normales de archivos; este paquete no agrega aislamiento del sistema de archivos. No pongas credenciales en el ajuste de carpeta."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "summary": "Read finalized Solana mainnet-beta slot and native SOL balance for a provided public address.",
+  "features": [
+    "Read a finalized slot on demand from the fixed public Solana endpoint",
+    "Read native SOL/lamports and context slot as exact decimal strings for one provided address"
+  ],
+  "requirements": [
+    "Node24 on the MCP host, including JSON.parse integer-source support, and HTTPS access to the fixed public RPC",
+    "Observe public endpoint terms/rate limits and independently check the address/provider before relying on financial data"
+  ],
+  "limits": [
+    "No wallets, profiles, keys, seed phrases, signing, transfers, swaps, token/NFT balances or address discovery",
+    "One call at a time and at least 1 second after completion; no automatic retry, polling, paging or fallback provider",
+    "Only Solana mainnet-beta endpoint; provider assertions are not independent chain/ownership/spendability verification",
+    "Strict canonical integer JSON and u64 bounds; unsupported responses fail rather than round or invent zero"
+  ],
+  "pricing": "Anonymous public endpoint, no paid account, credit or transaction fee initiated by these reads. Provider quotas, terms, availability and access restrictions apply; not a production SLA.",
+  "privacy": "The provider receives the address when requested, methods and network/IP information. Public addresses may identify people. Results/queries may remain in APX chat; package writes no cache and never reads local wallet/profile/credential stores.",
+  "id": "solana",
+  "authentication": "none",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Read finalized slots and native SOL balances",
+  "description": "Read a finalized slot on Solana mainnet-beta or the native SOL balance for one public address you provide. Balance results include their context slot and exact lamports and SOL values, keeping the amount separate from an interpretation of the account.\n\nThe package uses the fixed public Solana endpoint. It does not access wallets or keys, sign, transfer, swap, read tokens or NFTs, or discover addresses. There are no automatic retries or background checks. Public service quotas apply, separate calls are not a single snapshot, and a zero native balance does not mean the address has no other assets.",
+  "prompts": [
+    "Read the finalized slot from the configured public Solana mainnet-beta endpoint.",
+    "Read the native SOL balance and context slot for the public address I provide.",
+    "Explain the returned lamports and exact SOL amount without inferring token holdings or ownership."
+  ],
+  "category": "finance",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "none",
+  "links": {
+    "website": "https://solana.com/",
+    "privacy": "https://solana.com/privacy-policy",
+    "terms": "https://solana.com/tos",
+    "docs": "https://solana.com/docs/rpc/http/getbalance"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Consultá slot finalizado y saldo nativo SOL de una dirección pública provista en mainnet-beta.",
+      "features": [
+        "Consultar a pedido un slot finalizado en el endpoint público fijo Solana",
+        "Leer SOL/lamports y slot de contexto como strings decimales exactos de una dirección provista"
+      ],
+      "requirements": [
+        "Node24 en el host MCP, incluido soporte de fuente entera JSON.parse, y HTTPS al RPC público fijo",
+        "Cumplir términos/límites y comprobar dirección/proveedor por separado antes de confiar en datos financieros"
+      ],
+      "limits": [
+        "Sin wallets, perfiles, claves, seeds, firmar, transferir, swaps, balances token/NFT o descubrir direcciones",
+        "Una llamada simultánea y mínimo 1 segundo tras finalizar; sin reintentos, polling, páginas o proveedor alternativo automáticos",
+        "Sólo endpoint Solana mainnet-beta; datos del proveedor no verifican cadena/titularidad/fondos disponibles por separado",
+        "JSON entero canónico y rango u64 estrictos; respuestas no soportadas fallan sin redondear o inventar cero"
+      ],
+      "pricing": "Endpoint público anónimo, sin cuenta paga/créditos/coste transacción iniciado por lecturas. Rigen cuotas/términos/disponibilidad/restricciones del proveedor, sin SLA producción.",
+      "privacy": "Proveedor recibe dirección si se consulta, métodos y red/IP. Direcciones públicas pueden identificar personas. Consultas/resultados pueden quedar en chat APX; paquete sin caché ni lectura de wallets/perfiles/credenciales locales.",
+      "tagline": "Leé slots finalizados y saldos nativos de SOL",
+      "description": "Leé un slot finalizado de Solana mainnet-beta o el saldo nativo de SOL de una dirección pública que indiques. Los saldos incluyen su slot de contexto y valores exactos en lamports y SOL, separando el importe de una interpretación de la cuenta.\n\nEl paquete usa el destino público fijo de Solana. No accede a billeteras o claves, firma, transfiere, intercambia, lee tokens o NFT ni descubre direcciones. No hay reintentos automáticos ni controles en segundo plano. Rigen las cuotas públicas, las llamadas separadas no son una sola instantánea y un saldo nativo cero no significa que no haya otros activos.",
+      "prompts": [
+        "Leé el slot finalizado del destino público configurado de Solana mainnet-beta.",
+        "Leé el saldo nativo de SOL y su slot de contexto para la dirección pública que te pase.",
+        "Explicame los lamports y el importe exacto de SOL devueltos sin inferir tenencias de tokens ni propiedad."
+      ],
+      "screenshots": []
+    }
+  }
+}

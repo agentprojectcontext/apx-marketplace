@@ -1,0 +1,68 @@
+{
+  "schema": 2,
+  "id": "home-assistant",
+  "summary": "Lights, sensors and automations of your home.",
+  "tagline": "Bring your home's devices into the conversation",
+  "description": "Connect to your own Home Assistant instance to ask about the lights, sensors and automations it makes available. Start by finding out which devices and actions your server exposes, then use that context to request a specific state check or an intentional change. The available controls depend on your Home Assistant setup and the permissions you grant.\n\nThis connection uses your instance's address and a long-lived access token. It does not include a hosted Home Assistant service, hardware or a cloud subscription, and it does not grant access to every device automatically. Choose the entities you want to expose in Home Assistant, and check the reported state after requesting a change. If a device does not respond, check its availability in Home Assistant before trying again.\n\nThe main connection can expose administrative tools as well as device control, depending on your Home Assistant version and configuration. Exposing selected voice entities alone is not a restriction on every tool set: review the enabled tool sets and account role before connecting.",
+  "prompts": [
+    "Which devices and actions does my Home Assistant connection expose?",
+    "Check the current state of the lights I select, if my server exposes that information.",
+    "Help me choose the correct device before I request a change."
+  ],
+  "category": "devices-home",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://www.home-assistant.io/",
+    "privacy": "https://www.home-assistant.io/privacy/",
+    "terms": "https://www.home-assistant.io/tos/",
+    "docs": "https://www.home-assistant.io/integrations/mcp_server/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "features": [
+    "Lights, sensors and automations of your home."
+  ],
+  "requirements": [
+    "An existing instance reachable from the computer running APX",
+    "MCP access enabled and the requested access token"
+  ],
+  "limits": [
+    "Available tools and permissions are determined by your instance",
+    "Live account access and device or workflow operations have not been verified"
+  ],
+  "authentication": "secret",
+  "billing": "free",
+  "pricing": "No hosted instance, hardware or cloud subscription is included. Optional hosting and cloud services have separate costs.",
+  "privacy": "The address is a plain setting; the token is stored as a secret reference. Requests go to your configured instance. Selected results may enter chat and its model provider.",
+  "docs": "README.md",
+  "locales": {
+    "es": {
+      "summary": "Luces, sensores y automatizaciones de tu casa.",
+      "tagline": "Consultá los dispositivos de tu casa en el chat",
+      "description": "Conectá tu propia instancia de Home Assistant para consultar las luces, sensores y automatizaciones que exponga. Empezá por conocer qué dispositivos y acciones ofrece el servidor; después usá ese contexto para pedir una consulta de estado o un cambio concreto. Los controles disponibles dependen de tu configuración de Home Assistant y de los permisos que concedas.\n\nLa conexión usa la dirección de tu instancia y un token de acceso de larga duración. No incluye un servicio alojado de Home Assistant, dispositivos ni una suscripción a la nube, y no habilita automáticamente todos los equipos. Elegí las entidades que querés exponer desde Home Assistant y consultá el estado informado después de pedir un cambio. Si un dispositivo no responde, revisá su disponibilidad en Home Assistant antes de volver a intentarlo.\n\nLa conexión principal puede exponer herramientas de administración además del control de dispositivos, según tu versión y configuración de Home Assistant. Elegir entidades para voz no restringe todos los grupos de herramientas: revisá los grupos habilitados y el rol de la cuenta antes de conectar.",
+      "prompts": [
+        "¿Qué dispositivos y acciones expone mi conexión de Home Assistant?",
+        "Consultá el estado de las luces que elija, si mi servidor ofrece esa información.",
+        "Ayudame a identificar el dispositivo correcto antes de pedir un cambio."
+      ],
+      "screenshots": [],
+      "features": [
+        "Luces, sensores y automatizaciones de tu casa."
+      ],
+      "requirements": [
+        "Una instancia existente accesible desde la computadora que ejecuta APX",
+        "Acceso MCP habilitado y el token de acceso solicitado"
+      ],
+      "limits": [
+        "Tu instancia determina las herramientas y los permisos disponibles",
+        "No se verificaron cuentas reales ni operaciones sobre dispositivos o workflows"
+      ],
+      "pricing": "No incluye alojamiento, dispositivos ni suscripción a la nube. Los servicios opcionales de alojamiento y nube tienen costos separados.",
+      "privacy": "La dirección es un ajuste común; el token se guarda como referencia secreta. Las consultas van a tu instancia. Los resultados elegidos pueden entrar al chat y su proveedor de modelos."
+    }
+  }
+}

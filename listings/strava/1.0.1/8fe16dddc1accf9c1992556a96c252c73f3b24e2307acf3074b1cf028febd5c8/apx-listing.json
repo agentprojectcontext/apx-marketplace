@@ -1,0 +1,68 @@
+{
+  "summary": "Your activities and training.",
+  "features": [
+    "Your activities and training."
+  ],
+  "requirements": [
+    "A Strava account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "strava",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Reflect on your Strava activities and training",
+  "description": "Connect Strava to bring accessible activity and training information into APX. Choose the activity you want to review and use its returned details to describe a session or compare the training information available from your account.\n\nActivity records can contain sensitive location and routine information, so select the material you intend to discuss. Strava permissions and the service's tools determine access and available actions. A summary of recorded training is not a medical assessment or proof of fitness, and the extension does not include a Strava subscription.",
+  "prompts": [
+    "Review the available details of the Strava activity I select.",
+    "Summarize the training information returned for the sessions I choose.",
+    "Compare the selected activities using only the measurements returned by Strava."
+  ],
+  "category": "productivity",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.strava.com/",
+    "privacy": "https://www.strava.com/legal/privacy",
+    "terms": "https://www.strava.com/legal/terms",
+    "docs": "https://support.strava.com/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Tus actividades y entrenamientos.",
+      "features": [
+        "Tus actividades y entrenamientos."
+      ],
+      "requirements": [
+        "Una cuenta de Strava con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Revisá tus actividades y entrenamientos de Strava",
+      "description": "Conectá Strava para traer a APX información disponible de actividades y entrenamiento. Elegí la actividad que querés revisar y usá sus detalles para describir una sesión o comparar la información de entrenamiento disponible en tu cuenta.\n\nLas actividades pueden contener información sensible sobre ubicación y rutinas: elegí el material que querés conversar. Los permisos de Strava y las herramientas del servicio determinan acceso y acciones disponibles. Un resumen de entrenamiento registrado no es una evaluación médica ni prueba de estado físico, y la extensión no incluye una suscripción a Strava.",
+      "prompts": [
+        "Revisá los detalles disponibles de la actividad de Strava que elija.",
+        "Resumí la información de entrenamiento devuelta de las sesiones que seleccione.",
+        "Compará las actividades elegidas usando sólo las mediciones devueltas por Strava."
+      ],
+      "screenshots": []
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "summary": "Customers, payments and subscriptions.",
+  "features": [
+    "Customers, payments and subscriptions."
+  ],
+  "requirements": [
+    "A Stripe account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "stripe",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review Stripe customers, payments and subscriptions",
+  "description": "Connect Stripe to bring accessible customer, payment and subscription information into APX. Select the record you want to discuss and use its available details to understand a billing question without confusing the customer with an individual payment or subscription.\n\nA payment status and a subscription status describe different things. Keep the selected record and its returned status visible when drawing conclusions. Stripe's current tools and your account permissions determine available actions; reviewing a record is separate from requesting any change that affects a customer or money. Stripe fees and account terms remain separate.",
+  "prompts": [
+    "Review the available details of the Stripe customer I select.",
+    "Explain the returned status of the payment I choose without making changes.",
+    "Read the available information for the selected subscription and distinguish it from individual payments."
+  ],
+  "category": "finance",
+  "icon": "assets/icon.svg",
+  "screenshots": [
+    {
+      "file": "assets/example-en.png",
+      "caption": "Illustrative APX-styled conversation in English, using fictional data. This is not a live connection or the service's interface."
+    },
+    {
+      "file": "assets/example-es.png",
+      "caption": "Illustrative APX-styled conversation in Spanish, using fictional data. This is not a live connection or the service's interface."
+    }
+  ],
+  "connection": "oauth",
+  "links": {
+    "website": "https://stripe.com",
+    "privacy": "https://stripe.com/privacy",
+    "terms": "https://stripe.com/legal/ssa",
+    "docs": "https://docs.stripe.com/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Clientes, pagos y suscripciones.",
+      "features": [
+        "Clientes, pagos y suscripciones."
+      ],
+      "requirements": [
+        "Una cuenta de Stripe con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Revisá clientes, pagos y suscripciones de Stripe",
+      "description": "Conectá Stripe para traer a APX información disponible de clientes, pagos y suscripciones. Elegí el registro que querés conversar y usá sus detalles para entender una consulta de facturación sin confundir al cliente con un pago o una suscripción individual.\n\nEl estado de un pago y el de una suscripción describen cosas distintas. Mantené visibles el registro elegido y el estado devuelto al sacar conclusiones. Las herramientas actuales de Stripe y tus permisos determinan acciones disponibles; revisar es distinto de pedir un cambio que afecte a un cliente o a dinero. Las comisiones y condiciones de Stripe siguen separadas.",
+      "prompts": [
+        "Revisá los detalles disponibles del cliente de Stripe que elija.",
+        "Explicame el estado devuelto del pago que seleccione sin hacer cambios.",
+        "Leé la información disponible de la suscripción elegida y distinguila de los pagos individuales."
+      ],
+      "screenshots": [
+        {
+          "caption": "Conversación ilustrativa estilo APX en inglés, con datos ficticios. No es una conexión real ni la interfaz del servicio."
+        },
+        {
+          "caption": "Conversación ilustrativa estilo APX en español, con datos ficticios. No es una conexión real ni la interfaz del servicio."
+        }
+      ]
+    }
+  }
+}

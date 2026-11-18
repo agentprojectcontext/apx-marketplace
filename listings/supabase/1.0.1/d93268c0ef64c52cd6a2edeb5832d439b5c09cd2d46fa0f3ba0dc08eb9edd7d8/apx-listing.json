@@ -1,0 +1,68 @@
+{
+  "summary": "Databases, auth and storage of your projects.",
+  "features": [
+    "Databases, auth and storage of your projects."
+  ],
+  "requirements": [
+    "A Supabase account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "supabase",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Bring Supabase project services into your workflow",
+  "description": "Connect Supabase to work with the database, authentication and storage information available for your projects. Choose the project and service you mean before reviewing details, keeping a database question separate from a storage or account-access task.\n\nProject permissions and the service's current tools determine which information and actions are available. Identify the intended environment before requesting a change, especially when development and production projects look similar. The extension uses your Supabase account; hosting, storage and usage charges remain part of that account rather than included benefits.",
+  "prompts": [
+    "Review the available database information for the Supabase project I select.",
+    "Explain the authentication information available for that project without changing settings.",
+    "Review the storage information returned for the selected Supabase project."
+  ],
+  "category": "data",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://supabase.com",
+    "privacy": "https://supabase.com/privacy",
+    "terms": "https://supabase.com/legal",
+    "docs": "https://supabase.com/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Bases de datos, autenticación y almacenamiento de tus proyectos.",
+      "features": [
+        "Bases de datos, autenticación y almacenamiento de tus proyectos."
+      ],
+      "requirements": [
+        "Una cuenta de Supabase con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Sumá servicios de Supabase a tu trabajo",
+      "description": "Conectá Supabase para trabajar con la información de base de datos, autenticación y almacenamiento disponible en tus proyectos. Elegí el proyecto y el servicio antes de revisar detalles, separando una pregunta de base de datos de una tarea de almacenamiento o acceso.\n\nLos permisos del proyecto y las herramientas actuales del servicio determinan información y acciones disponibles. Identificá el entorno antes de pedir un cambio, especialmente si desarrollo y producción se parecen. La extensión usa tu cuenta de Supabase; alojamiento, almacenamiento y consumo siguen siendo costos de esa cuenta, no beneficios incluidos.",
+      "prompts": [
+        "Revisá la información de base de datos disponible del proyecto de Supabase que elija.",
+        "Explicame la información de autenticación disponible de ese proyecto sin cambiar ajustes.",
+        "Revisá la información de almacenamiento devuelta del proyecto elegido de Supabase."
+      ],
+      "screenshots": []
+    }
+  }
+}

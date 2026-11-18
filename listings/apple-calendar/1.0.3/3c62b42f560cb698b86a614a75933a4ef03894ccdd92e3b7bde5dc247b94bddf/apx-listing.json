@@ -1,0 +1,74 @@
+{
+  "summary": "Inspect stored records in one local macOS calendar, without edits or recurrence expansion.",
+  "features": [
+    "Page stored event records overlapping an explicit UTC window of up to 31 days",
+    "Read selected event notes and location without fetching links or inviting anyone"
+  ],
+  "requirements": [
+    "macOS Calendar and Node 24 on the MCP execution host",
+    "Owner-reviewed Automation/privacy access for Calendar",
+    "Exact unique calendar name entered in the extension form"
+  ],
+  "limits": [
+    "No recurrence expansion: not a complete agenda, free/busy check or scheduling solution",
+    "At most 2000 stored event references in the selected calendar; no cloud API or writes",
+    "Successful authorized Calendar read and actual OS permission journey remain unverified"
+  ],
+  "pricing": "Uses the installed macOS app. No paid API, sync, AI or membership is invoked.",
+  "privacy": "Selected stored event metadata, notes and location can enter agent context. Calendar names/references are inspected to find a unique selection; other calendars' event fields are not read. The OS grant may exceed the adapter's calendar filter.",
+  "id": "apple-calendar",
+  "authentication": "local-permission",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Inspect records in one calendar on your Mac",
+  "description": "## Look inside one calendar\n\nSelect one local macOS calendar and an explicit time window to inspect its stored event records. You can page through records that overlap a window of up to 31 days, then read the notes and location of a selected event without following links or sending invitations.\n\n## Stored records are not a complete agenda\n\nRecurring events are not expanded into individual occurrences. Do not use this package to establish free time, promise a complete upcoming schedule or book a meeting. It does not edit events or use a cloud calendar API. Calendar and macOS access permissions are required on the computer running the extension.",
+  "prompts": [
+    "Show stored event records in the calendar I select for this explicit UTC date range.",
+    "Read the notes and location of the event record I choose, without opening its links.",
+    "Show the next page of those stored records and remind me that recurring occurrences are not expanded."
+  ],
+  "category": "productivity",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "local",
+  "links": {
+    "website": "https://www.apple.com/macos/",
+    "privacy": "https://www.apple.com/legal/privacy/",
+    "terms": "https://www.apple.com/legal/",
+    "docs": "https://support.apple.com/mac"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Revisá registros guardados de un calendario local de macOS, sin cambios ni expansión de recurrencias.",
+      "features": [
+        "Recorrer registros que se superponen con un intervalo UTC explícito de hasta 31 días",
+        "Leer notas y ubicación del evento elegido, sin seguir enlaces ni invitar personas"
+      ],
+      "requirements": [
+        "Calendario de macOS y Node 24 donde se ejecuta el MCP",
+        "Acceso de automatización/privacidad para Calendario revisado por el dueño",
+        "Nombre exacto y único del calendario ingresado en la extensión"
+      ],
+      "limits": [
+        "Sin expandir recurrencias: no es agenda completa ni comprueba disponibilidad",
+        "Hasta 2000 referencias de eventos guardados del calendario elegido; sin API cloud ni cambios",
+        "Sin verificar lectura autorizada real ni recorrido de permisos del sistema"
+      ],
+      "pricing": "Usa la app instalada de macOS. No invoca API paga, sincronización, AI ni membresía.",
+      "privacy": "Metadatos, notas y ubicación elegidos pueden entrar al contexto. Se revisan nombres/referencias para elegir un calendario único, sin leer campos de eventos de los otros. El permiso del sistema puede ser más amplio que este filtro.",
+      "tagline": "Revisá registros de un calendario de tu Mac",
+      "description": "## Mirá el contenido de un calendario\n\nElegí un calendario local de macOS y un rango de tiempo explícito para revisar sus registros guardados. Podés recorrer registros que se superpongan con un rango de hasta 31 días y leer las notas y la ubicación de un evento elegido, sin seguir enlaces ni enviar invitaciones.\n\n## Los registros no son una agenda completa\n\nLos eventos recurrentes no se expanden en ocurrencias individuales. No uses el paquete para establecer horarios libres, prometer una agenda completa ni reservar reuniones. No edita eventos ni usa una API de calendario en la nube. Necesitás Calendar y los permisos de macOS en la computadora que ejecuta la extensión.",
+      "prompts": [
+        "Mostrame registros guardados del calendario que elija para este rango explícito de fechas UTC.",
+        "Leé las notas y la ubicación del registro de evento que elija, sin abrir sus enlaces.",
+        "Mostrame la próxima página de esos registros y recordame que no se expanden las repeticiones."
+      ],
+      "screenshots": []
+    }
+  }
+}

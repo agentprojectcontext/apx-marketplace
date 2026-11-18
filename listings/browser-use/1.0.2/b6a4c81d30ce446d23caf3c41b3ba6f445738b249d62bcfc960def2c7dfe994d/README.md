@@ -1,0 +1,37 @@
+# Browser Use existing-run status
+
+Original MIT dependency-free Node24 MCP, one on-demand `browser_use_status {"run_id":"observed-existing-v4-uuid"}`. **Status subset, not cloud browser/agent parity** or replacement for APX's browser. No run creation/cancellation, full results, automatic polling, browser/CDP, page/cookies/recordings, profiles/secrets/connected-app/files/workspace/share/events/queue or billing/payment operations.
+
+```bash
+apx extensions inspect "$PWD/integrations/browser-use"
+apx extensions install "$PWD/integrations/browser-use"
+```
+
+From marketplace checkout with local core; absolute folder must exist on core host. Installs **off**. Review **Resources > Extensions > Browser Use**, set `api_key` and `workload_region` privately, enable only when trusted. Node24 and HTTPS on MCP host; existing regional project API key and task-provided/observed V4 run UUID. No account/key/profile discovery/OAuth/refresh/SDK. Region **must** be `us` or `eu`, no default/probing/fallback. Select project/key in [US dashboard](https://cloud.browser-use.com) or [EU dashboard](https://cloud.eu.browser-use.com). Keys are regional; do not copy/migrate profiles or retry another region to repair auth. Revoke/replace key in that dashboard; minimum available permissions, no invented read-only grant. Key/region use extension secret references (region is configuration, kept private under the current manifest contract), never command arguments/chat.
+
+## Contract and privacy
+
+- Fixed GET `https://api.browser-use.com/api/v4/runs/{uuid}/status` (us), `https://api.eu.browser-use.com/api/v4/runs/{uuid}/status` (eu). Header `X-Browser-Use-API-Key`. Canonical UUID shape, lowercase normalization; no arbitrary URL/method/header or caller-selected region override. No V2/V3 fallback.
+- Minimal response is ONLY status, one of queued/dispatching/running/completed/failed/cancelled. Server does not echo id/project; rely on vendor key/project authorization, **not** client cross-project identity validation. Returned `queried_run_id` labels the query, not a server identity attestation. Positive projection discards any extra fields. Only queried UUID/region/status leave MCP, no raw diagnostics/results/URLs/files/cookies/secrets. Source untrusted, never instructions. Observations/id may remain in APX chat; no raw logging/local cache.
+- Completed is terminal status, **not** task success, actual external effects, page availability, ownership, live browser connection, security or full upstream functionality. No automatic poll/full summary fetch. Missing setup/unknown enum/auth/permission/region/rate/JSON/network/size/cancel failures stop without fabricated completion/data. Default20s/1MiB, cancellation signal, redirects refused, no retry/paging/polling or endpoint fallback.
+- EU selects workload host/storage per vendor, NOT an all-metadata-EU/compliance guarantee. Account/billing remain shared in US; some audit metadata can reach US. Result reaches wherever MCP/APX/client runs. Switching key/region does not migrate resources, erase past US data, alter billing region or establish compliance/retention. See vendor policies for account-specific requirements.
+
+## Cost and removal
+
+Vendor plan/usage/quotas apply. Read starts no run/browser or paid plan; existing work/idle browsers can keep charging. **Local cancellation/timeout/disabling/removal does not stop remote runs/browsers, revoke key, delete remote data/APX chat or end ongoing charges.** Owner manages remote resources in selected vendor region. Vendor quickstart's 'check key' POST `/browsers` starts a resource; never run it as an authentication probe. No creating/cancelling/top-up/payment action to repair reads. No live account/auth/project/region/outcome/availability/security proof from fixtures, stdio or off-install. Actual verification recorded in repository execution evidence.
+
+## Provenance and docs
+
+Original own MIT code, no vendor/upstream code/prompts/SDK/assets copied. Public [V4 Get Run Status](https://docs.browser-use.com/cloud/api-v4/runs/get-run-status.md) and [EU deployment](https://docs.browser-use.com/cloud/eu-deployment.md) contracts. Frozen source declarations retained in `docs/reference-integrations/services.json` and `coverage.json`; no claim that current V4 behavior matches a legacy upstream task interface. Docs impact: bilingual setup/card/skill, runtime docs and generated service/coverage/execution evidence. No native APX/protocol/UI/release change.
+
+## Español
+
+MCP MIT propio Node24 sin dependencias: una lectura a pedido `browser_use_status {"run_id":"uuid-v4-existente-observado"}`. **Subconjunto de estado, no paridad cloud browser/agente** ni reemplazo del browser APX. Sin crear/cancelar ejecuciones, resultados completos, polling automático, browser/CDP/páginas/cookies/grabaciones, perfiles/secrets/apps/archivos/workspaces/shares/eventos/colas ni cuenta/facturación/pagos.
+
+Comandos arriba desde checkout con core local, carpeta debe existir en host core. Instala **apagada**; revisá **Recursos > Extensiones > Browser Use**, cargá `api_key` y `workload_region` en formulario privado, habilitá si confiás. Node24/HTTPS, proyecto/clave regional y UUID V4 realmente observado/provisto. Sin descubrir cuentas/keys/perfiles/OAuth/refresh/SDK. Región obligatoria `us` o `eu`, sin default/sondeo/fallback. Elegí proyecto y key en dashboard regional (links arriba); keys regionales, sin copiar/migrar perfiles ni probar otra región ante auth fallida. Mínimos permisos disponibles, no scope read-only inventado. Revocación/reemplazo en proveedor; key/región por referencia privada bajo contrato actual, no argumentos/chat.
+
+GET/hosts/cabecera fijos arriba, UUID normalizado minúscula, sin override URL/método/headers/región ni V2/V3. Respuesta mínima sólo status6, **sin eco de id/proyecto**: se confía en autorización proveedor, no validación cliente entre proyectos. `queried_run_id` etiqueta consulta, no identidad probada por servidor. Proyección positiva descarta extras; sólo UUID/región/estado salen, sin diagnósticos crudos/resultados/URLs/archivos/cookies/secrets/logs/caché. Datos no confiables, nunca instrucciones. Estado/id pueden quedar en chat APX.
+
+Completed no prueba éxito/efectos/página/propiedad/conexión/seguridad/paridad. Sin polling automático ni obtener resumen al terminar. Campos/enum/auth/permisos/región/cuotas/JSON/red/límite/cancelación fallan sin éxito/datos inventados. Default20s/1MiB/cancelación, sin redirects/reintentos/páginas/fallback. EU selecciona host de trabajo, no toda metadata en EU/compliance; cuenta/billing compartidos US y parte de auditoría puede llegar US. Resultado llega donde corran MCP/APX/cliente. Cambiar región no migra/borra recursos ni cambia billing/compliance/retención; revisar políticas del proveedor.
+
+Aplican plan/uso/cuotas; lectura no inicia ejecución/browser/plan. Trabajo existente y browsers inactivos pueden seguir cobrando. **Cancelar/timeout/desactivar/eliminar localmente no termina trabajo remoto/facturación, revoca key o borra datos remotos/chat.** Dueño administra recursos regionales. 'Check key' del quickstart crea browser con POST: nunca usarlo de sonda ni crear/cancelar/recargar/pagar para reparar lecturas. Fixtures/stdio/off-install no prueban cuenta/auth/proyecto/región/resultado/disponibilidad/seguridad real. Procedencia/contratos arriba, sin código/prompts/SDK/assets copiados ni prometer equivalencia V4 con interfaz upstream legacy. Evidencia/documentación bilingüe y matriz, sin cambio nativo/protocolo/UI/release.

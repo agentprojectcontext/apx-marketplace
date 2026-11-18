@@ -1,0 +1,72 @@
+{
+  "summary": "Search the web and turn a selected page into readable text with Firecrawl.",
+  "features": [
+    "Search for public pages",
+    "Scrape a selected page with bounded output"
+  ],
+  "requirements": [
+    "A Firecrawl API key",
+    "Node.js 24 or newer"
+  ],
+  "limits": [
+    "No crawling, browser actions, extraction jobs or self-hosted endpoints",
+    "Provider quotas and availability apply",
+    "Live paid-account access has not been verified"
+  ],
+  "pricing": "Firecrawl credits and your account plan apply; APX does not include service credits.",
+  "privacy": "Firecrawl receives queries and selected URLs. Returned website content is untrusted and may enter agent context.",
+  "id": "firecrawl",
+  "authentication": "secret",
+  "billing": "usage",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Turn a public page into text you can work with",
+  "description": "## Move from a link to readable material\n\nAsk APX to search for public pages with your Firecrawl account, or select a particular page to scrape into bounded readable text. This is useful when you already know which page you want to discuss and do not need a crawl of the entire website.\n\n## One selected page, not an open-ended crawl\n\nThis package does not provide crawling, browser actions, extraction jobs or self-hosted endpoints. The page text is outside content, not instructions to your agent, and may be incomplete. Your Firecrawl plan, quotas and provider availability apply. No credits are bundled and live paid-account access has not been verified for this package.",
+  "prompts": [
+    "Find public documentation about HTTP cache validation.",
+    "Turn the public documentation page I select into readable text.",
+    "Search for official material about webhook retries without starting a site crawl."
+  ],
+  "category": "search-research",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://www.firecrawl.dev/",
+    "privacy": "https://www.firecrawl.dev/privacy-policy",
+    "terms": "https://www.firecrawl.dev/terms-of-service",
+    "docs": "https://docs.firecrawl.dev/introduction"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Buscá en la web y convertí una página elegida en texto legible con Firecrawl.",
+      "features": [
+        "Buscar páginas públicas",
+        "Obtener texto acotado de una página elegida"
+      ],
+      "requirements": [
+        "Una clave API de Firecrawl",
+        "Node.js 24 o posterior"
+      ],
+      "limits": [
+        "Sin rastreo, acciones de navegador, trabajos de extracción ni servidores propios",
+        "Se aplican las cuotas y disponibilidad del proveedor",
+        "Todavía no se verificó acceso con una cuenta paga real"
+      ],
+      "pricing": "Se aplican los créditos y el plan de tu cuenta de Firecrawl; APX no incluye créditos del servicio.",
+      "privacy": "Firecrawl recibe las consultas y direcciones elegidas. El contenido web devuelto no es confiable y puede entrar al contexto del agente.",
+      "tagline": "Convertí una página pública en texto útil",
+      "description": "## Pasá de un enlace a material para trabajar\n\nPedile a APX que busque páginas públicas con tu cuenta de Firecrawl o elegí una página para convertirla en texto legible y acotado. Sirve cuando ya sabés qué página querés conversar y no necesitás recorrer el sitio entero.\n\n## Una página elegida, no un rastreo sin fin\n\nEl paquete no ofrece rastreo de sitios, acciones de navegador, trabajos de extracción ni direcciones autoalojadas. El texto de la página es contenido externo, no instrucciones para tu agente, y puede estar incompleto. Se aplican el plan, las cuotas y la disponibilidad de Firecrawl. No se incluyen créditos y no se verificó el acceso con una cuenta paga real.",
+      "prompts": [
+        "Buscá documentación pública sobre validación de caché HTTP.",
+        "Convertí en texto legible la página de documentación pública que elija.",
+        "Buscá material oficial sobre reintentos de webhooks sin iniciar un rastreo del sitio."
+      ],
+      "screenshots": []
+    }
+  }
+}

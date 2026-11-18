@@ -1,0 +1,68 @@
+{
+  "schema": 2,
+  "id": "n8n",
+  "summary": "Run the workflows of your n8n instance.",
+  "tagline": "Work with the workflows your n8n instance exposes",
+  "description": "Bring the workflows of your own n8n instance into a conversation. Discover the workflows you have made available, review their purpose and inputs, and choose which one you want to use. Execution and discovery depend on the tools exposed by your instance; installing this extension does not create a workflow or connect its underlying services for you.\n\nUse the address of your instance and its MCP access token. A workflow may contact other services or change their data when it runs, so review the selected workflow and its inputs rather than treating every run as a read-only query. n8n hosting, licensing, cloud plans and the accounts or usage charged by a workflow's services remain separate. No finished workflow, account credential or execution credit is included.",
+  "prompts": [
+    "List the workflows my n8n instance makes available, without running any.",
+    "Show me the inputs a selected workflow needs before I decide to run it.",
+    "Help me choose an exposed workflow for the task I describe."
+  ],
+  "category": "business-systems",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://n8n.io/",
+    "privacy": "https://n8n.io/legal/privacy/",
+    "terms": "https://n8n.io/legal/",
+    "docs": "https://docs.n8n.io/advanced-ai/accessing-n8n-mcp-server/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "features": [
+    "Run the workflows of your n8n instance."
+  ],
+  "requirements": [
+    "An existing instance reachable from the computer running APX",
+    "MCP access enabled and the requested access token"
+  ],
+  "limits": [
+    "Available tools and permissions are determined by your instance",
+    "Live account access and device or workflow operations have not been verified"
+  ],
+  "authentication": "secret",
+  "billing": "account-plan",
+  "pricing": "Hosting, licensing, cloud plans and services used by workflows have separate terms and costs. No execution credits are included.",
+  "privacy": "The address is a plain setting; the token is stored as a secret reference. Requests go to your configured instance. Selected results may enter chat and its model provider.",
+  "docs": "README.md",
+  "locales": {
+    "es": {
+      "summary": "Ejecución de los flujos de tu instancia de n8n.",
+      "tagline": "Usá los workflows que expone tu instancia de n8n",
+      "description": "Llevá los workflows de tu propia instancia de n8n a la conversación. Descubrí cuáles pusiste a disposición, revisá su propósito y sus entradas, y elegí el que querés usar. La búsqueda y la ejecución dependen de las herramientas que exponga tu instancia: instalar esta extensión no crea un workflow ni conecta por vos sus servicios externos.\n\nUsá la dirección de tu instancia y su token de acceso MCP. Un workflow puede comunicarse con otros servicios o modificar sus datos cuando se ejecuta; revisá el elegido y sus entradas, en vez de considerar cada ejecución una consulta de lectura. El alojamiento, la licencia y los planes de n8n, además de las cuentas y consumos de los servicios usados por cada workflow, se gestionan por separado. No se incluyen workflows terminados, credenciales ni créditos de ejecución.",
+      "prompts": [
+        "Listá los workflows que expone mi instancia de n8n, sin ejecutar ninguno.",
+        "Mostrame qué entradas necesita el workflow elegido antes de decidir si lo ejecuto.",
+        "Ayudame a elegir un workflow expuesto para la tarea que te describa."
+      ],
+      "screenshots": [],
+      "features": [
+        "Ejecución de los flujos de tu instancia de n8n."
+      ],
+      "requirements": [
+        "Una instancia existente accesible desde la computadora que ejecuta APX",
+        "Acceso MCP habilitado y el token de acceso solicitado"
+      ],
+      "limits": [
+        "Tu instancia determina las herramientas y los permisos disponibles",
+        "No se verificaron cuentas reales ni operaciones sobre dispositivos o workflows"
+      ],
+      "pricing": "El alojamiento, las licencias, los planes y los servicios de los workflows tienen condiciones y costos propios. No incluye créditos de ejecución.",
+      "privacy": "La dirección es un ajuste común; el token se guarda como referencia secreta. Las consultas van a tu instancia. Los resultados elegidos pueden entrar al chat y su proveedor de modelos."
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "summary": "Event types, bookings and availability.",
+  "features": [
+    "Event types, bookings and availability."
+  ],
+  "requirements": [
+    "A Calendly account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "calendly",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review event types, bookings and availability",
+  "description": "## Understand the meetings offered by your account\n\nConnect Calendly to bring event types, bookings and availability into your conversation with APX. Choose the event type or booking you mean so that questions refer to the right meeting instead of an ambiguous title.\n\n## Calendly remains the source of scheduling information\n\nThe service's available tools, your account permissions and your Calendly plan determine what you can access. Review the chosen booking and any requested change before acting. The extension does not include a paid plan and should not be treated as a guarantee that a time will remain available after it has been checked.",
+  "prompts": [
+    "Show the Calendly event types available to my account.",
+    "Read the details of the Calendly booking I select.",
+    "Help me review the availability information returned for the selected event type."
+  ],
+  "category": "productivity",
+  "icon": "assets/icon.svg",
+  "screenshots": [
+    {
+      "file": "assets/example-en.png",
+      "caption": "Illustrative APX-styled conversation in English, using fictional data. This is not a live connection or the service's interface."
+    },
+    {
+      "file": "assets/example-es.png",
+      "caption": "Illustrative APX-styled conversation in Spanish, using fictional data. This is not a live connection or the service's interface."
+    }
+  ],
+  "connection": "oauth",
+  "links": {
+    "website": "https://calendly.com",
+    "privacy": "https://calendly.com/legal/privacy-notice",
+    "terms": "https://calendly.com/legal",
+    "docs": "https://developer.calendly.com"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Tipos de evento, reservas y disponibilidad.",
+      "features": [
+        "Tipos de evento, reservas y disponibilidad."
+      ],
+      "requirements": [
+        "Una cuenta de Calendly con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Revisá eventos, reservas y disponibilidad",
+      "description": "## Entendé las reuniones que ofrece tu cuenta\n\nConectá Calendly para traer tipos de evento, reservas y disponibilidad a tu conversación con APX. Elegí el tipo de evento o la reserva para que las preguntas se refieran a la reunión correcta y no a un título ambiguo.\n\n## Calendly sigue siendo la fuente de los horarios\n\nLas herramientas del servicio, tus permisos y tu plan determinan el acceso. Revisá la reserva y cualquier cambio pedido antes de actuar. La extensión no incluye un plan pago ni garantiza que un horario siga disponible después de haberlo consultado.",
+      "prompts": [
+        "Mostrame los tipos de evento de Calendly disponibles para mi cuenta.",
+        "Leé los detalles de la reserva de Calendly que elija.",
+        "Ayudame a revisar la disponibilidad que devolvió el servicio para el tipo de evento seleccionado."
+      ],
+      "screenshots": [
+        {
+          "caption": "Conversación ilustrativa estilo APX en inglés, con datos ficticios. No es una conexión real ni la interfaz del servicio."
+        },
+        {
+          "caption": "Conversación ilustrativa estilo APX en español, con datos ficticios. No es una conexión real ni la interfaz del servicio."
+        }
+      ]
+    }
+  }
+}

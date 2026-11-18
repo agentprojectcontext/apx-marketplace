@@ -1,0 +1,66 @@
+{
+  "summary": "AWS documentation and guidance.",
+  "features": [
+    "AWS documentation and guidance."
+  ],
+  "requirements": [
+    "Network access to the service"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "No credential is requested by this connection; the service provider's availability and usage terms apply.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "aws-knowledge",
+  "authentication": "none",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Consult AWS documentation and guidance",
+  "description": "Bring AWS documentation and guidance into your conversation through the AWS Knowledge connection. Ask a focused question about a service or configuration and use the returned material to compare documented options or prepare an implementation plan.\n\nThis connection is for knowledge, not administration of an AWS account. Documentation can explain a setting without proving how your own resources are configured. State the service and context clearly, and check the source material relevant to your environment. No credential field is required by this connection; service availability and usage terms still apply.",
+  "prompts": [
+    "Find AWS documentation about S3 object versioning and explain the documented behavior.",
+    "Compare the documented options for invoking a Lambda function.",
+    "Use AWS guidance to prepare a checklist for reviewing an S3 lifecycle policy without changing resources."
+  ],
+  "category": "search-research",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "none",
+  "links": {
+    "website": "https://aws.amazon.com",
+    "privacy": "https://aws.amazon.com/privacy/",
+    "terms": "https://aws.amazon.com/terms/",
+    "docs": "https://docs.aws.amazon.com/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Documentación y guías de AWS.",
+      "features": [
+        "Documentación y guías de AWS."
+      ],
+      "requirements": [
+        "Acceso de red al servicio"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Esta conexión no pide credenciales; se aplican la disponibilidad y las condiciones de uso del proveedor.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Consultá documentación y guías de AWS",
+      "description": "Traé documentación y guías de AWS a la conversación mediante la conexión de AWS Knowledge. Hacé una pregunta concreta sobre un servicio o configuración y usá el material devuelto para comparar opciones documentadas o preparar un plan de implementación.\n\nLa conexión aporta conocimiento, no administra una cuenta de AWS. La documentación puede explicar un ajuste sin probar cómo están configurados tus recursos. Indicá el servicio y el contexto y revisá las fuentes relevantes para tu entorno. La conexión no requiere un campo de credenciales; siguen vigentes la disponibilidad y las condiciones del servicio.",
+      "prompts": [
+        "Buscá documentación de AWS sobre versionado de objetos de S3 y explicame el comportamiento documentado.",
+        "Compará las opciones documentadas para invocar una función Lambda.",
+        "Usá guías de AWS para preparar una lista de revisión de una política de ciclo de vida de S3 sin cambiar recursos."
+      ],
+      "screenshots": []
+    }
+  }
+}

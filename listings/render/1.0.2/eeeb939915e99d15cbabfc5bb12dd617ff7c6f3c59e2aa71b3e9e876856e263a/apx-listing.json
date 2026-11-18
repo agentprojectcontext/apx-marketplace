@@ -1,0 +1,74 @@
+{
+  "summary": "Inspect service metadata and deployment status for one selected Render service.",
+  "features": [
+    "Read fixed service metadata without secrets or environment variables",
+    "Page deployment status and timestamps, up to 20 records per request"
+  ],
+  "requirements": [
+    "Render account, API key and exact srv- service id",
+    "Node 24 on the MCP execution host",
+    "Owner reviews key permissions; standard API keys can reach all their workspaces"
+  ],
+  "limits": [
+    "No deploy/restart/rollback, logs, environment variables, credentials, workspace discovery or changes",
+    "Service selection is enforced by the adapter, not a narrow provider credential grant",
+    "Authorized Render calls, current provider errors/quotas and effective revocation unverified"
+  ],
+  "pricing": "Render hosting/account terms and API quotas apply. No new resources, paid deploy or infrastructure operation is invoked; APX includes no hosting credits.",
+  "privacy": "The configured service and selected deploy metadata enter agent context. Full provider responses are bounded but only fixed fields returned; commit messages, image/registry fields and environment/secret endpoints are excluded.",
+  "id": "render",
+  "authentication": "secret",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review one Render service and its deployment status",
+  "description": "Select one Render service and read its fixed metadata without secrets or environment variables. Review deployment statuses and timestamps in pages of up to twenty records, then request another page when you need more history.\n\nThe package does not deploy, restart, roll back, read logs, discover workspaces or change resources. Choosing a service limits these reads but does not narrow the underlying API key's account permissions. Hosting charges and API quotas remain part of your Render account. Deployment status is useful context, not a direct test of the running application's behavior.",
+  "prompts": [
+    "Read the fixed metadata for my selected Render service without environment variables.",
+    "Show a page of deployment statuses and timestamps for that service.",
+    "Continue to the next deployment page using the returned continuation, without deploying anything."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://render.com",
+    "privacy": "https://render.com/privacy",
+    "terms": "https://render.com/terms",
+    "docs": "https://api-docs.render.com/reference/retrieve-service"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Revisá metadatos y estado de despliegues de un servicio elegido de Render.",
+      "features": [
+        "Leer campos fijos del servicio sin secretos ni variables de entorno",
+        "Recorrer estados y fechas de despliegues, hasta 20 por pedido"
+      ],
+      "requirements": [
+        "Cuenta Render, clave API e ID exacto de servicio srv-",
+        "Node 24 donde se ejecuta el MCP",
+        "El dueño revisa permisos; claves API comunes alcanzan todos sus espacios"
+      ],
+      "limits": [
+        "Sin desplegar/reiniciar/rollback, logs, variables, credenciales, descubrir espacios ni cambios",
+        "Selección de servicio aplicada por el adaptador, no por un permiso acotado de la credencial",
+        "Sin verificar llamadas autorizadas, errores/cuotas actuales ni revocación efectiva"
+      ],
+      "pricing": "Rigen alojamiento/cuenta y cuotas API de Render. No crea recursos ni invoca despliegues u operaciones pagas de infraestructura; sin créditos incluidos.",
+      "privacy": "Servicio elegido y metadatos de despliegues entran al contexto. Respuestas acotadas con campos fijos; excluye mensajes de commits, imágenes/registro y endpoints de entorno/secretos.",
+      "tagline": "Revisá un servicio de Render y sus despliegues",
+      "description": "Elegí un servicio de Render y leé sus metadatos fijos sin secretos ni variables de entorno. Revisá estados y fechas de despliegues en páginas de hasta veinte registros y pedí otra página cuando necesites más historial.\n\nEl paquete no despliega, reinicia, revierte, lee logs, descubre espacios ni cambia recursos. Elegir un servicio limita estas lecturas, pero no reduce los permisos de cuenta de la clave API. El alojamiento y las cuotas siguen siendo parte de tu cuenta de Render. El estado de un despliegue aporta contexto, no una prueba directa del comportamiento de la aplicación.",
+      "prompts": [
+        "Leé los metadatos fijos de mi servicio elegido de Render sin variables de entorno.",
+        "Mostrame una página de estados y fechas de despliegues de ese servicio.",
+        "Pasá a la próxima página de despliegues con la continuación devuelta, sin desplegar nada."
+      ],
+      "screenshots": []
+    }
+  }
+}

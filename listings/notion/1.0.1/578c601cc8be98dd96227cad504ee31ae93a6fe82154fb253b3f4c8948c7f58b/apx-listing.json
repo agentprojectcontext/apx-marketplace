@@ -1,0 +1,68 @@
+{
+  "summary": "Pages and databases of your workspace.",
+  "features": [
+    "Pages and databases of your workspace."
+  ],
+  "requirements": [
+    "A Notion account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "notion",
+  "authentication": "secret",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Work from your Notion pages and databases",
+  "description": "Connect your Notion workspace to bring accessible pages and databases into APX. Choose a page for reading or a database for context, then use the returned material to explain a project, compare notes or prepare a focused summary.\n\nWorkspace sharing and your account permissions determine which content the service can expose. Keep a page's prose separate from structured database information when interpreting results, and specify the target before requesting a change through available tools. The extension uses your existing Notion access rather than granting access to every page in an organization.",
+  "prompts": [
+    "Read the Notion page I select and summarize its main points.",
+    "Review the information available in the database I choose.",
+    "Compare the two selected Notion pages and list differences without editing them."
+  ],
+  "category": "docs-notes",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://www.notion.com/",
+    "privacy": "https://www.notion.com/trust/privacy-policy",
+    "terms": "https://app.notion.com/p/28ffdd083dc3473e9c2da6ec011b58ac",
+    "docs": "https://developers.notion.com/guides/notion-api/quick-start"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Páginas y bases de datos de tu espacio de trabajo.",
+      "features": [
+        "Páginas y bases de datos de tu espacio de trabajo."
+      ],
+      "requirements": [
+        "Una cuenta de Notion con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Trabajá desde tus páginas y bases de Notion",
+      "description": "Conectá tu espacio de Notion para traer a APX las páginas y bases de datos disponibles. Elegí una página para leer o una base como contexto y usá ese material para explicar un proyecto, comparar notas o preparar un resumen enfocado.\n\nLos permisos de tu cuenta y el contenido compartido determinan qué puede mostrar el servicio. Distinguí el texto de una página de los datos estructurados al interpretar resultados y elegí el destino antes de pedir un cambio con las herramientas disponibles. La extensión usa tu acceso existente a Notion, no habilita todas las páginas de una organización.",
+      "prompts": [
+        "Leé la página de Notion que elija y resumí sus puntos principales.",
+        "Revisá la información disponible en la base de datos que seleccione.",
+        "Compará las dos páginas elegidas de Notion y listá diferencias sin editarlas."
+      ],
+      "screenshots": []
+    }
+  }
+}

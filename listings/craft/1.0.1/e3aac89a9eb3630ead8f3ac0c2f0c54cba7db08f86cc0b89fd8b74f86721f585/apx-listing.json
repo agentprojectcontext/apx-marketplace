@@ -1,0 +1,68 @@
+{
+  "summary": "Your Craft documents.",
+  "features": [
+    "Your Craft documents."
+  ],
+  "requirements": [
+    "A Craft account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "craft",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Bring Craft documents into the conversation",
+  "description": "Use your Craft connection to work with documents available to your account. Select the document you want to discuss and ask APX to read its content, outline its structure or help turn the material into a concise brief.\n\nCraft remains the source of the document and controls which tools and content are available. A summary is a new interpretation, not a replacement for the original document. If you want to change a document, identify it and the intended change explicitly; connecting an account does not make every document available or include a Craft subscription.",
+  "prompts": [
+    "Read the Craft document I choose and outline its main sections.",
+    "Turn the selected document's content into a short brief without editing the original.",
+    "Compare the two Craft documents I select and identify overlapping topics."
+  ],
+  "category": "docs-notes",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.craft.do/",
+    "privacy": "https://www.craft.do/privacy",
+    "terms": "https://www.craft.do/terms",
+    "docs": "https://support.craft.do"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Tus documentos de Craft.",
+      "features": [
+        "Tus documentos de Craft."
+      ],
+      "requirements": [
+        "Una cuenta de Craft con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Traé documentos de Craft a la conversación",
+      "description": "Usá tu conexión de Craft para trabajar con documentos disponibles para tu cuenta. Elegí el documento que querés conversar y pedile a APX que lea su contenido, describa su estructura o te ayude a convertirlo en un informe breve.\n\nCraft sigue siendo la fuente del documento y determina qué herramientas y contenidos están disponibles. Un resumen es una interpretación nueva, no un reemplazo del original. Si querés modificar un documento, indicá cuál y qué cambio buscás; conectar una cuenta no habilita todos los documentos ni incluye una suscripción a Craft.",
+      "prompts": [
+        "Leé el documento de Craft que elija y describí sus secciones principales.",
+        "Convertí el contenido elegido en un informe breve sin editar el original.",
+        "Compará los dos documentos de Craft que seleccione e identificá temas compartidos."
+      ],
+      "screenshots": []
+    }
+  }
+}

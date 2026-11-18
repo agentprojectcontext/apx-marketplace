@@ -1,0 +1,68 @@
+{
+  "summary": "Projects, services and deployments.",
+  "features": [
+    "Projects, services and deployments."
+  ],
+  "requirements": [
+    "A Railway account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "railway",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Work with Railway projects and deployment context",
+  "description": "Bring Railway projects, services and deployments into APX through your account connection. Choose the service relevant to your task and review its available deployment information to understand the relationship between the project and the work running within it.\n\nA project can contain several services, so identify the intended target before requesting an action. A deployment record is not a direct test of application behavior. Available information and changes depend on Railway's tools and your account permissions; the extension does not include infrastructure, hosting credits or a Railway subscription.",
+  "prompts": [
+    "Review the service information available in the Railway project I select.",
+    "Explain the deployment details returned for the service I choose.",
+    "Help me identify the intended Railway service before considering a change."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://railway.com",
+    "privacy": "https://railway.com/legal/privacy",
+    "terms": "https://railway.com/legal/terms",
+    "docs": "https://docs.railway.com"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Proyectos, servicios y despliegues.",
+      "features": [
+        "Proyectos, servicios y despliegues."
+      ],
+      "requirements": [
+        "Una cuenta de Railway con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Trabajá con proyectos y despliegues de Railway",
+      "description": "Traé proyectos, servicios y despliegues de Railway a APX mediante tu conexión de cuenta. Elegí el servicio relevante y revisá la información de despliegue disponible para entender la relación entre el proyecto y el trabajo que ejecuta.\n\nUn proyecto puede contener varios servicios: identificá el destino antes de pedir una acción. Un registro de despliegue no es una prueba directa del comportamiento de la aplicación. La información y los cambios dependen de las herramientas de Railway y tus permisos; la extensión no incluye infraestructura, créditos de alojamiento ni una suscripción.",
+      "prompts": [
+        "Revisá la información de servicios disponible del proyecto de Railway que elija.",
+        "Explicame los detalles de despliegue devueltos del servicio que seleccione.",
+        "Ayudame a identificar el servicio de Railway de destino antes de considerar un cambio."
+      ],
+      "screenshots": []
+    }
+  }
+}

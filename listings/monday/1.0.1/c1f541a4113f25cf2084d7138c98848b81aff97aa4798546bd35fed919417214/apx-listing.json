@@ -1,0 +1,68 @@
+{
+  "summary": "Boards, items and updates.",
+  "features": [
+    "Boards, items and updates."
+  ],
+  "requirements": [
+    "A monday.com account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "monday",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review boards, items and their updates",
+  "description": "## Start a conversation from your board\n\nConnect monday.com to work with the boards, items and updates available in your account. Select a board or item and ask APX to help you review its details, so that follow-up work stays connected to the same record.\n\n## Keep the account's access boundaries\n\nAvailable tools and actions depend on the service and your workspace permissions. Make any requested change explicit before applying it, and check the selected item afterward. Your monday.com plan remains separate from APX; this extension does not include a subscription or expand the boards that your account can access.",
+  "prompts": [
+    "Show the items on the monday.com board I select.",
+    "Read the updates on the selected item and help me summarize its context.",
+    "Find the item matching the title I give you and show its details before changing anything."
+  ],
+  "category": "productivity",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://monday.com",
+    "privacy": "https://monday.com/terms/privacy",
+    "terms": "https://monday.com/l/",
+    "docs": "https://support.monday.com/hc/en-us"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Tableros, elementos y actualizaciones.",
+      "features": [
+        "Tableros, elementos y actualizaciones."
+      ],
+      "requirements": [
+        "Una cuenta de monday.com con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Revisá tableros, elementos y novedades",
+      "description": "## Empezá la conversación desde tu tablero\n\nConectá monday.com para trabajar con los tableros, elementos y actualizaciones disponibles en tu cuenta. Elegí un tablero o elemento y pedile a APX que revise sus detalles, manteniendo los pedidos siguientes ligados al mismo registro.\n\n## Conservá los límites de tu cuenta\n\nLas herramientas y acciones dependen del servicio y de tus permisos. Indicá explícitamente un cambio antes de aplicarlo y revisá el elemento después. Tu plan de monday.com sigue separado de APX: la extensión no incluye una suscripción ni amplía los tableros a los que puede acceder tu cuenta.",
+      "prompts": [
+        "Mostrame los elementos del tablero de monday.com que elija.",
+        "Leé las actualizaciones del elemento elegido y ayudame a resumir su contexto.",
+        "Buscá el elemento con el título que te pase y mostrame sus detalles antes de cambiar algo."
+      ],
+      "screenshots": []
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "summary": "Your CRM: people, companies and deals.",
+  "features": [
+    "Your CRM: people, companies and deals."
+  ],
+  "requirements": [
+    "A Attio account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "attio",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Bring people, companies and deals into context",
+  "description": "Connect Attio to work with the people, companies and deals available in your CRM. Choose a company or deal and bring its available record information into APX for a focused review of the customer relationship.\n\nKeep people, company and deal records distinct when names overlap: the selected record is the anchor for follow-up questions. Attio's current tools and your account permissions determine the available fields and actions. Reviewing information does not require changing the pipeline, and your Attio subscription remains separate from the extension.",
+  "prompts": [
+    "Review the company record I select in Attio.",
+    "Read the available details of the selected Attio deal without changing its stage.",
+    "Summarize the business information in the person record I choose."
+  ],
+  "category": "sales-customers",
+  "icon": "assets/icon.png",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://attio.com",
+    "privacy": "https://attio.com/legal/privacy",
+    "terms": "https://attio.com/legal/services-agreement",
+    "docs": "https://docs.attio.com/docs/overview"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Personas, empresas y oportunidades de tu CRM.",
+      "features": [
+        "Personas, empresas y oportunidades de tu CRM."
+      ],
+      "requirements": [
+        "Una cuenta de Attio con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Poné personas, empresas y negocios en contexto",
+      "description": "Conectá Attio para trabajar con las personas, empresas y negocios disponibles en tu CRM. Elegí una empresa o un negocio y traé su información disponible a APX para revisar la relación comercial con un foco claro.\n\nDistinguí los registros de personas, empresas y negocios cuando compartan nombres: el registro elegido guía las preguntas siguientes. Las herramientas actuales de Attio y los permisos de tu cuenta determinan campos y acciones disponibles. Revisar información no requiere cambiar el pipeline, y tu suscripción de Attio sigue separada de la extensión.",
+      "prompts": [
+        "Revisá el registro de empresa que elija en Attio.",
+        "Leé los detalles disponibles del negocio elegido de Attio sin cambiar su etapa.",
+        "Resumí la información comercial del registro de persona que seleccione."
+      ],
+      "screenshots": []
+    }
+  }
+}

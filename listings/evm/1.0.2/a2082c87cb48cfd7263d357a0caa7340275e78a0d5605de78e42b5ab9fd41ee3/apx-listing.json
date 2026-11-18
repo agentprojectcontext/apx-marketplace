@@ -1,0 +1,74 @@
+{
+  "summary": "Read Ethereum mainnet height and finalized native ETH balance with a chain-ID check and exact decimal strings.",
+  "features": [
+    "Check provider-reported Ethereum chain ID before latest block-height or balance read",
+    "Read finalized native wei/ETH for one provided public hex address without floats"
+  ],
+  "requirements": [
+    "Node24 on MCP host and HTTPS access to fixed PublicNode Ethereum RPC",
+    "Observe PublicNode terms/privacy/quotas and independently check address/provider before financial decisions"
+  ],
+  "limits": [
+    "Ethereum mainnet only, no other EVM networks, wallets, keys, signing, transfers, contracts, tokens/NFTs or address discovery",
+    "Address hex/length only; EIP-55 checksum, ownership, spendability and independent chain consensus not verified",
+    "One call at a time plus 1 second after completion, no automatic retries, polling, paging or fallback",
+    "Strict uint256 canonical hex and JSON-RPC envelope; unsupported data fails rather than round or invent zero"
+  ],
+  "pricing": "Anonymous PublicNode endpoint; no paid account, archive access, credit or transaction fee initiated by these reads. Terms, quotas, restrictions and availability apply; no production SLA.",
+  "privacy": "PublicNode sees requested address when supplied, methods/network/IP; public addresses may identify people. Queries/results may remain in APX chat. Package reads no wallet/profile/credential store and writes no result cache; provider privacy marketing is not a guarantee.",
+  "id": "evm",
+  "authentication": "none",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Read Ethereum height and exact native ETH balances",
+  "description": "Read the provider-reported Ethereum mainnet block height or the finalized native ETH balance of a public address you supply. The connection checks the reported chain identifier and returns exact decimal wei and ETH values rather than rounded amounts.\n\nThis is Ethereum mainnet reading only, not a wallet or a connection to every EVM network. It cannot sign, transfer, trade, read token balances or discover addresses. PublicNode receives the requests, and separate reads are not one snapshot. No automatic polling or retries are included. A reported balance does not establish ownership, spendability or financial safety.",
+  "prompts": [
+    "Read the provider-reported Ethereum mainnet block height with its chain check.",
+    "Read the finalized native ETH balance for the public address I provide, preserving exact wei and ETH values.",
+    "Explain the difference between the returned native balance and token holdings without making another query."
+  ],
+  "category": "finance",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "none",
+  "links": {
+    "website": "https://publicnode.com",
+    "privacy": "https://www.publicnode.com/privacy",
+    "terms": "https://www.publicnode.com/terms",
+    "docs": "https://ethereum.org/developers/docs/apis/json-rpc/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Consultá altura Ethereum mainnet y saldo ETH nativo finalizado con control de chain ID y strings decimales exactos.",
+      "features": [
+        "Comprobar chain ID Ethereum informado por proveedor antes de leer altura o saldo",
+        "Consultar wei/ETH nativo finalizado de una dirección hex provista sin floats"
+      ],
+      "requirements": [
+        "Node24 en host MCP y HTTPS al RPC Ethereum PublicNode fijo",
+        "Cumplir términos/privacidad/cuotas y comprobar dirección/proveedor antes de decisiones financieras"
+      ],
+      "limits": [
+        "Sólo Ethereum mainnet, sin otras redes EVM, wallets, claves, firmar, transferir, contratos, tokens/NFTs o descubrir direcciones",
+        "Sólo formato/longitud hex; sin verificar checksum EIP-55, titularidad, fondos disponibles ni consenso independiente",
+        "Una llamada simultánea más 1 segundo tras finalizar, sin reintentos/polling/páginas/fallback automáticos",
+        "Hex uint256 canónico y envelope JSON-RPC estrictos; datos no soportados fallan sin redondear o inventar cero"
+      ],
+      "pricing": "Endpoint anónimo PublicNode; sin cuenta paga/archive/créditos/coste transacción iniciado por estas lecturas. Rigen términos/cuotas/restricciones/disponibilidad, sin SLA producción.",
+      "privacy": "PublicNode ve dirección si se consulta, métodos/red/IP; direcciones públicas pueden identificar personas. Consultas/resultados pueden quedar en chat APX. Sin leer wallets/perfiles/credenciales ni caché propio; marketing de privacidad no es garantía.",
+      "tagline": "Leé altura de Ethereum y saldos nativos exactos",
+      "description": "Leé la altura de bloque informada por el proveedor para Ethereum mainnet o el saldo nativo finalizado de una dirección pública que indiques. La conexión comprueba el identificador de red informado y devuelve valores decimales exactos en wei y ETH, sin redondear importes.\n\nEs sólo lectura de Ethereum mainnet, no una billetera ni una conexión a todas las redes EVM. No firma, transfiere, opera, lee saldos de tokens ni descubre direcciones. PublicNode recibe las consultas y las lecturas separadas no forman una única instantánea. No incluye consultas periódicas ni reintentos automáticos. Un saldo informado no prueba propiedad, disponibilidad de fondos ni seguridad financiera.",
+      "prompts": [
+        "Leé la altura de bloque de Ethereum mainnet informada por el proveedor con su comprobación de red.",
+        "Leé el saldo nativo finalizado de la dirección pública que te pase, conservando los valores exactos en wei y ETH.",
+        "Explicame la diferencia entre el saldo nativo devuelto y las tenencias de tokens sin hacer otra consulta."
+      ],
+      "screenshots": []
+    }
+  }
+}
