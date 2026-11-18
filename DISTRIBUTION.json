@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "index": "https://marketplace.apxagent.app/index.json",
-  "entries": 82,
+  "entries": 84,
   "versions": [
     {
       "id": "agentmail",
@@ -564,6 +564,16 @@
       "content_hash": "944d94230ce81f48"
     },
     {
+      "id": "home-assistant",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/home-assistant/1.0.0/12ce1297895c7688b8237ad3f7bdd032645c4a945e59b74ab65197e10a7d5e1e.apxext",
+        "sha256": "12ce1297895c7688b8237ad3f7bdd032645c4a945e59b74ab65197e10a7d5e1e"
+      },
+      "content_hash": "9a0e8f1718dad4d0"
+    },
+    {
       "id": "hubspot",
       "version": "1.0.2",
       "apx": "2.16.0",
@@ -662,6 +672,16 @@
         "sha256": "b0dfdcb758bff62fac21b53542a50380e054f9d4c8408709a6461a2d2ff26d18"
       },
       "content_hash": "17fd8747d6ff2389"
+    },
+    {
+      "id": "n8n",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/n8n/1.0.0/5aca7ce0cfebea2272d02eabfedd07e3780b285e5dc0797fdea1c591540bef67.apxext",
+        "sha256": "5aca7ce0cfebea2272d02eabfedd07e3780b285e5dc0797fdea1c591540bef67"
+      },
+      "content_hash": "e54911f3c03eb670"
     },
     {
       "id": "neon",

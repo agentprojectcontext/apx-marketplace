@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "registry": "apx-official",
-  "generated_at": "2026-11-18T00:54:14.357Z",
+  "generated_at": "2026-11-18T08:01:06.862Z",
   "publishers": [
     {
       "id": "apx",
@@ -5209,6 +5209,110 @@
     },
     {
       "kind": "extension",
+      "id": "home-assistant",
+      "publisher": "apx",
+      "name": "Home Assistant",
+      "description": "Lights, sensors and automations of your home.",
+      "categories": [
+        "devices"
+      ],
+      "tags": [
+        "optional"
+      ],
+      "icon": "https://marketplace.apxagent.app/listings/home-assistant/1.0.0/12ce1297895c7688b8237ad3f7bdd032645c4a945e59b74ab65197e10a7d5e1e/assets/icon.svg",
+      "license": "MIT",
+      "tagline": "Bring your home's devices into the conversation",
+      "category": "devices-home",
+      "listing": "https://marketplace.apxagent.app/listings/home-assistant/1.0.0/12ce1297895c7688b8237ad3f7bdd032645c4a945e59b74ab65197e10a7d5e1e/apx-listing.json",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "source": {
+            "type": "archive",
+            "url": "https://marketplace.apxagent.app/packages/home-assistant/1.0.0/12ce1297895c7688b8237ad3f7bdd032645c4a945e59b74ab65197e10a7d5e1e.apxext"
+          },
+          "integrity": "sha256-12ce1297895c7688b8237ad3f7bdd032645c4a945e59b74ab65197e10a7d5e1e",
+          "archive": {
+            "url": "https://marketplace.apxagent.app/packages/home-assistant/1.0.0/12ce1297895c7688b8237ad3f7bdd032645c4a945e59b74ab65197e10a7d5e1e.apxext",
+            "sha256": "12ce1297895c7688b8237ad3f7bdd032645c4a945e59b74ab65197e10a7d5e1e"
+          },
+          "content_hash": "9a0e8f1718dad4d0",
+          "apx": "2.16.0",
+          "published_at": "2026-11-18T08:00:16.000Z",
+          "card": {
+            "summary": "Lights, sensors and automations of your home.",
+            "features": [
+              "Lights, sensors and automations of your home."
+            ],
+            "requirements": [
+              "An existing instance reachable from the computer running APX",
+              "MCP access enabled and the requested access token"
+            ],
+            "limits": [
+              "Available tools and permissions are determined by your instance",
+              "Live account access and device or workflow operations have not been verified"
+            ],
+            "pricing": "No hosted instance, hardware or cloud subscription is included. Optional hosting and cloud services have separate costs.",
+            "privacy": "The address is a plain setting; the token is stored as a secret reference. Requests go to your configured instance. Selected results may enter chat and its model provider.",
+            "id": "home-assistant",
+            "authentication": "secret",
+            "billing": "free",
+            "docs": "README.md",
+            "schema": 2,
+            "tagline": "Bring your home's devices into the conversation",
+            "description": "Connect to your own Home Assistant instance to ask about the lights, sensors and automations it makes available. Start by finding out which devices and actions your server exposes, then use that context to request a specific state check or an intentional change. The available controls depend on your Home Assistant setup and the permissions you grant.\n\nThis connection uses your instance's address and a long-lived access token. It does not include a hosted Home Assistant service, hardware or a cloud subscription, and it does not grant access to every device automatically. Choose the entities you want to expose in Home Assistant, and check the reported state after requesting a change. If a device does not respond, check its availability in Home Assistant before trying again.\n\nThe main connection can expose administrative tools as well as device control, depending on your Home Assistant version and configuration. Exposing selected voice entities alone is not a restriction on every tool set: review the enabled tool sets and account role before connecting.",
+            "prompts": [
+              "Which devices and actions does my Home Assistant connection expose?",
+              "Check the current state of the lights I select, if my server exposes that information.",
+              "Help me choose the correct device before I request a change."
+            ],
+            "category": "devices-home",
+            "icon": "assets/icon.svg",
+            "screenshots": [],
+            "connection": "key",
+            "links": {
+              "website": "https://www.home-assistant.io/",
+              "privacy": "https://www.home-assistant.io/privacy/",
+              "terms": "https://www.home-assistant.io/tos/",
+              "docs": "https://www.home-assistant.io/integrations/mcp_server/"
+            },
+            "publisher": {
+              "name": "APX",
+              "verified": true
+            },
+            "locales": {
+              "es": {
+                "summary": "Luces, sensores y automatizaciones de tu casa.",
+                "features": [
+                  "Luces, sensores y automatizaciones de tu casa."
+                ],
+                "requirements": [
+                  "Una instancia existente accesible desde la computadora que ejecuta APX",
+                  "Acceso MCP habilitado y el token de acceso solicitado"
+                ],
+                "limits": [
+                  "Tu instancia determina las herramientas y los permisos disponibles",
+                  "No se verificaron cuentas reales ni operaciones sobre dispositivos o workflows"
+                ],
+                "pricing": "No incluye alojamiento, dispositivos ni suscripción a la nube. Los servicios opcionales de alojamiento y nube tienen costos separados.",
+                "privacy": "La dirección es un ajuste común; el token se guarda como referencia secreta. Las consultas van a tu instancia. Los resultados elegidos pueden entrar al chat y su proveedor de modelos.",
+                "tagline": "Consultá los dispositivos de tu casa en el chat",
+                "description": "Conectá tu propia instancia de Home Assistant para consultar las luces, sensores y automatizaciones que exponga. Empezá por conocer qué dispositivos y acciones ofrece el servidor; después usá ese contexto para pedir una consulta de estado o un cambio concreto. Los controles disponibles dependen de tu configuración de Home Assistant y de los permisos que concedas.\n\nLa conexión usa la dirección de tu instancia y un token de acceso de larga duración. No incluye un servicio alojado de Home Assistant, dispositivos ni una suscripción a la nube, y no habilita automáticamente todos los equipos. Elegí las entidades que querés exponer desde Home Assistant y consultá el estado informado después de pedir un cambio. Si un dispositivo no responde, revisá su disponibilidad en Home Assistant antes de volver a intentarlo.\n\nLa conexión principal puede exponer herramientas de administración además del control de dispositivos, según tu versión y configuración de Home Assistant. Elegir entidades para voz no restringe todos los grupos de herramientas: revisá los grupos habilitados y el rol de la cuenta antes de conectar.",
+                "prompts": [
+                  "¿Qué dispositivos y acciones expone mi conexión de Home Assistant?",
+                  "Consultá el estado de las luces que elija, si mi servidor ofrece esa información.",
+                  "Ayudame a identificar el dispositivo correcto antes de pedir un cambio."
+                ],
+                "screenshots": []
+              }
+            }
+          }
+        }
+      ],
+      "tier": "official"
+    },
+    {
+      "kind": "extension",
       "id": "hubspot",
       "publisher": "apx",
       "name": "HubSpot",
@@ -6214,6 +6318,110 @@
                   "Mostrame los elementos del tablero de monday.com que elija.",
                   "Leé las actualizaciones del elemento elegido y ayudame a resumir su contexto.",
                   "Buscá el elemento con el título que te pase y mostrame sus detalles antes de cambiar algo."
+                ],
+                "screenshots": []
+              }
+            }
+          }
+        }
+      ],
+      "tier": "official"
+    },
+    {
+      "kind": "extension",
+      "id": "n8n",
+      "publisher": "apx",
+      "name": "n8n",
+      "description": "Run the workflows of your n8n instance.",
+      "categories": [
+        "productivity"
+      ],
+      "tags": [
+        "optional"
+      ],
+      "icon": "https://marketplace.apxagent.app/listings/n8n/1.0.0/5aca7ce0cfebea2272d02eabfedd07e3780b285e5dc0797fdea1c591540bef67/assets/icon.svg",
+      "license": "MIT",
+      "tagline": "Work with the workflows your n8n instance exposes",
+      "category": "business-systems",
+      "listing": "https://marketplace.apxagent.app/listings/n8n/1.0.0/5aca7ce0cfebea2272d02eabfedd07e3780b285e5dc0797fdea1c591540bef67/apx-listing.json",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "source": {
+            "type": "archive",
+            "url": "https://marketplace.apxagent.app/packages/n8n/1.0.0/5aca7ce0cfebea2272d02eabfedd07e3780b285e5dc0797fdea1c591540bef67.apxext"
+          },
+          "integrity": "sha256-5aca7ce0cfebea2272d02eabfedd07e3780b285e5dc0797fdea1c591540bef67",
+          "archive": {
+            "url": "https://marketplace.apxagent.app/packages/n8n/1.0.0/5aca7ce0cfebea2272d02eabfedd07e3780b285e5dc0797fdea1c591540bef67.apxext",
+            "sha256": "5aca7ce0cfebea2272d02eabfedd07e3780b285e5dc0797fdea1c591540bef67"
+          },
+          "content_hash": "e54911f3c03eb670",
+          "apx": "2.16.0",
+          "published_at": "2026-11-18T08:00:16.000Z",
+          "card": {
+            "summary": "Run the workflows of your n8n instance.",
+            "features": [
+              "Run the workflows of your n8n instance."
+            ],
+            "requirements": [
+              "An existing instance reachable from the computer running APX",
+              "MCP access enabled and the requested access token"
+            ],
+            "limits": [
+              "Available tools and permissions are determined by your instance",
+              "Live account access and device or workflow operations have not been verified"
+            ],
+            "pricing": "Hosting, licensing, cloud plans and services used by workflows have separate terms and costs. No execution credits are included.",
+            "privacy": "The address is a plain setting; the token is stored as a secret reference. Requests go to your configured instance. Selected results may enter chat and its model provider.",
+            "id": "n8n",
+            "authentication": "secret",
+            "billing": "account-plan",
+            "docs": "README.md",
+            "schema": 2,
+            "tagline": "Work with the workflows your n8n instance exposes",
+            "description": "Bring the workflows of your own n8n instance into a conversation. Discover the workflows you have made available, review their purpose and inputs, and choose which one you want to use. Execution and discovery depend on the tools exposed by your instance; installing this extension does not create a workflow or connect its underlying services for you.\n\nUse the address of your instance and its MCP access token. A workflow may contact other services or change their data when it runs, so review the selected workflow and its inputs rather than treating every run as a read-only query. n8n hosting, licensing, cloud plans and the accounts or usage charged by a workflow's services remain separate. No finished workflow, account credential or execution credit is included.",
+            "prompts": [
+              "List the workflows my n8n instance makes available, without running any.",
+              "Show me the inputs a selected workflow needs before I decide to run it.",
+              "Help me choose an exposed workflow for the task I describe."
+            ],
+            "category": "business-systems",
+            "icon": "assets/icon.svg",
+            "screenshots": [],
+            "connection": "key",
+            "links": {
+              "website": "https://n8n.io/",
+              "privacy": "https://n8n.io/legal/privacy/",
+              "terms": "https://n8n.io/legal/",
+              "docs": "https://docs.n8n.io/advanced-ai/accessing-n8n-mcp-server/"
+            },
+            "publisher": {
+              "name": "APX",
+              "verified": true
+            },
+            "locales": {
+              "es": {
+                "summary": "Ejecución de los flujos de tu instancia de n8n.",
+                "features": [
+                  "Ejecución de los flujos de tu instancia de n8n."
+                ],
+                "requirements": [
+                  "Una instancia existente accesible desde la computadora que ejecuta APX",
+                  "Acceso MCP habilitado y el token de acceso solicitado"
+                ],
+                "limits": [
+                  "Tu instancia determina las herramientas y los permisos disponibles",
+                  "No se verificaron cuentas reales ni operaciones sobre dispositivos o workflows"
+                ],
+                "pricing": "El alojamiento, las licencias, los planes y los servicios de los workflows tienen condiciones y costos propios. No incluye créditos de ejecución.",
+                "privacy": "La dirección es un ajuste común; el token se guarda como referencia secreta. Las consultas van a tu instancia. Los resultados elegidos pueden entrar al chat y su proveedor de modelos.",
+                "tagline": "Usá los workflows que expone tu instancia de n8n",
+                "description": "Llevá los workflows de tu propia instancia de n8n a la conversación. Descubrí cuáles pusiste a disposición, revisá su propósito y sus entradas, y elegí el que querés usar. La búsqueda y la ejecución dependen de las herramientas que exponga tu instancia: instalar esta extensión no crea un workflow ni conecta por vos sus servicios externos.\n\nUsá la dirección de tu instancia y su token de acceso MCP. Un workflow puede comunicarse con otros servicios o modificar sus datos cuando se ejecuta; revisá el elegido y sus entradas, en vez de considerar cada ejecución una consulta de lectura. El alojamiento, la licencia y los planes de n8n, además de las cuentas y consumos de los servicios usados por cada workflow, se gestionan por separado. No se incluyen workflows terminados, credenciales ni créditos de ejecución.",
+                "prompts": [
+                  "Listá los workflows que expone mi instancia de n8n, sin ejecutar ninguno.",
+                  "Mostrame qué entradas necesita el workflow elegido antes de decidir si lo ejecuto.",
+                  "Ayudame a elegir un workflow expuesto para la tarea que te describa."
                 ],
                 "screenshots": []
               }
