@@ -1,0 +1,68 @@
+{
+  "summary": "Projects, issues and merge requests.",
+  "features": [
+    "Projects, issues and merge requests."
+  ],
+  "requirements": [
+    "A GitLab account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "gitlab",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Work with GitLab projects, issues and merge requests",
+  "description": "Connect GitLab to bring accessible projects, issues and merge requests into APX. Choose a project and the work item you want to discuss, then use its available information to understand requirements or review the context of a proposed change.\n\nAn issue describes work while a merge request proposes a change; neither alone proves that code has been tested or deployed. Keep the selected project's references clear when comparing them. GitLab's tools and your account permissions determine possible reads and actions, and the extension does not include a GitLab plan.",
+  "prompts": [
+    "Review the GitLab issue I select and summarize its requirements.",
+    "Read the available details of the merge request I choose without changing it.",
+    "Compare the selected issue and merge request and identify questions still unanswered."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://about.gitlab.com",
+    "privacy": "https://about.gitlab.com/privacy/",
+    "terms": "https://about.gitlab.com/terms/",
+    "docs": "https://docs.gitlab.com/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Proyectos, issues y solicitudes de fusión.",
+      "features": [
+        "Proyectos, issues y solicitudes de fusión."
+      ],
+      "requirements": [
+        "Una cuenta de GitLab con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Trabajá con proyectos, issues y cambios de GitLab",
+      "description": "Conectá GitLab para traer a APX proyectos, issues y merge requests accesibles. Elegí un proyecto y el elemento que querés conversar y usá su información para entender requisitos o revisar el contexto de un cambio propuesto.\n\nUn issue describe trabajo y un merge request propone un cambio; ninguno prueba por sí solo que el código esté probado o desplegado. Mantené claras las referencias del proyecto al compararlos. Las herramientas de GitLab y tus permisos determinan lecturas y acciones posibles, y la extensión no incluye un plan de GitLab.",
+      "prompts": [
+        "Revisá el issue de GitLab que elija y resumí sus requisitos.",
+        "Leé los detalles disponibles del merge request que seleccione sin modificarlo.",
+        "Compará el issue y el merge request elegidos e identificá preguntas todavía sin respuesta."
+      ],
+      "screenshots": []
+    }
+  }
+}

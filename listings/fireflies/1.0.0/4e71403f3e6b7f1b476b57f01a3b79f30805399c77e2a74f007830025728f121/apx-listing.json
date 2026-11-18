@@ -1,0 +1,68 @@
+{
+  "summary": "Meeting transcripts and summaries.",
+  "features": [
+    "Meeting transcripts and summaries."
+  ],
+  "requirements": [
+    "A Fireflies account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "fireflies",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Turn meeting transcripts into useful context",
+  "description": "Bring accessible Fireflies meeting transcripts and summaries into APX. Choose the meeting you mean, then review what was discussed, compare the summary with the transcript and pull out follow-up points supported by the available text.\n\nThe connection works with meeting material available to your Fireflies account through its current tools. A transcript may omit context or contain recognition errors, so distinguish what the text says from an inferred decision. It does not include a Fireflies subscription or make recordings outside your account permissions available.",
+  "prompts": [
+    "Read the transcript available for the Fireflies meeting I select.",
+    "Summarize the follow-up points supported by that transcript.",
+    "Compare the selected meeting summary with its transcript and flag unclear decisions."
+  ],
+  "category": "communication",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://fireflies.ai",
+    "privacy": "https://fireflies.ai/privacy-policy",
+    "terms": "https://fireflies.ai/terms-of-service",
+    "docs": "https://guide.fireflies.ai/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Transcripciones y resúmenes de reuniones.",
+      "features": [
+        "Transcripciones y resúmenes de reuniones."
+      ],
+      "requirements": [
+        "Una cuenta de Fireflies con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Usá transcripciones como contexto de trabajo",
+      "description": "Traé a APX las transcripciones y los resúmenes de reuniones disponibles en Fireflies. Elegí la reunión, revisá lo conversado, compará el resumen con la transcripción y extraé próximos pasos respaldados por el texto disponible.\n\nLa conexión trabaja con el material al que accede tu cuenta mediante las herramientas actuales de Fireflies. Una transcripción puede omitir contexto o contener errores de reconocimiento: distinguí lo que dice el texto de una decisión inferida. No incluye una suscripción a Fireflies ni habilita grabaciones fuera de los permisos de tu cuenta.",
+      "prompts": [
+        "Leé la transcripción disponible de la reunión de Fireflies que elija.",
+        "Resumí los próximos pasos respaldados por esa transcripción.",
+        "Compará el resumen de la reunión elegida con su transcripción y señalá decisiones poco claras."
+      ],
+      "screenshots": []
+    }
+  }
+}

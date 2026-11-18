@@ -1,0 +1,68 @@
+{
+  "summary": "Uptime monitors, incidents and logs.",
+  "features": [
+    "Uptime monitors, incidents and logs."
+  ],
+  "requirements": [
+    "A Better Stack account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "better-stack",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review uptime, incidents and logs in Better Stack",
+  "description": "Connect Better Stack to bring accessible uptime monitors, incidents and logs into APX. Choose the monitor or incident relevant to your investigation and use the available information to describe the reported problem and organize follow-up questions.\n\nMonitor results and log entries offer different evidence: neither alone establishes a root cause. Keep timestamps and the selected service clear when relating them. Better Stack's tools and your permissions determine available information and actions. Your account plan, retention and usage limits continue to apply; reviewing an incident is separate from changing its state.",
+  "prompts": [
+    "Review the available status of the Better Stack monitor I select.",
+    "Summarize the incident information returned for the incident I choose.",
+    "Help interpret the selected log information and separate evidence from possible causes."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://betterstack.com",
+    "privacy": "https://betterstack.com/privacy",
+    "terms": "https://betterstack.com/terms",
+    "docs": "https://betterstack.com/docs/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Monitores de disponibilidad, incidentes y registros.",
+      "features": [
+        "Monitores de disponibilidad, incidentes y registros."
+      ],
+      "requirements": [
+        "Una cuenta de Better Stack con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Revisá disponibilidad, incidentes y logs",
+      "description": "Conectá Better Stack para traer a APX monitores de disponibilidad, incidentes y logs accesibles. Elegí el monitor o incidente de tu investigación y usá la información disponible para describir el problema informado y organizar las preguntas siguientes.\n\nLos resultados de monitores y las entradas de logs aportan evidencias distintas: ninguna establece por sí sola una causa raíz. Conservá fechas y servicio elegido al relacionarlos. Las herramientas de Better Stack y tus permisos determinan información y acciones. Rigen tu plan, retención y límites de consumo; revisar un incidente es distinto de cambiar su estado.",
+      "prompts": [
+        "Revisá el estado disponible del monitor de Better Stack que elija.",
+        "Resumí la información devuelta del incidente que seleccione.",
+        "Ayudame a interpretar los logs elegidos y separá evidencia de posibles causas."
+      ],
+      "screenshots": []
+    }
+  }
+}

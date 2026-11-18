@@ -1,0 +1,74 @@
+{
+  "summary": "Read messages in one selected AgentMail inbox without sending or changing mail.",
+  "features": [
+    "Read bounded preview pages with explicit continuation",
+    "Read selected plain-text messages without loading HTML or attachments"
+  ],
+  "requirements": [
+    "Node.js 24",
+    "An inbox-scoped bearer key with only message_read permission",
+    "An exact inbox id and explicit us or eu region"
+  ],
+  "limits": [
+    "No inbox creation, sends, replies, drafts, labels, attachments or HTML",
+    "Spam, blocked, unauthenticated and trashed messages are excluded",
+    "Live account permissions, expiry and revocation remain unverified"
+  ],
+  "pricing": "AgentMail account plan, API quotas and regional availability apply; no account or usage is included.",
+  "privacy": "The chosen AgentMail region receives authenticated reads. Private mail enters agent context as untrusted data. Keys stay in APX's extension secret form.",
+  "id": "agentmail",
+  "authentication": "secret",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Read selected mail in one AgentMail inbox",
+  "description": "Browse message previews in one AgentMail inbox, then choose a message to read as plain text. Pages have explicit continuation, so you can review a small set before asking for more. Configure the exact inbox and its US or EU region with an inbox-scoped key granting only message reading.\n\nThis is a reading connection, not a mail assistant that sends or organizes messages. It cannot create inboxes, send, reply, draft, label or load attachments and HTML. Spam, blocked, unauthenticated and trashed messages are excluded. Your AgentMail account plan and regional quotas apply.",
+  "prompts": [
+    "Show the first page of previews in my configured AgentMail inbox.",
+    "Read the plain text of the message I choose, without opening attachments.",
+    "Continue to the next page using the continuation returned for that inbox."
+  ],
+  "category": "communication",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://www.agentmail.to/",
+    "privacy": "https://www.agentmail.to/legal/privacy",
+    "terms": "https://www.agentmail.to/legal/terms",
+    "docs": "https://docs.agentmail.to"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Leé mensajes de una casilla elegida de AgentMail sin enviarlos ni modificar el correo.",
+      "features": [
+        "Leer páginas acotadas de vistas previas con continuación explícita",
+        "Leer mensajes elegidos en texto plano sin cargar HTML ni adjuntos"
+      ],
+      "requirements": [
+        "Node.js 24",
+        "Una clave limitada a la casilla con el único permiso message_read",
+        "El id exacto de la casilla y la región explícita us o eu"
+      ],
+      "limits": [
+        "Sin crear casillas, enviar, responder, redactar, etiquetar, adjuntar ni cargar HTML",
+        "Se excluyen spam, bloqueados, no autenticados y papelera",
+        "Cuenta real, permisos, vencimiento y revocación sin verificar"
+      ],
+      "pricing": "Se aplican el plan, las cuotas de API y la disponibilidad regional de AgentMail; no se incluye cuenta ni consumo.",
+      "privacy": "La región elegida de AgentMail recibe las lecturas autenticadas. El correo privado entra al contexto como datos no confiables. Las claves se guardan mediante el formulario de la extensión de APX.",
+      "tagline": "Leé correo elegido de una casilla de AgentMail",
+      "description": "Recorré vistas previas de mensajes de una casilla de AgentMail y elegí cuál leer en texto plano. Las páginas tienen continuación explícita: podés revisar un grupo pequeño antes de pedir más. Configurá la casilla exacta y su región US o EU con una clave limitada a esa casilla y al permiso de lectura de mensajes.\n\nEs una conexión de lectura, no un asistente que envía u organiza correo. No crea casillas, envía, responde, redacta, etiqueta ni carga adjuntos o HTML. Se excluyen spam, bloqueados, no autenticados y papelera. Rigen el plan y las cuotas regionales de tu cuenta de AgentMail.",
+      "prompts": [
+        "Mostrame la primera página de vistas previas de mi casilla configurada de AgentMail.",
+        "Leé el texto plano del mensaje que elija, sin abrir adjuntos.",
+        "Pasá a la próxima página usando la continuación que devolvió esa casilla."
+      ],
+      "screenshots": []
+    }
+  }
+}

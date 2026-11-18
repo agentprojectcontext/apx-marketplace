@@ -1,0 +1,84 @@
+{
+  "summary": "Channels, messages and threads of your workspace.",
+  "features": [
+    "Channels, messages and threads of your workspace."
+  ],
+  "requirements": [
+    "A Slack account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "slack",
+  "authentication": "secret",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Bring Slack conversations into your work",
+  "description": "Connect Slack to work with the messages and channels your account can access. Bring a chosen conversation into APX to understand its context, identify open questions or prepare a summary tied to the channel you selected.\n\nChannel membership and Slack permissions determine what is available through the service's tools. Keep summaries distinct from new messages: reviewing a discussion does not require posting to it. The connection uses your Slack account and plan; it does not grant access to channels outside that account's permissions.",
+  "prompts": [
+    "Review the messages available from the Slack channel I select.",
+    "Summarize the open questions in that selected conversation without posting anything.",
+    "Read the context around the message I choose and separate decisions from suggestions."
+  ],
+  "category": "communication",
+  "icon": "assets/icon.svg",
+  "screenshots": [
+    {
+      "file": "assets/example-en.png",
+      "caption": "Illustrative APX-styled conversation in English, using fictional data. This is not a live connection or the service's interface."
+    },
+    {
+      "file": "assets/example-es.png",
+      "caption": "Illustrative APX-styled conversation in Spanish, using fictional data. This is not a live connection or the service's interface."
+    }
+  ],
+  "connection": "key",
+  "links": {
+    "website": "https://slack.com",
+    "privacy": "https://slack.com/trust/privacy/privacy-policy",
+    "terms": "https://slack.com/legal",
+    "docs": "https://api.slack.com"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Canales, mensajes e hilos de tu espacio de trabajo.",
+      "features": [
+        "Canales, mensajes e hilos de tu espacio de trabajo."
+      ],
+      "requirements": [
+        "Una cuenta de Slack con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Sumá conversaciones de Slack a tu trabajo",
+      "description": "Conectá Slack para trabajar con los mensajes y canales a los que accede tu cuenta. Traé una conversación elegida a APX para entender su contexto, identificar preguntas pendientes o preparar un resumen vinculado al canal que seleccionaste.\n\nLa pertenencia a canales y los permisos de Slack determinan qué ofrecen las herramientas del servicio. Separá los resúmenes de los mensajes nuevos: revisar una conversación no requiere publicar en ella. La conexión usa tu cuenta y tu plan de Slack; no habilita canales fuera de sus permisos.",
+      "prompts": [
+        "Revisá los mensajes disponibles del canal de Slack que elija.",
+        "Resumí las preguntas pendientes de esa conversación sin publicar nada.",
+        "Leé el contexto del mensaje que seleccione y separá decisiones de sugerencias."
+      ],
+      "screenshots": [
+        {
+          "caption": "Conversación ilustrativa estilo APX en inglés, con datos ficticios. No es una conexión real ni la interfaz del servicio."
+        },
+        {
+          "caption": "Conversación ilustrativa estilo APX en español, con datos ficticios. No es una conexión real ni la interfaz del servicio."
+        }
+      ]
+    }
+  }
+}

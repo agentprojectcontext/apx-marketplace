@@ -1,0 +1,68 @@
+{
+  "summary": "Sites, deploys and their settings.",
+  "features": [
+    "Sites, deploys and their settings."
+  ],
+  "requirements": [
+    "A Netlify account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "netlify",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review Netlify sites, deploys and settings",
+  "description": "Connect Netlify to bring accessible sites, deploys and settings into APX. Choose a site and deployment before discussing a problem so the conversation stays tied to the intended environment rather than another site with a similar name.\n\nA deployment record and site settings provide context but do not by themselves prove what a visitor can currently use. Review the returned information before requesting a change through available tools. Netlify permissions, plans and usage quotas apply; the extension does not include hosting credits or require a new deployment just to inspect a site.",
+  "prompts": [
+    "Review the available information for the Netlify site I select.",
+    "Explain the deploy details returned for the deployment I choose.",
+    "Summarize the selected site's available settings without changing or redeploying it."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.netlify.com/",
+    "privacy": "https://www.netlify.com/privacy/",
+    "terms": "https://www.netlify.com/legal/terms-of-use/",
+    "docs": "https://docs.netlify.com/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Sitios, despliegues y su configuración.",
+      "features": [
+        "Sitios, despliegues y su configuración."
+      ],
+      "requirements": [
+        "Una cuenta de Netlify con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Revisá sitios, despliegues y ajustes de Netlify",
+      "description": "Conectá Netlify para traer a APX sitios, despliegues y ajustes accesibles. Elegí sitio y despliegue antes de conversar un problema, así mantenés el foco en el entorno previsto y no en otro sitio con nombre parecido.\n\nUn registro de despliegue y los ajustes aportan contexto, pero no prueban por sí solos qué puede usar hoy un visitante. Revisá la información devuelta antes de pedir un cambio con las herramientas disponibles. Rigen permisos, planes y cuotas de Netlify; la extensión no incluye créditos de alojamiento ni requiere desplegar de nuevo sólo para inspeccionar un sitio.",
+      "prompts": [
+        "Revisá la información disponible del sitio de Netlify que elija.",
+        "Explicame los detalles devueltos del despliegue que seleccione.",
+        "Resumí los ajustes disponibles del sitio elegido sin cambiarlos ni volver a desplegar."
+      ],
+      "screenshots": []
+    }
+  }
+}

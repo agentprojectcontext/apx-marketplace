@@ -1,0 +1,68 @@
+{
+  "summary": "Prisma Postgres databases.",
+  "features": [
+    "Prisma Postgres databases."
+  ],
+  "requirements": [
+    "A Prisma Postgres account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "prisma",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Bring Prisma Postgres databases into your workflow",
+  "description": "Connect Prisma Postgres to work with the databases available to your account. Choose the database relevant to the task and bring its available information into APX to discuss the data layer of your application.\n\nThis connection concerns Prisma Postgres databases, rather than promising support for every database used with Prisma tooling. The service's current tools and your account permissions determine possible actions. Keep the intended database and environment clear before requesting a change; a Prisma Postgres subscription and any usage charges remain separate.",
+  "prompts": [
+    "Review the available information for the Prisma Postgres database I select.",
+    "Explain the returned database details in the context of my application.",
+    "Help me identify the intended Prisma Postgres database before considering any changes."
+  ],
+  "category": "data",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.prisma.io/",
+    "privacy": "https://www.prisma.io/legal/privacy",
+    "terms": "https://www.prisma.io/legal/terms",
+    "docs": "https://www.prisma.io/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Bases de datos de Prisma Postgres.",
+      "features": [
+        "Bases de datos de Prisma Postgres."
+      ],
+      "requirements": [
+        "Una cuenta de Prisma Postgres con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Sumá bases de Prisma Postgres a tu trabajo",
+      "description": "Conectá Prisma Postgres para trabajar con las bases disponibles para tu cuenta. Elegí la base relevante para la tarea y traé su información disponible a APX para conversar sobre la capa de datos de tu aplicación.\n\nLa conexión se refiere a bases de Prisma Postgres, no promete compatibilidad con cualquier base usada con herramientas de Prisma. Las herramientas actuales del servicio y los permisos de tu cuenta determinan las acciones posibles. Mantené claros la base y el entorno antes de pedir un cambio; la suscripción y los cargos de consumo de Prisma Postgres siguen separados.",
+      "prompts": [
+        "Revisá la información disponible de la base de Prisma Postgres que elija.",
+        "Explicame los detalles devueltos de la base en el contexto de mi aplicación.",
+        "Ayudame a identificar la base de Prisma Postgres de destino antes de considerar cambios."
+      ],
+      "screenshots": []
+    }
+  }
+}

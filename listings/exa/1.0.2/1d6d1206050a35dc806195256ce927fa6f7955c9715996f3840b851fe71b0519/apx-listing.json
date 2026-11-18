@@ -1,0 +1,88 @@
+{
+  "summary": "Find web results and read selected page contents using Exa.",
+  "features": [
+    "Search for relevant pages",
+    "Retrieve bounded content from selected URLs"
+  ],
+  "requirements": [
+    "An Exa API key",
+    "Node.js 24 or newer"
+  ],
+  "limits": [
+    "Only search and contents; no autonomous research jobs",
+    "Provider quotas and availability apply",
+    "Live paid-account access has not been verified"
+  ],
+  "pricing": "Exa usage and your current account plan apply; service credits are not included.",
+  "privacy": "Exa receives queries and selected URLs. Returned website content is untrusted and may enter agent context.",
+  "id": "exa",
+  "authentication": "secret",
+  "billing": "usage",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Find relevant pages and read the ones you choose",
+  "description": "## Go from a question to its sources\n\nUse Exa to find web pages relevant to a research question, then ask APX to read bounded content from the specific results you choose. Keep the search and the reading separate when you want to review the source list before bringing page text into your conversation.\n\n## You choose the next step\n\nThis package provides search and selected-page contents. It does not launch Exa's autonomous research jobs or promise that a search is exhaustive. Provider output is outside content, not instructions for your agent. Your Exa account, API access and usage quotas apply; no credits are included, and live paid-account access has not been verified for this package.",
+  "prompts": [
+    "Find sources comparing PostgreSQL full-text search with a dedicated search engine.",
+    "Read the contents of the two sources I select from that result list.",
+    "Find official documentation about hybrid search and give me the source links."
+  ],
+  "category": "search-research",
+  "icon": "assets/icon.svg",
+  "screenshots": [
+    {
+      "file": "assets/example-en.png",
+      "caption": "Illustrative APX-styled conversation in English, using fictional data. This is not a live connection or the service's interface."
+    },
+    {
+      "file": "assets/example-es.png",
+      "caption": "Illustrative APX-styled conversation in Spanish, using fictional data. This is not a live connection or the service's interface."
+    }
+  ],
+  "connection": "key",
+  "links": {
+    "website": "https://exa.ai",
+    "privacy": "https://exa.ai/privacy-policy",
+    "terms": "https://exa.ai/assets/Exa_Labs_Terms_of_Service.pdf",
+    "docs": "https://exa.ai/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Encontrá páginas y consultá su contenido con Exa.",
+      "features": [
+        "Buscar páginas relevantes",
+        "Obtener contenido acotado de las direcciones elegidas"
+      ],
+      "requirements": [
+        "Una clave API de Exa",
+        "Node.js 24 o posterior"
+      ],
+      "limits": [
+        "Solo búsqueda y contenido; sin investigaciones autónomas",
+        "Se aplican las cuotas y disponibilidad del proveedor",
+        "Todavía no se verificó acceso con una cuenta paga real"
+      ],
+      "pricing": "Se aplican el uso y el plan de tu cuenta de Exa; no se incluyen créditos del servicio.",
+      "privacy": "Exa recibe las consultas y direcciones elegidas. El contenido web devuelto no es confiable y puede entrar al contexto del agente.",
+      "tagline": "Encontrá páginas y leé las que elijas",
+      "description": "## Pasá de una pregunta a sus fuentes\n\nUsá Exa para encontrar páginas relacionadas con una pregunta de investigación y pedile a APX que lea contenido acotado de los resultados que elijas. Podés separar la búsqueda de la lectura para revisar primero la lista de fuentes y después traer su texto a la conversación.\n\n## Vos elegís el próximo paso\n\nEl paquete ofrece búsqueda y contenido de páginas seleccionadas. No inicia trabajos de investigación autónoma de Exa ni promete una búsqueda exhaustiva. Las respuestas del servicio son contenido externo, no instrucciones para tu agente. Se aplican tu cuenta, el acceso a la API y las cuotas de Exa; no se incluyen créditos y no se verificó el acceso con una cuenta paga real.",
+      "prompts": [
+        "Buscá fuentes que comparen la búsqueda de texto completo de PostgreSQL con un buscador dedicado.",
+        "Leé el contenido de las dos fuentes que elija de esa lista.",
+        "Buscá documentación oficial sobre búsqueda híbrida y pasame los enlaces."
+      ],
+      "screenshots": [
+        {
+          "caption": "Conversación ilustrativa estilo APX en inglés, con datos ficticios. No es una conexión real ni la interfaz del servicio."
+        },
+        {
+          "caption": "Conversación ilustrativa estilo APX en español, con datos ficticios. No es una conexión real ni la interfaz del servicio."
+        }
+      ]
+    }
+  }
+}

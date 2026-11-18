@@ -1,0 +1,68 @@
+{
+  "summary": "Projects, deployments and their logs.",
+  "features": [
+    "Projects, deployments and their logs."
+  ],
+  "requirements": [
+    "A Vercel account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "vercel",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review Vercel projects, deployments and logs",
+  "description": "Connect Vercel to work with the projects, deployments and logs available to your account. Choose the project and deployment you mean, then use the returned details to understand a build or investigate the behavior reported in its logs.\n\nKeep deployment identity and environment clear when diagnosing a problem: a preview deployment is not necessarily the production site. Logs are evidence to interpret, not proof of a root cause by themselves. Vercel's tools and your permissions determine available actions, while hosting charges and usage limits remain part of your Vercel account.",
+  "prompts": [
+    "Review the deployment information available for the Vercel project I select.",
+    "Summarize the logs returned for the deployment I choose without exposing unrelated content.",
+    "Prepare a troubleshooting plan from the selected deployment details without redeploying it."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://vercel.com",
+    "privacy": "https://vercel.com/legal/privacy-notice",
+    "terms": "https://vercel.com/legal/terms",
+    "docs": "https://vercel.com/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Proyectos, despliegues y sus registros.",
+      "features": [
+        "Proyectos, despliegues y sus registros."
+      ],
+      "requirements": [
+        "Una cuenta de Vercel con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Revisá proyectos, despliegues y logs de Vercel",
+      "description": "Conectá Vercel para trabajar con proyectos, despliegues y logs disponibles para tu cuenta. Elegí el proyecto y despliegue y usá los detalles devueltos para entender un build o investigar el comportamiento informado en sus logs.\n\nMantené claros el despliegue y el entorno al diagnosticar: una vista previa no necesariamente es el sitio de producción. Los logs son evidencia para interpretar, no una prueba de causa raíz por sí solos. Las herramientas de Vercel y tus permisos determinan las acciones, mientras alojamiento y límites de consumo siguen siendo parte de tu cuenta.",
+      "prompts": [
+        "Revisá la información de despliegues disponible del proyecto de Vercel que elija.",
+        "Resumí los logs devueltos del despliegue elegido sin exponer contenido ajeno.",
+        "Prepará un plan de diagnóstico con los detalles elegidos sin volver a desplegar."
+      ],
+      "screenshots": []
+    }
+  }
+}

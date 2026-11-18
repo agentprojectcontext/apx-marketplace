@@ -1,0 +1,68 @@
+{
+  "summary": "Your tasks and projects.",
+  "features": [
+    "Your tasks and projects."
+  ],
+  "requirements": [
+    "A Todoist account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "todoist",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Bring your tasks and projects into the conversation",
+  "description": "## Start from the work you already track\n\nConnect Todoist and ask APX about the tasks and projects you keep there. Name the project or task you want to work with so that the conversation stays tied to the right part of your account rather than an ambiguous task title.\n\n## Work within your Todoist access\n\nThe service determines the available tools and the permissions granted by your account. Review a proposed change to the selected task before asking APX to carry it out. This extension connects your existing Todoist setup; it does not include a subscription or turn your task list into a separate APX account.",
+  "prompts": [
+    "Show the tasks in the Todoist project I select.",
+    "Help me review the open work in the selected Todoist project.",
+    "Find the task matching the title I give you and show its details before making any change."
+  ],
+  "category": "productivity",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.todoist.com/",
+    "privacy": "https://www.todoist.com/privacy",
+    "terms": "https://www.todoist.com/terms-of-service",
+    "docs": "https://developer.todoist.com/api/v1/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Tus tareas y proyectos.",
+      "features": [
+        "Tus tareas y proyectos."
+      ],
+      "requirements": [
+        "Una cuenta de Todoist con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Traé tus tareas y proyectos a la conversación",
+      "description": "## Partí del trabajo que ya organizás\n\nConectá Todoist y preguntale a APX por las tareas y los proyectos que guardás ahí. Indicá el proyecto o la tarea para mantener la conversación en la parte correcta de tu cuenta, en vez de depender de un título ambiguo.\n\n## Trabajá con tus permisos de Todoist\n\nEl servicio determina las herramientas disponibles y los permisos de tu cuenta. Revisá un cambio propuesto sobre la tarea elegida antes de pedirle a APX que lo haga. La extensión conecta tu Todoist existente: no incluye una suscripción ni convierte tu lista en una cuenta separada de APX.",
+      "prompts": [
+        "Mostrame las tareas del proyecto de Todoist que elija.",
+        "Ayudame a revisar el trabajo pendiente del proyecto de Todoist elegido.",
+        "Buscá la tarea con el título que te pase y mostrame sus detalles antes de cambiar algo."
+      ],
+      "screenshots": []
+    }
+  }
+}

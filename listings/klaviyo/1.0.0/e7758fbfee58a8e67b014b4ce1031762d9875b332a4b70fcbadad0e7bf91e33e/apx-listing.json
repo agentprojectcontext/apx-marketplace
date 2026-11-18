@@ -1,0 +1,68 @@
+{
+  "summary": "Campaigns, flows and audiences.",
+  "features": [
+    "Campaigns, flows and audiences."
+  ],
+  "requirements": [
+    "A Klaviyo account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "klaviyo",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review campaigns, flows and audiences in Klaviyo",
+  "description": "Connect Klaviyo to bring accessible campaigns, flows and audiences into APX. Choose the marketing activity you want to discuss and use its available information to understand how a campaign, an automated flow and its audience relate.\n\nKeep an audience definition separate from the content or status of a campaign. Klaviyo's current tools and your permissions determine what can be inspected or changed. Reviewing marketing material does not send a campaign or activate a flow; any such request needs a clear target. Your Klaviyo plan and usage limits remain separate.",
+  "prompts": [
+    "Review the Klaviyo campaign I select without sending it.",
+    "Explain the available information about the flow I choose without activating it.",
+    "Summarize the audience information returned for the selected marketing activity."
+  ],
+  "category": "marketing",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.klaviyo.com/",
+    "privacy": "https://www.klaviyo.com/legal",
+    "terms": "https://www.klaviyo.com/legal",
+    "docs": "https://developers.klaviyo.com/en/docs/developer-tools"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Campañas, flujos y audiencias.",
+      "features": [
+        "Campañas, flujos y audiencias."
+      ],
+      "requirements": [
+        "Una cuenta de Klaviyo con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Revisá campañas, flujos y audiencias en Klaviyo",
+      "description": "Conectá Klaviyo para traer a APX campañas, flujos y audiencias disponibles. Elegí la actividad de marketing que querés conversar y usá su información para entender cómo se relacionan una campaña, un flujo automatizado y su audiencia.\n\nSepará la definición de audiencia del contenido o estado de una campaña. Las herramientas actuales de Klaviyo y tus permisos determinan qué podés revisar o cambiar. Revisar material no envía una campaña ni activa un flujo; un pedido así necesita un destino claro. Tu plan y los límites de consumo de Klaviyo siguen separados.",
+      "prompts": [
+        "Revisá la campaña de Klaviyo que elija sin enviarla.",
+        "Explicame la información disponible del flujo que seleccione sin activarlo.",
+        "Resumí la información de audiencia devuelta para la actividad de marketing elegida."
+      ],
+      "screenshots": []
+    }
+  }
+}

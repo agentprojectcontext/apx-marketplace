@@ -1,0 +1,74 @@
+{
+  "summary": "Read your Trello boards, lists and cards without changing them.",
+  "features": [
+    "Find open or closed boards",
+    "Read lists and card due dates with bounded local slices"
+  ],
+  "requirements": [
+    "A Trello account and API key",
+    "A user token with read-only scope",
+    "Node.js 24 or newer"
+  ],
+  "limits": [
+    "No writes, comments, attachments or sharing",
+    "Local slices are not stable server pagination; large responses above 1 MiB are refused",
+    "No token renewal; live account access is unverified"
+  ],
+  "pricing": "Your Trello account plan, API availability and quotas apply; no subscription is included.",
+  "privacy": "Trello receives authenticated account queries. Returned board and card text may enter agent context as untrusted content.",
+  "id": "trello",
+  "authentication": "secret",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Read boards, lists and card due dates",
+  "description": "## Review a board before deciding what to do\n\nConnect your Trello account to find open or closed boards, inspect their lists and read cards with due dates. Use the returned board, list and card references to keep follow-up questions tied to the items you actually observed.\n\n## Reading, not editing\n\nThis package does not change cards, add comments, fetch attachments or share boards. Result slices are bounded local views, not stable server-side pages, and an oversized service response is refused rather than silently treated as complete. Your Trello credential and account permissions determine what is visible; this package does not renew your token.",
+  "prompts": [
+    "Show my open Trello boards without changing them.",
+    "Read the lists and card due dates on the board I choose.",
+    "Show the next bounded slice of cards from the selected list and tell me if the response is incomplete."
+  ],
+  "category": "productivity",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://trello.com",
+    "privacy": "https://www.atlassian.com/legal/privacy-policy",
+    "terms": "https://www.atlassian.com/legal/cloud-terms-of-service",
+    "docs": "https://developer.atlassian.com/cloud/trello/rest/api-group-boards/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Consultá tus tableros, listas y tarjetas de Trello sin modificarlos.",
+      "features": [
+        "Encontrar tableros abiertos o cerrados",
+        "Consultar listas y fechas de tarjetas en porciones locales acotadas"
+      ],
+      "requirements": [
+        "Una cuenta de Trello y una clave API",
+        "Un token personal con permiso solo lectura",
+        "Node.js 24 o posterior"
+      ],
+      "limits": [
+        "Sin edición, comentarios, adjuntos ni compartir",
+        "Las porciones locales no son paginación estable del servidor; se rechazan respuestas de más de 1 MiB",
+        "Sin renovación del token; todavía no se verificó una cuenta real"
+      ],
+      "pricing": "Se aplican el plan, la disponibilidad y las cuotas de tu cuenta de Trello; no se incluye una suscripción.",
+      "privacy": "Trello recibe las consultas autenticadas. Los textos de tableros y tarjetas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Leé tableros, listas y vencimientos de tarjetas",
+      "description": "## Revisá un tablero antes de decidir\n\nConectá tu cuenta de Trello para encontrar tableros abiertos o cerrados, revisar sus listas y leer tarjetas con fechas de vencimiento. Usá las referencias observadas para que las preguntas siguientes sigan vinculadas a los elementos que realmente viste.\n\n## Lectura, no edición\n\nEl paquete no cambia tarjetas, agrega comentarios, descarga adjuntos ni comparte tableros. Los grupos de resultados son vistas locales acotadas, no páginas estables del servidor. Una respuesta demasiado grande se rechaza en vez de presentarse en silencio como completa. Tu credencial y los permisos de Trello determinan qué podés ver; el paquete no renueva el token.",
+      "prompts": [
+        "Mostrame mis tableros abiertos de Trello sin modificarlos.",
+        "Leé las listas y los vencimientos de las tarjetas del tablero que elija.",
+        "Mostrame el próximo grupo acotado de tarjetas de la lista elegida y avisame si la respuesta está incompleta."
+      ],
+      "screenshots": []
+    }
+  }
+}

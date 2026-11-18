@@ -1,0 +1,74 @@
+{
+  "summary": "Work with selected Box files and folders using an existing official CLI connection.",
+  "features": [
+    "Check the connected actor and read bounded file/folder previews",
+    "Guide selected downloads, folder creation, file renaming and uploads with authorization and read-back"
+  ],
+  "requirements": [
+    "Official @box/cli 4.10.1 installed separately on the shell execution host",
+    "Existing user OAuth connection managed by the CLI",
+    "Agent access to APX shell"
+  ],
+  "limits": [
+    "Skill only: no new MCP tools or native connected account",
+    "No deletion, sharing, permissions, AI, Hubs, enterprise administration or full upstream parity",
+    "No account-connected journey or effective revocation has been live-tested"
+  ],
+  "pricing": "Box account terms, storage, API limits and administrator policy apply. No account, storage or usage is included; the CLI is a separate Apache-2.0 dependency.",
+  "privacy": "The CLI sends authenticated operations to Box and manages OAuth credentials outside APX. Requested metadata and file content can enter agent context. Folder selection and authorization rules are procedural, not a sandbox.",
+  "id": "box",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Work with chosen Box files through your CLI",
+  "description": "Use an existing connection in the official Box CLI to review selected files and folders. The included guidance starts by checking the connected account and keeping previews bounded, then helps with chosen downloads, folder creation, renaming and uploads when you request them.\n\nThis package supplies guidance rather than installing the CLI or connecting a new account. It requires the supported CLI and shell access on the execution computer. Deletion, sharing, permission changes, enterprise administration and Box AI are outside this workflow. Folder selection guides the work but is not a separate access restriction on your CLI account; requested changes should be checked afterward.",
+  "prompts": [
+    "Check which Box account the existing CLI uses and preview the folder I select.",
+    "Prepare a download of the selected Box file to the destination I provide.",
+    "Prepare the folder rename I request in Box and read it back after the authorized change."
+  ],
+  "category": "files",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.box.com/",
+    "privacy": "https://www.box.com/legal/privacypolicy",
+    "terms": "https://www.box.com/legal/termsofservice",
+    "docs": "https://developer.box.com/guides/box-mcp/setup"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Trabajá con archivos y carpetas elegidos de Box mediante una conexión existente de su CLI oficial.",
+      "features": [
+        "Comprobar la cuenta y leer vistas previas acotadas de archivos y carpetas",
+        "Guiar descargas, creación de carpetas, renombres y cargas con autorización y comprobación posterior"
+      ],
+      "requirements": [
+        "@box/cli oficial 4.10.1 instalada aparte donde se ejecuta el shell",
+        "Conexión OAuth de usuario existente, administrada por la CLI",
+        "Acceso del agente al shell de APX"
+      ],
+      "limits": [
+        "Sólo skill: sin herramientas MCP nuevas ni cuenta nativa conectada",
+        "Sin borrado, uso compartido, permisos, AI, Hubs, administración empresarial ni paridad completa",
+        "Sin verificar el recorrido conectado ni la revocación efectiva con una cuenta real"
+      ],
+      "pricing": "Rigen las condiciones de cuenta, almacenamiento, límites de API y políticas de Box. No incluye cuenta ni consumo; la CLI es una dependencia Apache-2.0 separada.",
+      "privacy": "La CLI envía operaciones autenticadas a Box y administra OAuth fuera de APX. Los metadatos y archivos pedidos pueden entrar al contexto. Elegir una carpeta y autorizar acciones son pautas, no un aislamiento técnico.",
+      "tagline": "Trabajá con archivos elegidos de Box desde su CLI",
+      "description": "Usá una conexión existente de la CLI oficial de Box para revisar archivos y carpetas elegidos. La guía incluida empieza comprobando la cuenta conectada y limitando las vistas previas. Después ayuda con descargas, creación de carpetas, renombres y cargas cuando los pidas.\n\nEl paquete aporta una guía: no instala la CLI ni conecta una cuenta nueva. Necesita la CLI compatible y acceso al shell en la computadora de ejecución. Quedan fuera el borrado, los enlaces compartidos, los cambios de permisos, la administración empresarial y Box AI. Elegir una carpeta orienta el trabajo, pero no restringe los permisos de tu cuenta de CLI; los cambios pedidos se revisan después.",
+      "prompts": [
+        "Comprobá qué cuenta de Box usa la CLI existente y mostrame una vista previa de la carpeta elegida.",
+        "Prepará la descarga del archivo elegido de Box al destino que te indique.",
+        "Prepará el cambio de nombre de carpeta que pida en Box y comprobalo después de aplicarlo con autorización."
+      ],
+      "screenshots": []
+    }
+  }
+}

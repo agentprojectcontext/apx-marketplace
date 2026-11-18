@@ -1,0 +1,68 @@
+{
+  "summary": "Boards and what is on them.",
+  "features": [
+    "Boards and what is on them."
+  ],
+  "requirements": [
+    "A Miro account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "miro",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Make sense of the content on your Miro boards",
+  "description": "Connect Miro to bring accessible boards and their content into a conversation. Choose a board and ask APX to help interpret the available material, organize a written summary or compare ideas shown on that board.\n\nA board's spatial arrangement can carry meaning that a text summary does not preserve. Use the board as the reference when an item's position or relationship matters. Your Miro permissions and the service's current tools determine the accessible content and actions; reviewing a board does not require changing it or sharing it.",
+  "prompts": [
+    "Review the available content of the Miro board I select.",
+    "Summarize the main ideas on that board without changing its items.",
+    "Compare the two groups of board content I identify and list shared themes."
+  ],
+  "category": "design-media",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://miro.com",
+    "privacy": "https://miro.com/legal/privacy-policy/",
+    "terms": "https://miro.com/legal/terms-of-service/",
+    "docs": "https://developers.miro.com/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Tableros y su contenido.",
+      "features": [
+        "Tableros y su contenido."
+      ],
+      "requirements": [
+        "Una cuenta de Miro con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Entendé el contenido de tus tableros de Miro",
+      "description": "Conectá Miro para traer tableros accesibles y su contenido a la conversación. Elegí un tablero y pedile a APX que interprete el material disponible, prepare un resumen escrito o compare ideas presentes en ese tablero.\n\nLa distribución espacial puede tener un significado que un resumen textual no conserva. Usá el tablero como referencia cuando importe la posición o relación de un elemento. Tus permisos de Miro y las herramientas actuales del servicio determinan el contenido y las acciones disponibles; revisar un tablero no requiere modificarlo ni compartirlo.",
+      "prompts": [
+        "Revisá el contenido disponible del tablero de Miro que elija.",
+        "Resumí las ideas principales de ese tablero sin modificar sus elementos.",
+        "Compará los dos grupos de contenido que señale e identificá temas compartidos."
+      ],
+      "screenshots": []
+    }
+  }
+}

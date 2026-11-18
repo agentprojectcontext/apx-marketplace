@@ -1,0 +1,68 @@
+{
+  "summary": "Workers, DNS and the rest of your account.",
+  "features": [
+    "Workers, DNS and the rest of your account."
+  ],
+  "requirements": [
+    "A Cloudflare account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "cloudflare",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Bring Cloudflare Workers and DNS into context",
+  "description": "Connect Cloudflare to work with accessible Workers, DNS and other account information exposed by its tools. Choose the account resource relevant to your task and use its returned details to understand the current configuration before planning a change.\n\nA DNS record and a Worker belong to different parts of a request's path. Keep their roles and targets distinct when troubleshooting, and do not treat configuration alone as proof of a working website. Available actions depend on Cloudflare's tools and your permissions. Account plans, infrastructure charges and quotas are not included in the extension.",
+  "prompts": [
+    "Review the available information for the Cloudflare Worker I select.",
+    "Explain the DNS configuration returned for the resource I choose without changing it.",
+    "Prepare a troubleshooting checklist from the selected Worker and DNS information."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.cloudflare.com/",
+    "privacy": "https://www.cloudflare.com/policies/privacy/",
+    "terms": "https://www.cloudflare.com/policies/terms/",
+    "docs": "https://developers.cloudflare.com/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Workers, DNS y los demás recursos de tu cuenta.",
+      "features": [
+        "Workers, DNS y los demás recursos de tu cuenta."
+      ],
+      "requirements": [
+        "Una cuenta de Cloudflare con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Poné Workers y DNS de Cloudflare en contexto",
+      "description": "Conectá Cloudflare para trabajar con Workers, DNS y otra información de cuenta accesible mediante sus herramientas. Elegí el recurso relevante y usá los detalles devueltos para entender la configuración antes de planificar un cambio.\n\nUn registro DNS y un Worker pertenecen a partes distintas del recorrido de una solicitud. Separá funciones y destinos al diagnosticar, sin tratar la configuración como prueba de un sitio funcionando. Las acciones dependen de las herramientas de Cloudflare y tus permisos. La extensión no incluye planes, cargos de infraestructura ni cuotas.",
+      "prompts": [
+        "Revisá la información disponible del Worker de Cloudflare que elija.",
+        "Explicame la configuración DNS devuelta del recurso elegido sin modificarla.",
+        "Prepará una lista de diagnóstico con la información elegida de Worker y DNS."
+      ],
+      "screenshots": []
+    }
+  }
+}

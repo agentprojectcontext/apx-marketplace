@@ -1,0 +1,66 @@
+{
+  "summary": "Questions about any public GitHub repository.",
+  "features": [
+    "Questions about any public GitHub repository."
+  ],
+  "requirements": [
+    "Network access to the service"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "No credential is requested by this connection; the service provider's availability and usage terms apply.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "deepwiki",
+  "authentication": "none",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Ask questions about a public code repository",
+  "description": "## Orient yourself in public code\n\nUse DeepWiki to ask questions about a public GitHub repository: what it does, how its main parts fit together, or where to start investigating a feature. The extension preserves APX's native connection to the public DeepWiki MCP endpoint and requests no credential in its manifest.\n\n## Treat explanations as a starting point\n\nThe available tools and repository coverage belong to the upstream service. An explanation is not proof that a specific revision behaves that way: check the actual repository and its tests before changing code or relying on a security claim. This extension does not authorize access to private repositories. Live upstream availability and repository answers have not been verified for this package.",
+  "prompts": [
+    "Explain the main components of the public repository I choose.",
+    "In that public repository, where should I start reading to understand its configuration?",
+    "Explain how the selected public repository organizes its tests, and tell me what I should verify in the code."
+  ],
+  "category": "search-research",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "none",
+  "links": {
+    "website": "https://deepwiki.com",
+    "privacy": "https://cognition.com/legal/privacy-policy",
+    "terms": "https://cognition.com/legal/platform-terms-of-service",
+    "docs": "https://docs.devin.ai/work-with-devin/deepwiki"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Preguntas sobre repositorios públicos de GitHub.",
+      "features": [
+        "Preguntas sobre repositorios públicos de GitHub."
+      ],
+      "requirements": [
+        "Acceso de red al servicio"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Esta conexión no pide credenciales; se aplican la disponibilidad y las condiciones de uso del proveedor.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Hacé preguntas sobre un repositorio público",
+      "description": "## Orientate en código público\n\nUsá DeepWiki para preguntar qué hace un repositorio público de GitHub, cómo se relacionan sus partes principales o dónde empezar a investigar una función. La extensión conserva la conexión nativa de APX al servidor MCP público de DeepWiki y no pide una credencial en el manifest.\n\n## Tomá la explicación como punto de partida\n\nLas herramientas y la cobertura de repositorios dependen del servicio. Una explicación no demuestra que una revisión concreta se comporte así: revisá el repositorio y sus tests antes de cambiar código o confiar en una afirmación de seguridad. La extensión no autoriza acceso a repositorios privados. No se verificaron la disponibilidad real del servicio ni sus respuestas sobre repositorios con este paquete.",
+      "prompts": [
+        "Explicame los componentes principales del repositorio público que elija.",
+        "¿Por dónde conviene empezar a leer la configuración de ese repositorio público?",
+        "Explicame cómo organiza sus tests el repositorio público elegido y qué debería verificar en el código."
+      ],
+      "screenshots": []
+    }
+  }
+}

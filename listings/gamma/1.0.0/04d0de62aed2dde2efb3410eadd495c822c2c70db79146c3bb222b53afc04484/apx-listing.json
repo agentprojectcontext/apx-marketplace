@@ -1,0 +1,68 @@
+{
+  "summary": "Presentations and documents.",
+  "features": [
+    "Presentations and documents."
+  ],
+  "requirements": [
+    "A Gamma account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "gamma",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Work with presentations and documents in Gamma",
+  "description": "Bring Gamma presentations and documents into your work with APX through your connected account. Choose the material you want to discuss, review its available content and develop a clearer outline or a concise explanation for your audience.\n\nKeep an outline prepared in chat distinct from a change to the actual presentation. Available document and presentation actions depend on Gamma's tools and your account access. The extension does not include a Gamma plan or credits, and any requested change should identify the intended document first.",
+  "prompts": [
+    "Review the available content of the Gamma presentation I choose.",
+    "Suggest a clearer outline based on that presentation without changing it.",
+    "Summarize the Gamma document I select for a nontechnical audience."
+  ],
+  "category": "design-media",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://gamma.app/",
+    "privacy": "https://gamma.app/privacy",
+    "terms": "https://gamma.app/terms",
+    "docs": "https://help.gamma.app/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Presentaciones y documentos.",
+      "features": [
+        "Presentaciones y documentos."
+      ],
+      "requirements": [
+        "Una cuenta de Gamma con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Trabajá con presentaciones y documentos en Gamma",
+      "description": "Traé presentaciones y documentos de Gamma a tu trabajo con APX mediante tu cuenta conectada. Elegí el material que querés conversar, revisá su contenido disponible y prepará una estructura más clara o una explicación breve para tu audiencia.\n\nDistinguí un esquema preparado en el chat de un cambio en la presentación real. Las acciones disponibles dependen de las herramientas de Gamma y del acceso de tu cuenta. La extensión no incluye un plan ni créditos, y cualquier cambio pedido debe identificar primero el documento de destino.",
+      "prompts": [
+        "Revisá el contenido disponible de la presentación de Gamma que elija.",
+        "Sugerí una estructura más clara a partir de esa presentación sin modificarla.",
+        "Resumí el documento de Gamma que seleccione para una audiencia no técnica."
+      ],
+      "screenshots": []
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "summary": "Tasks, lists and docs.",
+  "features": [
+    "Tasks, lists and docs."
+  ],
+  "requirements": [
+    "A ClickUp account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "clickup",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Work with the tasks, lists and docs you already use",
+  "description": "## Bring a selected ClickUp workspace into focus\n\nConnect ClickUp to discuss tasks, lists and documents without manually copying their contents into every request. Identify the list or task you mean, then ask APX to help you understand the work and the context available to your account.\n\n## Use your existing workspace permissions\n\nClickUp's service determines the available tools and account access. Keep the target and desired result clear before requesting any update, and check the result afterward. Your workspace plan and its quotas still apply; the extension does not include a subscription or grant access to other teams' work.",
+  "prompts": [
+    "Show the tasks in the ClickUp list I select.",
+    "Read the details of the selected task before we decide on a change.",
+    "Help me understand the documents and task context available in the selected ClickUp workspace."
+  ],
+  "category": "productivity",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://clickup.com",
+    "privacy": "https://clickup.com/terms/privacy",
+    "terms": "https://clickup.com/terms",
+    "docs": "https://developer.clickup.com/docs/connect-an-ai-assistant-to-clickups-mcp-server"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Tareas, listas y documentos.",
+      "features": [
+        "Tareas, listas y documentos."
+      ],
+      "requirements": [
+        "Una cuenta de ClickUp con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Trabajá con tus tareas, listas y documentos",
+      "description": "## Enfocá un espacio de ClickUp\n\nConectá ClickUp para conversar sobre tareas, listas y documentos sin copiar su contenido a mano en cada pedido. Indicá la lista o tarea y pedile a APX que te ayude a entender el trabajo y el contexto disponible para tu cuenta.\n\n## Usá los permisos de tu espacio\n\nEl servicio de ClickUp determina las herramientas y el acceso. Antes de pedir una actualización, dejá claros el elemento y el resultado deseado; después verificá el cambio. Siguen vigentes el plan y las cuotas del espacio. La extensión no incluye una suscripción ni da acceso al trabajo de otros equipos.",
+      "prompts": [
+        "Mostrame las tareas de la lista de ClickUp que elija.",
+        "Leé los detalles de la tarea elegida antes de decidir un cambio.",
+        "Ayudame a entender los documentos y el contexto de las tareas del espacio de ClickUp elegido."
+      ],
+      "screenshots": []
+    }
+  }
+}

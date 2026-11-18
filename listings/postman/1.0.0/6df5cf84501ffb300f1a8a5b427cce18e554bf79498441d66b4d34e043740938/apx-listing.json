@@ -1,0 +1,68 @@
+{
+  "summary": "Collections, requests and APIs.",
+  "features": [
+    "Collections, requests and APIs."
+  ],
+  "requirements": [
+    "A Postman account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "postman",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Explore Postman collections, requests and APIs",
+  "description": "Connect Postman to bring available collections, requests and API information into APX. Choose a collection or request and use its returned definition to explain an API workflow or prepare a review of how a client is expected to call it.\n\nA saved request is a definition, not proof that an endpoint was called successfully. Keep review separate from execution, particularly when a request could change external data. The connection uses the service's minimal tool endpoint, with available actions determined by Postman and your permissions. Your Postman plan remains separate.",
+  "prompts": [
+    "Review the Postman collection I select and summarize its available requests.",
+    "Explain the definition of the request I choose without executing it.",
+    "Prepare an API review checklist from the selected collection's available information."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.postman.com/",
+    "privacy": "https://privacy.postman.com/policies/",
+    "terms": "https://www.postman.com/legal/terms/",
+    "docs": "https://learning.postman.com"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Colecciones, solicitudes y API.",
+      "features": [
+        "Colecciones, solicitudes y API."
+      ],
+      "requirements": [
+        "Una cuenta de Postman con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Explorá colecciones, solicitudes y APIs de Postman",
+      "description": "Conectá Postman para traer a APX colecciones, solicitudes e información de APIs disponibles. Elegí una colección o solicitud y usá su definición para explicar un flujo de API o preparar una revisión de cómo debería invocarlo un cliente.\n\nUna solicitud guardada es una definición, no prueba de una llamada exitosa. Separá revisión de ejecución, sobre todo cuando una solicitud podría modificar datos externos. La conexión usa la opción mínima de herramientas del servicio y las acciones dependen de Postman y tus permisos. Tu plan de Postman sigue separado.",
+      "prompts": [
+        "Revisá la colección de Postman que elija y resumí sus solicitudes disponibles.",
+        "Explicame la definición de la solicitud que seleccione sin ejecutarla.",
+        "Prepará una lista de revisión de API con la información disponible de la colección elegida."
+      ],
+      "screenshots": []
+    }
+  }
+}

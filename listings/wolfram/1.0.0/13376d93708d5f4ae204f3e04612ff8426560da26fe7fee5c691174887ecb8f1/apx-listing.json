@@ -1,0 +1,66 @@
+{
+  "summary": "Computation and curated data.",
+  "features": [
+    "Computation and curated data."
+  ],
+  "requirements": [
+    "Network access to the service"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "No credential is requested by this connection; the service provider's availability and usage terms apply.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "wolfram",
+  "authentication": "none",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Work through calculations with curated data",
+  "description": "## Bring a computational source to the task\n\nUse Wolfram for calculations and curated data through the same remote MCP connection offered in APX's native catalog. State the expression, units and assumptions clearly so that you can distinguish the calculation you requested from an interpretation of your question.\n\n## Check the assumptions and the tool response\n\nAvailable tools and access are determined by the upstream Wolfram service. The native connection declares no credential field; that is not a promise of unlimited service or a subscription. Computational output is not financial, medical or professional advice. Review units and assumptions before using a result. Live MCP access and its current quotas have not been verified for this extension package.",
+  "prompts": [
+    "Calculate 2 plus 2 and show the expression you used.",
+    "Convert 10 kilometers to miles and state the units.",
+    "Evaluate the expression I provide and explain the assumptions needed to interpret the result."
+  ],
+  "category": "search-research",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "none",
+  "links": {
+    "website": "https://wolfram.com",
+    "privacy": "https://legal.wolfram.com/privacy/wolfram-privacy-policy/",
+    "terms": "https://legal.wolfram.com/",
+    "docs": "https://reference.wolfram.com/language/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Cálculos y datos seleccionados.",
+      "features": [
+        "Cálculos y datos seleccionados."
+      ],
+      "requirements": [
+        "Acceso de red al servicio"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Esta conexión no pide credenciales; se aplican la disponibilidad y las condiciones de uso del proveedor.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Resolvé cálculos con una fuente computacional",
+      "description": "## Sumá una fuente computacional a la tarea\n\nUsá Wolfram para cálculos y datos seleccionados mediante la misma conexión MCP remota del catálogo nativo de APX. Indicá la expresión, las unidades y los supuestos para distinguir el cálculo que pediste de una interpretación de tu pregunta.\n\n## Revisá los supuestos y la respuesta\n\nLas herramientas y el acceso dependen del servicio de Wolfram. La conexión nativa no declara un campo de credenciales: eso no promete uso ilimitado ni una suscripción. Un resultado computacional no es asesoramiento financiero, médico o profesional. Revisá las unidades y los supuestos antes de usarlo. No se verificaron el acceso MCP real ni sus cuotas actuales con este paquete.",
+      "prompts": [
+        "Calculá 2 más 2 y mostrame la expresión usada.",
+        "Convertí 10 kilómetros a millas e indicá las unidades.",
+        "Evaluá la expresión que te pase y explicame los supuestos necesarios para interpretar el resultado."
+      ],
+      "screenshots": []
+    }
+  }
+}

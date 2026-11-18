@@ -1,0 +1,68 @@
+{
+  "summary": "Dashboards, queries and alerts.",
+  "features": [
+    "Dashboards, queries and alerts."
+  ],
+  "requirements": [
+    "A Grafana account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "grafana",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Understand Grafana dashboards, queries and alerts",
+  "description": "Bring Grafana dashboards, queries and alerts into APX through your account connection. Select the dashboard or alert relevant to your task and use the available information to explain what it represents and what questions remain.\n\nA dashboard's meaning depends on its queries, data sources and time range. Preserve the details returned by the service when interpreting a panel or relating it to an alert. Available tools and actions depend on Grafana and your permissions. The extension does not include data-source hosting or a Grafana plan, and reviewing an alert does not resolve the underlying condition.",
+  "prompts": [
+    "Review the Grafana dashboard I select and describe its available panels.",
+    "Explain the query information returned for the panel I choose.",
+    "Summarize the selected alert's available details without changing its configuration."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://grafana.com/",
+    "privacy": "https://grafana.com/legal/privacy-policy/",
+    "terms": "https://grafana.com/legal/terms/",
+    "docs": "https://grafana.com/docs/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Paneles, consultas y alertas.",
+      "features": [
+        "Paneles, consultas y alertas."
+      ],
+      "requirements": [
+        "Una cuenta de Grafana con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Entendé dashboards, consultas y alertas de Grafana",
+      "description": "Traé dashboards, consultas y alertas de Grafana a APX mediante tu conexión de cuenta. Elegí el dashboard o la alerta relevante y usá la información disponible para explicar qué representa y qué preguntas quedan abiertas.\n\nEl significado de un dashboard depende de sus consultas, fuentes y período. Conservá los detalles devueltos al interpretar un panel o relacionarlo con una alerta. Las herramientas y acciones dependen de Grafana y tus permisos. La extensión no incluye alojamiento de fuentes ni un plan de Grafana, y revisar una alerta no resuelve la condición que la originó.",
+      "prompts": [
+        "Revisá el dashboard de Grafana que elija y describí sus paneles disponibles.",
+        "Explicame la información de consulta devuelta del panel que seleccione.",
+        "Resumí los detalles disponibles de la alerta elegida sin cambiar su configuración."
+      ],
+      "screenshots": []
+    }
+  }
+}

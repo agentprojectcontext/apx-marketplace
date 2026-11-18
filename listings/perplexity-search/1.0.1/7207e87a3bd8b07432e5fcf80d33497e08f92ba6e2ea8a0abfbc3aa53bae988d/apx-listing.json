@@ -1,0 +1,72 @@
+{
+  "summary": "Search public web sources with your Perplexity Search API account.",
+  "features": [
+    "Ranked titles, public source links, snippets and available publication/update dates",
+    "Web or fast search, up to 10 results, country/language and recency/date filters"
+  ],
+  "requirements": [
+    "Owner-managed Perplexity API account, enabled Search access and credits",
+    "API key entered directly in the APX extension form"
+  ],
+  "limits": [
+    "Search only, not a model provider, generated answer, people search or private account session",
+    "No full-page fetch, bulk queries, automatic pagination or exhaustive index coverage",
+    "Live API account, quotas, filters and key revocation remain unverified"
+  ],
+  "pricing": "Perplexity Search API usage is billed separately. A Perplexity web subscription does not include API credits. No plan, credit purchase or top-up is performed.",
+  "privacy": "Your query and filters go to Perplexity's fixed Search endpoint using an API key resolved in the server. Search excerpts/links enter agent context as untrusted data. No web login, cookies or external link fetches.",
+  "id": "perplexity-search",
+  "authentication": "secret",
+  "billing": "usage",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Find ranked web sources with dates and snippets",
+  "description": "## Find sources, not a generated answer\n\nUse your Perplexity Search API account to retrieve ranked public links, titles, snippets and publication or update dates when available. Ask for web or fast search, with up to ten results, and use supported country, language and recency or date filters to narrow the request.\n\n## Keep the result boundary visible\n\nThis package is a search connection, not a model provider or a signed-in Perplexity browsing session. It does not fetch full pages, search private accounts, perform people searches, send bulk queries or automatically paginate. Search coverage, filters, account access, quotas and key revocation have not been verified against a live API account.",
+  "prompts": [
+    "Find up to five public sources about passkey adoption published in the last month.",
+    "Search for Spanish-language documentation about web accessibility and include available dates.",
+    "Find source links about database connection pooling; do not generate an answer or fetch full pages."
+  ],
+  "category": "search-research",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://www.perplexity.ai/",
+    "privacy": "https://www.perplexity.ai/hub/legal/privacy-notice",
+    "terms": "https://www.perplexity.ai/hub/legal/terms-of-service",
+    "docs": "https://docs.perplexity.ai/api-reference/search-post"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Buscá fuentes públicas con tu cuenta de API Perplexity Search.",
+      "features": [
+        "Títulos ordenados, enlaces públicos, extractos y fechas de publicación/actualización disponibles",
+        "Búsqueda web o fast, hasta 10 resultados y filtros de país, idioma, antigüedad o fechas"
+      ],
+      "requirements": [
+        "Cuenta API propia con acceso Search y créditos",
+        "Clave ingresada directamente en la ficha de la extensión APX"
+      ],
+      "limits": [
+        "Sólo búsqueda: no proveedor de modelos, respuestas generadas, búsqueda de personas ni sesión privada",
+        "Sin leer páginas completas, lotes, paginación automática ni cobertura exhaustiva",
+        "Cuenta API, cuotas, filtros y revocación de clave reales sin verificar"
+      ],
+      "pricing": "La API Perplexity Search se factura aparte. Una suscripción web no incluye créditos de API. No contrata planes, compra créditos ni recarga saldo.",
+      "privacy": "Tu consulta y filtros van al endpoint fijo de Search con una clave resuelta en el servidor. Extractos/enlaces entran al contexto como datos no confiables. Sin login web, cookies ni descarga de enlaces.",
+      "tagline": "Encontrá fuentes con fechas y fragmentos",
+      "description": "## Buscá fuentes, no una respuesta generada\n\nUsá tu cuenta de Perplexity Search API para obtener enlaces públicos ordenados, títulos, fragmentos y fechas de publicación o actualización cuando estén disponibles. Podés pedir búsqueda web o rápida, hasta diez resultados, y acotar con los filtros admitidos de país, idioma y fecha.\n\n## Tené claro qué devuelve\n\nEl paquete conecta la búsqueda: no es un proveedor de modelos ni una sesión iniciada en Perplexity. No descarga páginas completas, busca cuentas privadas o personas, manda consultas masivas ni pagina automáticamente. No se verificaron la cobertura, los filtros, el acceso, las cuotas ni la revocación de claves con una cuenta real de la API.",
+      "prompts": [
+        "Buscá hasta cinco fuentes públicas sobre adopción de passkeys publicadas en el último mes.",
+        "Buscá documentación en español sobre accesibilidad web e incluí las fechas disponibles.",
+        "Buscá enlaces sobre pools de conexiones de bases de datos, sin generar una respuesta ni descargar páginas completas."
+      ],
+      "screenshots": []
+    }
+  }
+}

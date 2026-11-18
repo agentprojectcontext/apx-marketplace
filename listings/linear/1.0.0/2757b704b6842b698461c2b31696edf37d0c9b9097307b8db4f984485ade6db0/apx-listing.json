@@ -1,0 +1,84 @@
+{
+  "summary": "Issues, projects and cycles.",
+  "features": [
+    "Issues, projects and cycles."
+  ],
+  "requirements": [
+    "A Linear account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "linear",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Keep issues, projects and cycles in context",
+  "description": "## Discuss the work tracked in Linear\n\nConnect your Linear workspace to bring issues, projects and cycles into the conversation. Ask about a selected issue or a clearly named project, then use the observed details to decide what to investigate or communicate next.\n\n## Keep changes tied to a specific issue\n\nThe available actions and workspace access depend on Linear's tools and the permissions of the connected account. Make the target issue and intended change explicit before requesting an edit. The extension uses your existing workspace and service plan; it does not create a second issue tracker or include a paid subscription.",
+  "prompts": [
+    "Show the details of the Linear issue I select.",
+    "Help me review the issues in the Linear project I choose.",
+    "Find the cycle or project related to the selected issue and summarize the available context."
+  ],
+  "category": "productivity",
+  "icon": "assets/icon.svg",
+  "screenshots": [
+    {
+      "file": "assets/example-en.png",
+      "caption": "Illustrative APX-styled conversation in English, using fictional data. This is not a live connection or the service's interface."
+    },
+    {
+      "file": "assets/example-es.png",
+      "caption": "Illustrative APX-styled conversation in Spanish, using fictional data. This is not a live connection or the service's interface."
+    }
+  ],
+  "connection": "oauth",
+  "links": {
+    "website": "https://linear.app",
+    "privacy": "https://linear.app/privacy",
+    "terms": "https://linear.app/terms",
+    "docs": "https://linear.app/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Issues, proyectos y ciclos de trabajo.",
+      "features": [
+        "Issues, proyectos y ciclos de trabajo."
+      ],
+      "requirements": [
+        "Una cuenta de Linear con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Mantené issues, proyectos y ciclos en contexto",
+      "description": "## Conversá sobre el trabajo de Linear\n\nConectá tu espacio de Linear para traer issues, proyectos y ciclos a la conversación. Preguntá por una issue elegida o un proyecto bien identificado y usá sus detalles para decidir qué investigar o comunicar después.\n\n## Vinculá los cambios a una issue concreta\n\nLas acciones y el acceso dependen de las herramientas de Linear y de los permisos de la cuenta conectada. Indicá la issue y el cambio deseado antes de pedir una edición. La extensión usa tu espacio y plan existentes: no crea otro gestor de issues ni incluye una suscripción paga.",
+      "prompts": [
+        "Mostrame los detalles de la issue de Linear que elija.",
+        "Ayudame a revisar las issues del proyecto de Linear elegido.",
+        "Buscá el ciclo o proyecto relacionado con la issue seleccionada y resumí el contexto disponible."
+      ],
+      "screenshots": [
+        {
+          "caption": "Conversación ilustrativa estilo APX en inglés, con datos ficticios. No es una conexión real ni la interfaz del servicio."
+        },
+        {
+          "caption": "Conversación ilustrativa estilo APX en español, con datos ficticios. No es una conexión real ni la interfaz del servicio."
+        }
+      ]
+    }
+  }
+}

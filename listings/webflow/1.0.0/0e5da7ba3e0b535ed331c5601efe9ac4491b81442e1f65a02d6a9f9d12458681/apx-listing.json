@@ -1,0 +1,68 @@
+{
+  "summary": "Sites, pages and CMS collections.",
+  "features": [
+    "Sites, pages and CMS collections."
+  ],
+  "requirements": [
+    "A Webflow account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "webflow",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Work with Webflow sites, pages and CMS collections",
+  "description": "Connect Webflow to review the sites, pages and CMS collections accessible to your account. Choose a site first, then bring the relevant page or collection information into APX to plan content work with the right website in view.\n\nA CMS collection and a site page have different roles, and available content is not proof of what a visitor currently sees. Keep the selected site and resource clear before asking for changes through available tools. Webflow permissions, plans and usage limits apply; the extension does not include hosting or publish content just because you reviewed it.",
+  "prompts": [
+    "Review the available page information for the Webflow site I select.",
+    "Explain the CMS collection information returned for that site.",
+    "Prepare a content checklist from the selected page without changing or publishing it."
+  ],
+  "category": "marketing",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://webflow.com",
+    "privacy": "https://webflow.com/legal/privacy",
+    "terms": "https://webflow.com/legal/terms",
+    "docs": "https://help.webflow.com/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Sitios, páginas y colecciones de contenido.",
+      "features": [
+        "Sitios, páginas y colecciones de contenido."
+      ],
+      "requirements": [
+        "Una cuenta de Webflow con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Trabajá con sitios, páginas y colecciones de Webflow",
+      "description": "Conectá Webflow para revisar los sitios, las páginas y las colecciones CMS accesibles para tu cuenta. Elegí primero un sitio y traé la información de la página o colección relevante a APX para planificar contenido con el sitio correcto en vista.\n\nUna colección CMS y una página cumplen funciones distintas, y el contenido disponible no prueba qué ve hoy un visitante. Mantené claros el sitio y el recurso antes de pedir cambios con las herramientas disponibles. Rigen permisos, planes y límites de Webflow; la extensión no incluye alojamiento ni publica contenido por el solo hecho de revisarlo.",
+      "prompts": [
+        "Revisá la información de páginas disponible del sitio de Webflow que elija.",
+        "Explicame la información de colecciones CMS devuelta para ese sitio.",
+        "Prepará una lista de contenido a partir de la página elegida sin cambiarla ni publicarla."
+      ],
+      "screenshots": []
+    }
+  }
+}

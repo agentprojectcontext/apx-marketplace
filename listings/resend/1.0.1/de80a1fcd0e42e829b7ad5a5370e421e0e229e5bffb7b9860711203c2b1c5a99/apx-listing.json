@@ -1,0 +1,74 @@
+{
+  "summary": "Read selected domain status and delivery metadata for one observed sent email.",
+  "features": [
+    "Inspect fixed domain/tracking/DNS status metadata, without record values",
+    "Inspect one observed sent-email id's timestamps and last delivery event"
+  ],
+  "requirements": [
+    "Resend account and API key permitted to read the chosen resources",
+    "Exact domain id in extension form; email ids must be provided or previously observed",
+    "Node 24 on the MCP host; owner reviews broader key permissions"
+  ],
+  "limits": [
+    "No sending, verification triggers, changes, discovery, message body/subject/recipient output",
+    "Domain selection applies only to domain tool, not email reads or credential authority",
+    "Authorized provider calls, current permissions/quotas and effective revocation remain unverified"
+  ],
+  "pricing": "Resend account plan and API quotas apply; no sending operation or credits included. No paid action is deliberately invoked by these reads.",
+  "privacy": "Resend receives selected ids. Its retrieve-email response includes message content processed transiently by the handler; only id/timestamps/last_event enter context. Domain record values and other private fields are not returned.",
+  "id": "resend",
+  "authentication": "secret",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Check domain and sent-email status in Resend",
+  "description": "Review selected status, region, tracking and DNS-check metadata for one configured Resend domain. For a sent email whose identifier you already have, ask for its timestamps and last delivery event without bringing the subject, recipients or message body into the conversation.\n\nThese are status reads, not an email-sending workflow. The package cannot discover domains or messages, trigger verification, send, resend, cancel or change anything. DNS record values are excluded. The configured domain limits the domain lookup only; email reads use the identifier you supply. Your existing Resend account permissions and API quotas apply.",
+  "prompts": [
+    "Show the status and DNS-check metadata for my configured Resend domain, without record values.",
+    "Check the last delivery event for the sent-email identifier I provide.",
+    "Read the timestamps available for that same email without showing its subject, recipients or body."
+  ],
+  "category": "communication",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://resend.com",
+    "privacy": "https://resend.com/legal/privacy-policy",
+    "terms": "https://resend.com/legal/terms-of-service",
+    "docs": "https://resend.com/docs/introduction"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Leé estado de un dominio elegido y metadatos de entrega de un email observado.",
+      "features": [
+        "Revisar metadatos de dominio/tracking/estado DNS, sin valores de registros",
+        "Revisar fechas y último evento de un email enviado por ID observado"
+      ],
+      "requirements": [
+        "Cuenta Resend y clave API autorizada para leer recursos elegidos",
+        "ID exacto de dominio en formulario; emails por ID provisto u observado",
+        "Node 24 donde corre el MCP; el dueño revisa permisos más amplios de la clave"
+      ],
+      "limits": [
+        "Sin enviar, disparar verificación, cambios, descubrimiento ni cuerpo/asunto/destinatarios en salida",
+        "Dominio elegido sólo limita su herramienta, no emails ni autoridad de la credencial",
+        "Sin verificar llamadas autorizadas, permisos/cuotas actuales ni revocación efectiva"
+      ],
+      "pricing": "Rigen plan y cuotas API de Resend; sin envíos ni créditos incluidos. Estas lecturas no invocan deliberadamente acciones pagas.",
+      "privacy": "Resend recibe IDs. La respuesta de email incluye contenido procesado transitoriamente en el handler; sólo ID/fechas/último evento entran al contexto. No devuelve valores DNS ni otros campos privados.",
+      "tagline": "Consultá estados de dominio y correo en Resend",
+      "description": "Revisá estado, región, seguimiento y comprobaciones DNS de un dominio configurado de Resend. Para un correo enviado cuyo identificador ya tengas, pedí sus fechas y último evento de entrega sin traer el asunto, los destinatarios ni el cuerpo a la conversación.\n\nSon lecturas de estado, no un flujo de envío de correo. El paquete no descubre dominios o mensajes, dispara verificaciones, envía, reenvía, cancela ni modifica nada. Excluye los valores de registros DNS. El dominio configurado limita sólo su consulta; las lecturas de correo usan el identificador que indiques. Rigen los permisos y las cuotas API de tu cuenta de Resend.",
+      "prompts": [
+        "Mostrame el estado y las comprobaciones DNS de mi dominio configurado de Resend, sin valores de registros.",
+        "Consultá el último evento de entrega del identificador de correo enviado que te pase.",
+        "Leé las fechas disponibles de ese mismo correo sin mostrar asunto, destinatarios ni cuerpo."
+      ],
+      "screenshots": []
+    }
+  }
+}

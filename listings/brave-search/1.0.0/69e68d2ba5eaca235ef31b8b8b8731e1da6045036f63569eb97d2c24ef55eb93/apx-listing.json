@@ -1,0 +1,68 @@
+{
+  "summary": "Web search for your agents.",
+  "features": [
+    "Web search for your agents."
+  ],
+  "requirements": [
+    "A Brave Search account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "brave-search",
+  "authentication": "secret",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Bring Brave web search into your conversation",
+  "description": "## Look for public web sources\n\nConnect the same Brave Search MCP server offered by APX's native catalog, using your own API credential. Ask for web sources relevant to your current task and keep the returned links available for checking the original material.\n\n## Your account and the upstream tools\n\nThis package preserves the native server rather than replacing it with a different search implementation. Available tools, search limits and permissions depend on the upstream MCP server and your Brave API account. It is not the Brave browser and does not bring browser cookies or private browsing history into APX. Live account access has not been verified for this extension package; no API plan or credits are included.",
+  "prompts": [
+    "Find official sources explaining WebAuthn passkeys.",
+    "Search for current documentation about HTTP status 429 and give me the source links.",
+    "Find public references comparing RSS and Atom feeds."
+  ],
+  "category": "search-research",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://brave.com/search/api/",
+    "privacy": "https://search.brave.com/help/privacy-policy",
+    "terms": "https://brave.com/terms-of-use/",
+    "docs": "https://api-dashboard.search.brave.com/documentation/services/llm-context"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Búsqueda web para tus agentes.",
+      "features": [
+        "Búsqueda web para tus agentes."
+      ],
+      "requirements": [
+        "Una cuenta de Brave Search con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Usá la búsqueda web de Brave en tu conversación",
+      "description": "## Buscá fuentes públicas de la web\n\nConectá el mismo servidor MCP de Brave Search del catálogo nativo de APX con tu propia credencial de la API. Pedí fuentes relacionadas con tu tarea y conservá los enlaces para revisar el material original.\n\n## Tu cuenta y las herramientas del servicio\n\nEl paquete conserva el servidor nativo, sin reemplazarlo por otra implementación de búsqueda. Las herramientas, los límites y los permisos dependen del servidor MCP y de tu cuenta de Brave API. No es el navegador Brave ni trae cookies o historial privado de navegación a APX. No se verificó el acceso a una cuenta real con este paquete; no se incluyen un plan de API ni créditos.",
+      "prompts": [
+        "Buscá fuentes oficiales que expliquen las passkeys de WebAuthn.",
+        "Buscá documentación actual del estado HTTP 429 y pasame los enlaces.",
+        "Buscá referencias públicas que comparen los feeds RSS y Atom."
+      ],
+      "screenshots": []
+    }
+  }
+}

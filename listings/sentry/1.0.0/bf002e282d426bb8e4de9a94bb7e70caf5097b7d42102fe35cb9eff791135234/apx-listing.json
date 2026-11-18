@@ -1,0 +1,68 @@
+{
+  "summary": "Errors and issues of your projects.",
+  "features": [
+    "Errors and issues of your projects."
+  ],
+  "requirements": [
+    "A Sentry account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "sentry",
+  "authentication": "secret",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Understand errors and issues in your Sentry projects",
+  "description": "Connect Sentry with your access token to review errors and issues available in your projects. Choose the issue you want to investigate and use its returned information to describe the observed failure and identify useful next checks.\n\nAn issue groups reported behavior; it does not establish a root cause or prove a fix. Keep the selected project and issue clear, and distinguish the evidence returned by Sentry from your explanation of it. Available tools depend on the Sentry server and your token's permissions. Your Sentry plan, retention and quotas remain separate from the extension.",
+  "prompts": [
+    "Review the Sentry issue I select and summarize the reported error.",
+    "Explain the available issue details and distinguish evidence from hypotheses.",
+    "Prepare a debugging checklist for that issue without marking it resolved."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://sentry.io/welcome/",
+    "privacy": "https://sentry.io/privacy/",
+    "terms": "https://sentry.io/terms/",
+    "docs": "https://docs.sentry.io/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Errores e incidencias de tus proyectos.",
+      "features": [
+        "Errores e incidencias de tus proyectos."
+      ],
+      "requirements": [
+        "Una cuenta de Sentry con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Entendé errores e issues de tus proyectos de Sentry",
+      "description": "Conectá Sentry con tu token de acceso para revisar errores e issues disponibles en tus proyectos. Elegí el issue que querés investigar y usá su información para describir la falla observada e identificar las próximas comprobaciones útiles.\n\nUn issue agrupa comportamiento informado: no establece causa raíz ni prueba una solución. Mantené claros proyecto e issue y separá la evidencia devuelta por Sentry de su explicación. Las herramientas dependen del servidor y de los permisos del token. Tu plan, retención y cuotas de Sentry siguen separados de la extensión.",
+      "prompts": [
+        "Revisá el issue de Sentry que elija y resumí el error informado.",
+        "Explicame los detalles disponibles del issue y separá evidencia de hipótesis.",
+        "Prepará una lista de diagnóstico para ese issue sin marcarlo como resuelto."
+      ],
+      "screenshots": []
+    }
+  }
+}

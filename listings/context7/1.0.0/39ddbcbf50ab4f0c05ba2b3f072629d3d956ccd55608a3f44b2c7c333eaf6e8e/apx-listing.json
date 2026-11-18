@@ -1,0 +1,66 @@
+{
+  "summary": "Current documentation of libraries, for coding.",
+  "features": [
+    "Current documentation of libraries, for coding."
+  ],
+  "requirements": [
+    "Network access to the service"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "No credential is requested by this connection; the service provider's availability and usage terms apply.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "context7",
+  "authentication": "none",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Use library documentation while you code",
+  "description": "Bring current library documentation into APX through Context7. State the library and the task you are working on, then use the available reference material to clarify an API or prepare an approach grounded in documentation rather than memory alone.\n\nDocumentation coverage and supported versions depend on the service. Match the guidance to the dependency version used by your project and check the result in your own code. This connection does not inspect your project automatically or prove that a suggested example runs. The configured connection requires network access and declares no credential field.",
+  "prompts": [
+    "Find documentation for the library and version I name.",
+    "Explain the documented API for the task I describe and state any version uncertainty.",
+    "Prepare an implementation outline using the returned library documentation without claiming the code has run."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "none",
+  "links": {
+    "website": "https://context7.com",
+    "privacy": "https://upstash.com/docs/common/help/legal",
+    "terms": "https://upstash.com/docs/common/help/legal",
+    "docs": "https://context7.com/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Documentación actualizada de bibliotecas para programar.",
+      "features": [
+        "Documentación actualizada de bibliotecas para programar."
+      ],
+      "requirements": [
+        "Acceso de red al servicio"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Esta conexión no pide credenciales; se aplican la disponibilidad y las condiciones de uso del proveedor.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Consultá documentación de librerías al programar",
+      "description": "Traé documentación actual de librerías a APX mediante Context7. Indicá la librería y la tarea y usá las referencias disponibles para aclarar una API o preparar un enfoque basado en documentación, no sólo en memoria.\n\nLa cobertura y las versiones admitidas dependen del servicio. Contrastá la guía con la versión usada por tu proyecto y comprobá el resultado en tu código. La conexión no inspecciona tu proyecto automáticamente ni prueba que un ejemplo sugerido funcione. La conexión configurada necesita red y no declara un campo de credenciales.",
+      "prompts": [
+        "Buscá documentación de la librería y versión que te indique.",
+        "Explicame la API documentada para la tarea que describa e indicá cualquier duda de versión.",
+        "Prepará un esquema de implementación con la documentación devuelta sin afirmar que se ejecutó el código."
+      ],
+      "screenshots": []
+    }
+  }
+}

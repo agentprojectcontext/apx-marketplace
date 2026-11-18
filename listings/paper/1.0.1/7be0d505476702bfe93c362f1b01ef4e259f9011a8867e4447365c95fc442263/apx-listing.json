@@ -1,0 +1,74 @@
+{
+  "summary": "Work on selected design files through a separately connected local Paper MCP server.",
+  "features": [
+    "Guide bounded inspection of chosen artboards, styles, JSX and tokens",
+    "Apply explicitly authorized layout changes with target checks and read-back"
+  ],
+  "requirements": [
+    "Paper Desktop installed, opened and a file selected by the owner",
+    "Official local Paper CLI and separately owner-approved APX MCP connection on its execution host",
+    "Vendor account/plan and current server tool support"
+  ],
+  "limits": [
+    "Skill only: no bundled app, executable, MCP server, credential or account setup",
+    "Procedural scope, not a sandbox or read-only connection; external server may expose broader tools",
+    "No AI generation, publication, deletion or whole-file replacement workflow; actual app journey unverified"
+  ],
+  "pricing": "Paper account/plan and MCP usage limits apply; a connection, license and usage are not included. This workflow does not invoke paid image/AI generation.",
+  "privacy": "Requested design content can enter agent context. The local connection uses Paper's existing app/file/account; local stdio is not a no-cloud guarantee. Removing this skill leaves its separately configured MCP and app account in place.",
+  "id": "paper",
+  "authentication": "local-permission",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Inspect and refine selected designs in Paper",
+  "description": "Use Paper Desktop with an existing, separately approved local connection to inspect chosen artboards, styles, JSX and design tokens. The included workflow helps keep attention on the selected file and supports explicitly requested layout changes followed by a read-back of the result.\n\nThe package supplies guidance, not the Paper app, its CLI or an account connection. It requires the desktop app to be open with a selected file and compatible tools available. AI generation, publication, deletion and whole-file replacement are outside the workflow. The connected server may offer broader actions than this guidance uses; your Paper plan remains separate.",
+  "prompts": [
+    "Inspect the selected Paper artboard and summarize its layout without changing it.",
+    "Read the styles and tokens available for the design element I choose.",
+    "Prepare my requested layout adjustment for the selected artboard and check it after the authorized change."
+  ],
+  "category": "design-media",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "local",
+  "links": {
+    "website": "https://paper.design",
+    "privacy": "https://paper.design/legal/privacy",
+    "terms": "https://paper.design/legal/tos",
+    "docs": "https://paper.design/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Trabajá sobre diseños elegidos mediante un servidor MCP local de Paper conectado aparte.",
+      "features": [
+        "Guiar revisión acotada de mesas, estilos, JSX y tokens elegidos",
+        "Aplicar cambios de diseño autorizados con comprobación del destino y lectura posterior"
+      ],
+      "requirements": [
+        "Paper Desktop instalado, abierto y con archivo elegido por el dueño",
+        "CLI local oficial de Paper y conexión MCP de APX aprobada aparte en su equipo de ejecución",
+        "Cuenta/plan del proveedor y herramientas vigentes compatibles"
+      ],
+      "limits": [
+        "Sólo skill: no incluye app, ejecutable, servidor MCP, credenciales ni conexión de cuenta",
+        "Alcance de procedimiento, no aislamiento ni conexión de sólo lectura; el servidor puede ofrecer más herramientas",
+        "Sin generación AI, publicación, borrado o reemplazo completo; recorrido real de app sin verificar"
+      ],
+      "pricing": "Rigen cuenta/plan y límites MCP de Paper; no incluye conexión, licencia ni consumo. Este flujo no invoca generación paga de imágenes/AI.",
+      "privacy": "El diseño pedido puede entrar al contexto. La conexión local usa app/archivo/cuenta existentes; stdio no garantiza ausencia de cloud. Quitar la skill no elimina el MCP ni la cuenta configurados aparte.",
+      "tagline": "Revisá y ajustá diseños elegidos en Paper",
+      "description": "Usá Paper Desktop con una conexión local existente, aprobada por separado, para revisar mesas de trabajo, estilos, JSX y tokens elegidos. El flujo incluido mantiene el foco en el archivo seleccionado y permite cambios de diseño pedidos expresamente, con una lectura posterior del resultado.\n\nEl paquete aporta una guía, no la app de Paper, su CLI ni una conexión de cuenta. Requiere la app abierta con un archivo seleccionado y herramientas compatibles. Quedan fuera la generación con IA, la publicación, el borrado y el reemplazo completo de archivos. El servidor conectado puede ofrecer acciones más amplias que las usadas por esta guía; tu plan de Paper sigue separado.",
+      "prompts": [
+        "Revisá la mesa de trabajo elegida de Paper y resumí su diseño sin modificarlo.",
+        "Leé los estilos y tokens disponibles del elemento de diseño que elija.",
+        "Prepará mi ajuste de diseño para la mesa elegida y comprobalo después del cambio autorizado."
+      ],
+      "screenshots": []
+    }
+  }
+}

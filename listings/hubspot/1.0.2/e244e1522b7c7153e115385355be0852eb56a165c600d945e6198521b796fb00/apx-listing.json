@@ -1,0 +1,74 @@
+{
+  "summary": "Review active contacts, companies, deals and notes in your own HubSpot account.",
+  "features": [
+    "Read bounded CRM pages and selected records",
+    "Keep notes and business fields marked as untrusted data"
+  ],
+  "requirements": [
+    "Your own single-account static-auth app token",
+    "Read scopes and app administrator permissions",
+    "Node.js 24 or newer"
+  ],
+  "limits": [
+    "No writes, email delivery, attachments, archived or sensitive-property expansion",
+    "No hosted multi-account OAuth or automatic token renewal",
+    "New legacy private apps cannot be created; use current static auth. Live access and notes permissions remain unverified"
+  ],
+  "pricing": "Your HubSpot edition, API access, scopes and quotas apply; no subscription is included.",
+  "privacy": "HubSpot receives account queries. Selected private CRM fields and note bodies may enter agent context as untrusted data.",
+  "id": "hubspot",
+  "authentication": "secret",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Read active CRM records in your HubSpot account",
+  "description": "Review active contacts, companies, deals and notes in your own HubSpot account. Ask for a bounded page or choose a record to inspect, then use its available business fields and notes to understand the relationship without changing the CRM.\n\nThis is a single-account reading connection using a current static-auth app token. It does not write records, send email, retrieve attachments or expand archived and sensitive properties. There is no automatic token renewal or shared multi-account sign-in. Your HubSpot edition, read scopes and API quotas determine what is available.",
+  "prompts": [
+    "Show a bounded page of active companies from my HubSpot account.",
+    "Read the available fields of the deal I select without changing it.",
+    "Review the notes available for the selected contact and summarize the business context."
+  ],
+  "category": "sales-customers",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://www.hubspot.com/",
+    "privacy": "https://legal.hubspot.com/privacy-policy",
+    "terms": "https://legal.hubspot.com/legal-center",
+    "docs": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Consultá contactos, empresas, negocios y notas activos de tu propia cuenta de HubSpot.",
+      "features": [
+        "Leer páginas acotadas y registros elegidos del CRM",
+        "Mantener notas y campos comerciales como datos no confiables"
+      ],
+      "requirements": [
+        "Un token estático de tu app para una sola cuenta",
+        "Permisos de lectura y administración de apps",
+        "Node.js 24 o posterior"
+      ],
+      "limits": [
+        "Sin edición, envío de correo, adjuntos, datos archivados ni ampliación de campos sensibles",
+        "Sin servicio OAuth compartido ni renovación automática del token",
+        "No se pueden crear apps privadas antiguas; usá autenticación estática actual. Acceso real y permisos de notas sin verificar"
+      ],
+      "pricing": "Se aplican la edición, el acceso a la API, los permisos y las cuotas de tu cuenta; no se incluye una suscripción.",
+      "privacy": "HubSpot recibe las consultas. Los campos privados y las notas elegidos pueden entrar al contexto del agente como datos no confiables.",
+      "tagline": "Leé registros activos de tu CRM en HubSpot",
+      "description": "Revisá contactos, empresas, negocios y notas activos de tu propia cuenta de HubSpot. Pedí una página acotada o elegí un registro y usá sus campos comerciales y notas disponibles para entender la relación sin cambiar el CRM.\n\nEs una conexión de lectura para una sola cuenta, con un token actual de app de autenticación estática. No escribe registros, envía correo, obtiene adjuntos ni amplía propiedades archivadas o sensibles. No renueva tokens automáticamente ni ofrece un inicio de sesión compartido entre cuentas. Tu edición de HubSpot, los permisos de lectura y las cuotas API determinan el acceso.",
+      "prompts": [
+        "Mostrame una página acotada de empresas activas de mi cuenta de HubSpot.",
+        "Leé los campos disponibles del negocio que elija sin modificarlo.",
+        "Revisá las notas disponibles del contacto elegido y resumí el contexto comercial."
+      ],
+      "screenshots": []
+    }
+  }
+}

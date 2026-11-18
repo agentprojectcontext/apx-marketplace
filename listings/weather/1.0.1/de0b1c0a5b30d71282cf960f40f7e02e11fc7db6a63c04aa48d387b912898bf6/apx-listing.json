@@ -1,0 +1,85 @@
+{
+  "summary": "Check current weather estimates and bounded daily or hourly forecasts for a place you choose.",
+  "features": [
+    "Current temperature, feels-like temperature, humidity, precipitation, wind and conditions",
+    "Up to 7 daily or 20 hourly forecasts, with explicit metric or imperial units",
+    "Open-Meteo attribution and explicit noncommercial or commercial access"
+  ],
+  "requirements": [
+    "Choose noncommercial or commercial usage_plan explicitly",
+    "Commercial use requires an owner-managed Open-Meteo subscription and API key",
+    "Coordinates provided by the owner or an authorized location lookup"
+  ],
+  "limits": [
+    "UTC forecast boundaries, not local calendar days",
+    "Model estimates, not station observations or emergency warnings",
+    "No geolocation, place search, historical data, maps, air quality or automatic polling"
+  ],
+  "pricing": "The free endpoint is noncommercial only and subject to Open-Meteo limits. Commercial access requires a separate paid plan. No credits or plan are included. Forecast data are CC BY 4.0 with attribution; this package's original code is MIT.",
+  "privacy": "Chosen coordinates and your server IP go to Open-Meteo. Commercial requests also send the API key in the provider-required query parameter; APX does not return or log that URL. No location detection or stored location history.",
+  "id": "weather",
+  "authentication": "secret",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Check a forecast for the place you choose",
+  "description": "## A forecast with a clear location and time\n\nGive APX the coordinates of a place and choose metric or imperial units. Read current temperature, feels-like temperature, humidity, precipitation, wind and conditions, or request a bounded forecast of up to seven days or twenty hours. Dates and forecast windows are in UTC, so they may not match a local calendar day.\n\n## Choose the right access plan\n\nThe data comes from Open-Meteo. Its free access is for non-commercial use only; commercial use requires your own subscription and API key. This extension includes neither a plan nor credits, and it never changes a paid request into a free one. It does not detect your location, search for places or keep a location history.\n\n## Read estimates as estimates\n\nThese are weather-model estimates, not measurements at your precise position or emergency warnings. The extension does not offer maps, historical weather, air quality or background monitoring. The screenshot shows the real Open-Meteo public documentation, which has more controls than this focused extension. Weather data by Open-Meteo.com, licensed CC BY 4.0.",
+  "prompts": [
+    "For these explicit coordinates, show current temperature, wind and precipitation in metric units.",
+    "Show the next three daily forecasts for the coordinates I choose, with UTC dates and Open-Meteo attribution.",
+    "Show six hourly forecasts in imperial units for the coordinates I provide, without detecting my location."
+  ],
+  "category": "data",
+  "icon": "assets/icon.svg",
+  "screenshots": [
+    {
+      "file": "assets/configuration.png",
+      "caption": "The real Open-Meteo public documentation and coordinate controls. This extension supports only its listed weather fields and bounded forecasts."
+    }
+  ],
+  "connection": "key",
+  "links": {
+    "website": "https://open-meteo.com/",
+    "privacy": "https://open-meteo.com/en/terms",
+    "terms": "https://open-meteo.com/en/terms",
+    "docs": "https://open-meteo.com/en/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Consultá estimaciones actuales y pronósticos diarios u horarios acotados para el lugar que elijas.",
+      "features": [
+        "Temperatura, sensación térmica, humedad, precipitación, viento y condiciones actuales",
+        "Hasta 7 días o 20 horas con unidades métricas o imperiales explícitas",
+        "Atribución Open-Meteo y acceso no comercial o comercial explícito"
+      ],
+      "requirements": [
+        "Elegir usage_plan noncommercial o commercial explícitamente",
+        "Uso comercial requiere suscripción y clave Open-Meteo propias",
+        "Coordenadas dadas por el dueño o una búsqueda de ubicación autorizada"
+      ],
+      "limits": [
+        "Fechas UTC, no días calendario locales",
+        "Estimaciones de modelos, no mediciones de estación ni alertas de emergencia",
+        "Sin geolocalización, búsqueda de lugares, históricos, mapas, calidad del aire ni consultas automáticas"
+      ],
+      "pricing": "El acceso gratuito es sólo no comercial y tiene límites Open-Meteo. El acceso comercial requiere un plan pago aparte. No incluye créditos ni plan. Datos CC BY 4.0 con atribución; código original de este paquete MIT.",
+      "privacy": "Las coordenadas elegidas y la IP del servidor van a Open-Meteo. En acceso comercial la clave también va en el parámetro de URL exigido por el proveedor; APX no devuelve ni registra esa URL. Sin detectar ubicación ni guardar historial.",
+      "tagline": "Consultá el pronóstico del lugar que elijas",
+      "description": "## Un pronóstico con lugar y horario claros\n\nPasale a APX las coordenadas de un lugar y elegí unidades métricas o imperiales. Consultá temperatura actual, sensación térmica, humedad, precipitación, viento y condiciones, o pedí un pronóstico acotado de hasta siete días o veinte horas. Las fechas y los rangos se expresan en UTC: pueden no coincidir con el día calendario local.\n\n## Elegí el acceso que corresponde\n\nLos datos vienen de Open-Meteo. El acceso gratuito es sólo para uso no comercial; el uso comercial necesita tu propia suscripción y clave de la API. La extensión no incluye un plan ni créditos y nunca convierte un pedido pago en uno gratuito. No detecta tu ubicación, busca lugares ni guarda un historial de ubicaciones.\n\n## Interpretá las estimaciones como estimaciones\n\nSon estimaciones de modelos meteorológicos, no mediciones en tu posición exacta ni alertas de emergencia. La extensión no ofrece mapas, históricos, calidad del aire ni monitoreo en segundo plano. La captura muestra la documentación pública real de Open-Meteo, con más controles que esta extensión enfocada. Datos meteorológicos de Open-Meteo.com, con licencia CC BY 4.0.",
+      "prompts": [
+        "Para estas coordenadas explícitas, mostrame temperatura actual, viento y precipitación en unidades métricas.",
+        "Mostrame los próximos tres pronósticos diarios para las coordenadas que elija, con fechas UTC y atribución a Open-Meteo.",
+        "Mostrame seis pronósticos horarios en unidades imperiales para las coordenadas que te pase, sin detectar mi ubicación."
+      ],
+      "screenshots": [
+        {
+          "caption": "La documentación pública real de Open-Meteo y sus controles de coordenadas. La extensión sólo admite los campos y pronósticos acotados indicados en esta ficha."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "summary": "Read names and communication fields in one selected macOS Contacts group.",
+  "features": [
+    "Page through names and IDs in a uniquely named selected group",
+    "Read email addresses and phones for a selected group member, without changes"
+  ],
+  "requirements": [
+    "macOS with Contacts and Node 24 on the MCP execution host",
+    "Owner-reviewed Automation/privacy permission for Contacts",
+    "Exact unique group name entered in the extension form"
+  ],
+  "limits": [
+    "Read-only subset: no address-book-wide search, edits, notes, photos, postal addresses or messaging",
+    "OS permissions may be broader than the adapter's group filter",
+    "No authorized live Contacts journey has been verified"
+  ],
+  "pricing": "Uses the installed macOS app; no paid API, subscription, sync or messaging is invoked.",
+  "privacy": "Names, emails and phones from selected members enter agent context as untrusted data. Group names/references are inspected to select a unique group; other groups' person fields are not read. A member can belong to multiple groups. OS access is not reduced to a group-scoped grant.",
+  "id": "apple-contacts",
+  "authentication": "local-permission",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Look up contacts in one group on your Mac",
+  "description": "Select a uniquely named group in macOS Contacts and browse names and identifiers in pages of up to 20. Choose a member from the group to read their email addresses and phone numbers without opening every contact's details.\n\nThis package does not search the whole address book, edit contacts, send messages or read notes, photos and postal addresses. It requires Contacts and automation permission on the computer running the extension. The app permission may cover more than the selected group, and membership can change between pages; a contact record is not proof of identity or permission to contact someone.",
+  "prompts": [
+    "List names in my selected Contacts group without reading their communication fields.",
+    "Read the email addresses and phone numbers of the group member I choose.",
+    "Show the next page of names from the same Contacts group."
+  ],
+  "category": "communication",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "local",
+  "links": {
+    "website": "https://www.apple.com/macos/",
+    "privacy": "https://www.apple.com/legal/privacy/",
+    "terms": "https://www.apple.com/legal/",
+    "docs": "https://support.apple.com/mac"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Leé nombres y datos de contacto de un grupo elegido de Contactos en macOS.",
+      "features": [
+        "Recorrer nombres e IDs de un grupo elegido con nombre único",
+        "Leer correos y teléfonos de un miembro del grupo, sin cambios"
+      ],
+      "requirements": [
+        "macOS con Contactos y Node 24 donde se ejecuta el MCP",
+        "Permiso de automatización/privacidad para Contactos revisado por el dueño",
+        "Nombre exacto y único del grupo ingresado en la extensión"
+      ],
+      "limits": [
+        "Sólo lectura: sin búsqueda general, cambios, notas, fotos, direcciones postales ni mensajes",
+        "El permiso del sistema puede ser más amplio que el filtro de grupo del adaptador",
+        "Sin verificar el recorrido autorizado con Contactos real"
+      ],
+      "pricing": "Usa la app instalada de macOS; no invoca API paga, suscripción, sincronización ni mensajes.",
+      "privacy": "Nombres, correos y teléfonos elegidos entran al contexto como datos no confiables. Se revisan nombres/referencias de grupos para elegir uno único, sin leer campos personales de los otros. Un contacto puede estar en varios grupos. El permiso del sistema no se restringe a ese grupo.",
+      "tagline": "Consultá contactos de un grupo en tu Mac",
+      "description": "Elegí un grupo con nombre único en Contactos de macOS y recorré nombres e identificadores en páginas de hasta 20. Seleccioná un miembro para leer sus correos y teléfonos sin abrir los detalles de todos los contactos.\n\nEl paquete no busca en toda la agenda, edita contactos, envía mensajes ni lee notas, fotos o direcciones postales. Necesitás Contactos y permiso de automatización en la computadora que ejecuta la extensión. El permiso de la app puede ser más amplio que el grupo elegido y sus miembros pueden cambiar entre páginas. Una ficha no prueba identidad ni autorización para contactar a alguien.",
+      "prompts": [
+        "Listá los nombres de mi grupo elegido de Contactos sin leer sus datos de comunicación.",
+        "Leé los correos y teléfonos del miembro del grupo que elija.",
+        "Mostrame la próxima página de nombres del mismo grupo de Contactos."
+      ],
+      "screenshots": []
+    }
+  }
+}

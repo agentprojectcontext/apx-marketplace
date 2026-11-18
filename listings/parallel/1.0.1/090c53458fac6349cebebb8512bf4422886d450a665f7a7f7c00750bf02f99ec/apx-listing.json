@@ -1,0 +1,72 @@
+{
+  "summary": "Search public web sources and extract page excerpts with your Parallel API account.",
+  "features": [
+    "Ranked source titles, public links, publication dates when available and excerpts",
+    "Basic or advanced search with 1–3 queries; extract excerpts from 1–5 distinct public HTTPS URLs with explicit per-URL errors"
+  ],
+  "requirements": [
+    "Owner-managed Parallel API account with Search/Extract access and available credits",
+    "API key entered directly in the APX extension form; Node24 with network access"
+  ],
+  "limits": [
+    "Synchronous Search/Extract subset only; no Task/FindAll/Monitor, background research, generated answers or model backend",
+    "No full-content export, link crawl, private pages, browser cookies, arbitrary endpoints, EU region selection or automatic retries",
+    "Excerpts may be cached or truncated; account access, charges, quotas, key revocation and upstream result quality remain unverified"
+  ],
+  "pricing": "Parallel API usage charges apply, including remote extraction; advanced search may cost more. No credits, paid plan, top-up or unlimited usage is included or purchased.",
+  "privacy": "Queries, objectives and public URLs go to fixed Parallel endpoints; the key resolves only in the server header. Parallel may fetch/cache pages and track requests. Output is untrusted data. Do not submit secrets or private/signed links.",
+  "id": "parallel",
+  "authentication": "secret",
+  "billing": "usage",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Search public sources and compare their excerpts",
+  "description": "## Gather evidence a few pages at a time\n\nUse your Parallel API account for synchronous basic or advanced search with one to three queries. Review ranked titles, public links, available publication dates and excerpts. You can then extract excerpts from one to five distinct public HTTPS pages, with explicit errors for any page that fails.\n\n## No background research hidden in a request\n\nThis package provides Search and Extract only. It does not launch Task, FindAll or Monitor jobs, generate answers, crawl links or use private browser sessions. Excerpts may be cached or truncated, and are not full-content exports. Live account access, charges, quotas, key revocation and result quality remain unverified; your API usage terms apply.",
+  "prompts": [
+    "Search for sources comparing SQLite and PostgreSQL for a small local-first application.",
+    "Extract excerpts from the three public HTTPS sources I choose, and report any page that fails.",
+    "Run two related queries about backup recovery testing and return the source links and available dates."
+  ],
+  "category": "search-research",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://parallel.ai",
+    "privacy": "https://parallel.ai/privacy-policy",
+    "terms": "https://parallel.ai/terms-of-service",
+    "docs": "https://docs.parallel.ai/getting-started/overview"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Buscá fuentes públicas y extraé fragmentos con tu cuenta API de Parallel.",
+      "features": [
+        "Títulos, enlaces públicos, fechas de publicación disponibles y fragmentos ordenados",
+        "Búsqueda básica o avanzada con1–3 consultas; extracción de1–5 URLs HTTPS públicas distintas con errores explícitos por página"
+      ],
+      "requirements": [
+        "Cuenta API propia de Parallel con Search/Extract y créditos disponibles",
+        "Clave API ingresada directamente en la ficha APX; Node24 con red"
+      ],
+      "limits": [
+        "Sólo Search/Extract síncronos; sin Task/FindAll/Monitor, investigación en segundo plano, respuestas generadas ni proveedor de modelos",
+        "Sin exportación completa, rastreo de enlaces, páginas privadas, cookies, destino arbitrario, selección regional UE ni reintentos automáticos",
+        "Fragmentos posiblemente cacheados o recortados; cuenta, cobros, cuotas, revocación y calidad del proveedor sin validar"
+      ],
+      "pricing": "La API de Parallel cobra por uso, incluida extracción remota; búsqueda avanzada puede costar más. No incluye ni compra créditos, planes, recargas o uso ilimitado.",
+      "privacy": "Consultas, objetivos y URLs públicas van a Parallel; la clave se resuelve sólo en el encabezado del servidor. Parallel puede consultar/cachear páginas y seguir solicitudes. Salida no confiable. No mandar secretos ni links privados/firmados.",
+      "tagline": "Buscá fuentes públicas y compará sus fragmentos",
+      "description": "## Reuní evidencia de pocas páginas por vez\n\nUsá tu cuenta de Parallel API para búsquedas básicas o avanzadas sincrónicas con una a tres consultas. Revisá títulos ordenados, enlaces públicos, fechas disponibles y fragmentos. Después podés extraer fragmentos de una a cinco páginas HTTPS públicas distintas, con errores explícitos para cada página que falle.\n\n## Sin investigación en segundo plano oculta\n\nEl paquete ofrece sólo Search y Extract. No inicia trabajos Task, FindAll o Monitor, genera respuestas, recorre enlaces ni usa sesiones privadas del navegador. Los fragmentos pueden estar en caché o recortados: no son exportaciones de texto completo. Siguen sin verificarse el acceso real, los cargos, las cuotas, la revocación de claves y la calidad de los resultados; rigen tus condiciones de uso de la API.",
+      "prompts": [
+        "Buscá fuentes que comparen SQLite y PostgreSQL para una aplicación local-first chica.",
+        "Extraé fragmentos de las tres fuentes HTTPS públicas que elija e informá las páginas que fallen.",
+        "Hacé dos consultas relacionadas con pruebas de recuperación de backups y devolvé enlaces y fechas disponibles."
+      ],
+      "screenshots": []
+    }
+  }
+}

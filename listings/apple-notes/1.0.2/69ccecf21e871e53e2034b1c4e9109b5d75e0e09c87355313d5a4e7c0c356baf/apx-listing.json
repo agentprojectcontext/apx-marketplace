@@ -1,0 +1,74 @@
+{
+  "summary": "Read plain-text notes in one selected Apple Notes folder on the Mac running APX.",
+  "features": [
+    "Read bounded metadata pages in one configured account and folder",
+    "Read an observed note without HTML, attachments or password-protected content"
+  ],
+  "requirements": [
+    "Node.js 24 on macOS 14+ where the MCP process runs",
+    "Owner-granted Automation access to Notes",
+    "Exact account name and a unique folder name within that account"
+  ],
+  "limits": [
+    "Read-only; no edits, new notes, deletion, unlocking or full-account search",
+    "Up to 20 accounts, 256 folder references and 2000 note references in the selected folder",
+    "Authorized Notes reads, actual Automation permissions and Intel execution remain unverified"
+  ],
+  "pricing": "No connector charge; requires a compatible Mac and normal Apple account/service terms apply.",
+  "privacy": "Only the selected account's folder metadata and selected note data are read. The OS Automation grant is broader than this adapter; the process is not sandboxed. Private note content enters agent context as untrusted data.",
+  "id": "apple-notes",
+  "authentication": "local-permission",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Read notes from one folder on your Mac",
+  "description": "Choose one account and a uniquely named Apple Notes folder on the Mac running the extension. Browse bounded pages of note metadata, then read a note you selected as plain text. This lets you review titles before bringing a particular note's content into the conversation.\n\nThe package is read-only: it cannot create, edit, delete or unlock notes, search the entire account, or retrieve HTML and attachments. The selected folder supports up to 2,000 note references. A compatible Mac with Notes and automation permission is required; installing on a remote computer does not give it access to Notes on your desktop.",
+  "prompts": [
+    "Show note metadata from my selected Apple Notes folder without reading every note.",
+    "Read the plain text of the note I choose from that list.",
+    "Continue to the next metadata page in the same folder without changing anything."
+  ],
+  "category": "docs-notes",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "local",
+  "links": {
+    "website": "https://www.apple.com/macos/",
+    "privacy": "https://www.apple.com/legal/privacy/",
+    "terms": "https://www.apple.com/legal/",
+    "docs": "https://support.apple.com/mac"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Leé notas en texto plano de una carpeta elegida en la Mac donde corre APX.",
+      "features": [
+        "Consultar páginas acotadas de metadatos de una cuenta y carpeta configuradas",
+        "Leer una nota observada sin HTML, adjuntos ni contenido protegido por contraseña"
+      ],
+      "requirements": [
+        "Node.js 24 en macOS 14+ donde se ejecuta el MCP",
+        "Acceso de Automatización a Notes otorgado por el dueño",
+        "Nombre exacto de la cuenta y carpeta con nombre único dentro de esa cuenta"
+      ],
+      "limits": [
+        "Sólo lectura; sin cambios, creación, borrado, desbloqueo ni búsqueda en toda la cuenta",
+        "Hasta 20 cuentas, 256 referencias a carpetas y 2000 referencias a notas en la carpeta elegida",
+        "Lecturas autorizadas, permisos reales de Automatización y ejecución Intel sin verificar"
+      ],
+      "pricing": "El conector no tiene cargo; requiere una Mac compatible y se aplican los términos de Apple.",
+      "privacy": "Se consultan metadatos de carpetas de la cuenta elegida y notas de la carpeta seleccionada. El permiso del sistema es más amplio que el adaptador; el proceso no está aislado. El contenido privado entra al contexto como datos no confiables.",
+      "tagline": "Leé notas de una carpeta de tu Mac",
+      "description": "Elegí una cuenta y una carpeta con nombre único de Apple Notes en la Mac que ejecuta la extensión. Recorré páginas acotadas de metadatos y después leé una nota elegida en texto plano. Así podés revisar títulos antes de traer el contenido de una nota a la conversación.\n\nEl paquete es de sólo lectura: no crea, edita, borra ni desbloquea notas, busca en toda la cuenta ni obtiene HTML o adjuntos. La carpeta elegida admite hasta 2.000 referencias de notas. Necesitás una Mac compatible con Notes y permiso de automatización; instalarlo en un equipo remoto no le da acceso a las notas de tu escritorio.",
+      "prompts": [
+        "Mostrame los metadatos de mi carpeta elegida de Apple Notes sin leer todas las notas.",
+        "Leé el texto plano de la nota que elija de esa lista.",
+        "Pasá a la próxima página de metadatos de la misma carpeta sin cambiar nada."
+      ],
+      "screenshots": []
+    }
+  }
+}

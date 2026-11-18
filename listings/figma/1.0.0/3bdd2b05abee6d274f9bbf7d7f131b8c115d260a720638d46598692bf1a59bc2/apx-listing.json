@@ -1,0 +1,68 @@
+{
+  "summary": "Designs and their components, as code context.",
+  "features": [
+    "Designs and their components, as code context."
+  ],
+  "requirements": [
+    "A Figma account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "figma",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Use Figma designs as context for your code",
+  "description": "Bring selected Figma designs and components into APX as context for implementation. Review the design you mean, understand its component structure and use the available design information to discuss how a screen should be built.\n\nDesign context is a reference, not proof that an implementation already matches the design. Keep the selected file and component clear, and check the resulting interface separately. Figma's tools, your file access and account plan determine what information is available; the extension does not include a Figma license.",
+  "prompts": [
+    "Read the available design context for the Figma component I select.",
+    "Explain the component structure of the chosen Figma design.",
+    "Turn the selected design information into an implementation checklist without editing the design."
+  ],
+  "category": "design-media",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.figma.com/",
+    "privacy": "https://www.figma.com/legal/privacy/",
+    "terms": "https://www.figma.com/legal/tos/",
+    "docs": "https://www.figma.com/developers"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Diseños y componentes como contexto para programar.",
+      "features": [
+        "Diseños y componentes como contexto para programar."
+      ],
+      "requirements": [
+        "Una cuenta de Figma con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Usá diseños de Figma como contexto para tu código",
+      "description": "Traé diseños y componentes elegidos de Figma a APX como contexto de implementación. Revisá el diseño indicado, entendé su estructura de componentes y usá la información disponible para conversar cómo construir una pantalla.\n\nEl contexto de diseño es una referencia, no una prueba de que una implementación ya coincida. Mantené claros el archivo y el componente elegidos y comprobá la interfaz resultante por separado. Las herramientas de Figma, el acceso a archivos y tu plan determinan la información disponible; la extensión no incluye una licencia de Figma.",
+      "prompts": [
+        "Leé el contexto de diseño disponible del componente de Figma que elija.",
+        "Explicame la estructura de componentes del diseño elegido de Figma.",
+        "Convertí la información de diseño elegida en una lista de implementación sin editar el diseño."
+      ],
+      "screenshots": []
+    }
+  }
+}

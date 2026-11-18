@@ -1,0 +1,68 @@
+{
+  "summary": "Pipelines, builds and their failures.",
+  "features": [
+    "Pipelines, builds and their failures."
+  ],
+  "requirements": [
+    "A CircleCI account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "circleci",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Understand CircleCI pipelines and build failures",
+  "description": "Bring accessible CircleCI pipeline and build information into APX. Select the run you want to investigate and review the available failure information to separate the reported symptom from possible causes.\n\nA failed build can reflect code, configuration or its environment, while a successful build only covers the checks that ran. Keep the selected pipeline and run identifiable when discussing a fix. CircleCI's current tools and your account permissions determine available actions; inspecting a failure does not require rerunning work, and your CircleCI plan and quotas remain separate.",
+  "prompts": [
+    "Review the CircleCI pipeline I select and summarize its available build status.",
+    "Explain the failure information returned for the chosen build.",
+    "Prepare a troubleshooting checklist from that failure without rerunning the pipeline."
+  ],
+  "category": "development",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://circleci.com",
+    "privacy": "https://circleci.com/legal/privacy/",
+    "terms": "https://circleci.com/legal/terms-of-use/",
+    "docs": "https://circleci.com/docs/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Pipelines, compilaciones y sus fallas.",
+      "features": [
+        "Pipelines, compilaciones y sus fallas."
+      ],
+      "requirements": [
+        "Una cuenta de CircleCI con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Entendé pipelines y fallas de builds en CircleCI",
+      "description": "Traé a APX información disponible de pipelines y builds de CircleCI. Elegí la ejecución que querés investigar y revisá sus fallas para separar el síntoma informado de las posibles causas.\n\nUn build fallido puede reflejar código, configuración o entorno; uno exitoso sólo cubre las comprobaciones ejecutadas. Mantené identificados el pipeline y la ejecución al conversar una solución. Las herramientas actuales de CircleCI y tus permisos determinan las acciones; inspeccionar una falla no requiere volver a ejecutar trabajo, y tu plan y tus cuotas siguen separados.",
+      "prompts": [
+        "Revisá el pipeline de CircleCI que elija y resumí el estado disponible de sus builds.",
+        "Explicame la información de falla devuelta del build elegido.",
+        "Prepará una lista de diagnóstico a partir de esa falla sin volver a ejecutar el pipeline."
+      ],
+      "screenshots": []
+    }
+  }
+}

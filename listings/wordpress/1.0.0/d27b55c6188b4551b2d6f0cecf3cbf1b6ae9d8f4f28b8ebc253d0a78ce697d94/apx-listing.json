@@ -1,0 +1,68 @@
+{
+  "summary": "Posts, pages and stats of your sites.",
+  "features": [
+    "Posts, pages and stats of your sites."
+  ],
+  "requirements": [
+    "A WordPress.com account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "wordpress",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review WordPress.com posts, pages and site stats",
+  "description": "Connect WordPress.com to bring accessible posts, pages and site statistics into APX. Select the site and content you want to discuss, then use the returned material to review an article, understand a page or explain the available statistics.\n\nPosts, pages and statistics answer different questions about a site. Keep content review separate from conclusions about audience behavior, and retain the reporting period when statistics provide one. Access and possible changes depend on WordPress.com's tools and your account permissions. This connection does not promise support for every self-hosted WordPress installation or include a site plan.",
+  "prompts": [
+    "Read the available content of the WordPress.com post I select without editing it.",
+    "Review the page I choose and suggest a clearer structure in chat.",
+    "Explain the returned site statistics and state any reporting period provided."
+  ],
+  "category": "marketing",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://wordpress.com",
+    "privacy": "https://automattic.com/privacy/",
+    "terms": "https://automattic.com/tos/",
+    "docs": "https://developer.wordpress.com/docs/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Publicaciones, páginas y estadísticas de tus sitios.",
+      "features": [
+        "Publicaciones, páginas y estadísticas de tus sitios."
+      ],
+      "requirements": [
+        "Una cuenta de WordPress.com con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Revisá entradas, páginas y estadísticas de tu sitio",
+      "description": "Conectá WordPress.com para traer a APX entradas, páginas y estadísticas de sitio disponibles. Elegí el sitio y el contenido que querés conversar y usá el material devuelto para revisar un artículo, entender una página o explicar las estadísticas disponibles.\n\nEntradas, páginas y estadísticas responden preguntas distintas sobre un sitio. Separá la revisión de contenido de las conclusiones sobre audiencia y conservá el período cuando las estadísticas lo indiquen. El acceso y los cambios posibles dependen de las herramientas de WordPress.com y tus permisos. La conexión no promete compatibilidad con toda instalación autohospedada ni incluye un plan de sitio.",
+      "prompts": [
+        "Leé el contenido disponible de la entrada de WordPress.com que elija sin editarla.",
+        "Revisá la página que seleccione y sugerí una estructura más clara en el chat.",
+        "Explicame las estadísticas devueltas del sitio e indicá el período informado, si lo hay."
+      ],
+      "screenshots": []
+    }
+  }
+}

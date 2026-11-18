@@ -1,0 +1,88 @@
+{
+  "summary": "Search the web and extract text with your Tavily account.",
+  "features": [
+    "Run bounded basic web searches",
+    "Extract text from selected public pages and report per-page failures"
+  ],
+  "requirements": [
+    "A Tavily API key",
+    "Node.js 24 or newer"
+  ],
+  "limits": [
+    "No advanced search, crawling or account management",
+    "Provider quotas and availability apply",
+    "Live paid-account access has not been verified"
+  ],
+  "pricing": "Tavily credits and your account's current pricing apply; APX does not include service credits.",
+  "privacy": "Tavily receives search queries and page URLs. Returned website text is untrusted and may enter agent context.",
+  "id": "tavily",
+  "authentication": "secret",
+  "billing": "usage",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Search the web, then extract selected page text",
+  "description": "## Research with a clear source list\n\nAsk APX to run a bounded basic web search through your Tavily account. Review the returned sources, then choose the public pages whose text you want to extract. Per-page failures are reported instead of turning a partially successful extraction into a complete-looking result.\n\n## A focused search and extraction package\n\nThis extension does not provide advanced search, site crawling or account management. Web text is outside content and may be incomplete or change after the search. Your Tavily API plan, quotas and availability apply, and no credits are included. Live paid-account access has not been verified for this package.",
+  "prompts": [
+    "Search for official guidance on accessible form validation.",
+    "Extract the text from the public pages I select from those results.",
+    "Find sources about database backup verification and keep the result list short."
+  ],
+  "category": "search-research",
+  "icon": "assets/icon.svg",
+  "screenshots": [
+    {
+      "file": "assets/example-en.png",
+      "caption": "Illustrative APX-styled conversation in English, using fictional data. This is not a live connection or the service's interface."
+    },
+    {
+      "file": "assets/example-es.png",
+      "caption": "Illustrative APX-styled conversation in Spanish, using fictional data. This is not a live connection or the service's interface."
+    }
+  ],
+  "connection": "key",
+  "links": {
+    "website": "https://www.tavily.com/",
+    "privacy": "https://www.tavily.com/privacy",
+    "terms": "https://www.tavily.com/terms",
+    "docs": "https://docs.tavily.com"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Buscá en la web y extraé texto con tu cuenta de Tavily.",
+      "features": [
+        "Hacer búsquedas web básicas con límites",
+        "Extraer texto de páginas públicas elegidas e informar fallos por página"
+      ],
+      "requirements": [
+        "Una clave API de Tavily",
+        "Node.js 24 o posterior"
+      ],
+      "limits": [
+        "Sin búsqueda avanzada, rastreo ni administración de cuentas",
+        "Se aplican las cuotas y disponibilidad del proveedor",
+        "Todavía no se verificó acceso con una cuenta paga real"
+      ],
+      "pricing": "Se aplican los créditos y precios de tu cuenta de Tavily; APX no incluye créditos del servicio.",
+      "privacy": "Tavily recibe las búsquedas y direcciones de las páginas. El texto web devuelto no es confiable y puede entrar al contexto del agente.",
+      "tagline": "Buscá en la web y extraé el texto que elijas",
+      "description": "## Investigá con una lista clara de fuentes\n\nPedile a APX una búsqueda web básica y acotada con tu cuenta de Tavily. Revisá las fuentes y después elegí las páginas públicas cuyo texto querés extraer. Los errores se informan por página, sin hacer pasar una extracción parcial por un resultado completo.\n\n## Búsqueda y extracción enfocadas\n\nLa extensión no ofrece búsqueda avanzada, rastreo de sitios ni administración de cuentas. El texto web es contenido externo y puede estar incompleto o cambiar después de la búsqueda. Se aplican el plan, las cuotas y la disponibilidad de la API de Tavily; no se incluyen créditos. No se verificó el acceso con una cuenta paga real.",
+      "prompts": [
+        "Buscá recomendaciones oficiales para validar formularios accesibles.",
+        "Extraé el texto de las páginas públicas que elija de esos resultados.",
+        "Buscá fuentes sobre cómo verificar copias de seguridad y devolveme una lista corta."
+      ],
+      "screenshots": [
+        {
+          "caption": "Conversación ilustrativa estilo APX en inglés, con datos ficticios. No es una conexión real ni la interfaz del servicio."
+        },
+        {
+          "caption": "Conversación ilustrativa estilo APX en español, con datos ficticios. No es una conexión real ni la interfaz del servicio."
+        }
+      ]
+    }
+  }
+}

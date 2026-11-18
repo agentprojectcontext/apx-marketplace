@@ -1,0 +1,74 @@
+{
+  "summary": "Review accounts, contacts and opportunities in one authorized Salesforce CLI org.",
+  "features": [
+    "Read bounded record pages with optional exact-name filtering",
+    "Inspect selected records without arbitrary SOQL or mutations"
+  ],
+  "requirements": [
+    "Node.js 24 and a supported sf CLI on APX's PATH",
+    "macOS or Linux; native Windows is not implemented",
+    "One explicitly authorized CLI org alias and a dedicated API/read-permission user"
+  ],
+  "limits": [
+    "No writes, deployment, email, custom/sensitive fields or attachments",
+    "Sequential reads only; external CLI sessions are not synchronized",
+    "Live account queries, Linux and OAuth token lifecycle remain unverified"
+  ],
+  "pricing": "Your Salesforce edition, API access, account permissions and quotas apply; no subscription is included.",
+  "privacy": "The official CLI retains its OAuth credentials. Salesforce receives queries and selected private records enter agent context as untrusted data.",
+  "id": "salesforce",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review records in one Salesforce organization",
+  "description": "Use one explicitly authorized Salesforce CLI organization to read accounts, contacts and opportunities. Browse bounded pages, narrow a list by exact name when needed and inspect a selected record without writing a query yourself.\n\nThe extension requires the supported Salesforce CLI on macOS or Linux and a dedicated user with API and read permissions. It does not write, deploy, send email or retrieve attachments and custom or sensitive fields. Native Windows is unsupported. Your CLI retains the account connection, while Salesforce edition requirements and API quotas continue to apply.",
+  "prompts": [
+    "List a bounded page of accounts in my configured Salesforce organization.",
+    "Filter opportunities by the exact name I provide.",
+    "Read the selected contact's supported fields without editing the record."
+  ],
+  "category": "sales-customers",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://www.salesforce.com/",
+    "privacy": "https://www.salesforce.com/company/legal/privacy/",
+    "terms": "https://www.salesforce.com/company/legal/",
+    "docs": "https://developer.salesforce.com/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Consultá cuentas, contactos y oportunidades de una organización autorizada en Salesforce CLI.",
+      "features": [
+        "Leer páginas acotadas con filtro opcional de nombre exacto",
+        "Consultar registros elegidos sin SOQL libre ni modificaciones"
+      ],
+      "requirements": [
+        "Node.js 24 y una CLI sf compatible en el PATH de APX",
+        "macOS o Linux; Windows nativo no está implementado",
+        "Un alias autorizado expresamente y un usuario dedicado con permisos de API y lectura"
+      ],
+      "limits": [
+        "Sin edición, despliegues, correo, campos personalizados/sensibles ni adjuntos",
+        "Lecturas secuenciales; no sincroniza otras sesiones de la CLI",
+        "Cuenta real, Linux y ciclo de tokens OAuth sin verificar"
+      ],
+      "pricing": "Se aplican la edición, el acceso a la API, los permisos y las cuotas de tu cuenta; no se incluye una suscripción.",
+      "privacy": "La CLI oficial conserva sus credenciales OAuth. Salesforce recibe las consultas y los registros privados elegidos entran al contexto como datos no confiables.",
+      "tagline": "Revisá registros de una organización de Salesforce",
+      "description": "Usá una organización autorizada expresamente en Salesforce CLI para leer cuentas, contactos y oportunidades. Recorré páginas acotadas, filtrá por nombre exacto cuando lo necesites y revisá un registro elegido sin escribir consultas por tu cuenta.\n\nLa extensión requiere la CLI compatible en macOS o Linux y un usuario dedicado con permisos de API y lectura. No escribe, despliega, envía correo ni obtiene adjuntos o campos personalizados o sensibles. Windows nativo no está admitido. La CLI conserva la conexión de cuenta y siguen vigentes los requisitos de edición y las cuotas API de Salesforce.",
+      "prompts": [
+        "Listá una página acotada de cuentas de mi organización configurada de Salesforce.",
+        "Filtrá oportunidades por el nombre exacto que te pase.",
+        "Leé los campos admitidos del contacto elegido sin editar el registro."
+      ],
+      "screenshots": []
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "summary": "Read a selected dashboard or flag definition in one pinned PostHog project.",
+  "features": [
+    "Read one observed dashboard id",
+    "Read one observed feature flag definition"
+  ],
+  "requirements": [
+    "PostHog account, project id and personal API key scoped to that project",
+    "Owner reviews key permissions and enters both fields only in the extension form",
+    "Access to the official hosted PostHog MCP"
+  ],
+  "limits": [
+    "Two named read tools only; no list, writes, SQL, context switching or AI tools",
+    "Filtering and project pinning rely on the provider's documented server enforcement",
+    "Authenticated tools, project isolation, EU routing and revocation remain unverified"
+  ],
+  "pricing": "MCP connection is documented as free; underlying PostHog usage, plan and quotas apply. No service credits or paid AI operations are included.",
+  "privacy": "PostHog receives the requested ids and project-scoped credential. Selected dashboard/flag content may enter agent context. The server routes by the account's region; filtering does not narrow the key's own authority elsewhere.",
+  "id": "posthog",
+  "authentication": "secret",
+  "billing": "usage",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Read a selected PostHog dashboard or flag",
+  "description": "Read one dashboard or feature flag definition by an identifier you already have in a single configured PostHog project. Use the returned content to understand a dashboard or discuss how a particular flag is defined without switching projects.\n\nThe connection exposes only these two reads. It does not list resources, run SQL, change flags, evaluate a user's flag result or invoke AI tools. Project selection and tool filtering use the hosted service's documented controls. Your project-scoped personal key, PostHog plan and underlying usage quotas apply; no service credits are included.",
+  "prompts": [
+    "Read the dashboard with the observed identifier I provide in my configured PostHog project.",
+    "Show the definition of the selected PostHog feature flag without changing it.",
+    "Summarize the dashboard content already returned and identify what it does not tell us."
+  ],
+  "category": "data",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "key",
+  "links": {
+    "website": "https://posthog.com",
+    "privacy": "https://posthog.com/privacy",
+    "terms": "https://posthog.com/terms",
+    "docs": "https://posthog.com/docs/model-context-protocol"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Leé un dashboard o definición de flag elegidos en un único proyecto de PostHog.",
+      "features": [
+        "Leer un dashboard por identificador observado",
+        "Leer una definición de flag observada"
+      ],
+      "requirements": [
+        "Cuenta PostHog, ID de proyecto y clave API personal limitada a ese proyecto",
+        "El dueño revisa permisos e ingresa ambos campos sólo en el formulario de la extensión",
+        "Acceso al MCP oficial alojado por PostHog"
+      ],
+      "limits": [
+        "Sólo dos lecturas por nombre; sin listados, cambios, SQL, cambio de contexto ni herramientas AI",
+        "Filtrado y proyecto fijado dependen de la aplicación documentada del proveedor",
+        "Sin verificar herramientas autenticadas, aislamiento, región EU ni revocación"
+      ],
+      "pricing": "La conexión MCP está documentada como gratuita; rigen consumo, plan y cuotas de PostHog. No incluye créditos ni operaciones AI pagas.",
+      "privacy": "PostHog recibe IDs pedidos y credencial acotada al proyecto. Datos elegidos pueden entrar al contexto. El servidor elige región según cuenta; el filtro no reduce la autoridad propia de la clave en otros usos.",
+      "tagline": "Leé un dashboard o flag elegido de PostHog",
+      "description": "Leé un dashboard o una definición de feature flag por un identificador que ya tengas, dentro de un único proyecto configurado de PostHog. Usá el contenido devuelto para entender un dashboard o conversar cómo está definido un flag sin cambiar de proyecto.\n\nLa conexión ofrece sólo esas dos lecturas. No lista recursos, ejecuta SQL, cambia flags, evalúa el resultado de un usuario ni invoca herramientas de IA. La selección de proyecto y el filtrado usan los controles documentados del servicio alojado. Rigen tu clave personal limitada al proyecto, tu plan y las cuotas de uso de PostHog; no se incluyen créditos.",
+      "prompts": [
+        "Leé el dashboard con el identificador observado que te pase en mi proyecto configurado de PostHog.",
+        "Mostrame la definición del feature flag elegido de PostHog sin modificarlo.",
+        "Resumí el contenido del dashboard ya devuelto e identificá qué no nos permite saber."
+      ],
+      "screenshots": []
+    }
+  }
+}

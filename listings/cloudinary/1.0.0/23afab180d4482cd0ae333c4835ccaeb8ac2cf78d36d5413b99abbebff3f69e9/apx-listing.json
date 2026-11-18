@@ -1,0 +1,68 @@
+{
+  "summary": "Images and videos of your media library.",
+  "features": [
+    "Images and videos of your media library."
+  ],
+  "requirements": [
+    "A Cloudinary account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "cloudinary",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Review images and videos in your media library",
+  "description": "Connect Cloudinary to work with the images and videos available in your media library. Select an asset and bring its available information into APX to understand which media belongs in a project or to compare candidate assets.\n\nKeep the selected asset identifiable rather than relying only on a similar filename. Cloudinary's asset-management tools and your account permissions determine what can be read or changed. The connection does not include storage, delivery credits or a license to reuse media; check the chosen asset's rights before publishing it.",
+  "prompts": [
+    "Review the available information for the Cloudinary image I select.",
+    "Compare the two selected media assets for the project brief I provide.",
+    "Summarize the available details of the video I choose without changing the library."
+  ],
+  "category": "design-media",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://cloudinary.com",
+    "privacy": "https://cloudinary.com/privacy",
+    "terms": "https://cloudinary.com/tou",
+    "docs": "https://cloudinary.com/documentation"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Imágenes y videos de tu biblioteca multimedia.",
+      "features": [
+        "Imágenes y videos de tu biblioteca multimedia."
+      ],
+      "requirements": [
+        "Una cuenta de Cloudinary con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Revisá imágenes y videos de tu biblioteca",
+      "description": "Conectá Cloudinary para trabajar con las imágenes y los videos disponibles en tu biblioteca. Elegí un recurso y traé su información a APX para entender qué material sirve para un proyecto o comparar opciones.\n\nMantené identificado el recurso elegido, sin depender sólo de un nombre de archivo parecido. Las herramientas de administración de Cloudinary y los permisos de tu cuenta determinan qué se puede leer o cambiar. La conexión no incluye almacenamiento, créditos de entrega ni derechos de reutilización: revisá la licencia del recurso antes de publicarlo.",
+      "prompts": [
+        "Revisá la información disponible de la imagen de Cloudinary que elija.",
+        "Compará los dos recursos elegidos para el proyecto que te describa.",
+        "Resumí los detalles disponibles del video que seleccione sin modificar la biblioteca."
+      ],
+      "screenshots": []
+    }
+  }
+}

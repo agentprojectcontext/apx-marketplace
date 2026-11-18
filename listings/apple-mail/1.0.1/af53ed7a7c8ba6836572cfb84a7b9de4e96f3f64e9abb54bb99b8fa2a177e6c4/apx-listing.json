@@ -1,0 +1,74 @@
+{
+  "summary": "Read metadata and selected message text in one local macOS Mail account/mailbox.",
+  "features": [
+    "Page selected mailbox metadata without reading message bodies",
+    "Read Mail-returned text for an observed local message id"
+  ],
+  "requirements": [
+    "macOS Mail and Node 24 on the MCP execution host",
+    "Owner-reviewed Automation/privacy grant for Mail",
+    "Exact unique account and mailbox names entered in the extension form"
+  ],
+  "limits": [
+    "No sends, replies, drafts, mutations, attachments, raw MIME/headers or mailbox search",
+    "Up to 2000 selected-mailbox references, 20/page; body reads reject metadata size over 1 MiB",
+    "Real authorized reads, OS permission/revocation, read-flag and background network behavior unverified"
+  ],
+  "pricing": "Uses the installed app and its existing account. Provider account terms apply; no paid API, AI or new subscription is invoked.",
+  "privacy": "Selected metadata and requested message text can enter agent context. Account/mailbox names are inspected to find scope; other mailboxes' message fields are not read. The OS grant may be broader; Mail may sync/fetch through its existing account. Read-flag behavior is unverified.",
+  "id": "apple-mail",
+  "authentication": "local-permission",
+  "billing": "free",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Read selected messages from Mail on your Mac",
+  "description": "Choose one uniquely named account and mailbox in macOS Mail. Browse message metadata without reading every body, then request the text of a message from that list. The selected mailbox is limited to 2,000 message references, shown in pages of up to 20.\n\nThe package does not send, reply, draft, move, delete or search mail, and does not retrieve attachments or raw message headers. Large message-body reads are refused. Mail and its existing account must be available on the computer running the extension, with macOS automation access. Mail may still synchronize through that account; reading through the app is not an offline guarantee.",
+  "prompts": [
+    "Show message metadata from my configured Mail mailbox without reading the bodies.",
+    "Read the text of the message I select from that list, without attachments.",
+    "Show the next page of metadata from the same mailbox."
+  ],
+  "category": "communication",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "local",
+  "links": {
+    "website": "https://www.apple.com/macos/",
+    "privacy": "https://www.apple.com/legal/privacy/",
+    "terms": "https://www.apple.com/legal/",
+    "docs": "https://support.apple.com/mac"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Leé metadatos y texto de mensajes elegidos en una cuenta/casilla local de Mail de macOS.",
+      "features": [
+        "Recorrer metadatos de la casilla elegida sin leer cuerpos",
+        "Leer texto devuelto por Mail para un identificador local observado"
+      ],
+      "requirements": [
+        "Mail de macOS y Node 24 donde se ejecuta el MCP",
+        "Permiso de automatización/privacidad de Mail revisado por el dueño",
+        "Nombres exactos y únicos de cuenta y casilla ingresados en la extensión"
+      ],
+      "limits": [
+        "Sin envíos, respuestas, borradores, cambios, adjuntos, MIME/cabeceras ni búsquedas de casillas",
+        "Hasta 2000 referencias elegidas, 20 por página; rechaza cuerpos cuyo tamaño informado supere 1 MiB",
+        "Sin verificar lectura real, permisos/revocación, marca de leído ni red en segundo plano"
+      ],
+      "pricing": "Usa la app y cuenta existentes. Rigen condiciones del proveedor; no invoca API paga, AI ni suscripción nueva.",
+      "privacy": "Metadatos y texto pedidos pueden entrar al contexto. Revisa nombres de cuentas/casillas para elegir alcance, sin leer mensajes de otras. El permiso del sistema puede ser más amplio; Mail puede sincronizar/descargar con su cuenta. No se verificó la marca de leído.",
+      "tagline": "Leé mensajes elegidos de Mail en tu Mac",
+      "description": "Elegí una cuenta y una casilla de macOS Mail con nombres únicos. Recorré metadatos sin leer todos los cuerpos y después pedí el texto de un mensaje de esa lista. La casilla elegida admite hasta 2.000 referencias de mensajes, en páginas de hasta 20.\n\nEl paquete no envía, responde, redacta, mueve, borra ni busca correo. Tampoco obtiene adjuntos ni encabezados originales. Las lecturas de cuerpos demasiado grandes se rechazan. Necesitás Mail y su cuenta existente en la computadora que ejecuta la extensión, con acceso de automatización de macOS. Mail puede seguir sincronizando mediante esa cuenta: leer desde la app no garantiza trabajar sin conexión.",
+      "prompts": [
+        "Mostrame los metadatos de mi casilla configurada de Mail sin leer los cuerpos.",
+        "Leé el texto del mensaje que elija de esa lista, sin adjuntos.",
+        "Mostrame la próxima página de metadatos de la misma casilla."
+      ],
+      "screenshots": []
+    }
+  }
+}

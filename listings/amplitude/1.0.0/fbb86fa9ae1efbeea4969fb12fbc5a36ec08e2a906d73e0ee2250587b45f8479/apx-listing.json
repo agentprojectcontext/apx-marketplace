@@ -1,0 +1,68 @@
+{
+  "summary": "Product analytics: charts and cohorts.",
+  "features": [
+    "Product analytics: charts and cohorts."
+  ],
+  "requirements": [
+    "A Amplitude account with permission to use its MCP server",
+    "Node.js and npm to run the server"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "amplitude",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Discuss product charts and cohorts with Amplitude",
+  "description": "Bring Amplitude product analytics into APX through the charts and cohorts available to your account. Choose the analysis you want to discuss and use its returned information to explain patterns or compare the populations represented.\n\nA chart depends on its definitions, filters and time range. Keep those alongside the interpretation, and distinguish an observed pattern from an explanation of its cause. Available analyses depend on Amplitude's tools, account permissions and plan; connecting the extension does not include a subscription or change the underlying data collection.",
+  "prompts": [
+    "Review the Amplitude chart I select and state the time range shown in its available data.",
+    "Explain the available definition of the cohort I choose.",
+    "Compare the selected chart results and distinguish observations from possible explanations."
+  ],
+  "category": "data",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://amplitude.com",
+    "privacy": "https://amplitude.com/privacy",
+    "terms": "https://amplitude.com/terms",
+    "docs": "https://developers.amplitude.com/docs"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Analítica de producto: gráficos y cohortes.",
+      "features": [
+        "Analítica de producto: gráficos y cohortes."
+      ],
+      "requirements": [
+        "Una cuenta de Amplitude con permiso para usar su servidor MCP",
+        "Node.js y npm para ejecutar el servidor"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Analizá gráficos y cohortes con Amplitude",
+      "description": "Traé analítica de producto de Amplitude a APX mediante los gráficos y las cohortes disponibles para tu cuenta. Elegí el análisis que querés conversar y usá la información devuelta para explicar patrones o comparar las poblaciones representadas.\n\nUn gráfico depende de sus definiciones, filtros y período. Mantené esos datos junto a la interpretación y distinguí un patrón observado de una explicación de su causa. Los análisis disponibles dependen de las herramientas de Amplitude, tus permisos y tu plan; conectar la extensión no incluye una suscripción ni cambia la recolección de datos.",
+      "prompts": [
+        "Revisá el gráfico de Amplitude que elija e indicá el período presente en sus datos disponibles.",
+        "Explicame la definición disponible de la cohorte que seleccione.",
+        "Compará los resultados elegidos y distinguí observaciones de posibles explicaciones."
+      ],
+      "screenshots": []
+    }
+  }
+}
