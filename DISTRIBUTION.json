@@ -1,0 +1,1127 @@
+{
+  "schema": 1,
+  "index": "https://marketplace.apxagent.app/index.json",
+  "entries": 82,
+  "versions": [
+    {
+      "id": "agentmail",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/agentmail/1.0.1/85b7935517ad585005d42678de08d6ea3845546b673bdac59031b1fdf49b1367.apxext",
+        "sha256": "85b7935517ad585005d42678de08d6ea3845546b673bdac59031b1fdf49b1367"
+      },
+      "content_hash": "b8b655a3e52fc23c"
+    },
+    {
+      "id": "agentmail",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/agentmail/1.0.0/dfa64503993806e50f4a658e1c139d9cf64c0f789dbc6c3d9de39e3359f79de2.apxext",
+        "sha256": "dfa64503993806e50f4a658e1c139d9cf64c0f789dbc6c3d9de39e3359f79de2"
+      },
+      "content_hash": "d6f332e0dc0e2325"
+    },
+    {
+      "id": "airtable",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/airtable/1.0.0/2346fd6c95818aed1b3517a12de705d94bbc22f5ef152a20b961c122275cb7e4.apxext",
+        "sha256": "2346fd6c95818aed1b3517a12de705d94bbc22f5ef152a20b961c122275cb7e4"
+      },
+      "content_hash": "77201e97a0977657"
+    },
+    {
+      "id": "amplitude",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/amplitude/1.0.0/fbb86fa9ae1efbeea4969fb12fbc5a36ec08e2a906d73e0ee2250587b45f8479.apxext",
+        "sha256": "fbb86fa9ae1efbeea4969fb12fbc5a36ec08e2a906d73e0ee2250587b45f8479"
+      },
+      "content_hash": "81526f9db95770fd"
+    },
+    {
+      "id": "android_tv",
+      "version": "0.2.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/android_tv/0.2.1/f2a16de58c0a80b80069663247c65d550b59a24ba0447c95493fff048c0d3c5d.apxext",
+        "sha256": "f2a16de58c0a80b80069663247c65d550b59a24ba0447c95493fff048c0d3c5d"
+      },
+      "content_hash": "029a3391cfdf8351"
+    },
+    {
+      "id": "android_tv",
+      "version": "0.2.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/android_tv/0.2.0/490b23a6a844e9668a0a47037bbbddb112acdfd7c4e26e31189ec5f5705d4bc0.apxext",
+        "sha256": "490b23a6a844e9668a0a47037bbbddb112acdfd7c4e26e31189ec5f5705d4bc0"
+      },
+      "content_hash": "0bb508db61c9f8ce"
+    },
+    {
+      "id": "apple-calendar",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-calendar/1.0.2/b6f30c5d59b6e6594bd1364092e619e90de485065add36123e10f5d0a6b5e3e8.apxext",
+        "sha256": "b6f30c5d59b6e6594bd1364092e619e90de485065add36123e10f5d0a6b5e3e8"
+      },
+      "content_hash": "71ba1ff16a8c5667"
+    },
+    {
+      "id": "apple-calendar",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-calendar/1.0.1/09d2beac4be06559844feec54632c188017710f191c569c4e333277b0c05c515.apxext",
+        "sha256": "09d2beac4be06559844feec54632c188017710f191c569c4e333277b0c05c515"
+      },
+      "content_hash": "98c26d11ac030e23"
+    },
+    {
+      "id": "apple-contacts",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-contacts/1.0.2/61544c0170d5bbe6bacfc564f47b8c569ee944bcc67d292c1d88516fb815819c.apxext",
+        "sha256": "61544c0170d5bbe6bacfc564f47b8c569ee944bcc67d292c1d88516fb815819c"
+      },
+      "content_hash": "74173278eb217d13"
+    },
+    {
+      "id": "apple-contacts",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-contacts/1.0.1/a0522e7c451635231ec18d6f65c9d73cfbaf9ab453954d0518e5e319e2bece20.apxext",
+        "sha256": "a0522e7c451635231ec18d6f65c9d73cfbaf9ab453954d0518e5e319e2bece20"
+      },
+      "content_hash": "1759e34f7af09897"
+    },
+    {
+      "id": "apple-mail",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-mail/1.0.1/af53ed7a7c8ba6836572cfb84a7b9de4e96f3f64e9abb54bb99b8fa2a177e6c4.apxext",
+        "sha256": "af53ed7a7c8ba6836572cfb84a7b9de4e96f3f64e9abb54bb99b8fa2a177e6c4"
+      },
+      "content_hash": "0a482ce494cb3dbd"
+    },
+    {
+      "id": "apple-mail",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-mail/1.0.0/ea796e0b23529fcca902feb6126b5e28b4a5fb3cb753ada3f4ea6846f616a23b.apxext",
+        "sha256": "ea796e0b23529fcca902feb6126b5e28b4a5fb3cb753ada3f4ea6846f616a23b"
+      },
+      "content_hash": "ddfbec65bc1ae87f"
+    },
+    {
+      "id": "apple-notes",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-notes/1.0.2/69ccecf21e871e53e2034b1c4e9109b5d75e0e09c87355313d5a4e7c0c356baf.apxext",
+        "sha256": "69ccecf21e871e53e2034b1c4e9109b5d75e0e09c87355313d5a4e7c0c356baf"
+      },
+      "content_hash": "5fc5aa135733fb56"
+    },
+    {
+      "id": "apple-notes",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-notes/1.0.1/2975dac31e4ca9bff44a22f2dcbb617290f7136f1ba0b134fe9342204098fb2e.apxext",
+        "sha256": "2975dac31e4ca9bff44a22f2dcbb617290f7136f1ba0b134fe9342204098fb2e"
+      },
+      "content_hash": "eca5bd75792e9ea0"
+    },
+    {
+      "id": "apple-reminders",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-reminders/1.0.1/945dff4cca79407b2a876042455144643a6683f83e06b38f715a078c87435ebc.apxext",
+        "sha256": "945dff4cca79407b2a876042455144643a6683f83e06b38f715a078c87435ebc"
+      },
+      "content_hash": "732a0d0a8ee4fd05"
+    },
+    {
+      "id": "apple-reminders",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/apple-reminders/1.0.0/48d06dac662d9fc76b370f4be760ef2462099896fcbecd04f6d511fe0cf08b8f.apxext",
+        "sha256": "48d06dac662d9fc76b370f4be760ef2462099896fcbecd04f6d511fe0cf08b8f"
+      },
+      "content_hash": "f60a70a9292e3a35"
+    },
+    {
+      "id": "arxiv",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/arxiv/1.0.1/9c7bf5f9f4769fe4b394cc2a5ba6a9d17165d45e109dd74934318512a000e508.apxext",
+        "sha256": "9c7bf5f9f4769fe4b394cc2a5ba6a9d17165d45e109dd74934318512a000e508"
+      },
+      "content_hash": "72de26b0f83fd47c"
+    },
+    {
+      "id": "arxiv",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/arxiv/1.0.0/b540f49ac28903bad61466624054ed31ca7a3bf4561aed12fd50722c9fb93c7e.apxext",
+        "sha256": "b540f49ac28903bad61466624054ed31ca7a3bf4561aed12fd50722c9fb93c7e"
+      },
+      "content_hash": "50d0d2c69eacc277"
+    },
+    {
+      "id": "atlassian",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/atlassian/1.0.0/e1450aeed3361e4c2ac9c6cbedae25e726e01c972473f7cff50cb69263ec09b1.apxext",
+        "sha256": "e1450aeed3361e4c2ac9c6cbedae25e726e01c972473f7cff50cb69263ec09b1"
+      },
+      "content_hash": "4d88965caaa3e721"
+    },
+    {
+      "id": "attio",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/attio/1.0.0/7722d714066adf26e78588be9b1fc6d06b704eeeb73d1b5b851bef7b18552db0.apxext",
+        "sha256": "7722d714066adf26e78588be9b1fc6d06b704eeeb73d1b5b851bef7b18552db0"
+      },
+      "content_hash": "e207bc6a48f447ff"
+    },
+    {
+      "id": "aws-knowledge",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/aws-knowledge/1.0.0/9049f15d27cbf655f1f06943c5f8ba0fd86518537d8f6e71c75129dedd2e06fe.apxext",
+        "sha256": "9049f15d27cbf655f1f06943c5f8ba0fd86518537d8f6e71c75129dedd2e06fe"
+      },
+      "content_hash": "f59596f0396f48c2"
+    },
+    {
+      "id": "better-stack",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/better-stack/1.0.0/371a08c0283f3a504c039e0a9fe6f5f59688396204aa303473683c3672292d8e.apxext",
+        "sha256": "371a08c0283f3a504c039e0a9fe6f5f59688396204aa303473683c3672292d8e"
+      },
+      "content_hash": "1234c22429a4901d"
+    },
+    {
+      "id": "box",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/box/1.0.1/29c549fd6f83a04c8ae306ef2984149f29a48c4bf7913dc298cbd9aadcb08015.apxext",
+        "sha256": "29c549fd6f83a04c8ae306ef2984149f29a48c4bf7913dc298cbd9aadcb08015"
+      },
+      "content_hash": "4f990d0d5a667cb9"
+    },
+    {
+      "id": "box",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/box/1.0.0/ee3163ea80a77ed05f4c43d4ce26d2cd0685ecca7bea4809ac9fe2e104502aec.apxext",
+        "sha256": "ee3163ea80a77ed05f4c43d4ce26d2cd0685ecca7bea4809ac9fe2e104502aec"
+      },
+      "content_hash": "6e8e6e4b692d3e4e"
+    },
+    {
+      "id": "brave-search",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/brave-search/1.0.0/69e68d2ba5eaca235ef31b8b8b8731e1da6045036f63569eb97d2c24ef55eb93.apxext",
+        "sha256": "69e68d2ba5eaca235ef31b8b8b8731e1da6045036f63569eb97d2c24ef55eb93"
+      },
+      "content_hash": "a00087eb737ed708"
+    },
+    {
+      "id": "browser-use",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/browser-use/1.0.1/4aff1535655e879d8d44dd2b635e6334b3b14d41ee926d747e41843c555f7c1c.apxext",
+        "sha256": "4aff1535655e879d8d44dd2b635e6334b3b14d41ee926d747e41843c555f7c1c"
+      },
+      "content_hash": "9bbf361def3e97f8"
+    },
+    {
+      "id": "browser-use",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/browser-use/1.0.0/e4110adf7d14e98c29345151b26dc20b4f1df2b83368771e9cc37cdd0053136d.apxext",
+        "sha256": "e4110adf7d14e98c29345151b26dc20b4f1df2b83368771e9cc37cdd0053136d"
+      },
+      "content_hash": "1c9f43f22135da4b"
+    },
+    {
+      "id": "browserbase",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/browserbase/1.0.1/adc12c852256b2ee0afccc1a5a55bbbed73be4d014090425a66c2e14bba5a1a4.apxext",
+        "sha256": "adc12c852256b2ee0afccc1a5a55bbbed73be4d014090425a66c2e14bba5a1a4"
+      },
+      "content_hash": "48c6b83605f850cb"
+    },
+    {
+      "id": "browserbase",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/browserbase/1.0.0/78d72827a86527d82cc369dd6a066a9b90e642d0d4fed868c93beaaf8f2fcf67.apxext",
+        "sha256": "78d72827a86527d82cc369dd6a066a9b90e642d0d4fed868c93beaaf8f2fcf67"
+      },
+      "content_hash": "d1e5c43361e3c915"
+    },
+    {
+      "id": "calendly",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/calendly/1.0.0/fe7760b5d34fc19359dc7fb4e3ce882ee0dc918a7331a98f0ee5bb56af07b938.apxext",
+        "sha256": "fe7760b5d34fc19359dc7fb4e3ce882ee0dc918a7331a98f0ee5bb56af07b938"
+      },
+      "content_hash": "a0988c29abf026ab"
+    },
+    {
+      "id": "canva",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/canva/1.0.0/86f6fcb952046a9f2866cdfead0257c9da7b71abc5378cb7b94ac8e068904d12.apxext",
+        "sha256": "86f6fcb952046a9f2866cdfead0257c9da7b71abc5378cb7b94ac8e068904d12"
+      },
+      "content_hash": "cd34d395deabfdf8"
+    },
+    {
+      "id": "canvas-lms",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/canvas-lms/1.0.2/d8d68bd98cf40eae0e44e04e040139de5f8060c06fa4e23285527a189266704f.apxext",
+        "sha256": "d8d68bd98cf40eae0e44e04e040139de5f8060c06fa4e23285527a189266704f"
+      },
+      "content_hash": "d56d85d935895829"
+    },
+    {
+      "id": "canvas-lms",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/canvas-lms/1.0.1/6a492c8734a8e2eabc8294cb6a0556b1ec2eddc6a45882abd9e8851fe312fa72.apxext",
+        "sha256": "6a492c8734a8e2eabc8294cb6a0556b1ec2eddc6a45882abd9e8851fe312fa72"
+      },
+      "content_hash": "4dedb83dce516a52"
+    },
+    {
+      "id": "circleci",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/circleci/1.0.0/f77390c15c39897e1cf41262f2bdb36cb7f2226f5145bfe9f53eead18cf28f7b.apxext",
+        "sha256": "f77390c15c39897e1cf41262f2bdb36cb7f2226f5145bfe9f53eead18cf28f7b"
+      },
+      "content_hash": "485227473976ddf8"
+    },
+    {
+      "id": "clickup",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/clickup/1.0.0/bdbe69507ed45a03bf0069096737311a131b57c25d119ec8769fd4e92fdaad40.apxext",
+        "sha256": "bdbe69507ed45a03bf0069096737311a131b57c25d119ec8769fd4e92fdaad40"
+      },
+      "content_hash": "0e8a830042a5ef6f"
+    },
+    {
+      "id": "close",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/close/1.0.0/f28a6b8d6a3076635d9cf3959458690b10a45c42bc838ae9b3ec85f815d358de.apxext",
+        "sha256": "f28a6b8d6a3076635d9cf3959458690b10a45c42bc838ae9b3ec85f815d358de"
+      },
+      "content_hash": "ea49e6241f0a7c00"
+    },
+    {
+      "id": "cloudflare",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/cloudflare/1.0.0/ff3654e5a7cea23523bbce1eeb03f8d4025e5246b6c9eadd9c402d2299e6a2b4.apxext",
+        "sha256": "ff3654e5a7cea23523bbce1eeb03f8d4025e5246b6c9eadd9c402d2299e6a2b4"
+      },
+      "content_hash": "94235de445a52a00"
+    },
+    {
+      "id": "cloudinary",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/cloudinary/1.0.0/23afab180d4482cd0ae333c4835ccaeb8ac2cf78d36d5413b99abbebff3f69e9.apxext",
+        "sha256": "23afab180d4482cd0ae333c4835ccaeb8ac2cf78d36d5413b99abbebff3f69e9"
+      },
+      "content_hash": "09223fb56782f180"
+    },
+    {
+      "id": "context7",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/context7/1.0.0/39ddbcbf50ab4f0c05ba2b3f072629d3d956ccd55608a3f44b2c7c333eaf6e8e.apxext",
+        "sha256": "39ddbcbf50ab4f0c05ba2b3f072629d3d956ccd55608a3f44b2c7c333eaf6e8e"
+      },
+      "content_hash": "d67e0f71288d64a3"
+    },
+    {
+      "id": "craft",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/craft/1.0.0/66cbd8ded0d06e8a94603ed2567b75360d981ab742389b8c26e427d24d52c695.apxext",
+        "sha256": "66cbd8ded0d06e8a94603ed2567b75360d981ab742389b8c26e427d24d52c695"
+      },
+      "content_hash": "8ac20eafea59d09e"
+    },
+    {
+      "id": "datadog",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/datadog/1.0.0/ff382b946806d9d652ae5c9a815bfb354078f24351e34a8007dac622ba5b3c49.apxext",
+        "sha256": "ff382b946806d9d652ae5c9a815bfb354078f24351e34a8007dac622ba5b3c49"
+      },
+      "content_hash": "0f327ddb265f7464"
+    },
+    {
+      "id": "deepwiki",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/deepwiki/1.0.0/ee30fc232490ac7cdea0c0d5b4ea754813ce2bc5292f85cd4d1a7c4bc7cc83d5.apxext",
+        "sha256": "ee30fc232490ac7cdea0c0d5b4ea754813ce2bc5292f85cd4d1a7c4bc7cc83d5"
+      },
+      "content_hash": "31bc9955123ac8db"
+    },
+    {
+      "id": "docker",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/docker/1.0.1/ef7f1905608e41ac2bd3208b50d3bb59e53871918a751ab40f830b4c058e4ffd.apxext",
+        "sha256": "ef7f1905608e41ac2bd3208b50d3bb59e53871918a751ab40f830b4c058e4ffd"
+      },
+      "content_hash": "e5c2cf57940739db"
+    },
+    {
+      "id": "docker",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/docker/1.0.0/b8918dccb475eef1b21bdf7cd27cfa07e1c4d857f00ae38cc76a9ee030deb1c9.apxext",
+        "sha256": "b8918dccb475eef1b21bdf7cd27cfa07e1c4d857f00ae38cc76a9ee030deb1c9"
+      },
+      "content_hash": "ffc4a49c8361f853"
+    },
+    {
+      "id": "dropbox",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/dropbox/1.0.0/ae50349ec88e36dfaddee60743d1f2b35b6b420e6e619c0cb7b7fc6fc9069469.apxext",
+        "sha256": "ae50349ec88e36dfaddee60743d1f2b35b6b420e6e619c0cb7b7fc6fc9069469"
+      },
+      "content_hash": "4feaa1366b7e9e58"
+    },
+    {
+      "id": "evm",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/evm/1.0.1/12f38d2c3fb49a72f00a8cbe87537a2b29e6195d0e1fa2997db96f9a6ba9a850.apxext",
+        "sha256": "12f38d2c3fb49a72f00a8cbe87537a2b29e6195d0e1fa2997db96f9a6ba9a850"
+      },
+      "content_hash": "452f6fa75265e973"
+    },
+    {
+      "id": "evm",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/evm/1.0.0/0fecf7b3c719f1196e647dd673d3a8f7d34a2f9d9d7cbe64ceabe6f700fd5b26.apxext",
+        "sha256": "0fecf7b3c719f1196e647dd673d3a8f7d34a2f9d9d7cbe64ceabe6f700fd5b26"
+      },
+      "content_hash": "5c6cafababc32b29"
+    },
+    {
+      "id": "exa",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/exa/1.0.2/1d6d1206050a35dc806195256ce927fa6f7955c9715996f3840b851fe71b0519.apxext",
+        "sha256": "1d6d1206050a35dc806195256ce927fa6f7955c9715996f3840b851fe71b0519"
+      },
+      "content_hash": "4b1cbb9ff1edb330"
+    },
+    {
+      "id": "exa",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/exa/1.0.1/cde701ea3a2b9baef1f77f3fbfc27499d70b00f90476b07f412376d2bb5445d6.apxext",
+        "sha256": "cde701ea3a2b9baef1f77f3fbfc27499d70b00f90476b07f412376d2bb5445d6"
+      },
+      "content_hash": "e6524fd5b690b90d"
+    },
+    {
+      "id": "figma",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/figma/1.0.0/3bdd2b05abee6d274f9bbf7d7f131b8c115d260a720638d46598692bf1a59bc2.apxext",
+        "sha256": "3bdd2b05abee6d274f9bbf7d7f131b8c115d260a720638d46598692bf1a59bc2"
+      },
+      "content_hash": "fb808c5ff6190dfa"
+    },
+    {
+      "id": "firecrawl",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/firecrawl/1.0.2/7a00ab94ab769850a1660f0ed0ad1efcd68fc19f912375fb2eeffaba4469695f.apxext",
+        "sha256": "7a00ab94ab769850a1660f0ed0ad1efcd68fc19f912375fb2eeffaba4469695f"
+      },
+      "content_hash": "b946ba8851580415"
+    },
+    {
+      "id": "firecrawl",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/firecrawl/1.0.1/c253c95b1a7abfda444d488e23a9829141a49d1de6c511fdd91998b5d2fb7411.apxext",
+        "sha256": "c253c95b1a7abfda444d488e23a9829141a49d1de6c511fdd91998b5d2fb7411"
+      },
+      "content_hash": "9ac919c3408c359b"
+    },
+    {
+      "id": "fireflies",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/fireflies/1.0.0/4e71403f3e6b7f1b476b57f01a3b79f30805399c77e2a74f007830025728f121.apxext",
+        "sha256": "4e71403f3e6b7f1b476b57f01a3b79f30805399c77e2a74f007830025728f121"
+      },
+      "content_hash": "f65d5a285d646daa"
+    },
+    {
+      "id": "gamma",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/gamma/1.0.0/04d0de62aed2dde2efb3410eadd495c822c2c70db79146c3bb222b53afc04484.apxext",
+        "sha256": "04d0de62aed2dde2efb3410eadd495c822c2c70db79146c3bb222b53afc04484"
+      },
+      "content_hash": "3ae1f337b9d94252"
+    },
+    {
+      "id": "gitlab",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/gitlab/1.0.0/eff838316ee72037964cd082c7d803ab150a10f009824464fec2a7cd947c92d7.apxext",
+        "sha256": "eff838316ee72037964cd082c7d803ab150a10f009824464fec2a7cd947c92d7"
+      },
+      "content_hash": "b29b6d25ce5b6b19"
+    },
+    {
+      "id": "grafana",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/grafana/1.0.0/4a53955e657e34a10b01ef864b8ac6689704503d4c6c016efa8a7545cb61eb52.apxext",
+        "sha256": "4a53955e657e34a10b01ef864b8ac6689704503d4c6c016efa8a7545cb61eb52"
+      },
+      "content_hash": "944d94230ce81f48"
+    },
+    {
+      "id": "hubspot",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hubspot/1.0.2/e244e1522b7c7153e115385355be0852eb56a165c600d945e6198521b796fb00.apxext",
+        "sha256": "e244e1522b7c7153e115385355be0852eb56a165c600d945e6198521b796fb00"
+      },
+      "content_hash": "de1c1cb88c0b1e7e"
+    },
+    {
+      "id": "hubspot",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hubspot/1.0.1/6eeaae1947f2087d407ee9e49fb5aa7bbd11384bdc376c0d3a47200659e7aa02.apxext",
+        "sha256": "6eeaae1947f2087d407ee9e49fb5aa7bbd11384bdc376c0d3a47200659e7aa02"
+      },
+      "content_hash": "a92033ce81de562b"
+    },
+    {
+      "id": "hugging-face",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hugging-face/1.0.0/77d8f84c11133accb2e76dce8ef4953694e2150b8a820a3dc888fb3f6369112e.apxext",
+        "sha256": "77d8f84c11133accb2e76dce8ef4953694e2150b8a820a3dc888fb3f6369112e"
+      },
+      "content_hash": "019997d8ae82d799"
+    },
+    {
+      "id": "intercom",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/intercom/1.0.0/5377a2c7d44693364f177ec9e83d2dfd885924389bb8f806c518949774a6f4fd.apxext",
+        "sha256": "5377a2c7d44693364f177ec9e83d2dfd885924389bb8f806c518949774a6f4fd"
+      },
+      "content_hash": "5219db54923c2bda"
+    },
+    {
+      "id": "klaviyo",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/klaviyo/1.0.0/e7758fbfee58a8e67b014b4ce1031762d9875b332a4b70fcbadad0e7bf91e33e.apxext",
+        "sha256": "e7758fbfee58a8e67b014b4ce1031762d9875b332a4b70fcbadad0e7bf91e33e"
+      },
+      "content_hash": "0559d8de88fa5f21"
+    },
+    {
+      "id": "linear",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/linear/1.0.0/2757b704b6842b698461c2b31696edf37d0c9b9097307b8db4f984485ade6db0.apxext",
+        "sha256": "2757b704b6842b698461c2b31696edf37d0c9b9097307b8db4f984485ade6db0"
+      },
+      "content_hash": "2c8de9a06650a148"
+    },
+    {
+      "id": "microsoft-learn",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/microsoft-learn/1.0.0/0bd5d5691a48d488d02944321ddc09baca23d01268793a175f3d867a60fe3ce9.apxext",
+        "sha256": "0bd5d5691a48d488d02944321ddc09baca23d01268793a175f3d867a60fe3ce9"
+      },
+      "content_hash": "d5b04f59877ae91a"
+    },
+    {
+      "id": "miro",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/miro/1.0.0/2760cf530dbe362df3e56f6368a466aa47ebd5d4997920dfc341d8bf1ab5fead.apxext",
+        "sha256": "2760cf530dbe362df3e56f6368a466aa47ebd5d4997920dfc341d8bf1ab5fead"
+      },
+      "content_hash": "ca9d7703a3e38fb7"
+    },
+    {
+      "id": "mixpanel",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/mixpanel/1.0.0/668071f9963dd25ade97c1699d68dcfd96a329740569c817a8dac3886d68c04d.apxext",
+        "sha256": "668071f9963dd25ade97c1699d68dcfd96a329740569c817a8dac3886d68c04d"
+      },
+      "content_hash": "995d77161a82ac58"
+    },
+    {
+      "id": "monday",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/monday/1.0.0/b0dfdcb758bff62fac21b53542a50380e054f9d4c8408709a6461a2d2ff26d18.apxext",
+        "sha256": "b0dfdcb758bff62fac21b53542a50380e054f9d4c8408709a6461a2d2ff26d18"
+      },
+      "content_hash": "17fd8747d6ff2389"
+    },
+    {
+      "id": "neon",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/neon/1.0.0/d98f267c071fc4ee761a3ca8530e39a5ec788f284965e039ff919e8a7cb6dd4e.apxext",
+        "sha256": "d98f267c071fc4ee761a3ca8530e39a5ec788f284965e039ff919e8a7cb6dd4e"
+      },
+      "content_hash": "9e8bdb78ccbffc11"
+    },
+    {
+      "id": "netlify",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/netlify/1.0.0/f488a607773d8a20fa11438c97304af89bc3572f3d5b643761f6424555aa2724.apxext",
+        "sha256": "f488a607773d8a20fa11438c97304af89bc3572f3d5b643761f6424555aa2724"
+      },
+      "content_hash": "7e7df58878eabc2e"
+    },
+    {
+      "id": "notion",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/notion/1.0.0/4f9751cc46b2e7debc6ef0a3e86a55d7cdadd47a659bdc015cdeaa3a9a7d682c.apxext",
+        "sha256": "4f9751cc46b2e7debc6ef0a3e86a55d7cdadd47a659bdc015cdeaa3a9a7d682c"
+      },
+      "content_hash": "4c4dcdae449011e2"
+    },
+    {
+      "id": "obsidian",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/obsidian/1.0.0/9725bcf215c46052c17e697b580cc747f6e7881e3584aa4c727dcafc624023e9.apxext",
+        "sha256": "9725bcf215c46052c17e697b580cc747f6e7881e3584aa4c727dcafc624023e9"
+      },
+      "content_hash": "6d4e4a6a0083e058"
+    },
+    {
+      "id": "paper",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/paper/1.0.1/7be0d505476702bfe93c362f1b01ef4e259f9011a8867e4447365c95fc442263.apxext",
+        "sha256": "7be0d505476702bfe93c362f1b01ef4e259f9011a8867e4447365c95fc442263"
+      },
+      "content_hash": "f220d0b2f2b6b546"
+    },
+    {
+      "id": "paper",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/paper/1.0.0/27ce62af58d37506eb59d5d82a95384db46d0eb6ebb4e87013c78aaac94f77a7.apxext",
+        "sha256": "27ce62af58d37506eb59d5d82a95384db46d0eb6ebb4e87013c78aaac94f77a7"
+      },
+      "content_hash": "68f3dc0f687d6c60"
+    },
+    {
+      "id": "parallel",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/parallel/1.0.1/090c53458fac6349cebebb8512bf4422886d450a665f7a7f7c00750bf02f99ec.apxext",
+        "sha256": "090c53458fac6349cebebb8512bf4422886d450a665f7a7f7c00750bf02f99ec"
+      },
+      "content_hash": "2e9dae5648d6d0f2"
+    },
+    {
+      "id": "parallel",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/parallel/1.0.0/ef6a1ec00bb06eca363eb5c72abc059ed30cba4af20d9229f5df628c75bcf6f5.apxext",
+        "sha256": "ef6a1ec00bb06eca363eb5c72abc059ed30cba4af20d9229f5df628c75bcf6f5"
+      },
+      "content_hash": "c22769d343f0a2ac"
+    },
+    {
+      "id": "paypal",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/paypal/1.0.0/aa984740687427a63ee4ca867048b50115188df7ad7741b5412c799993257a16.apxext",
+        "sha256": "aa984740687427a63ee4ca867048b50115188df7ad7741b5412c799993257a16"
+      },
+      "content_hash": "d9f0219190ff93b4"
+    },
+    {
+      "id": "perplexity-search",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/perplexity-search/1.0.1/7207e87a3bd8b07432e5fcf80d33497e08f92ba6e2ea8a0abfbc3aa53bae988d.apxext",
+        "sha256": "7207e87a3bd8b07432e5fcf80d33497e08f92ba6e2ea8a0abfbc3aa53bae988d"
+      },
+      "content_hash": "14ab73dbab6f7f1e"
+    },
+    {
+      "id": "perplexity-search",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/perplexity-search/1.0.0/785d43abd0e51cdd7d0fa2e48998c10ecc34808f13795bb8b88141b4d636e84c.apxext",
+        "sha256": "785d43abd0e51cdd7d0fa2e48998c10ecc34808f13795bb8b88141b4d636e84c"
+      },
+      "content_hash": "64f1249b87a61593"
+    },
+    {
+      "id": "posthog",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/posthog/1.0.1/0165dda47f6763410703f2893f153b0c3f0cff546773bb294802e4910e925296.apxext",
+        "sha256": "0165dda47f6763410703f2893f153b0c3f0cff546773bb294802e4910e925296"
+      },
+      "content_hash": "304dbf916181cb5c"
+    },
+    {
+      "id": "posthog",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/posthog/1.0.0/a53033475a006e5e31ccfd647c5ea4b949012bcc90d91b97ba7aab205ef03953.apxext",
+        "sha256": "a53033475a006e5e31ccfd647c5ea4b949012bcc90d91b97ba7aab205ef03953"
+      },
+      "content_hash": "413b04f61bd30180"
+    },
+    {
+      "id": "postman",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/postman/1.0.0/6df5cf84501ffb300f1a8a5b427cce18e554bf79498441d66b4d34e043740938.apxext",
+        "sha256": "6df5cf84501ffb300f1a8a5b427cce18e554bf79498441d66b4d34e043740938"
+      },
+      "content_hash": "25a006fb9b73dec6"
+    },
+    {
+      "id": "prisma",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/prisma/1.0.0/7524c5da81847c6a308084e92f02eddb2dc79ca32ab8e09777f1a935f4733ba6.apxext",
+        "sha256": "7524c5da81847c6a308084e92f02eddb2dc79ca32ab8e09777f1a935f4733ba6"
+      },
+      "content_hash": "a96db2317d57ffad"
+    },
+    {
+      "id": "railway",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/railway/1.0.0/ba7d3b98f2e8f7a1d328f1fcf98d78d39ae0af629369c7e6d294d9125c84bdd9.apxext",
+        "sha256": "ba7d3b98f2e8f7a1d328f1fcf98d78d39ae0af629369c7e6d294d9125c84bdd9"
+      },
+      "content_hash": "0d8ed2c207e4e2c0"
+    },
+    {
+      "id": "render",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/render/1.0.1/0bdbf9ca1c4f0f77499dfd970e98f347636bf87f2ba92e4734a9b351fc0025af.apxext",
+        "sha256": "0bdbf9ca1c4f0f77499dfd970e98f347636bf87f2ba92e4734a9b351fc0025af"
+      },
+      "content_hash": "d6ca887a862c1ec0"
+    },
+    {
+      "id": "render",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/render/1.0.0/fd4007b44fdf62d9f22b23135734c1b64ca5b28a92f95b94cea7a3b3b3084ab4.apxext",
+        "sha256": "fd4007b44fdf62d9f22b23135734c1b64ca5b28a92f95b94cea7a3b3b3084ab4"
+      },
+      "content_hash": "e052e827ec1d5097"
+    },
+    {
+      "id": "resend",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/resend/1.0.1/de80a1fcd0e42e829b7ad5a5370e421e0e229e5bffb7b9860711203c2b1c5a99.apxext",
+        "sha256": "de80a1fcd0e42e829b7ad5a5370e421e0e229e5bffb7b9860711203c2b1c5a99"
+      },
+      "content_hash": "48efe146ce912e8e"
+    },
+    {
+      "id": "resend",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/resend/1.0.0/9ead781097203979a0dc637c9f81e70903c1de51c9b1effac9892ec3d5359d3a.apxext",
+        "sha256": "9ead781097203979a0dc637c9f81e70903c1de51c9b1effac9892ec3d5359d3a"
+      },
+      "content_hash": "667c33b46b3aebe0"
+    },
+    {
+      "id": "salesforce",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/salesforce/1.0.2/54c5b6698ab2d102696c35d5df8cae128f97ff2c4ee30d062394e0d6e2f30b0d.apxext",
+        "sha256": "54c5b6698ab2d102696c35d5df8cae128f97ff2c4ee30d062394e0d6e2f30b0d"
+      },
+      "content_hash": "968c28180ec6fed5"
+    },
+    {
+      "id": "salesforce",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/salesforce/1.0.1/e7408513a77799c5c0960ff3a3d8e2f1964c3d97c32323321b87e4dc0ceca5bd.apxext",
+        "sha256": "e7408513a77799c5c0960ff3a3d8e2f1964c3d97c32323321b87e4dc0ceca5bd"
+      },
+      "content_hash": "309454be1aac909b"
+    },
+    {
+      "id": "semgrep",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/semgrep/1.0.0/6e81ebaec19dbd570279fe32c652b857839ca7e18fac0d027ccc2da1e6974d1e.apxext",
+        "sha256": "6e81ebaec19dbd570279fe32c652b857839ca7e18fac0d027ccc2da1e6974d1e"
+      },
+      "content_hash": "a3eb836324a3204d"
+    },
+    {
+      "id": "sentry",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/sentry/1.0.0/bf002e282d426bb8e4de9a94bb7e70caf5097b7d42102fe35cb9eff791135234.apxext",
+        "sha256": "bf002e282d426bb8e4de9a94bb7e70caf5097b7d42102fe35cb9eff791135234"
+      },
+      "content_hash": "12f413fc86ff2894"
+    },
+    {
+      "id": "siyuan",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/siyuan/1.0.1/8f059c7e9ba41eb02a5ab7474874273bcf02f90a6944785e1fc71c4c9e55395c.apxext",
+        "sha256": "8f059c7e9ba41eb02a5ab7474874273bcf02f90a6944785e1fc71c4c9e55395c"
+      },
+      "content_hash": "c9e95bb8b43359ad"
+    },
+    {
+      "id": "siyuan",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/siyuan/1.0.0/6ec492c0af74d633f7632355e8c8c8aadcdaa6a3022e6a16c3e98035d6a9b767.apxext",
+        "sha256": "6ec492c0af74d633f7632355e8c8c8aadcdaa6a3022e6a16c3e98035d6a9b767"
+      },
+      "content_hash": "4a43108175913875"
+    },
+    {
+      "id": "slack",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/slack/1.0.0/94e8e3972a59173a5af3efd2d1ed96a75e75f860f7ac005dd29ede5aea4bfe32.apxext",
+        "sha256": "94e8e3972a59173a5af3efd2d1ed96a75e75f860f7ac005dd29ede5aea4bfe32"
+      },
+      "content_hash": "6a70f2fe4fd26cc1"
+    },
+    {
+      "id": "solana",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/solana/1.0.2/545a8c2e038eb82022fe5adfe43dabe79fa427daeb339b9c658c33aa2ae43b9c.apxext",
+        "sha256": "545a8c2e038eb82022fe5adfe43dabe79fa427daeb339b9c658c33aa2ae43b9c"
+      },
+      "content_hash": "b0a3ab8360a35a44"
+    },
+    {
+      "id": "solana",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/solana/1.0.1/4a6b8f8d85e4ed718cbacf94321afa7fba3f3fc47ffc18fcecdadfb69a3ba889.apxext",
+        "sha256": "4a6b8f8d85e4ed718cbacf94321afa7fba3f3fc47ffc18fcecdadfb69a3ba889"
+      },
+      "content_hash": "ff21deb33d240cfb"
+    },
+    {
+      "id": "square",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/square/1.0.0/6e80e8675ca05ea8fb9b45aeb89c2feb2f6d70377e7a253fffdd32521e0429ef.apxext",
+        "sha256": "6e80e8675ca05ea8fb9b45aeb89c2feb2f6d70377e7a253fffdd32521e0429ef"
+      },
+      "content_hash": "5fde8892697133b9"
+    },
+    {
+      "id": "strava",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/strava/1.0.0/71fb6771668f008363ddc789a4c470535189314caa4179b1ac8c74240abaf093.apxext",
+        "sha256": "71fb6771668f008363ddc789a4c470535189314caa4179b1ac8c74240abaf093"
+      },
+      "content_hash": "110cd40dda985e9b"
+    },
+    {
+      "id": "stripe",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/stripe/1.0.0/802165844359f64dfa22abf72255b7e128aebce6d4a220a3e1f89de9986ea49c.apxext",
+        "sha256": "802165844359f64dfa22abf72255b7e128aebce6d4a220a3e1f89de9986ea49c"
+      },
+      "content_hash": "ab0d00ddb82cb2e3"
+    },
+    {
+      "id": "supabase",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/supabase/1.0.0/9ab9190066234f1f39c2b8a6967fefbe42ec4254e59a12e0a6345d4cb160bbd7.apxext",
+        "sha256": "9ab9190066234f1f39c2b8a6967fefbe42ec4254e59a12e0a6345d4cb160bbd7"
+      },
+      "content_hash": "8a78799495015106"
+    },
+    {
+      "id": "tavily",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/tavily/1.0.2/346b6d98457a114408993562c0af69520f3ccd4a31f225b204f7ec3f36645eb3.apxext",
+        "sha256": "346b6d98457a114408993562c0af69520f3ccd4a31f225b204f7ec3f36645eb3"
+      },
+      "content_hash": "43e476c249c79a41"
+    },
+    {
+      "id": "tavily",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/tavily/1.0.1/1b03782df07111820fcc877201ef25d46ae40420eb314551d4db4847e1c538f9.apxext",
+        "sha256": "1b03782df07111820fcc877201ef25d46ae40420eb314551d4db4847e1c538f9"
+      },
+      "content_hash": "8896e89b9175d720"
+    },
+    {
+      "id": "things",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/things/1.0.1/ccfa53e3fe97d912a426f152dd0a049e35e521c071e2a3ae69c6a769849bd415.apxext",
+        "sha256": "ccfa53e3fe97d912a426f152dd0a049e35e521c071e2a3ae69c6a769849bd415"
+      },
+      "content_hash": "302de0eb3b40a574"
+    },
+    {
+      "id": "things",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/things/1.0.0/1e5f8e8a4eb82e91f3735c575007d989afaabe06d7e241a228ff3542e3b0beab.apxext",
+        "sha256": "1e5f8e8a4eb82e91f3735c575007d989afaabe06d7e241a228ff3542e3b0beab"
+      },
+      "content_hash": "d67cefd944a64034"
+    },
+    {
+      "id": "todoist",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/todoist/1.0.0/caf7ad316230e9fd3e15a3df41bc8651e47b213ec7a8ff1efe9ce4aa9d4a327c.apxext",
+        "sha256": "caf7ad316230e9fd3e15a3df41bc8651e47b213ec7a8ff1efe9ce4aa9d4a327c"
+      },
+      "content_hash": "d1dd9ccf69216fd7"
+    },
+    {
+      "id": "trello",
+      "version": "1.0.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/trello/1.0.2/82e69a5838630d0c7e0e225af01081b8aa6692eaacebc7e5ea7048d75f00fee6.apxext",
+        "sha256": "82e69a5838630d0c7e0e225af01081b8aa6692eaacebc7e5ea7048d75f00fee6"
+      },
+      "content_hash": "2541e04bfcbf1aef"
+    },
+    {
+      "id": "trello",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/trello/1.0.1/9cec2979ca7ca309d7508fe2ee999de59779c9e7808bc3e69cf5a390e037f3f9.apxext",
+        "sha256": "9cec2979ca7ca309d7508fe2ee999de59779c9e7808bc3e69cf5a390e037f3f9"
+      },
+      "content_hash": "ca0ed621660c22ae"
+    },
+    {
+      "id": "vercel",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/vercel/1.0.0/c2fb93f51c6228dc975699982a127452f196ae138db6119ef63c152d1505a484.apxext",
+        "sha256": "c2fb93f51c6228dc975699982a127452f196ae138db6119ef63c152d1505a484"
+      },
+      "content_hash": "0b357637e4c03444"
+    },
+    {
+      "id": "weather",
+      "version": "1.0.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/weather/1.0.1/de0b1c0a5b30d71282cf960f40f7e02e11fc7db6a63c04aa48d387b912898bf6.apxext",
+        "sha256": "de0b1c0a5b30d71282cf960f40f7e02e11fc7db6a63c04aa48d387b912898bf6"
+      },
+      "content_hash": "69f8ceee90bcc5e4"
+    },
+    {
+      "id": "weather",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/weather/1.0.0/7a9936c35a19d080d0cf0b80f4a799979453747d720642ef357d240fb2b28a71.apxext",
+        "sha256": "7a9936c35a19d080d0cf0b80f4a799979453747d720642ef357d240fb2b28a71"
+      },
+      "content_hash": "e7902d85a4f6a8a1"
+    },
+    {
+      "id": "webflow",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/webflow/1.0.0/0e5da7ba3e0b535ed331c5601efe9ac4491b81442e1f65a02d6a9f9d12458681.apxext",
+        "sha256": "0e5da7ba3e0b535ed331c5601efe9ac4491b81442e1f65a02d6a9f9d12458681"
+      },
+      "content_hash": "0c8ce64736a53c6f"
+    },
+    {
+      "id": "wolfram",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/wolfram/1.0.0/13376d93708d5f4ae204f3e04612ff8426560da26fe7fee5c691174887ecb8f1.apxext",
+        "sha256": "13376d93708d5f4ae204f3e04612ff8426560da26fe7fee5c691174887ecb8f1"
+      },
+      "content_hash": "b48c914f42da257e"
+    },
+    {
+      "id": "wordpress",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/wordpress/1.0.0/d27b55c6188b4551b2d6f0cecf3cbf1b6ae9d8f4f28b8ebc253d0a78ce697d94.apxext",
+        "sha256": "d27b55c6188b4551b2d6f0cecf3cbf1b6ae9d8f4f28b8ebc253d0a78ce697d94"
+      },
+      "content_hash": "33442c1e00d34d6c"
+    }
+  ]
+}
