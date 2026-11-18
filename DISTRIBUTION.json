@@ -515,6 +515,16 @@
     },
     {
       "id": "canvas-lms",
+      "version": "1.0.4",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/canvas-lms/1.0.4/bbab116cd3a9fc436637e9d9071477bf20485bf78fbc108f19f12032c622adbd.apxext",
+        "sha256": "bbab116cd3a9fc436637e9d9071477bf20485bf78fbc108f19f12032c622adbd"
+      },
+      "content_hash": "2a62164a156b9314"
+    },
+    {
+      "id": "canvas-lms",
       "version": "1.0.3",
       "apx": "2.16.0",
       "archive": {

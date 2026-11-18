@@ -2,7 +2,7 @@
 
 The official catalog identifies each connected service with its recognizable brand artwork whenever usable artwork is available. Prefer an official press/brand kit, then Simple Icons with its published brand color, then an official site icon. The artwork license does not transfer trademark rights.
 
-Do not recolor, invert, distort, rotate or crop the mark. Preserve its aspect ratio and clear space. Place it on the same neutral white rounded carrier so dark marks remain visible in dark and light Marketplace themes. Empty source-image padding can be normalized; do not crop the mark itself. The carrier is not a new brand lockup. Use the official brand reference linked in each package for future updates.
+Do not recolor, invert, distort, rotate or crop the mark. Preserve its aspect ratio and clear space. Place it on a neutral rounded carrier so marks remain visible in dark and light Marketplace themes: white for dark or colored marks, dark for official white artwork (Canvas LMS). Empty source-image padding can be normalized; do not crop the mark itself. The carrier is not a new brand lockup. Use the official brand reference linked in each package for future updates.
 
 Each package has `assets/ICON-PROVENANCE.md`: retrieval/review date, exact source URL, brand guidance or artwork license, presentation and packaged icon SHA-256. `catalog-icons.json` is the machine-readable audit inventory. Simple Icons artwork is pinned to version 16.38.0, CC0-1.0; no new runtime dependency is added. Official kit and site artwork retains its owner's rights. Attribution and affiliation notices belong in provenance, not in visible catalog descriptions.
 

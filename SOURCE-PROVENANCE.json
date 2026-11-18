@@ -2585,5 +2585,18 @@
     "archive": "packages/wordpress/1.0.1/6e5c59a10e2249d7cef9aae1a05e911baa136c0d491e5926c541c41bb4002111.apxext",
     "integrity": "sha256-6e5c59a10e2249d7cef9aae1a05e911baa136c0d491e5926c541c41bb4002111",
     "content_hash": "8283e97ebf2870bd"
+  },
+  {
+    "id": "canvas-lms",
+    "version": "1.0.4",
+    "source": {
+      "type": "git",
+      "repo": "https://github.com/agentprojectcontext/apx-marketplace-private",
+      "commit": "7a9847c33503bd5b1d93665c2beca7183b21b174",
+      "path": "integrations/canvas-lms"
+    },
+    "archive": "packages/canvas-lms/1.0.4/bbab116cd3a9fc436637e9d9071477bf20485bf78fbc108f19f12032c622adbd.apxext",
+    "integrity": "sha256-bbab116cd3a9fc436637e9d9071477bf20485bf78fbc108f19f12032c622adbd",
+    "content_hash": "2a62164a156b9314"
   }
 ]

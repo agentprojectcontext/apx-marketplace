@@ -283,14 +283,15 @@
     "name": "Canvas LMS",
     "date": "2026-11-18",
     "previousVersion": "1.0.2",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "source": "https://raw.githubusercontent.com/instructure/canvas-lms/1c9f0bb8013ed69c4f2efe11fd483025469b7e6c/public/images/svg-icons/svg_canvas_logomark_only.svg",
     "guide": "https://www.instructure.com/brand-guide",
     "kind": "official-kit",
     "sourceWidth": 1024,
     "sourceHeight": 1024,
-    "assetSha256": "eba27d8d6738a194bed4f8aac91ff18f641773c88f67698030fcb0487eca7ccc",
-    "icon": "assets/icon.png"
+    "assetSha256": "744acba7ace7106dc90bd2c5c89b72eb47a07708a9d2ab3815ccbbd4f876b826",
+    "icon": "assets/icon.png",
+    "carrier": "#30343b"
   },
   {
     "id": "circleci",
