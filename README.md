@@ -4,7 +4,7 @@ Public distribution of APX's approved standalone extension archives and official
 
 ## Official catalog
 
-The curated index lists **84 packages and 199 versions**, including Android TV and its unchanged development companion APK. The official endpoint is `https://marketplace.apxagent.app/index.json`. The schema 1 index is intentionally unsigned; no signing identity is created. Third-party submissions and public announcements are outside this catalog update.
+The curated index lists **85 packages and 206 versions**, including Android TV and its unchanged development companion APK. The official endpoint is `https://marketplace.apxagent.app/index.json`. The schema 1 index is intentionally unsigned; no signing identity is created. Third-party submissions and public announcements are outside this catalog update.
 
 Every current package has a schema-2 listing in English and Spanish, a 256 px icon, three example requests per language, connection information and official links. The index exposes absolute `listing` and `icon` URLs, a short `tagline` and the listing's singular `category`. Listing schema 2 is separate from the executable manifest version; the incompatible webcam workshop proposal remains unlisted.
 
@@ -26,7 +26,7 @@ Distribución pública de archivos independientes aprobados y metadatos del cat�
 
 El catálogo usa logos de marca para 78 servicios sobre fondos redondeados neutros. Se conservan seis símbolos por motivos documentados: cinco apps de Apple (restricciones publicadas para usar sus íconos) y DeepWiki (HTTP 429 en la descarga directa, conservado por pedido del dueño). Ver [procedencia y excepciones](CATALOG-ICONS.md).
 
-El índice lista **84 paquetes y 199 versiones**, incluido Android TV con su APK de desarrollo sin cambios. El endpoint oficial es `https://marketplace.apxagent.app/index.json`, schema 1 por HTTPS y deliberadamente sin firma. No se crea identidad de firma ni se habilita publicación de terceros. Esta actualización no incluye anuncios públicos.
+El índice lista **85 paquetes y 206 versiones**, incluido Android TV con su APK de desarrollo sin cambios. El endpoint oficial es `https://marketplace.apxagent.app/index.json`, schema 1 por HTTPS y deliberadamente sin firma. No se crea identidad de firma ni se habilita publicación de terceros. Esta actualización no incluye anuncios públicos.
 
 Cada paquete actual tiene ficha schema 2 en inglés y español, ícono de 256 px, tres pedidos de ejemplo por idioma, información de conexión y enlaces oficiales. El índice expone `listing` e `icon` absolutos, `tagline` y `category` en singular. La versión de la ficha es independiente de la del manifest ejecutable; la propuesta de webcam incompatible sigue sin listar.
 

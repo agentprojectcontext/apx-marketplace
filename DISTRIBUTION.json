@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "index": "https://marketplace.apxagent.app/index.json",
-  "entries": 84,
+  "entries": 85,
   "versions": [
     {
       "id": "agentmail",
@@ -992,6 +992,76 @@
         "sha256": "12ce1297895c7688b8237ad3f7bdd032645c4a945e59b74ab65197e10a7d5e1e"
       },
       "content_hash": "9a0e8f1718dad4d0"
+    },
+    {
+      "id": "hon-readonly",
+      "version": "0.3.5",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hon-readonly/0.3.5/cf2f2c1e3cffc9bc140ecc88d7dc6fc6bb22047a2c6366e8c8e2f80c3d625681.apxext",
+        "sha256": "cf2f2c1e3cffc9bc140ecc88d7dc6fc6bb22047a2c6366e8c8e2f80c3d625681"
+      },
+      "content_hash": "db94f8fe5845d1d3"
+    },
+    {
+      "id": "hon-readonly",
+      "version": "0.3.4",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hon-readonly/0.3.4/4234b46d6521d213842376fa2efce63e4d19c70367f04c6af60375b41dc1f8a2.apxext",
+        "sha256": "4234b46d6521d213842376fa2efce63e4d19c70367f04c6af60375b41dc1f8a2"
+      },
+      "content_hash": "09dcedc5cf1aeb6c"
+    },
+    {
+      "id": "hon-readonly",
+      "version": "0.2.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hon-readonly/0.2.1/089ccb125a389feb139b1674776bc3259c6e7d9b7705f6b6162f0eb73ec2c65a.apxext",
+        "sha256": "089ccb125a389feb139b1674776bc3259c6e7d9b7705f6b6162f0eb73ec2c65a"
+      },
+      "content_hash": "61607449bcf6fa2c"
+    },
+    {
+      "id": "hon-readonly",
+      "version": "0.2.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hon-readonly/0.2.0/8eadf842181c40d58d27e1b3ccf6f67367e1fa42c78c6f880bf67c5f29166434.apxext",
+        "sha256": "8eadf842181c40d58d27e1b3ccf6f67367e1fa42c78c6f880bf67c5f29166434"
+      },
+      "content_hash": "73eaac6cd4a63740"
+    },
+    {
+      "id": "hon-readonly",
+      "version": "0.1.2",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hon-readonly/0.1.2/749fa6ccff86c11c3f68eb269f639a233e43147b3122f4cb1c5943e2cef243b0.apxext",
+        "sha256": "749fa6ccff86c11c3f68eb269f639a233e43147b3122f4cb1c5943e2cef243b0"
+      },
+      "content_hash": "50ee17b53c688722"
+    },
+    {
+      "id": "hon-readonly",
+      "version": "0.1.1",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hon-readonly/0.1.1/1d2128486aecc77fa6a6e253a3d9bc8f653e2cfc1bb12685b4a5c2a73d7c6e13.apxext",
+        "sha256": "1d2128486aecc77fa6a6e253a3d9bc8f653e2cfc1bb12685b4a5c2a73d7c6e13"
+      },
+      "content_hash": "077a22bc520cdb82"
+    },
+    {
+      "id": "hon-readonly",
+      "version": "0.1.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hon-readonly/0.1.0/a30a31684e1f79f22ce83d1a889e24d76dc110a60baad574d071bdd1337c2ef7.apxext",
+        "sha256": "a30a31684e1f79f22ce83d1a889e24d76dc110a60baad574d071bdd1337c2ef7"
+      },
+      "content_hash": "3cca06e4cf57268f"
     },
     {
       "id": "hubspot",
