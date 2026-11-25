@@ -995,6 +995,16 @@
     },
     {
       "id": "hon-readonly",
+      "version": "0.3.6",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/hon-readonly/0.3.6/743e72f9c3357e9413876166a6379c0ae4e9f5479f2225f2950d70869a714e7d.apxext",
+        "sha256": "743e72f9c3357e9413876166a6379c0ae4e9f5479f2225f2950d70869a714e7d"
+      },
+      "content_hash": "290a8662267f21dd"
+    },
+    {
+      "id": "hon-readonly",
       "version": "0.3.5",
       "apx": "2.16.0",
       "archive": {
