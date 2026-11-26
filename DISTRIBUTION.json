@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "index": "https://marketplace.apxagent.app/index.json",
-  "entries": 86,
+  "entries": 87,
   "versions": [
     {
       "id": "agentmail",
@@ -1694,6 +1694,16 @@
       "content_hash": "12f413fc86ff2894"
     },
     {
+      "id": "shopify-dev",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/shopify-dev/1.0.0/fc677dcc0b3d5be8c5f5ece385b1c29e720d328bffac8ec93a0ddfa66c850287.apxext",
+        "sha256": "fc677dcc0b3d5be8c5f5ece385b1c29e720d328bffac8ec93a0ddfa66c850287"
+      },
+      "content_hash": "4a0752334599a003"
+    },
+    {
       "id": "siyuan",
       "version": "1.0.2",
       "apx": "2.16.0",
@@ -2065,23 +2075,13 @@
     },
     {
       "id": "wordpress",
-      "version": "1.0.1",
-      "apx": "2.16.0",
+      "version": "1.0.2",
+      "apx": "2.16.1",
       "archive": {
-        "url": "https://marketplace.apxagent.app/packages/wordpress/1.0.1/6e5c59a10e2249d7cef9aae1a05e911baa136c0d491e5926c541c41bb4002111.apxext",
-        "sha256": "6e5c59a10e2249d7cef9aae1a05e911baa136c0d491e5926c541c41bb4002111"
+        "url": "https://marketplace.apxagent.app/packages/wordpress/1.0.2/3eb97547f935a3880cb887e3157988e5c6012e97a18877a908ae7c5e3f492436.apxext",
+        "sha256": "3eb97547f935a3880cb887e3157988e5c6012e97a18877a908ae7c5e3f492436"
       },
-      "content_hash": "8283e97ebf2870bd"
-    },
-    {
-      "id": "wordpress",
-      "version": "1.0.0",
-      "apx": "2.16.0",
-      "archive": {
-        "url": "https://marketplace.apxagent.app/packages/wordpress/1.0.0/d27b55c6188b4551b2d6f0cecf3cbf1b6ae9d8f4f28b8ebc253d0a78ce697d94.apxext",
-        "sha256": "d27b55c6188b4551b2d6f0cecf3cbf1b6ae9d8f4f28b8ebc253d0a78ce697d94"
-      },
-      "content_hash": "33442c1e00d34d6c"
+      "content_hash": "26ad7389f63ea4f9"
     }
   ]
 }

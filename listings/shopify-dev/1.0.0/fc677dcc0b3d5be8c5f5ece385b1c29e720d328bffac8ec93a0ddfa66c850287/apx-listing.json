@@ -1,0 +1,74 @@
+{
+  "schema": 2,
+  "id": "shopify-dev",
+  "category": "development",
+  "connection": "none",
+  "authentication": "none",
+  "billing": "free",
+  "icon": "assets/icon.svg",
+  "docs": "README.md",
+  "links": {
+    "website": "https://shopify.dev/",
+    "privacy": "https://www.shopify.com/legal/privacy",
+    "terms": "https://www.shopify.com/legal/terms",
+    "docs": "https://shopify.dev/docs/api/ai-toolkit"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "summary": "Search Shopify developer docs and validate code against Shopify schemas.",
+  "tagline": "Find Shopify docs and check code without managing your store",
+  "description": "Look up Shopify developer documentation and API schemas, and check GraphQL queries against the relevant schema. No store sign-in needed. Use this to build for Shopify, not to manage products or orders in a live store. APX packages Shopify’s developer server.",
+  "features": [
+    "Search Shopify developer documentation",
+    "Inspect GraphQL schemas and supported API versions",
+    "Validate GraphQL operations and Liquid snippets"
+  ],
+  "requirements": [
+    "Node.js 22.12 or newer and npm on the computer running APX",
+    "Internet access to download the server and read Shopify developer resources"
+  ],
+  "limits": [
+    "Does not sign in to a store or read orders, customers or inventory",
+    "Does not run Admin API queries or mutations against a store",
+    "Validates Liquid snippets, not whole local theme directories"
+  ],
+  "pricing": "No Shopify account or API key is required. A Shopify plan is not included.",
+  "privacy": "APX disables Shopify Dev MCP telemetry. Searches and documentation requests can be sent to Shopify; do not include credentials or customer data.",
+  "prompts": [
+    "Find the Shopify docs for app webhooks and cite the relevant pages.",
+    "Check whether this field exists in my selected Admin API version.",
+    "Validate this Liquid snippet without connecting to a store."
+  ],
+  "screenshots": [],
+  "locales": {
+    "es": {
+      "summary": "Buscá documentación de Shopify y validá código con sus esquemas.",
+      "tagline": "Consultá docs y validá código sin administrar tu tienda",
+      "description": "Consultá la documentación para desarrolladores y los esquemas de las API de Shopify. Revisá tus consultas GraphQL contra el esquema correspondiente. No hace falta iniciar sesión en una tienda. Sirve para desarrollar con Shopify, no para administrar productos ni pedidos. APX empaqueta el servidor de desarrollo de Shopify.",
+      "features": [
+        "Buscá documentación para desarrolladores de Shopify",
+        "Consultá esquemas GraphQL y versiones de API compatibles",
+        "Validá operaciones GraphQL y fragmentos de Liquid"
+      ],
+      "requirements": [
+        "Node.js 22.12 o posterior y npm en el equipo donde corre APX",
+        "Conexión a Internet para descargar el servidor y consultar recursos de Shopify"
+      ],
+      "limits": [
+        "No inicia sesión en tu tienda ni consulta pedidos, clientes o inventario",
+        "No ejecuta consultas ni cambios contra la API de administración de tu tienda",
+        "Valida fragmentos de Liquid, no carpetas completas de temas locales"
+      ],
+      "pricing": "No necesitás cuenta ni clave de Shopify. No incluye un plan de Shopify.",
+      "privacy": "APX desactiva la telemetría de Shopify Dev MCP. Las búsquedas y consultas de documentación pueden enviarse a Shopify; no incluyas credenciales ni datos de clientes.",
+      "prompts": [
+        "Buscá la documentación de Shopify sobre webhooks de apps y citá las páginas relevantes.",
+        "Revisá si este campo existe en la versión de la API de administración que elija.",
+        "Validá este fragmento Liquid sin conectarte a una tienda."
+      ],
+      "screenshots": []
+    }
+  }
+}

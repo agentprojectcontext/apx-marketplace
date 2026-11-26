@@ -1,0 +1,7 @@
+# Shopify Dev
+
+APX packages Shopify’s [`@shopify/dev-mcp` 1.19.1](https://www.npmjs.com/package/@shopify/dev-mcp/v/1.19.1). Install and enable it on an APX host with Node.js 22.12 or later and npm. No Shopify account or token is needed. First start may download npm dependencies. If APX times out before the download completes, in a POSIX shell on the APX host run `OPT_OUT_INSTRUMENTATION=true LIQUID_VALIDATION_MODE=partial npx --yes --ignore-scripts @shopify/dev-mcp@1.19.1`, stop it after the server reports that it is running, and retry the connection. We set `OPT_OUT_INSTRUMENTATION=true` and limit Liquid validation to snippets. API schema and validation tools do not execute against your store. Store access through an authenticated [Shopify CLI](https://shopify.dev/docs/api/shopify-cli/store) is a separate workflow and is not included.
+
+## Español
+
+APX empaqueta la versión 1.19.1 del servidor de desarrollo de Shopify. Instalalo y habilitalo en un equipo con Node.js 22.12 o posterior y npm. No necesitás cuenta ni token. El primer inicio puede descargar dependencias. Si APX agota el tiempo de espera, ejecutá en una terminal POSIX `OPT_OUT_INSTRUMENTATION=true LIQUID_VALIDATION_MODE=partial npx --yes --ignore-scripts @shopify/dev-mcp@1.19.1` en el equipo de APX, detenelo cuando indique que arrancó y volvé a conectar. La telemetría se desactiva y la validación Liquid se limita a fragmentos. Las consultas a esquemas y validaciones no se ejecutan contra tu tienda. El acceso a una tienda mediante Shopify CLI requiere autorización y no está incluido.

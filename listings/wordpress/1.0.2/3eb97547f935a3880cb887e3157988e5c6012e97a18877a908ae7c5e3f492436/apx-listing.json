@@ -1,0 +1,72 @@
+{
+  "summary": "Posts, pages and stats of your sites.",
+  "features": [
+    "Posts, pages and stats of your sites."
+  ],
+  "requirements": [
+    "A WordPress.com account with a site eligible for MCP",
+    "Self-hosted sites: connect the site to the same account with Jetpack and check current Jetpack plan requirements",
+    "Node.js and npm to run this connector"
+  ],
+  "limits": [
+    "Available tools and access depend on the upstream server and account permissions",
+    "Live account access has not been verified for this extension package",
+    "Jetpack uses the same connection; standalone WordPress MCP Adapter sites are not covered"
+  ],
+  "pricing": "Your service plan, API access requirements and usage quotas apply; no subscription is included.",
+  "privacy": "Requests and authorized account data are exchanged with the configured service. Server output may enter agent context as untrusted content.",
+  "id": "wordpress",
+  "authentication": "oauth",
+  "billing": "account-plan",
+  "docs": "README.md",
+  "schema": 2,
+  "tagline": "Connect WordPress.com or a site linked with Jetpack",
+  "description": "Connect with your WordPress.com account to review posts, pages and site statistics. You can also reach a self-hosted site linked to that account through Jetpack when the site meets Jetpack’s plan requirements. Access and possible changes depend on your WordPress.com permissions.",
+  "prompts": [
+    "Read the available content of the WordPress.com post I select without editing it.",
+    "Review the page I choose and suggest a clearer structure in chat.",
+    "Explain the returned site statistics and state any reporting period provided."
+  ],
+  "category": "marketing",
+  "icon": "assets/icon.svg",
+  "screenshots": [],
+  "connection": "oauth",
+  "links": {
+    "website": "https://wordpress.com",
+    "privacy": "https://automattic.com/privacy/",
+    "terms": "https://automattic.com/tos/",
+    "docs": "https://developer.wordpress.com/docs/mcp/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "locales": {
+    "es": {
+      "summary": "Publicaciones, páginas y estadísticas de tus sitios.",
+      "features": [
+        "Publicaciones, páginas y estadísticas de tus sitios."
+      ],
+      "requirements": [
+        "Una cuenta de WordPress.com con un sitio compatible con MCP",
+        "Para un sitio autohospedado: vinculalo a la misma cuenta con Jetpack y revisá los requisitos vigentes del plan",
+        "Node.js y npm para ejecutar este conector"
+      ],
+      "limits": [
+        "Las herramientas disponibles y el acceso dependen del servidor del servicio y de los permisos de la cuenta",
+        "No se verificó el acceso a una cuenta real con este paquete de extensión",
+        "Jetpack usa la misma conexión; no incluye sitios que solo usan WordPress MCP Adapter"
+      ],
+      "pricing": "Se aplican el plan del servicio, los requisitos de acceso a la API y las cuotas de uso; no se incluye una suscripción.",
+      "privacy": "Las consultas y los datos autorizados de la cuenta se intercambian con el servicio configurado. Sus respuestas pueden entrar al contexto del agente como contenido no confiable.",
+      "tagline": "Conectá WordPress.com o un sitio vinculado con Jetpack",
+      "description": "Conectá tu cuenta de WordPress.com para revisar entradas, páginas y estadísticas. También podés acceder a un sitio autohospedado vinculado a esa cuenta con Jetpack si cumple los requisitos de su plan. El acceso y los cambios posibles dependen de tus permisos en WordPress.com.",
+      "prompts": [
+        "Leé el contenido disponible de la entrada de WordPress.com que elija sin editarla.",
+        "Revisá la página que seleccione y sugerí una estructura más clara en el chat.",
+        "Explicame las estadísticas devueltas del sitio e indicá el período informado, si lo hay."
+      ],
+      "screenshots": []
+    }
+  }
+}
