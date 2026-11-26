@@ -4,7 +4,7 @@ Public distribution of APX's approved standalone extension archives and official
 
 ## Official catalog
 
-The curated index lists **85 packages and 207 versions**, including Android TV and its unchanged development companion APK. The official endpoint is `https://marketplace.apxagent.app/index.json`. The schema 1 index is intentionally unsigned; no signing identity is created. Third-party submissions and public announcements are outside this catalog update.
+The curated index lists **86 packages and 208 versions**, including Android TV and its unchanged development companion APK. The official endpoint is `https://marketplace.apxagent.app/index.json`. The schema 1 index is intentionally unsigned; no signing identity is created. Third-party submissions and public announcements are outside this catalog update.
 
 Every current package has a schema-2 listing in English and Spanish, a 256 px icon, three example requests per language, connection information and official links. The index exposes absolute `listing` and `icon` URLs, a short `tagline` and the listing's singular `category`. Listing schema 2 is separate from the executable manifest version; the incompatible webcam workshop proposal remains unlisted.
 
@@ -13,6 +13,10 @@ The catalog now uses official brand artwork for 78 services on neutral rounded t
 Eight listings have imagery: two use real public-page captures, and six have English/Spanish fictional APX-styled conversation examples. Those examples visibly say they are mockups with fictional data, not live connections, and their captions/provenance repeat that distinction. Other listings deliberately have an empty screenshot array until suitable imagery is available. No work-account data is used.
 
 See the [index contract](INDEX.md) ([Español](INDEX.es.md)) for archive SHA-256, APX file fingerprints and provenance. `DISTRIBUTION.json` records the currently listed versions; `SHA256SUMS` covers stored archives. `SOURCE-PROVENANCE.json` retains the initial cohort's historical provenance. Previously published hash-addressed bytes, including unlisted archives, are retained unchanged.
+
+Tiendanube uses a generic storefront symbol, not official brand artwork. APX publishes its connector; Tiendanube operates the remote server. Sign in with your own account and review permissions and proposed writes. Isolated installation and the browser login boundary were checked; full authorization and store operations remain unverified.
+
+Tiendanube usa un símbolo genérico de tienda, no un logo oficial. APX publica el conector y Tiendanube opera el servidor remoto. Iniciá sesión con tu propia cuenta y revisá permisos y escrituras propuestas. Se verificaron la instalación aislada y la llegada al inicio de sesión; la autorización completa y las operaciones sobre tiendas siguen sin verificar.
 
 ## Using an archive
 
@@ -26,7 +30,7 @@ Distribución pública de archivos independientes aprobados y metadatos del cat�
 
 El catálogo usa logos de marca para 78 servicios sobre fondos redondeados neutros. Se conservan seis símbolos por motivos documentados: cinco apps de Apple (restricciones publicadas para usar sus íconos) y DeepWiki (HTTP 429 en la descarga directa, conservado por pedido del dueño). Ver [procedencia y excepciones](CATALOG-ICONS.md).
 
-El índice lista **85 paquetes y 207 versiones**, incluido Android TV con su APK de desarrollo sin cambios. El endpoint oficial es `https://marketplace.apxagent.app/index.json`, schema 1 por HTTPS y deliberadamente sin firma. No se crea identidad de firma ni se habilita publicación de terceros. Esta actualización no incluye anuncios públicos.
+El índice lista **86 paquetes y 208 versiones**, incluido Android TV con su APK de desarrollo sin cambios. El endpoint oficial es `https://marketplace.apxagent.app/index.json`, schema 1 por HTTPS y deliberadamente sin firma. No se crea identidad de firma ni se habilita publicación de terceros. Esta actualización no incluye anuncios públicos.
 
 Cada paquete actual tiene ficha schema 2 en inglés y español, ícono de 256 px, tres pedidos de ejemplo por idioma, información de conexión y enlaces oficiales. El índice expone `listing` e `icon` absolutos, `tagline` y `category` en singular. La versión de la ficha es independiente de la del manifest ejecutable; la propuesta de webcam incompatible sigue sin listar.
 

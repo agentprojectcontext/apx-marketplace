@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "index": "https://marketplace.apxagent.app/index.json",
-  "entries": 85,
+  "entries": 86,
   "versions": [
     {
       "id": "agentmail",
@@ -1912,6 +1912,16 @@
         "sha256": "1e5f8e8a4eb82e91f3735c575007d989afaabe06d7e241a228ff3542e3b0beab"
       },
       "content_hash": "d67cefd944a64034"
+    },
+    {
+      "id": "tiendanube",
+      "version": "1.0.0",
+      "apx": "2.16.0",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/tiendanube/1.0.0/3419c62cc28d14a19a1372c0db92bc788c00f35d2520593b9dc99948488e89e0.apxext",
+        "sha256": "3419c62cc28d14a19a1372c0db92bc788c00f35d2520593b9dc99948488e89e0"
+      },
+      "content_hash": "6aa3801c41764532"
     },
     {
       "id": "todoist",
