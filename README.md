@@ -14,6 +14,10 @@ Eight listings have imagery: two use real public-page captures, and six have Eng
 
 See the [index contract](INDEX.md) ([Español](INDEX.es.md)) for archive SHA-256, APX file fingerprints and provenance. `DISTRIBUTION.json` records the currently listed versions; `SHA256SUMS` covers stored archives. `SOURCE-PROVENANCE.json` retains the initial cohort's historical provenance. Previously published hash-addressed bytes, including unlisted archives, are retained unchanged.
 
+Tiendanube 1.0.1 requires APX 2.16.1 or newer for an isolated OAuth cache per extension/server. Version 1.0.0 is withdrawn from the catalog because it omitted that minimum; existing installations should update. Previously downloaded archives cannot be recalled.
+
+Tiendanube 1.0.1 requiere APX 2.16.1 o posterior para separar la caché OAuth por extensión/servidor. La versión 1.0.0 se retiró del catálogo porque no fijaba ese mínimo; las instalaciones existentes deben actualizarse. No se pueden revocar archivos ya descargados.
+
 Tiendanube uses a generic storefront symbol, not official brand artwork. APX publishes its connector; Tiendanube operates the remote server. Sign in with your own account and review permissions and proposed writes. Isolated installation and the browser login boundary were checked; full authorization and store operations remain unverified.
 
 Tiendanube usa un símbolo genérico de tienda, no un logo oficial. APX publica el conector y Tiendanube opera el servidor remoto. Iniciá sesión con tu propia cuenta y revisá permisos y escrituras propuestas. Se verificaron la instalación aislada y la llegada al inicio de sesión; la autorización completa y las operaciones sobre tiendas siguen sin verificar.

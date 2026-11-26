@@ -1915,13 +1915,13 @@
     },
     {
       "id": "tiendanube",
-      "version": "1.0.0",
-      "apx": "2.16.0",
+      "version": "1.0.1",
+      "apx": "2.16.1",
       "archive": {
-        "url": "https://marketplace.apxagent.app/packages/tiendanube/1.0.0/3419c62cc28d14a19a1372c0db92bc788c00f35d2520593b9dc99948488e89e0.apxext",
-        "sha256": "3419c62cc28d14a19a1372c0db92bc788c00f35d2520593b9dc99948488e89e0"
+        "url": "https://marketplace.apxagent.app/packages/tiendanube/1.0.1/33874daeecf71ff8a825babe55fda889b5f1063c1333a913ac64964a35292fd9.apxext",
+        "sha256": "33874daeecf71ff8a825babe55fda889b5f1063c1333a913ac64964a35292fd9"
       },
-      "content_hash": "6aa3801c41764532"
+      "content_hash": "ae7c939456977a25"
     },
     {
       "id": "todoist",

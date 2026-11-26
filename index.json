@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "registry": "apx-official",
-  "generated_at": "2026-11-26T22:44:28.607Z",
+  "generated_at": "2026-11-26T22:55:45.204Z",
   "publishers": [
     {
       "id": "apx",
@@ -17393,26 +17393,26 @@
       "tags": [
         "optional"
       ],
-      "icon": "https://marketplace.apxagent.app/listings/tiendanube/1.0.0/3419c62cc28d14a19a1372c0db92bc788c00f35d2520593b9dc99948488e89e0/assets/icon.svg",
+      "icon": "https://marketplace.apxagent.app/listings/tiendanube/1.0.1/33874daeecf71ff8a825babe55fda889b5f1063c1333a913ac64964a35292fd9/assets/icon.svg",
       "license": "MIT",
       "tagline": "Connect your Tiendanube store with your own account",
       "category": "business-systems",
-      "listing": "https://marketplace.apxagent.app/listings/tiendanube/1.0.0/3419c62cc28d14a19a1372c0db92bc788c00f35d2520593b9dc99948488e89e0/apx-listing.json",
+      "listing": "https://marketplace.apxagent.app/listings/tiendanube/1.0.1/33874daeecf71ff8a825babe55fda889b5f1063c1333a913ac64964a35292fd9/apx-listing.json",
       "versions": [
         {
-          "version": "1.0.0",
+          "version": "1.0.1",
           "source": {
             "type": "archive",
-            "url": "https://marketplace.apxagent.app/packages/tiendanube/1.0.0/3419c62cc28d14a19a1372c0db92bc788c00f35d2520593b9dc99948488e89e0.apxext"
+            "url": "https://marketplace.apxagent.app/packages/tiendanube/1.0.1/33874daeecf71ff8a825babe55fda889b5f1063c1333a913ac64964a35292fd9.apxext"
           },
-          "integrity": "sha256-3419c62cc28d14a19a1372c0db92bc788c00f35d2520593b9dc99948488e89e0",
+          "integrity": "sha256-33874daeecf71ff8a825babe55fda889b5f1063c1333a913ac64964a35292fd9",
           "archive": {
-            "url": "https://marketplace.apxagent.app/packages/tiendanube/1.0.0/3419c62cc28d14a19a1372c0db92bc788c00f35d2520593b9dc99948488e89e0.apxext",
-            "sha256": "3419c62cc28d14a19a1372c0db92bc788c00f35d2520593b9dc99948488e89e0"
+            "url": "https://marketplace.apxagent.app/packages/tiendanube/1.0.1/33874daeecf71ff8a825babe55fda889b5f1063c1333a913ac64964a35292fd9.apxext",
+            "sha256": "33874daeecf71ff8a825babe55fda889b5f1063c1333a913ac64964a35292fd9"
           },
-          "content_hash": "6aa3801c41764532",
-          "apx": "2.16.0",
-          "published_at": "2026-11-26T22:42:45.000Z",
+          "content_hash": "ae7c939456977a25",
+          "apx": "2.16.1",
+          "published_at": "2026-11-26T22:53:32.000Z",
           "card": {
             "summary": "Connect your store through Tiendanube's remote MCP server.",
             "features": [
@@ -17420,6 +17420,7 @@
               "OAuth sign-in using your own account"
             ],
             "requirements": [
+              "APX 2.16.1 or newer for isolated OAuth credentials",
               "A Tiendanube account permitted to authorize store access",
               "Node.js 20.18.1 or newer and npm",
               "A browser on the computer running the MCP bridge for account authorization"
@@ -17465,6 +17466,7 @@
                   "Inicio de sesión OAuth con tu propia cuenta"
                 ],
                 "requirements": [
+                  "APX 2.16.1 o posterior para separar las credenciales OAuth",
                   "Una cuenta de Tiendanube con permiso para autorizar el acceso a la tienda",
                   "Node.js 20.18.1 o posterior y npm",
                   "Un navegador en la computadora que ejecuta el puente MCP para autorizar la cuenta"
