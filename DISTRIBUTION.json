@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "index": "https://marketplace.apxagent.app/index.json",
-  "entries": 87,
+  "entries": 88,
   "versions": [
     {
       "id": "agentmail",
@@ -1892,6 +1892,16 @@
         "sha256": "1b03782df07111820fcc877201ef25d46ae40420eb314551d4db4847e1c538f9"
       },
       "content_hash": "8896e89b9175d720"
+    },
+    {
+      "id": "terraform-registry",
+      "version": "0.1.1",
+      "apx": "2.17.2",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/terraform-registry/0.1.1/a9c70467324942cf627941a462226edfd61bac3b91562705ec39e67f4de4a4ae.apxext",
+        "sha256": "a9c70467324942cf627941a462226edfd61bac3b91562705ec39e67f4de4a4ae"
+      },
+      "content_hash": "83ec81a69e6e2ecf"
     },
     {
       "id": "things",

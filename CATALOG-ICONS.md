@@ -20,6 +20,10 @@ Each package has `assets/ICON-PROVENANCE.md`: retrieval/review date, exact sourc
 Apple reference: <https://www.apple.com/legal/intellectual-property/guidelinesfor3rdparties.html>.
 DeepWiki attempted asset: <https://deepwiki.com/apple-icon.png?a931a96537bdf6db>.
 
+Terraform Registry 0.1.1 uses an APX-made neutral **T**, with no HashiCorp artwork in the package or listing. The exception applies only to this extension; the listing links to the official Terraform Registry.
+
+Terraform Registry 0.1.1 usa una **T** neutra creada por APX, sin logo de HashiCorp en el paquete ni en la ficha. La excepción aplica solo a esta extensión; la ficha enlaza al registro oficial de Terraform.
+
 Android TV uses the officially downloadable Android robot, not the restricted Android TV wordmark. The Android robot is reproduced from work created and shared by Google and used according to terms described in the [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/). Android is a trademark of Google LLC.
 
 ## Publishing artwork changes
