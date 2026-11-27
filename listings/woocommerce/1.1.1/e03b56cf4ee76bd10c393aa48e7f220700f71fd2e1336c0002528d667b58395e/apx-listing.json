@@ -1,0 +1,72 @@
+{
+  "schema": 2,
+  "id": "woocommerce",
+  "category": "business-systems",
+  "connection": "key",
+  "authentication": "secret",
+  "billing": "free",
+  "icon": "assets/icon.png",
+  "docs": "README.md",
+  "links": {
+    "website": "https://woocommerce.com/",
+    "privacy": "https://automattic.com/privacy/",
+    "terms": "https://woocommerce.com/terms-conditions/",
+    "docs": "https://developer.woocommerce.com/docs/features/mcp/"
+  },
+  "publisher": {
+    "name": "APX",
+    "verified": true
+  },
+  "summary": "Connect APX to the WooCommerce tools your WordPress site makes available.",
+  "tagline": "View your store and make changes with the right permissions",
+  "description": "Connect to your WooCommerce store with a dedicated WordPress user and a WordPress application password. The tools and changes available to APX depend on what your site enables and what your user can do.",
+  "features": [
+    "Discover available store abilities",
+    "Query products when your WordPress role allows it",
+    "Use a separate revocable application password"
+  ],
+  "requirements": [
+    "WooCommerce 11.3 or newer on a WordPress HTTPS site",
+    "WordPress MCP Adapter active with its default endpoint",
+    "A dedicated WordPress user with minimal permissions and an application password"
+  ],
+  "limits": [
+    "If you use WordPress.com or Jetpack, use the WordPress.com listing instead"
+  ],
+  "pricing": "No connector fee. Your WordPress hosting and paid WooCommerce services are separate.",
+  "privacy": "Connect only to your HTTPS site. APX sends the connection credential to that site, and returned data may enter chat context.",
+  "prompts": [
+    "Tell me which WooCommerce abilities my site exposes, without changing anything.",
+    "Check if my store account can read products, without listing customer data.",
+    "Show me the exact proposed change and wait for confirmation before applying it."
+  ],
+  "screenshots": [],
+  "locales": {
+    "es": {
+      "summary": "Conectá APX a las herramientas de WooCommerce que ofrece tu sitio WordPress.",
+      "tagline": "Consultá tu tienda y hacé cambios según tus permisos",
+      "description": "Conectá tu tienda WooCommerce con un usuario dedicado y una contraseña de aplicación de WordPress. Las herramientas y los cambios disponibles dependen de lo que habilite tu sitio y de los permisos de ese usuario.",
+      "features": [
+        "Descubrí las funciones disponibles en tu tienda",
+        "Consultá productos si tu rol de WordPress lo permite",
+        "Usá una contraseña de aplicación independiente y revocable"
+      ],
+      "requirements": [
+        "WooCommerce 11.3 o posterior en un sitio WordPress con HTTPS",
+        "WordPress MCP Adapter activo con su dirección predeterminada",
+        "Un usuario dedicado de WordPress con permisos mínimos y una contraseña de aplicación"
+      ],
+      "limits": [
+        "Si usás WordPress.com o Jetpack, elegí la ficha de WordPress.com"
+      ],
+      "pricing": "El conector no tiene costo. El alojamiento y los servicios pagos de WooCommerce se contratan aparte.",
+      "privacy": "Conectá solo tu sitio HTTPS. APX le envía la credencial de conexión. Los datos que devuelva la tienda pueden entrar en el contexto del chat.",
+      "prompts": [
+        "Mostrame qué funciones de WooCommerce ofrece mi sitio, sin cambiar nada.",
+        "Revisá si mi cuenta puede consultar productos, sin listar datos de clientes.",
+        "Mostrame qué se cambiaría y esperá mi confirmación antes de aplicarlo."
+      ],
+      "screenshots": []
+    }
+  }
+}
