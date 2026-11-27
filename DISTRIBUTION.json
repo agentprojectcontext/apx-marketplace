@@ -1904,6 +1904,16 @@
       "content_hash": "83ec81a69e6e2ecf"
     },
     {
+      "id": "terraform-registry",
+      "version": "0.1.2",
+      "apx": "2.17.2",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/terraform-registry/0.1.2/3e691297943e3912004d71896a0db640b1ee5f59c95f1503858e43735dd25ffd.apxext",
+        "sha256": "3e691297943e3912004d71896a0db640b1ee5f59c95f1503858e43735dd25ffd"
+      },
+      "content_hash": "ac90edf4cd909d71"
+    },
+    {
       "id": "things",
       "version": "1.0.2",
       "apx": "2.16.0",
