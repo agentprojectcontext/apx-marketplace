@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "index": "https://marketplace.apxagent.app/index.json",
-  "entries": 88,
+  "entries": 89,
   "versions": [
     {
       "id": "agentmail",
@@ -1362,6 +1362,16 @@
         "sha256": "9725bcf215c46052c17e697b580cc747f6e7881e3584aa4c727dcafc624023e9"
       },
       "content_hash": "6d4e4a6a0083e058"
+    },
+    {
+      "id": "odoo-readonly",
+      "version": "0.1.0",
+      "apx": "2.17.5",
+      "archive": {
+        "url": "https://marketplace.apxagent.app/packages/odoo-readonly/0.1.0/9c0eea96d26f778427a573b362b3fccbc88f029256f41ef63a8e459de969ac6a.apxext",
+        "sha256": "9c0eea96d26f778427a573b362b3fccbc88f029256f41ef63a8e459de969ac6a"
+      },
+      "content_hash": "1df84368aef7f006"
     },
     {
       "id": "paper",
